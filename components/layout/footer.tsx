@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { AtSign, MapPin, MessageCircle } from "lucide-react";
+import { MapPin, MessageCircle } from "lucide-react";
+import { BrandLogo } from "@/components/brand/brand-logo";
+import { InstagramTextLink } from "@/components/brand/instagram-link";
 import { SITE_NAME } from "@/lib/constants";
 
 export function Footer() {
@@ -7,12 +9,18 @@ export function Footer() {
     <footer className="border-t border-primary/10 bg-surface-4 paper-texture">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-2">
-          <p className="font-display text-2xl text-primary">{SITE_NAME}</p>
+          <div className="flex items-center gap-3">
+            <BrandLogo size="md" className="h-12 w-12" />
+            <p className="font-display text-2xl text-primary">{SITE_NAME}</p>
+          </div>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
             Catálogo inteligente multilojas. Uma experiência premium para descobrir,
             escolher e pedir com praticidade — direto no WhatsApp da unidade mais
             próxima.
           </p>
+          <div className="mt-5">
+            <InstagramTextLink />
+          </div>
         </div>
 
         <div>
@@ -28,11 +36,6 @@ export function Footer() {
                 Cardápio
               </Link>
             </li>
-            <li>
-              <Link href="/lojas" className="text-sm text-muted transition-colors hover:text-primary">
-                Lojas
-              </Link>
-            </li>
           </ul>
         </div>
 
@@ -43,16 +46,8 @@ export function Footer() {
               <MessageCircle className="h-4 w-4 text-primary" />
               WhatsApp disponível em todas as lojas
             </li>
-            <li className="flex items-center gap-2">
-              <AtSign className="h-4 w-4 text-primary" />
-              <a
-                href="https://www.instagram.com/sweetcheesecakeoficial/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition-colors hover:text-primary"
-              >
-                @sweetcheesecakeoficial
-              </a>
+            <li>
+              <InstagramTextLink />
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4 text-primary" />
@@ -63,6 +58,9 @@ export function Footer() {
       </div>
 
       <div className="border-t border-primary/10 px-4 py-6 text-center text-xs text-muted sm:px-6 lg:px-8">
+        <div className="mb-3 flex justify-center">
+          <BrandLogo size="xs" tone="soft" className="h-6 w-6 opacity-50" />
+        </div>
         <p>
           © {new Date().getFullYear()} {SITE_NAME}. Todos os direitos reservados.
         </p>

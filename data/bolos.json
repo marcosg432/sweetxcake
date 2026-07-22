@@ -1,0 +1,164 @@
+[
+  {
+    "id": "bolo-pina-colada",
+    "slug": "bolo-pina-colada",
+    "nome": "Piña Colada",
+    "imagem": "/images/products/bolos/bolo-pina-colada.png",
+    "descricaoCurta": "Coco, cheesecake, abacaxi e brigadeiro aerado.",
+    "descricao": "Massa aveludada de coco bem molhadinha com calda de baunilha, dois recheios de creme de cheesecake de coco tostado e abacaxi, coberto com brigadeiro aerado e flocos de coco.",
+    "ingredientes": [
+      { "nome": "Coco", "emoji": "🥥" },
+      { "nome": "Abacaxi", "emoji": "🍍" },
+      { "nome": "Brigadeiro", "emoji": "🍫" },
+      { "nome": "Cheesecake", "emoji": "🧀" },
+      { "nome": "Baunilha", "emoji": "🌿" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-sergios-cake",
+    "slug": "bolo-sergios-cake",
+    "nome": "Sergios' Cake",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Chocolate, laranja Bahia, brigadeiro e ganache.",
+    "descricao": "Bolo de chocolate (massa black) bem molhado com calda e geleia de laranja, duas camadas de brigadeiro preto com pedaços de doce artesanal de laranja Bahia, coberto com ganache de chocolate meio amargo e creme de laranja.",
+    "ingredientes": [
+      { "nome": "Chocolate", "emoji": "🍫" },
+      { "nome": "Laranja", "emoji": "🍊" },
+      { "nome": "Brigadeiro", "emoji": "✨" },
+      { "nome": "Ganache", "emoji": "🍮" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-clarissa",
+    "slug": "bolo-clarissa",
+    "nome": "Clarissa",
+    "imagem": "/images/products/bolos/bolo-clarissa.png",
+    "descricaoCurta": "Chocolate, brigadeiro, cheesecake de morango e baunilha.",
+    "descricao": "Massa de chocolate divinamente úmida e adoçada na medida exata, uma camada do nosso exclusivo brigadeiro de chocolate, seguida por uma generosa porção do nosso creme de cheesecake de morango. Para finalizar, cobrimos com um suave brigadeiro cremoso de morango e baunilha, e uma fina casca de chocolate com 50% de cacau.",
+    "ingredientes": [
+      { "nome": "Chocolate", "emoji": "🍫" },
+      { "nome": "Brigadeiro", "emoji": "✨" },
+      { "nome": "Morango", "emoji": "🍓" },
+      { "nome": "Cheesecake", "emoji": "🧀" },
+      { "nome": "Baunilha", "emoji": "🌿" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-pistache",
+    "slug": "bolo-pistache",
+    "nome": "Pistache",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Chocolate, pistache, cheesecake e amendoim crocante.",
+    "descricao": "A combinação de um bolo de chocolate meio amargo bem molhadinho, recheado com um creme de cheesecake de baunilha e pistache, uma casca de chocolate meio amargo e um brigadeiro branco aerado mesclado com ainda mais pistache e coberto com crocantes de amendoim.",
+    "ingredientes": [
+      { "nome": "Chocolate", "emoji": "🍫" },
+      { "nome": "Pistache", "emoji": "🥜" },
+      { "nome": "Cheesecake", "emoji": "🧀" },
+      { "nome": "Baunilha", "emoji": "🌿" },
+      { "nome": "Amendoim", "emoji": "✨" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-chocolatudo",
+    "slug": "bolo-chocolatudo",
+    "nome": "Chocolatudo",
+    "imagem": "/images/products/bolos/bolo-chocolatudo.png",
+    "descricaoCurta": "Chocolate, brigadeiro, ganache e brownie.",
+    "descricao": "Massa de chocolate meio amargo regada com calda especial de chocolate, duas camadas generosas de brigadeiro de chocolate meio amargo, coberto com ganache, pedacinhos de brownie e fina casca de chocolate 50 % cacau.",
+    "ingredientes": [
+      { "nome": "Chocolate", "emoji": "🍫" },
+      { "nome": "Brigadeiro", "emoji": "✨" },
+      { "nome": "Ganache", "emoji": "🍮" },
+      { "nome": "Brownie", "emoji": "🍪" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-red-velvet",
+    "slug": "bolo-red-velvet",
+    "nome": "Red Velvet",
+    "imagem": "/images/products/bolos/bolo-red-velvet.png",
+    "descricaoCurta": "Morango, baunilha, brigadeiro aerado e chocolate branco.",
+    "descricao": "Massa aveludada regada com géleia artesanal de morango, camadas de creme especial de morango silvestre, cobertura de brigadeiro aerado de morango e baunilha, casquinha de chocolate branco.",
+    "ingredientes": [
+      { "nome": "Morango", "emoji": "🍓" },
+      { "nome": "Baunilha", "emoji": "🌿" },
+      { "nome": "Brigadeiro", "emoji": "✨" },
+      { "nome": "Chocolate Branco", "emoji": "🤍" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-dois-amores",
+    "slug": "bolo-dois-amores",
+    "nome": "Dois Amores",
+    "imagem": "/images/products/bolos/bolo-dois-amores.png",
+    "descricaoCurta": "Brigadeiro branco, brigadeiro preto e massa mista.",
+    "descricao": "Duas massas — branca e chocolate — unidas por camadas generosas de brigadeiro branco e brigadeiro preto, ambos aerados na medida certa. Cobertura mesclada que revela o contraste visual dos dois sabores. Um convite à partilha: cada fatia oferece a experiência completa dos dois amores da confeitaria brasileira.",
+    "ingredientes": [
+      { "nome": "Brigadeiro Preto", "emoji": "🍫" },
+      { "nome": "Brigadeiro Branco", "emoji": "🤍" },
+      { "nome": "Chocolate", "emoji": "🍪" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  },
+  {
+    "id": "bolo-ninho-nutella",
+    "slug": "bolo-ninho-nutella",
+    "nome": "Ninho e Nutella",
+    "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
+    "descricaoCurta": "Chocolate, ninho, nutella e brigadeiro aerado.",
+    "descricao": "Massa especial de chocolate regada com nossa calda de chocolate, 1 camada de creme de cheesecake de ninho e 1 camada de creme de cheesecake de nutella. Coberto com brigadeiro aerado de ninho e nutella e fina casca de chocolate 50% cacau.",
+    "ingredientes": [
+      { "nome": "Ninho", "emoji": "🥛" },
+      { "nome": "Nutella", "emoji": "🍫" },
+      { "nome": "Cheesecake", "emoji": "🧀" },
+      { "nome": "Brigadeiro", "emoji": "✨" }
+    ],
+    "tamanhos": [
+      { "nome": "PP", "peso": "900g", "fatias": "4 fatias", "preco": 65 },
+      { "nome": "P", "peso": "1,6kg", "fatias": "10–15 fatias", "preco": 150 },
+      { "nome": "M", "peso": "2,5kg", "fatias": "20–25 fatias", "preco": 210 },
+      { "nome": "G", "peso": "4kg", "fatias": "30–40 fatias", "preco": 350 }
+    ]
+  }
+]

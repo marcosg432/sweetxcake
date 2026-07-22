@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { BrandLogo } from "@/components/brand/brand-logo";
 import { STORES } from "@/lib/constants";
 import { buildWhatsAppOrderMessage, openWhatsApp } from "@/lib/whatsapp";
 import { useCartStore } from "@/stores/cart-store";
@@ -52,6 +53,9 @@ export function StoreSelectorModal() {
             exit={{ opacity: 0, scale: 0.96, y: 8 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
           >
+            <div className="mb-5 flex justify-center">
+              <BrandLogo size="md" tone="soft" className="h-12 w-12" />
+            </div>
             <h2 id="store-modal-title" className="font-display text-2xl text-foreground">
               Em qual unidade deseja retirar ou pedir?
             </h2>

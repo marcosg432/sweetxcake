@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   },
   description:
     "Catálogo inteligente multilojas. Explore produtos, monte seu pedido e finalize no WhatsApp da unidade mais conveniente.",
+  icons: {
+    icon: "/images/brand/logo-sweet-cheesecake.png",
+    apple: "/images/brand/logo-sweet-cheesecake.png",
+  },
 };
 
 export default function RootLayout({

@@ -1,12 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, MapPin } from "lucide-react";
-import { AddToCartButton } from "@/components/cart/add-to-cart-button";
+import { ArrowUpRight, Clock, MapPin } from "lucide-react";
+import { BrandLogo, BrandSignature, BrandWatermark } from "@/components/brand/brand-logo";
+import { InstagramIcon } from "@/components/brand/instagram-link";
 import { OpenCartButton } from "@/components/cart/open-cart-button";
+import { HomeHeroCarousel } from "@/components/home/home-hero-carousel";
+import { TeamSection } from "@/components/home/team-section";
 import { Button } from "@/components/ui/button";
-import { CATEGORIES, FEATURED_PRODUCTS, STORES } from "@/lib/constants";
+import {
+  CATEGORIES,
+  INSTAGRAM_HANDLE,
+  INSTAGRAM_URL,
+  STORES,
+} from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
-import { formatPrice } from "@/lib/utils";
 
 function SoftOrbs() {
   return (
@@ -21,11 +28,13 @@ function CinematicHero() {
   return (
     <section id="home" className="section-surface-hero paper-texture relative min-h-[92vh] overflow-hidden">
       <SoftOrbs />
+      <BrandWatermark className="-right-8 top-24 sm:right-[8%] sm:top-28" />
       <div className="relative mx-auto grid min-h-[92vh] max-w-7xl items-end gap-8 px-5 pb-16 pt-24 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:pb-24">
         <div className="relative z-10 max-w-2xl">
-          <div className="glass-panel inline-flex rounded-full px-4 py-1.5">
+          <div className="glass-panel inline-flex items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-4">
+            <BrandLogo size="xs" className="h-7 w-7" />
             <p className="text-[11px] uppercase tracking-[0.35em] text-primary">
-              Sweet Cheesecake Experience
+              Experience
             </p>
           </div>
           <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-[-0.03em] text-foreground sm:text-7xl lg:text-8xl">
@@ -45,18 +54,7 @@ function CinematicHero() {
         </div>
 
         <div className="relative z-10">
-          <div className="glass-panel relative aspect-[4/5] overflow-hidden rounded-[2.5rem] p-3 shadow-brand">
-            <div className="relative h-full overflow-hidden rounded-[2rem]">
-              <Image
-                src={IMAGES.hero}
-                alt="Mesa autoral Sweet Cheesecake"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 45vw"
-              />
-            </div>
-          </div>
+          <HomeHeroCarousel />
         </div>
       </div>
     </section>
@@ -68,107 +66,24 @@ function EditorialManifesto() {
     <section id="historia" className="section-surface-1 paper-texture relative overflow-hidden py-20 sm:py-28">
       <div className="organic-orb right-[10%] top-8 h-56 w-56 bg-primary/15" />
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="glass-panel grid gap-10 rounded-[2.25rem] p-8 sm:p-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
-          <p className="font-display text-3xl leading-[1.05] tracking-[-0.02em] text-foreground sm:text-5xl">
+        <div className="glass-panel relative grid gap-10 overflow-hidden rounded-[2.25rem] p-8 sm:p-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+          <BrandWatermark className="-bottom-10 -right-6 sm:-right-4" />
+          <p className="relative z-10 font-display text-3xl leading-[1.05] tracking-[-0.02em] text-foreground sm:text-5xl">
             Produzimos uma experiência com ritmo.
             <span className="block text-primary">Textura. Luz. Intenção.</span>
           </p>
-          <p className="max-w-xl justify-self-end text-sm leading-relaxed text-muted sm:text-base">
-            A Sweet Cheesecake nasceu para transformar produtos artesanais em uma experiência
-            memorável. A cada detalhe, buscamos elegância, acolhimento e excelência.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function SignatureGallery() {
-  const [first, second, third, fourth] = FEATURED_PRODUCTS;
-
-  return (
-    <section className="section-surface-2 relative overflow-hidden py-20 sm:py-24">
-      <SoftOrbs />
-      <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="mb-10 max-w-2xl">
-          <p className="text-xs uppercase tracking-[0.25em] text-primary">Assinaturas</p>
-          <h2 className="mt-3 font-display text-4xl leading-[1.05] text-foreground sm:text-5xl">
-            Destaques com direção fotográfica.
-          </h2>
-        </div>
-
-        <div className="grid gap-5 lg:grid-cols-12">
-          <div className="glass-panel col-span-12 overflow-hidden rounded-[2.25rem] p-2 lg:col-span-7">
-            <Link href={`/produtos/${first.slug}`} className="group relative block min-h-[56vh] overflow-hidden rounded-[1.85rem]">
-              <Image
-                src={first.image}
-                alt={first.name}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                sizes="(max-width: 1024px) 100vw, 58vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-surface-4/90 via-surface-2/20 to-transparent" />
-              <div className="absolute bottom-0 p-7 sm:p-9">
-                <p className="text-xs uppercase tracking-[0.2em] text-primary">{first.category}</p>
-                <h3 className="mt-2 font-display text-3xl text-foreground">{first.name}</h3>
-                <p className="mt-2 text-sm text-foreground/75">{formatPrice(first.price)}</p>
-                <div className="mt-4">
-                  <AddToCartButton product={first} variant="action" className="px-5 py-2.5 text-xs">
-                    Adicionar
-                  </AddToCartButton>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="col-span-12 grid gap-5 lg:col-span-5">
-            {[second, third].map((product) => (
-              <div key={product.id} className="glass-panel overflow-hidden rounded-[2rem] p-2">
-                <Link
-                  href={`/produtos/${product.slug}`}
-                  className="group relative block min-h-[27vh] overflow-hidden rounded-[1.6rem]"
-                >
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 1024px) 100vw, 42vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-surface-3/85 via-surface-2/20 to-transparent" />
-                  <div className="absolute left-0 top-0 p-6">
-                    <p className="text-[10px] uppercase tracking-[0.2em] text-primary">{product.category}</p>
-                    <h3 className="mt-1 text-xl font-medium text-foreground">{product.name}</h3>
-                  </div>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="glass-panel mt-5 overflow-hidden rounded-[2.25rem] p-2">
-          <Link
-            href={`/produtos/${fourth.slug}`}
-            className="group relative block min-h-[42vh] overflow-hidden rounded-[1.85rem]"
-          >
-            <Image
-              src={fourth.image}
-              alt={fourth.name}
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-              sizes="100vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-secondary/55 via-secondary/5 to-transparent" />
-            <div className="absolute bottom-0 flex w-full flex-wrap items-end justify-between gap-6 p-7 sm:p-10">
-              <div>
-                <p className="text-xs uppercase tracking-[0.25em] text-white/90">Assinatura da casa</p>
-                <h3 className="mt-2 font-display text-3xl text-white sm:text-4xl">{fourth.name}</h3>
-              </div>
-              <span className="inline-flex items-center gap-2 text-sm text-white/90">
-                {formatPrice(fourth.price)} <ArrowUpRight className="h-4 w-4" />
-              </span>
+          <div className="relative z-10 max-w-xl justify-self-end">
+            <p className="text-sm leading-relaxed text-muted sm:text-base">
+              A Sweet Cheesecake nasceu para transformar produtos artesanais em uma experiência
+              memorável. A cada detalhe, buscamos elegância, acolhimento e excelência.
+            </p>
+            <div className="mt-6 flex items-center gap-3">
+              <BrandLogo size="xs" tone="soft" />
+              <p className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
+                Assinatura da casa
+              </p>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -328,17 +243,24 @@ function StorePresence() {
     <section id="lojas" className="section-surface-2 relative overflow-hidden py-24">
       <SoftOrbs />
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <h2 className="max-w-xl font-display text-4xl leading-[1.05] text-foreground sm:text-5xl">
-          Presença física com linguagem de marca.
-        </h2>
-        <div className="mt-10 grid gap-4 sm:grid-cols-3">
+        <div className="max-w-2xl">
+          <p className="text-xs uppercase tracking-[0.25em] text-primary">Lojas</p>
+          <h2 className="mt-3 font-display text-4xl leading-[1.05] text-foreground sm:text-5xl">
+            Presença física com linguagem de marca.
+          </h2>
+          <p className="mt-4 text-sm leading-relaxed text-foreground/65 sm:text-base">
+            Três unidades em Belo Horizonte. Escolha a mais conveniente e faça seu pedido
+            direto no WhatsApp.
+          </p>
+        </div>
+
+        <div className="mt-10 grid items-stretch gap-5 sm:grid-cols-3">
           {STORES.map((store) => (
-            <Link
+            <article
               key={store.slug}
-              href={`/lojas/${store.slug}`}
-              className="group glass-panel relative min-h-[52vh] overflow-hidden rounded-[2rem] p-2 transition-all hover:shadow-brand-hover"
+              className="glass-panel group flex h-full flex-col overflow-hidden rounded-[2rem] p-2 transition-all hover:shadow-brand-hover"
             >
-              <div className="relative h-full min-h-[50vh] overflow-hidden rounded-[1.6rem]">
+              <div className="relative aspect-[16/11] shrink-0 overflow-hidden rounded-[1.6rem]">
                 <Image
                   src={store.image}
                   alt={store.name}
@@ -346,54 +268,36 @@ function StorePresence() {
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-surface-4/90 via-surface-2/15 to-transparent" />
-                <div className="absolute bottom-0 p-6">
-                  <h3 className="font-display text-2xl text-foreground">{store.name}</h3>
-                  <p className="mt-2 text-xs text-foreground/75">{store.address}</p>
-                  <p className="mt-3 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-primary">
-                    <MapPin className="h-3.5 w-3.5" />
-                    Ver unidade
-                  </p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
+              </div>
+
+              <div className="flex min-h-0 flex-1 flex-col px-5 pb-5 pt-5">
+                <h3 className="font-display text-2xl text-foreground">{store.name}</h3>
+                <ul className="mt-4 space-y-2.5 text-sm text-foreground/70">
+                  <li className="flex items-start gap-2">
+                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                    {store.address}
+                  </li>
+                  <li className="flex items-start gap-2 text-foreground/60">
+                    <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                    {store.hours}
+                  </li>
+                </ul>
+
+                <div className="mt-auto pt-6">
+                  <Button
+                    href={`https://wa.me/${store.whatsapp}`}
+                    variant="action"
+                    className="w-full"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Pedir no WhatsApp
+                  </Button>
                 </div>
               </div>
-            </Link>
+            </article>
           ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function ContactSection() {
-  return (
-    <section id="contato" className="section-surface-3 paper-texture relative overflow-hidden py-24">
-      <div className="organic-orb -right-10 bottom-0 h-72 w-72 bg-primary/18" />
-      <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="glass-panel-strong grid gap-8 rounded-[2.25rem] p-6 sm:p-10 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-primary">Contato</p>
-            <h2 className="mt-4 font-display text-4xl leading-[1.05] text-foreground">
-              Fale com a Sweet Cheesecake
-            </h2>
-            <ul className="mt-6 space-y-3 text-sm text-foreground/80">
-              <li>WhatsApp: (31) 99999-0001</li>
-              <li>Telefone: (31) 3333-0000</li>
-              <li>Horário: Seg a Sáb, 8h às 20h</li>
-              <li>Endereço: Av. Principal, 123 - Belo Horizonte</li>
-            </ul>
-            <Button href="/lojas" variant="action" className="mt-8">
-              Como chegar
-            </Button>
-          </div>
-          <div className="overflow-hidden rounded-[1.5rem] border border-primary/10 bg-surface-1">
-            <iframe
-              title="Mapa Sweet Cheesecake"
-              src="https://maps.google.com/maps?q=Belo+Horizonte&t=&z=12&ie=UTF8&iwloc=&output=embed"
-              className="h-[320px] w-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
         </div>
       </div>
     </section>
@@ -406,19 +310,33 @@ function InstagramSection() {
       <SoftOrbs />
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <div className="glass-panel flex flex-col items-start justify-between gap-6 rounded-[2rem] p-7 sm:flex-row sm:items-center sm:p-10">
-          <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-primary">Instagram</p>
-            <h2 className="mt-3 font-display text-3xl text-foreground sm:text-4xl">
-              Acompanhe bastidores e novidades da vitrine.
-            </h2>
+          <div className="flex items-start gap-4">
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram Sweet Cheesecake"
+              className="mt-1 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-primary/15 bg-surface-0 text-primary shadow-[0_8px_24px_rgba(23,184,170,0.08)] transition-all hover:border-primary/35 hover:bg-primary/5"
+            >
+              <InstagramIcon className="h-5 w-5" />
+            </a>
+            <div>
+              <p className="text-xs uppercase tracking-[0.25em] text-primary">Instagram</p>
+              <h2 className="mt-3 font-display text-3xl text-foreground sm:text-4xl">
+                Acompanhe bastidores e novidades da vitrine.
+              </h2>
+              <p className="mt-2 text-sm text-foreground/55">{INSTAGRAM_HANDLE}</p>
+            </div>
           </div>
           <Button
-            href="https://www.instagram.com/sweetcheesecakeoficial/"
+            href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
             variant="secondary"
+            className="inline-flex items-center gap-2"
           >
-            Abrir perfil oficial
+            <InstagramIcon className="h-4 w-4" />
+            Seguir no Instagram
           </Button>
         </div>
       </div>
@@ -431,12 +349,13 @@ export function ArtDirectedHome() {
     <>
       <CinematicHero />
       <EditorialManifesto />
-      <SignatureGallery />
+      <TeamSection />
+      <BrandSignature className="py-2" />
       <CategoryRunway />
       <ConversionAtelier />
       <RestrictiveShowcase />
+      <BrandSignature className="py-2" />
       <StorePresence />
-      <ContactSection />
       <InstagramSection />
     </>
   );

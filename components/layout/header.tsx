@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useCallback, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { BrandLogo } from "@/components/brand/brand-logo";
+import { InstagramIconButton } from "@/components/brand/instagram-link";
 import { CartBagButton } from "@/components/cart/cart-bag-button";
 import { MenuMegaDropdown } from "@/components/layout/menu-mega-dropdown";
 import { SITE_NAME } from "@/lib/constants";
@@ -24,8 +26,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-primary/10 bg-surface-1/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/#home" className="font-display text-xl tracking-tight text-primary sm:text-2xl">
-          {SITE_NAME}
+        <Link
+          href="/#home"
+          className="group flex items-center gap-2 transition-opacity hover:opacity-90"
+          aria-label={SITE_NAME}
+        >
+          <BrandLogo size="md" priority className="h-14 w-14" />
+          <span className="font-display text-lg tracking-tight text-primary sm:text-xl">
+            {SITE_NAME}
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -41,14 +50,12 @@ export function Header() {
             onToggle={toggleCatalog}
           />
 
-          <Link href="/lojas" className="text-sm text-muted transition-colors hover:text-primary">
-            Lojas
-          </Link>
-
+          <InstagramIconButton />
           <CartBagButton />
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3 lg:hidden">
+          <InstagramIconButton />
           <CartBagButton />
           <button
             type="button"
@@ -87,14 +94,6 @@ export function Header() {
             onToggle={toggleCatalog}
             onNavigate={closeAll}
           />
-
-          <Link
-            href="/lojas"
-            onClick={closeAll}
-            className="rounded-lg px-3 py-2.5 text-sm text-muted transition-colors hover:bg-primary/5 hover:text-primary"
-          >
-            Lojas
-          </Link>
         </nav>
       </div>
     </header>

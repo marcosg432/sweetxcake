@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Minus, Plus, Trash2, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { BrandLogo } from "@/components/brand/brand-logo";
 import { formatPrice } from "@/lib/utils";
 import { useCartStore } from "@/stores/cart-store";
 import { useUiStore } from "@/stores/ui-store";
@@ -62,6 +63,7 @@ export function CartDrawer() {
             <div className="flex-1 overflow-y-auto px-6 py-5">
               {items.length === 0 ? (
                 <div className="flex h-full flex-col items-center justify-center text-center">
+                  <BrandLogo size="md" tone="soft" className="mb-5 h-14 w-14 opacity-70" />
                   <p className="text-sm text-muted">
                     Explore o cardápio e adicione produtos ao seu pedido.
                   </p>
@@ -73,7 +75,7 @@ export function CartDrawer() {
                 <ul className="space-y-5">
                   {items.map((item) => (
                     <li
-                      key={item.id}
+                      key={item.key}
                       className="flex gap-4 rounded-2xl border border-primary/10 bg-surface-2/70 p-3"
                     >
                       <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl">
@@ -97,7 +99,7 @@ export function CartDrawer() {
                           </div>
                           <button
                             type="button"
-                            onClick={() => removeItem(item.id)}
+                            onClick={() => removeItem(item.key)}
                             className="text-muted transition-colors hover:text-secondary"
                             aria-label={`Remover ${item.name}`}
                           >
@@ -112,7 +114,7 @@ export function CartDrawer() {
                         <div className="mt-3 inline-flex items-center gap-3 rounded-full border border-primary/15 px-2 py-1">
                           <button
                             type="button"
-                            onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                            onClick={() => updateQuantity(item.key, item.quantity - 1)}
                             className="flex h-7 w-7 items-center justify-center rounded-full text-primary transition-colors hover:bg-primary/10"
                             aria-label="Diminuir quantidade"
                           >
@@ -123,7 +125,7 @@ export function CartDrawer() {
                           </span>
                           <button
                             type="button"
-                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                            onClick={() => updateQuantity(item.key, item.quantity + 1)}
                             className="flex h-7 w-7 items-center justify-center rounded-full text-primary transition-colors hover:bg-primary/10"
                             aria-label="Aumentar quantidade"
                           >

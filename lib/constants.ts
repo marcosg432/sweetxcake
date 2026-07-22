@@ -2,9 +2,11 @@ import { IMAGES } from "@/lib/images";
 
 export const SITE_NAME = "Sweet Cheesecake";
 
+export const INSTAGRAM_URL = "https://www.instagram.com/sweetcheesecakeoficial/";
+export const INSTAGRAM_HANDLE = "@sweetcheesecakeoficial";
+
 export const NAV_ITEMS = [
   { label: "Home", href: "/#home" },
-  { label: "Lojas", href: "/lojas" },
 ] as const;
 
 export const MENU_CATEGORIES = [
@@ -114,11 +116,11 @@ export const FEATURED_PRODUCTS = [
 
 export const STORES = [
   {
-    slug: "orto",
-    name: "Loja Orto",
-    address: "Av. Principal, 123 — Orto",
+    slug: "horto",
+    name: "Loja Horto",
+    address: "Av. Principal, 123 — Horto",
     hours: "Seg a Sáb, 8h às 20h",
-    whatsapp: "5531999990001",
+    whatsapp: "5531984687076",
     image: IMAGES.stores.orto,
   },
   {
@@ -126,7 +128,7 @@ export const STORES = [
     name: "Loja Cidade Nobre",
     address: "Rua das Flores, 456 — Cidade Nobre",
     hours: "Seg a Sáb, 8h às 20h",
-    whatsapp: "5531999990002",
+    whatsapp: "5531987950074",
     image: IMAGES.stores["cidade-nobre"],
   },
   {
@@ -134,7 +136,7 @@ export const STORES = [
     name: "Loja Canaã",
     address: "Praça Central, 789 — Canaã",
     hours: "Seg a Dom, 9h às 21h",
-    whatsapp: "5531999990003",
+    whatsapp: "5531988112503",
     image: IMAGES.stores.canaa,
   },
 ] as const;
