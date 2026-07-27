@@ -20,11 +20,11 @@ export function HeroBanner() {
             e finalize seu pedido direto no WhatsApp da loja mais conveniente.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button href="/#cardapio" variant="primary" className="px-8 py-3.5">
+            <Button href="/cardapio" variant="primary" className="px-8 py-3.5">
               Explorar cardápio
               <ArrowRight className="h-4 w-4" />
             </Button>
-            <Button href="/#cardapio" variant="secondary" className="px-8 py-3.5">
+            <Button href="/cardapio" variant="secondary" className="px-8 py-3.5">
               Ver promoções
             </Button>
           </div>

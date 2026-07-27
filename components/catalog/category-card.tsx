@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getCategoryImage } from "@/lib/images";
+import { CATEGORIES } from "@/lib/constants";
 
 type CategoryCardProps = {
   slug: string;
@@ -11,15 +11,19 @@ type CategoryCardProps = {
 };
 
 export function CategoryCard({ slug, name, emoji, description, showImage = true }: CategoryCardProps) {
+  const category = CATEGORIES.find((item) => item.slug === slug);
+  const href = category?.href ?? "/cardapio";
+  const image = category?.image ?? "/images/categories/category-lanches.png";
+
   return (
     <Link
-      href={`/categorias/${slug}`}
+      href={href}
       className="group overflow-hidden rounded-2xl border border-primary/10 bg-background transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-brand-hover"
     >
       {showImage ? (
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image
-            src={getCategoryImage(slug)}
+            src={image}
             alt={name}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"

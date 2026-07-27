@@ -32,7 +32,7 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/#cardapio" className="text-sm text-muted transition-colors hover:text-primary">
+              <Link href="/cardapio" className="text-sm text-muted transition-colors hover:text-primary">
                 Cardápio
               </Link>
             </li>

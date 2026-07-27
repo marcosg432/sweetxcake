@@ -12,7 +12,7 @@ export function FeaturedProducts() {
             <h2 className="font-display text-3xl text-foreground sm:text-4xl">Em destaque</h2>
             <p className="mt-3 text-muted">Os favoritos dos nossos clientes.</p>
           </div>
-          <Link href="/#cardapio" className="hidden text-sm text-primary hover:underline sm:block">
+          <Link href="/cardapio" className="hidden text-sm text-primary hover:underline sm:block">
             Ver todos
           </Link>
         </div>

@@ -169,7 +169,7 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
           {bolo.nome}
         </h2>
 
-        <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-foreground/70">
+        <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-muted">
           {bolo.descricao}
         </p>
 
@@ -200,8 +200,8 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
                       {formatPrice(option.preco)}
                     </span>
                   </div>
-                  <p className="mt-1.5 text-xs text-foreground/55">{option.peso}</p>
-                  <p className="mt-0.5 text-xs text-foreground/45">{option.fatias}</p>
+                  <p className="mt-1.5 text-xs text-muted">{option.peso}</p>
+                  <p className="mt-0.5 text-xs text-muted">{option.fatias}</p>
                 </motion.button>
               );
             })}
@@ -214,7 +214,7 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.22 }}
-              className="mt-3 rounded-2xl bg-surface-3/80 px-4 py-3 text-sm text-foreground/70"
+              className="mt-3 rounded-2xl bg-surface-3/80 px-4 py-3 text-sm text-muted"
             >
               <span className="font-medium text-foreground">{tamanho.nome}</span>
               {" · "}
@@ -267,7 +267,7 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
             placeholder={
               "Exemplo:\nSem coco\nMais brigadeiro\nSem cobertura\nMensagem para produção"
             }
-            className="mt-3 w-full resize-none rounded-2xl border border-primary/12 bg-surface-0 px-4 py-3 text-sm leading-relaxed text-foreground placeholder:text-foreground/35 outline-none transition focus:border-primary/35 focus:ring-2 focus:ring-primary/15"
+            className="mt-3 w-full resize-none rounded-2xl border border-primary/12 bg-surface-0 px-4 py-3 text-sm leading-relaxed text-foreground placeholder:text-muted/70 outline-none transition focus:border-primary/35 focus:ring-2 focus:ring-primary/15"
           />
         </div>
 
@@ -316,11 +316,11 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
             initial={{ opacity: 0, y: 4 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
-            className="mt-2.5 text-center text-sm text-foreground/60"
+            className="mt-2.5 text-center text-sm text-muted"
           >
             Total <span className="font-semibold text-foreground">{formatPrice(total)}</span>
             {quantidade > 1 ? (
-              <span className="text-foreground/45">
+              <span className="text-muted">
                 {" "}
                 · {quantidade}× {formatPrice(tamanho.preco)}
               </span>

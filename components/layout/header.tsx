@@ -32,7 +32,7 @@ export function Header() {
           aria-label={SITE_NAME}
         >
           <BrandLogo size="md" priority className="h-14 w-14" />
-          <span className="font-display text-lg tracking-tight text-primary sm:text-xl">
+          <span className="font-display text-lg tracking-tight text-foreground sm:text-xl">
             {SITE_NAME}
           </span>
         </Link>

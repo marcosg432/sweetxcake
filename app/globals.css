@@ -3,7 +3,7 @@
 :root {
   /* Identidade Sweet Cheesecake */
   --primary: #1fd4c4;
-  --primary-dark: #17b8aa;
+  --primary-dark: #0f9e93;
   --secondary: #b52e37;
   --secondary-dark: #96252d;
 
@@ -16,8 +16,9 @@
   --surface-5: #e6f7f5;
 
   --background: var(--surface-1);
-  --foreground: color-mix(in srgb, var(--primary) 68%, #000000);
-  --muted: color-mix(in srgb, var(--primary) 42%, #ffffff);
+  /* Tipografia padronizada — contraste estável em todas as páginas */
+  --foreground: #0d4a45;
+  --muted: #3a6f6a;
   --glass: color-mix(in srgb, var(--surface-0) 72%, transparent);
   --glass-strong: color-mix(in srgb, var(--surface-0) 86%, transparent);
   --border-soft: color-mix(in srgb, var(--primary) 14%, transparent);

@@ -1,0 +1,224 @@
+{
+  "categories": [
+    {
+      "id": "salgados",
+      "slug": "salgados",
+      "label": "Salgados",
+      "title": "Opções Salgadas",
+      "description": "Sanduíches, tapiocas e lanches preparados na hora."
+    },
+    {
+      "id": "bebidas",
+      "slug": "bebidas",
+      "label": "Bebidas",
+      "title": "Bebidas",
+      "description": "Cafés especiais, quentes e geladas."
+    },
+    {
+      "id": "sobremesas",
+      "slug": "sobremesas",
+      "label": "Sobremesas",
+      "title": "Sobremesas",
+      "description": "Cheesecakes, potes, tortinhas e doces artesanais."
+    },
+    {
+      "id": "presentes",
+      "slug": "presentes",
+      "label": "Presentes",
+      "title": "Presentes",
+      "description": "Kits e opções pensadas para presentear."
+    }
+  ],
+  "products": [
+    {
+      "id": "sanduiche-croissant",
+      "slug": "sanduiche-croissant",
+      "categoryId": "salgados",
+      "nome": "Sanduíche de Croissant",
+      "descricaoCurta": "Croissant folhado com peito de peru, queijo, tomate e rúcula.",
+      "preco": 28,
+      "imagem": "/images/home/carousel/croissant-sanduiche.png",
+      "tags": ["croissant", "sanduíche", "peru", "salgado"]
+    },
+    {
+      "id": "sanduiche-carne-desfiada",
+      "slug": "sanduiche-carne-desfiada",
+      "categoryId": "salgados",
+      "nome": "Sanduíche Carne Desfiada",
+      "descricaoCurta": "Pão artesanal, carne desfiada, queijo, cebola roxa e folhas frescas.",
+      "preco": 32,
+      "imagem": "/images/home/carousel/sanduiche-carne-desfiada.png",
+      "tags": ["sanduíche", "carne", "salgado"]
+    },
+    {
+      "id": "sanduiche-grelhado",
+      "slug": "sanduiche-grelhado",
+      "categoryId": "salgados",
+      "nome": "Sanduíche Grelhado",
+      "descricaoCurta": "Pão grelhado com carne desfiada, queijo, alface e cebola.",
+      "preco": 30,
+      "imagem": "/images/home/carousel/sanduiche-grelhado.png",
+      "tags": ["sanduíche", "grelhado", "salgado"]
+    },
+    {
+      "id": "tapioca-frango",
+      "slug": "tapioca-frango",
+      "categoryId": "salgados",
+      "nome": "Tapioca de Frango",
+      "descricaoCurta": "Tapioca recheada com frango temperado, salada e creme.",
+      "preco": 24,
+      "imagem": "/images/home/carousel/tapioca-frango.png",
+      "tags": ["tapioca", "frango", "salgado"]
+    },
+    {
+      "id": "tapioca-carne",
+      "slug": "tapioca-carne",
+      "categoryId": "salgados",
+      "nome": "Tapioca de Carne",
+      "descricaoCurta": "Tapioca generosa com carne desfiada, creme e cebola roxa.",
+      "preco": 26,
+      "imagem": "/images/home/carousel/tapioca-carne.png",
+      "tags": ["tapioca", "carne", "salgado"]
+    },
+    {
+      "id": "capuccino-cremoso",
+      "slug": "capuccino-cremoso",
+      "categoryId": "bebidas",
+      "nome": "Capuccino Cremoso",
+      "descricaoCurta": "Espresso, leite vaporizado e espuma aveludada.",
+      "preco": 14,
+      "imagem": "/images/products/product-capuccino.png",
+      "tags": ["café", "capuccino", "quente", "bebida"]
+    },
+    {
+      "id": "cafe-especial",
+      "slug": "cafe-especial",
+      "categoryId": "bebidas",
+      "nome": "Café Especial",
+      "descricaoCurta": "Grãos selecionados, extração equilibrada e aroma intenso.",
+      "preco": 10,
+      "imagem": "/images/categories/category-cafeteria.png",
+      "tags": ["café", "espresso", "quente", "bebida"]
+    },
+    {
+      "id": "chocolate-quente",
+      "slug": "chocolate-quente",
+      "categoryId": "bebidas",
+      "nome": "Chocolate Quente",
+      "descricaoCurta": "Chocolate cremoso, finalizado com toque de cacau.",
+      "preco": 16,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["chocolate", "quente", "bebida"]
+    },
+    {
+      "id": "cheesecake-frutas",
+      "slug": "cheesecake-frutas",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Frutas Vermelhas",
+      "descricaoCurta": "Base crocante, creme suave e calda de frutas vermelhas.",
+      "preco": 18,
+      "imagem": "/images/products/product-cheesecake.png",
+      "tags": ["cheesecake", "morango", "doce", "sobremesa"]
+    },
+    {
+      "id": "cheesecake-pote",
+      "slug": "cheesecake-pote",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake no Pote",
+      "descricaoCurta": "Camadas cremosas de cheesecake com frutas vermelhas.",
+      "preco": 16,
+      "imagem": "/images/home/carousel/hero-02.png",
+      "tags": ["cheesecake", "pote", "morango", "sobremesa"]
+    },
+    {
+      "id": "pote-chocolate-limao",
+      "slug": "pote-chocolate-limao",
+      "categoryId": "sobremesas",
+      "nome": "Pote Chocolate e Limão",
+      "descricaoCurta": "Chocolate intenso com creme de limão e finalização cítrica.",
+      "preco": 17,
+      "imagem": "/images/home/carousel/hero-04.png",
+      "tags": ["pote", "chocolate", "limão", "sobremesa"]
+    },
+    {
+      "id": "tortinha-chocolate",
+      "slug": "tortinha-chocolate",
+      "categoryId": "sobremesas",
+      "nome": "Tortinha de Chocolate",
+      "descricaoCurta": "Massa amanteigada, ganache e raspas de chocolate.",
+      "preco": 15,
+      "imagem": "/images/home/carousel/tortinha-chocolate-mordida.png",
+      "tags": ["torta", "chocolate", "sobremesa"]
+    },
+    {
+      "id": "torta-chocolate",
+      "slug": "torta-chocolate",
+      "categoryId": "sobremesas",
+      "nome": "Torta de Chocolate",
+      "descricaoCurta": "Torta artesanal com ganache brilhante e raspas.",
+      "preco": 22,
+      "imagem": "/images/home/carousel/torta-chocolate-raspagem.png",
+      "tags": ["torta", "chocolate", "sobremesa"]
+    },
+    {
+      "id": "brownie-tradicional",
+      "slug": "brownie-tradicional",
+      "categoryId": "sobremesas",
+      "nome": "Brownie Tradicional",
+      "descricaoCurta": "Brownie úmido de chocolate meio amargo.",
+      "preco": 12,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["brownie", "chocolate", "sobremesa"]
+    },
+    {
+      "id": "pote-canela-caramelo",
+      "slug": "pote-canela-caramelo",
+      "categoryId": "sobremesas",
+      "nome": "Pote Canela e Caramelo",
+      "descricaoCurta": "Camadas aveludadas com canela e caramelo artesanal.",
+      "preco": 16,
+      "imagem": "/images/home/carousel/hero-06.png",
+      "tags": ["pote", "canela", "caramelo", "sobremesa"]
+    },
+    {
+      "id": "kit-doce-amor",
+      "slug": "kit-doce-amor",
+      "categoryId": "presentes",
+      "nome": "Kit Doce Amor",
+      "descricaoCurta": "Seleção de doces para presentear com carinho.",
+      "preco": 48,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["kit", "presente", "doce", "namorados"]
+    },
+    {
+      "id": "kit-chocolate",
+      "slug": "kit-chocolate",
+      "categoryId": "presentes",
+      "nome": "Kit Chocolate",
+      "descricaoCurta": "Combinação de brownies e bombons em embalagem especial.",
+      "preco": 42,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["kit", "chocolate", "presente", "brownie"]
+    },
+    {
+      "id": "caixa-presente-cheesecake",
+      "slug": "caixa-presente-cheesecake",
+      "categoryId": "presentes",
+      "nome": "Caixa Presente Cheesecake",
+      "descricaoCurta": "Cheesecakes individuais em embalagem de presente.",
+      "preco": 55,
+      "imagem": "/images/home/carousel/hero-01.png",
+      "tags": ["presente", "cheesecake", "caixa", "morango"]
+    },
+    {
+      "id": "bolo-fatia-presente",
+      "slug": "bolo-fatia-presente",
+      "categoryId": "presentes",
+      "nome": "Fatia Presente",
+      "descricaoCurta": "Fatia generosa de bolo artesanal, pronta para presentear.",
+      "preco": 20,
+      "imagem": "/images/products/product-bolo.png",
+      "tags": ["presente", "bolo", "fatia"]
+    }
+  ]
+}

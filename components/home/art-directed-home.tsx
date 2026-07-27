@@ -33,20 +33,20 @@ function CinematicHero() {
         <div className="relative z-10 max-w-2xl">
           <div className="glass-panel inline-flex items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-4">
             <BrandLogo size="xs" className="h-7 w-7" />
-            <p className="text-[11px] uppercase tracking-[0.35em] text-primary">
+            <p className="text-[11px] uppercase tracking-[0.35em] text-primary-dark">
               Experience
             </p>
           </div>
           <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-[-0.03em] text-foreground sm:text-7xl lg:text-8xl">
-            Um novo ritual
-            <span className="block text-primary">de sabor e presença.</span>
+            Sabores que acolhem.
+            <span className="block text-primary">Momentos que permanecem.</span>
           </h1>
-          <p className="mt-7 max-w-xl text-sm leading-relaxed text-foreground/75 sm:text-base">
-            Uma experiência digital acolhedora e sofisticada, onde cada detalhe
-            convida o cliente a descobrir, desejar e pedir com leveza.
+          <p className="mt-7 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
+            Descubra cafés especiais, doces artesanais e pratos preparados com
+            carinho. Um cardápio pensado para surpreender em cada detalhe.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
-            <Button href="/#cardapio" variant="primary" className="px-8 py-3.5">
+            <Button href="/cardapio" variant="primary" className="px-8 py-3.5">
               Explorar coleção
             </Button>
             <OpenCartButton className="px-8 py-3.5" />
@@ -105,7 +105,7 @@ function CategoryRunway() {
           {CATEGORIES.map((category, index) => (
             <Link
               key={category.slug}
-              href={`/categorias/${category.slug}`}
+              href={category.href}
               className="group glass-panel grid gap-4 overflow-hidden rounded-[2rem] p-4 transition-all duration-500 hover:shadow-brand-hover sm:grid-cols-[1fr_1.3fr] sm:p-5"
             >
               <div
@@ -186,7 +186,7 @@ function ConversionAtelier() {
               <div className="absolute inset-0 bg-gradient-to-t from-surface-4/85 via-surface-2/10 to-transparent" />
               <div className="absolute bottom-0 p-8 sm:p-10">
                 <p className="text-xs uppercase tracking-[0.25em] text-secondary">Conversão com elegância</p>
-                <p className="mt-3 max-w-sm text-sm leading-relaxed text-foreground/80">
+                <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
                   Menos atrito, menos mensagens repetitivas e mais pedidos concluídos.
                 </p>
               </div>
@@ -199,9 +199,6 @@ function ConversionAtelier() {
 }
 
 function RestrictiveShowcase() {
-  const restrictive = CATEGORIES.find((item) => item.slug === "restritivos");
-  if (!restrictive) return null;
-
   return (
     <section id="restritivos" className="section-surface-1 paper-texture relative overflow-hidden py-24">
       <div className="organic-orb left-[20%] top-10 h-64 w-64 bg-primary/16" />
@@ -210,7 +207,7 @@ function RestrictiveShowcase() {
           <div className="glass-panel relative min-h-[52vh] overflow-hidden rounded-[2.25rem] p-2">
             <div className="relative h-full min-h-[52vh] overflow-hidden rounded-[1.85rem]">
               <Image
-                src={restrictive.image}
+                src={IMAGES.categories.restritivos}
                 alt="Produtos restritivos Sweet Cheesecake"
                 fill
                 className="object-cover"
@@ -228,8 +225,8 @@ function RestrictiveShowcase() {
               Opções sem açúcar, sem glúten, sem lactose e low carb com o mesmo padrão de
               qualidade artesanal da marca.
             </p>
-            <Button href="/categorias/restritivos" variant="secondary" className="mt-8">
-              Explorar restritivos
+            <Button href="/cardapio#sobremesas" variant="secondary" className="mt-8">
+              Explorar cardápio
             </Button>
           </div>
         </div>
@@ -248,7 +245,7 @@ function StorePresence() {
           <h2 className="mt-3 font-display text-4xl leading-[1.05] text-foreground sm:text-5xl">
             Presença física com linguagem de marca.
           </h2>
-          <p className="mt-4 text-sm leading-relaxed text-foreground/65 sm:text-base">
+          <p className="mt-4 text-sm leading-relaxed text-muted sm:text-base">
             Três unidades em Belo Horizonte. Escolha a mais conveniente e faça seu pedido
             direto no WhatsApp.
           </p>
@@ -273,12 +270,12 @@ function StorePresence() {
 
               <div className="flex min-h-0 flex-1 flex-col px-5 pb-5 pt-5">
                 <h3 className="font-display text-2xl text-foreground">{store.name}</h3>
-                <ul className="mt-4 space-y-2.5 text-sm text-foreground/70">
+                <ul className="mt-4 space-y-2.5 text-sm text-muted">
                   <li className="flex items-start gap-2">
                     <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                     {store.address}
                   </li>
-                  <li className="flex items-start gap-2 text-foreground/60">
+                  <li className="flex items-start gap-2">
                     <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                     {store.hours}
                   </li>
@@ -325,7 +322,7 @@ function InstagramSection() {
               <h2 className="mt-3 font-display text-3xl text-foreground sm:text-4xl">
                 Acompanhe bastidores e novidades da vitrine.
               </h2>
-              <p className="mt-2 text-sm text-foreground/55">{INSTAGRAM_HANDLE}</p>
+              <p className="mt-2 text-sm text-muted">{INSTAGRAM_HANDLE}</p>
             </div>
           </div>
           <Button

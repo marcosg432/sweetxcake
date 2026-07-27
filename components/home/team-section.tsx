@@ -99,7 +99,7 @@ export function TeamSection() {
             <h2 className="mt-4 font-display text-3xl leading-[1.08] tracking-tight text-foreground sm:text-4xl lg:text-[2.75rem]">
               Quem faz a Sweet Cheesecake acontecer
             </h2>
-            <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-foreground/70 sm:text-base lg:mx-0">
+            <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-muted sm:text-base lg:mx-0">
               Mais do que confeiteiros, somos uma equipe apaixonada por criar experiências
               inesquecíveis. Cada bolo é preparado diariamente com ingredientes selecionados,
               muito cuidado e atenção aos detalhes para transformar momentos especiais em
@@ -119,7 +119,7 @@ export function TeamSection() {
                   <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Icon className="h-3.5 w-3.5" strokeWidth={1.75} />
                   </span>
-                  <p className="text-xs font-medium leading-snug text-foreground/80 sm:text-center lg:text-left">
+                  <p className="text-xs font-medium leading-snug text-muted sm:text-center lg:text-left">
                     {label}
                   </p>
                 </motion.div>

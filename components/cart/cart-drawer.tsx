@@ -67,7 +67,7 @@ export function CartDrawer() {
                   <p className="text-sm text-muted">
                     Explore o cardápio e adicione produtos ao seu pedido.
                   </p>
-                  <Button href="/#cardapio" variant="secondary" className="mt-6" onClick={closeCart}>
+                  <Button href="/cardapio" variant="secondary" className="mt-6" onClick={closeCart}>
                     Continuar Comprando
                   </Button>
                 </div>

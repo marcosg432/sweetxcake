@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useState, useTransition } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 import { BolosHero } from "@/components/bolos/bolos-hero";
 import { BoloCard, BoloCardSkeleton } from "@/components/bolos/bolo-card";
 import { BoloDetailSheet } from "@/components/bolos/bolo-detail-sheet";
@@ -41,6 +43,18 @@ export function BolosExperience() {
 
   return (
     <div className="bg-[color-mix(in_srgb,var(--surface-1)_88%,#faf6f0)]">
+      <div className="sticky top-16 z-40 border-b border-primary/10 bg-surface-1/95 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl px-4 py-2.5 sm:px-6 lg:px-8">
+          <Link
+            href="/cardapio"
+            className="group inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold text-foreground transition hover:bg-primary/10 hover:text-primary-dark active:scale-[0.98]"
+          >
+            <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
+            Voltar ao cardápio
+          </Link>
+        </div>
+      </div>
+
       <BolosHero />
 
       <section id="bolos" className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
@@ -51,7 +65,7 @@ export function BolosExperience() {
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             Escolha o bolo do seu momento
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-foreground/55 sm:text-base">
+          <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">
             Cada receita é finalizada sob encomenda. Explore, sinta o desejo e monte o pedido
             no seu ritmo.
           </p>

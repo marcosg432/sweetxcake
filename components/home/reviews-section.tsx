@@ -66,7 +66,7 @@ export function PromoSection() {
             <p className="mt-4 text-sm leading-relaxed text-muted sm:text-base">
               Café + doce com condições exclusivas. Monte seu pedido e finalize no WhatsApp.
             </p>
-            <Button href="/#cardapio" variant="action" className="mt-8">
+            <Button href="/cardapio" variant="action" className="mt-8">
               Ver promoções
               <ArrowRight className="h-4 w-4" />
             </Button>
