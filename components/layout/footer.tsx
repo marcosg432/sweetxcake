@@ -9,15 +9,31 @@ export function Footer() {
     <footer className="border-t border-primary/10 bg-surface-4 paper-texture">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-2">
+          <p className="text-xs font-medium uppercase tracking-[0.22em] text-primary">
+            Bem-vindos à
+          </p>
           <div className="flex items-center gap-3">
             <BrandLogo size="md" className="h-12 w-12" />
-            <p className="font-display text-2xl text-primary">{SITE_NAME}</p>
+            <p className="font-display text-2xl text-primary">{SITE_NAME}!</p>
           </div>
-          <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
-            Catálogo inteligente multilojas. Uma experiência premium para descobrir,
-            escolher e pedir com praticidade — direto no WhatsApp da unidade mais
-            próxima.
-          </p>
+          <div className="mt-5 max-w-2xl space-y-4 text-sm leading-relaxed text-muted">
+            <p>
+              Temos muito orgulho em ser a única cafeteria do Vale do Aço com um
+              cardápio misto e inclusivo. Aqui, unimos tradição e inovação para
+              oferecer opções para todos os gostos e necessidades.
+            </p>
+            <p>
+              Além das clássicas delícias feitas com trigo, leite e açúcar, também
+              contamos com um cardápio especial, repleto de opções sem glúten, sem
+              açúcar e sem leite ou derivados. Tudo preparado com o máximo de cuidado
+              para garantir sabor, qualidade e segurança, em uma cozinha adaptada para
+              evitar contaminação cruzada.
+            </p>
+            <p>
+              Nosso compromisso é proporcionar experiências incríveis para todos.
+              Esperamos surpreender você.
+            </p>
+          </div>
           <div className="mt-5">
             <InstagramTextLink />
           </div>
@@ -51,7 +67,7 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4 text-primary" />
-              3 unidades em Belo Horizonte
+              3 unidades em Ipatinga-MG
             </li>
           </ul>
         </div>

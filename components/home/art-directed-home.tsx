@@ -1,18 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
-import { ArrowUpRight, Clock, MapPin } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import { BrandLogo, BrandSignature, BrandWatermark } from "@/components/brand/brand-logo";
 import { InstagramIcon } from "@/components/brand/instagram-link";
 import { OpenCartButton } from "@/components/cart/open-cart-button";
+import { ContinuousCatalog } from "@/components/catalog/continuous-catalog";
 import { HomeHeroCarousel } from "@/components/home/home-hero-carousel";
 import { TeamSection } from "@/components/home/team-section";
 import { Button } from "@/components/ui/button";
-import {
-  CATEGORIES,
-  INSTAGRAM_HANDLE,
-  INSTAGRAM_URL,
-  STORES,
-} from "@/lib/constants";
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, STORES } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
 
 function SoftOrbs() {
@@ -26,34 +21,37 @@ function SoftOrbs() {
 
 function CinematicHero() {
   return (
-    <section id="home" className="section-surface-hero paper-texture relative min-h-[92vh] overflow-hidden">
+    <section
+      id="home"
+      className="section-surface-hero paper-texture relative min-h-[58svh] overflow-hidden lg:min-h-[64vh]"
+    >
       <SoftOrbs />
-      <BrandWatermark className="-right-8 top-24 sm:right-[8%] sm:top-28" />
-      <div className="relative mx-auto grid min-h-[92vh] max-w-7xl items-end gap-8 px-5 pb-16 pt-24 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:pb-24">
+      <BrandWatermark className="-right-8 top-14 sm:right-[8%] sm:top-20" />
+      <div className="relative mx-auto grid min-h-[58svh] max-w-7xl items-center gap-8 px-5 py-10 sm:px-8 sm:py-14 lg:min-h-[64vh] lg:grid-cols-[1.05fr_0.95fr]">
         <div className="relative z-10 max-w-2xl">
-          <div className="glass-panel inline-flex items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-4">
-            <BrandLogo size="xs" className="h-7 w-7" />
-            <p className="text-[11px] uppercase tracking-[0.35em] text-primary-dark">
-              Experience
-            </p>
-          </div>
-          <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-[-0.03em] text-foreground sm:text-7xl lg:text-8xl">
+          <h1 className="font-display text-[2.5rem] leading-[0.98] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-7xl">
             Sabores que acolhem.
             <span className="block text-primary">Momentos que permanecem.</span>
           </h1>
-          <p className="mt-7 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
+          <p className="mt-5 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
             Descubra cafés especiais, doces artesanais e pratos preparados com
             carinho. Um cardápio pensado para surpreender em cada detalhe.
           </p>
-          <div className="mt-9 flex flex-wrap gap-3">
-            <Button href="/cardapio" variant="primary" className="px-8 py-3.5">
-              Explorar coleção
+          <div className="mt-7 flex flex-wrap gap-3">
+            <Button href="#catalogo" variant="primary" className="px-5 py-3.5 sm:px-7">
+              Cardápio Cafeteria
             </Button>
-            <OpenCartButton className="px-8 py-3.5" />
+            <Button
+              href="#bolos"
+              variant="action"
+              className="px-5 py-3.5 sm:px-7"
+            >
+              Catálogo de Bolos
+            </Button>
           </div>
         </div>
 
-        <div className="relative z-10">
+        <div className="relative z-10 hidden w-full max-w-[26rem] justify-self-end lg:block">
           <HomeHeroCarousel />
         </div>
       </div>
@@ -84,65 +82,6 @@ function EditorialManifesto() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function CategoryRunway() {
-  return (
-    <section id="cardapio" className="section-surface-3 paper-texture relative overflow-hidden py-20">
-      <div className="organic-orb -left-10 top-20 h-72 w-72 bg-primary/18" />
-      <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="mb-10">
-          <h2 className="max-w-lg font-display text-4xl leading-[1.03] tracking-[-0.02em] text-foreground sm:text-5xl">
-            Universos de sabor com direção editorial.
-          </h2>
-        </div>
-
-        <div className="space-y-5">
-          {CATEGORIES.map((category, index) => (
-            <Link
-              key={category.slug}
-              href={category.href}
-              className="group glass-panel grid gap-4 overflow-hidden rounded-[2rem] p-4 transition-all duration-500 hover:shadow-brand-hover sm:grid-cols-[1fr_1.3fr] sm:p-5"
-            >
-              <div
-                className={`relative overflow-hidden rounded-[1.5rem] ${
-                  index % 2 === 0 ? "sm:order-1" : "sm:order-2"
-                }`}
-              >
-                <div className="relative min-h-[26vh]">
-                  <Image
-                    src={category.image}
-                    alt={category.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                  />
-                </div>
-              </div>
-              <div
-                className={`flex flex-col justify-between rounded-[1.5rem] bg-surface-1/55 p-4 sm:p-8 ${
-                  index % 2 === 0 ? "sm:order-2" : "sm:order-1"
-                }`}
-              >
-                <div>
-                  <p className="text-3xl">{category.emoji}</p>
-                  <h3 className="mt-4 font-display text-3xl text-foreground sm:text-4xl">
-                    {category.name}
-                  </h3>
-                  <p className="mt-3 max-w-md text-sm leading-relaxed text-muted">
-                    {category.description}
-                  </p>
-                </div>
-                <span className="mt-8 inline-flex items-center gap-2 text-sm text-primary">
-                  Explorar universo <ArrowUpRight className="h-4 w-4" />
-                </span>
-              </div>
-            </Link>
-          ))}
         </div>
       </div>
     </section>
@@ -243,11 +182,12 @@ function StorePresence() {
         <div className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Lojas</p>
           <h2 className="mt-3 font-display text-4xl leading-[1.05] text-foreground sm:text-5xl">
-            Presença física com linguagem de marca.
+            A única cafeteria do Vale do Aço com cardápio misto e inclusivo.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-muted sm:text-base">
-            Três unidades em Belo Horizonte. Escolha a mais conveniente e faça seu pedido
-            direto no WhatsApp.
+            Três unidades em Ipatinga, com delícias clássicas e opções sem glúten,
+            sem açúcar e sem leite ou derivados. Tudo preparado com cuidado para
+            oferecer sabor, qualidade e segurança.
           </p>
         </div>
 
@@ -345,10 +285,10 @@ export function ArtDirectedHome() {
   return (
     <>
       <CinematicHero />
+      <ContinuousCatalog />
       <EditorialManifesto />
       <TeamSection />
       <BrandSignature className="py-2" />
-      <CategoryRunway />
       <ConversionAtelier />
       <RestrictiveShowcase />
       <BrandSignature className="py-2" />

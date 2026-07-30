@@ -42,6 +42,10 @@
   --font-display: var(--font-jakarta);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background:
     radial-gradient(1200px 700px at 12% -10%, color-mix(in srgb, var(--primary) 10%, transparent), transparent 60%),

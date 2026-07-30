@@ -7,7 +7,7 @@ export function Toast() {
   const message = useUiStore((state) => state.message);
 
   return (
-    <div className="pointer-events-none fixed bottom-6 left-1/2 z-[100] w-[min(24rem,calc(100vw-2rem))] -translate-x-1/2">
+    <div className="pointer-events-none fixed bottom-24 left-1/2 z-[100] w-[min(24rem,calc(100vw-2rem))] -translate-x-1/2 sm:bottom-7">
       <AnimatePresence>
         {message ? (
           <motion.div

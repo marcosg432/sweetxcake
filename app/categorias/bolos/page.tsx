@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { BolosExperience } from "@/components/bolos/bolos-experience";
+import { CardapioExperience } from "@/components/cardapio";
 
 export const metadata: Metadata = {
   title: "Bolos Artesanais",
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function BolosPage() {
-  return <BolosExperience />;
+  return <CardapioExperience initialCategory="bolos" />;
 }

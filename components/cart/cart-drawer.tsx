@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Minus, Plus, Trash2, X } from "lucide-react";
+import { Minus, Pencil, Plus, Trash2, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { BrandLogo } from "@/components/brand/brand-logo";
@@ -18,6 +18,7 @@ export function CartDrawer() {
   const cartOpen = useUiStore((state) => state.cartOpen);
   const closeCart = useUiStore((state) => state.closeCart);
   const openStoreModal = useUiStore((state) => state.openStoreModal);
+  const openCartItemEditor = useUiStore((state) => state.openCartItemEditor);
 
   return (
     <AnimatePresence>
@@ -43,7 +44,7 @@ export function CartDrawer() {
           >
             <div className="flex items-center justify-between border-b border-primary/10 px-6 py-5">
               <div>
-                <h2 className="font-display text-2xl text-foreground">Meu Pedido</h2>
+                <h2 className="font-display text-2xl text-foreground">Minha sacola</h2>
                 <p className="mt-1 text-xs text-muted">
                   {items.length === 0
                     ? "Seu pedido está vazio"
@@ -97,18 +98,41 @@ export function CartDrawer() {
                               {formatPrice(item.price)}
                             </p>
                           </div>
-                          <button
-                            type="button"
-                            onClick={() => removeItem(item.key)}
-                            className="text-muted transition-colors hover:text-secondary"
-                            aria-label={`Remover ${item.name}`}
-                          >
-                            <Trash2 className="h-4 w-4" />
-                          </button>
+                          <div className="flex items-center gap-2">
+                            <button
+                              type="button"
+                              onClick={() => openCartItemEditor(item.key)}
+                              className="text-muted transition-colors hover:text-primary"
+                              aria-label={`Editar ${item.name}`}
+                            >
+                              <Pencil className="h-4 w-4" />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => removeItem(item.key)}
+                              className="text-muted transition-colors hover:text-secondary"
+                              aria-label={`Remover ${item.name}`}
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </button>
+                          </div>
                         </div>
 
-                        {item.observations ? (
-                          <p className="mt-2 text-xs text-muted">Obs: {item.observations}</p>
+                        {item.variant ? (
+                          <p className="mt-2 text-xs text-muted">
+                            {item.variant.name}
+                            {item.variant.details ? ` · ${item.variant.details}` : ""}
+                          </p>
+                        ) : null}
+                        {item.complements?.length ? (
+                          <p className="mt-1 text-xs text-muted">
+                            + {item.complements.map((complement) => complement.name).join(", ")}
+                          </p>
+                        ) : null}
+                        {item.notes ?? item.observations ? (
+                          <p className="mt-1 text-xs text-muted">
+                            Obs: {item.notes ?? item.observations}
+                          </p>
                         ) : null}
 
                         <div className="mt-3 inline-flex items-center gap-3 rounded-full border border-primary/15 px-2 py-1">

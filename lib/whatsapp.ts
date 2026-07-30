@@ -1,11 +1,27 @@
 import type { CartItem } from "@/stores/cart-store";
 
-export function buildWhatsAppOrderMessage(items: CartItem[], storeName: string) {
+export function buildWhatsAppOrderMessage(
+  items: CartItem[],
+  storeName: string,
+  fulfillmentMethod?: string
+) {
   const lines = items.map((item) => {
-    const obs = item.observations ? `\n  Obs: ${item.observations}` : "";
-    return `• ${item.quantity}x ${item.name} — R$ ${(item.price * item.quantity)
-      .toFixed(2)
-      .replace(".", ",")}${obs}`;
+    const details: string[] = [];
+    if (item.variant) {
+      details.push(
+        `  Variação: ${item.variant.name}${item.variant.details ? ` · ${item.variant.details}` : ""}`
+      );
+    }
+    for (const complement of item.complements ?? []) {
+      details.push(
+        `  + ${complement.name} (+R$ ${complement.price.toFixed(2).replace(".", ",")})`
+      );
+    }
+    const notes = item.notes ?? item.observations;
+    if (notes) details.push(`  Obs: ${notes}`);
+
+    const total = (item.price * item.quantity).toFixed(2).replace(".", ",");
+    return [`• ${item.quantity}x ${item.name} — R$ ${total}`, ...details].join("\n");
   });
 
   const subtotal = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -17,11 +33,15 @@ export function buildWhatsAppOrderMessage(items: CartItem[], storeName: string) 
     ...lines,
     "",
     `Subtotal: R$ ${subtotal.toFixed(2).replace(".", ",")}`,
+    fulfillmentMethod ? `Forma de recebimento: ${fulfillmentMethod}` : null,
     `Unidade: ${storeName}`,
-  ].join("\n");
+    `Total: R$ ${subtotal.toFixed(2).replace(".", ",")}`,
+  ]
+    .filter((line): line is string => line !== null)
+    .join("\n");
 }
 
 export function openWhatsApp(phone: string, message: string) {
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-  window.open(url, "_blank", "noopener,noreferrer");
+  return window.open(url, "_blank", "noopener,noreferrer");
 }
