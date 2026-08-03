@@ -39,6 +39,8 @@ export function ContinuousCatalog({
   initialCategory,
 }: ContinuousCatalogProps) {
   const catalogRef = useRef<HTMLElement>(null);
+  const categoryNavRef = useRef<HTMLElement>(null);
+  const categoryButtonRefs = useRef(new Map<string, HTMLButtonElement>());
   const scrollingToRef = useRef<string | null>(null);
   const initialScrollDoneRef = useRef(false);
   const [query, setQuery] = useState("");
@@ -72,9 +74,20 @@ export function ContinuousCatalog({
     []
   );
 
+  const revealCategoryInNav = useCallback((id: string) => {
+    const nav = categoryNavRef.current;
+    const item = categoryButtonRefs.current.get(id);
+    if (!nav || !item) return;
+
+    const maxScroll = nav.scrollWidth - nav.clientWidth;
+    const left = Math.max(0, Math.min(item.offsetLeft - 16, maxScroll));
+    nav.scrollTo({ left, behavior: "smooth" });
+  }, []);
+
   const scrollToCategory = useCallback(
     (id: string) => {
       if (isSearching) setQuery("");
+      revealCategoryInNav(id);
 
       window.setTimeout(
         () => {
@@ -93,8 +106,12 @@ export function ContinuousCatalog({
         isSearching ? 40 : 0
       );
     },
-    [isSearching]
+    [isSearching, revealCategoryInNav]
   );
+
+  useEffect(() => {
+    revealCategoryInNav(activeId);
+  }, [activeId, revealCategoryInNav]);
 
   useEffect(() => {
     if (isSearching) return;
@@ -157,18 +174,23 @@ export function ContinuousCatalog({
 
         <div className="sticky top-16 z-40 border-b border-primary/10 bg-surface-1/95 backdrop-blur-xl">
           <nav
+            ref={categoryNavRef}
             aria-label="Categorias do catálogo"
-            className="mx-auto flex max-w-5xl gap-1 overflow-x-auto px-4 py-2.5 [scrollbar-width:none] sm:px-6 lg:px-8 [&::-webkit-scrollbar]:hidden"
+            className="mx-auto flex max-w-5xl snap-x snap-mandatory gap-1 overflow-x-auto scroll-smooth px-4 py-2.5 [scrollbar-width:none] sm:px-6 lg:px-8 [&::-webkit-scrollbar]:hidden"
           >
             {UNIFIED_CATALOG_NAV.map((item) => {
               const isActive = activeId === item.id;
               return (
                 <button
                   key={item.id}
+                  ref={(node) => {
+                    if (node) categoryButtonRefs.current.set(item.id, node);
+                    else categoryButtonRefs.current.delete(item.id);
+                  }}
                   type="button"
                   onClick={() => scrollToCategory(item.id)}
                   className={cn(
-                    "relative shrink-0 rounded-full px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.14em] transition-colors active:scale-[0.97]",
+                    "relative shrink-0 snap-start rounded-full px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.14em] transition-colors active:scale-[0.97]",
                     isActive
                       ? "text-primary-dark"
                       : "text-muted hover:text-foreground"
