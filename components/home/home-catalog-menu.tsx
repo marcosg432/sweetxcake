@@ -1,9 +1,10 @@
 import Link from "next/link";
 
 const CATALOG_LINKS = [
-  { label: "Salgados", href: "/cardapio#salgados" },
+  { label: "Lanches", href: "/cardapio#salgados" },
   { label: "Bebidas", href: "/cardapio#bebidas" },
   { label: "Sobremesas", href: "/cardapio#sobremesas" },
+  { label: "Sweets", href: "/cardapio#sweets" },
   { label: "Presentes", href: "/cardapio#presentes" },
   { label: "Bolos", href: "/categorias/bolos" },
 ] as const;

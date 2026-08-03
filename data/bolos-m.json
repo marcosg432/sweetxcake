@@ -1,0 +1,212 @@
+[
+  {
+    "id": "bolo-m-red-velvet",
+    "slug": "bolo-m-red-velvet",
+    "nome": "Red Velvet M",
+    "imagem": "/images/products/bolos/bolo-red-velvet.png",
+    "descricaoCurta": "Bolo artesanal Red Velvet em tamanho M.",
+    "descricao": "Red Velvet M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-ninho-nutella",
+    "slug": "bolo-m-ninho-nutella",
+    "nome": "Ninho com Nutella M",
+    "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
+    "descricaoCurta": "Bolo artesanal de Ninho com Nutella em tamanho M.",
+    "descricao": "Ninho com Nutella M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-clarissa",
+    "slug": "bolo-m-clarissa",
+    "nome": "Clarissa M",
+    "imagem": "/images/products/bolos/bolo-clarissa.png",
+    "descricaoCurta": "Bolo artesanal Clarissa em tamanho M.",
+    "descricao": "Clarissa M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-pina-colada",
+    "slug": "bolo-m-pina-colada",
+    "nome": "Piña Colada M",
+    "imagem": "/images/products/bolos/bolo-pina-colada.png",
+    "descricaoCurta": "Bolo artesanal Piña Colada em tamanho M.",
+    "descricao": "Piña Colada M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-pistache",
+    "slug": "bolo-m-pistache",
+    "nome": "Pistache M",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Bolo artesanal de pistache em tamanho M.",
+    "descricao": "Pistache M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-cheesecake-cremosa",
+    "slug": "bolo-m-cheesecake-cremosa",
+    "nome": "Cheesecake Cremosa M",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake cremosa M para 10 a 16 fatias.",
+    "descricao": "Cheesecake Cremosa M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 16 fatias", "preco": 150 }]
+  },
+  {
+    "id": "bolo-m-chocolatudo",
+    "slug": "bolo-m-chocolatudo",
+    "nome": "Chocolatudo M",
+    "imagem": "/images/products/bolos/bolo-chocolatudo.png",
+    "descricaoCurta": "Bolo artesanal Chocolatudo em tamanho M.",
+    "descricao": "Chocolatudo M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-quiche",
+    "slug": "bolo-m-quiche",
+    "nome": "Quiche M - 20cm",
+    "imagem": "/images/categories/category-lanches.png",
+    "descricaoCurta": "Quiche M de 20cm para 8 a 12 fatias.",
+    "descricao": "Quiche artesanal M com aro de 20cm.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "20cm", "fatias": "8 a 12 fatias", "preco": 140 }]
+  },
+  {
+    "id": "bolo-m-tiramisu",
+    "slug": "bolo-m-tiramisu",
+    "nome": "Tiramisù M",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Tiramisù artesanal em tamanho M.",
+    "descricao": "Tiramisù M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 130 }]
+  },
+  {
+    "id": "bolo-m-sergios-cake",
+    "slug": "bolo-m-sergios-cake",
+    "nome": "Sergio's Cake M",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Bolo artesanal Sergio's Cake em tamanho M.",
+    "descricao": "Sergio's Cake M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+  },
+  {
+    "id": "bolo-m-floresta-negra-zero-lactose",
+    "slug": "bolo-m-floresta-negra-zero-lactose",
+    "nome": "Floresta Negra M (Zero Lactose)",
+    "imagem": "/images/products/bolos/bolo-floresta-negra.png",
+    "descricaoCurta": "Bolo Floresta Negra M em versão zero lactose.",
+    "descricao": "Floresta Negra M preparado sem lactose.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 220 }]
+  },
+  {
+    "id": "bolo-m-torta-maca-24cm",
+    "slug": "bolo-m-torta-maca-24cm",
+    "nome": "Torta de Maçã M - 24cm",
+    "imagem": "/images/categories/category-tortas.png",
+    "descricaoCurta": "Torta artesanal de maçã M com 24cm.",
+    "descricao": "Torta de Maçã M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "24cm", "fatias": "Consulte a loja", "preco": 120 }]
+  },
+  {
+    "id": "bolo-m-quiche-vegetariana",
+    "slug": "bolo-m-quiche-vegetariana",
+    "nome": "Quiche Vegetariana M - 24cm",
+    "imagem": "/images/categories/category-lanches.png",
+    "descricaoCurta": "Quiche vegetariana de 24cm para 10 a 15 pessoas.",
+    "descricao": "Quiche vegetariana artesanal com aro de 24cm.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "24cm", "fatias": "10 a 15 pessoas", "preco": 160 }]
+  },
+  {
+    "id": "bolo-m-zero-amora-capim-limao",
+    "slug": "bolo-m-zero-amora-capim-limao",
+    "nome": "Bolo Zero Amora e Capim-Limão M",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo M de amora e capim-limão em versão zero.",
+    "descricao": "Bolo Zero Amora e Capim-Limão M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 270 }]
+  },
+  {
+    "id": "bolo-m-cheesecake-new-york",
+    "slug": "bolo-m-cheesecake-new-york",
+    "nome": "Cheesecake New York M",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York M para 10 a 16 fatias.",
+    "descricao": "Cheesecake New York M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 16 fatias", "preco": 170 }]
+  },
+  {
+    "id": "bolo-m-sweet-prestigio-zero",
+    "slug": "bolo-m-sweet-prestigio-zero",
+    "nome": "Bolo Sweet Prestígio M",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo Prestígio M sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo Sweet Prestígio M preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 270 }]
+  },
+  {
+    "id": "bolo-m-sergios-zero",
+    "slug": "bolo-m-sergios-zero",
+    "nome": "Bolo Sergio's M",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Bolo Sergio's M sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo Sergio's M preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 230 }]
+  },
+  {
+    "id": "bolo-m-pistache-amora",
+    "slug": "bolo-m-pistache-amora",
+    "nome": "Pistache e Amora M",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Bolo M de pistache e amora para 20 a 25 fatias.",
+    "descricao": "Pistache e Amora M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "20 a 25 fatias", "preco": 190 }]
+  },
+  {
+    "id": "bolo-m-cenoura-tamara-zero",
+    "slug": "bolo-m-cenoura-tamara-zero",
+    "nome": "Bolo Cenoura e Tâmara M",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo M de cenoura e tâmara sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo Cenoura e Tâmara M preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 230 }]
+  },
+  {
+    "id": "bolo-m-cheesecake-new-york-pistache",
+    "slug": "bolo-m-cheesecake-new-york-pistache",
+    "nome": "Cheesecake New York Pistache M",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York de pistache M para 10 a 16 fatias.",
+    "descricao": "Cheesecake New York Pistache M artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 16 fatias", "preco": 190 }]
+  },
+  {
+    "id": "bolo-m-maracuja-zero",
+    "slug": "bolo-m-maracuja-zero",
+    "nome": "Bolo Maracujá M",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo de maracujá M sem leite, sem açúcar e sem glúten.",
+    "descricao": "Bolo Maracujá M preparado sem leite, sem açúcar e sem glúten.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 270 }]
+  }
+]

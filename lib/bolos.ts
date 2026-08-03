@@ -1,4 +1,8 @@
 import bolosData from "@/data/bolos.json";
+import bolosPpData from "@/data/bolos-pp.json";
+import bolosPData from "@/data/bolos-p.json";
+import bolosMData from "@/data/bolos-m.json";
+import bolosGData from "@/data/bolos-g.json";
 import { IMAGES } from "@/lib/images";
 
 export type BoloIngrediente = {
@@ -50,6 +54,10 @@ const INGREDIENT_MAP: Array<{ match: RegExp; nome: string; emoji: string }> = [
 ];
 
 export const BOLOS = bolosData as Bolo[];
+export const BOLOS_PP = bolosPpData as Bolo[];
+export const BOLOS_P = bolosPData as Bolo[];
+export const BOLOS_M = bolosMData as Bolo[];
+export const BOLOS_G = bolosGData as Bolo[];
 
 export const CROSS_SELL: CrossSellItem[] = [
   {

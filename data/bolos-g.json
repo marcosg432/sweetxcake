@@ -1,0 +1,132 @@
+[
+  {
+    "id": "bolo-g-red-velvet",
+    "slug": "bolo-g-red-velvet",
+    "nome": "Red Velvet G",
+    "imagem": "/images/products/bolos/bolo-red-velvet.png",
+    "descricaoCurta": "Bolo artesanal Red Velvet em tamanho G.",
+    "descricao": "Red Velvet G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-ninho-nutella",
+    "slug": "bolo-g-ninho-nutella",
+    "nome": "Ninho com Nutella G",
+    "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
+    "descricaoCurta": "Bolo artesanal de Ninho com Nutella em tamanho G.",
+    "descricao": "Ninho com Nutella G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-clarissa",
+    "slug": "bolo-g-clarissa",
+    "nome": "Clarissa G",
+    "imagem": "/images/products/bolos/bolo-clarissa.png",
+    "descricaoCurta": "Bolo artesanal Clarissa em tamanho G.",
+    "descricao": "Clarissa G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-pina-colada",
+    "slug": "bolo-g-pina-colada",
+    "nome": "Piña Colada G",
+    "imagem": "/images/products/bolos/bolo-pina-colada.png",
+    "descricaoCurta": "Bolo artesanal Piña Colada em tamanho G.",
+    "descricao": "Piña Colada G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-pistache",
+    "slug": "bolo-g-pistache",
+    "nome": "Pistache G",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Bolo artesanal de pistache em tamanho G.",
+    "descricao": "Pistache G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-chocolatudo",
+    "slug": "bolo-g-chocolatudo",
+    "nome": "Chocolatudo G",
+    "imagem": "/images/products/bolos/bolo-chocolatudo.png",
+    "descricaoCurta": "Bolo artesanal Chocolatudo em tamanho G.",
+    "descricao": "Chocolatudo G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-quiche",
+    "slug": "bolo-g-quiche",
+    "nome": "Quiche G - 25cm",
+    "imagem": "/images/categories/category-lanches.png",
+    "descricaoCurta": "Quiche G de 25cm para 12 a 20 fatias.",
+    "descricao": "Quiche artesanal G com aro de 25cm.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "25cm", "fatias": "12 a 20 fatias", "preco": 210 }]
+  },
+  {
+    "id": "bolo-g-sergios-cake",
+    "slug": "bolo-g-sergios-cake",
+    "nome": "Sergio's Cake G",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Bolo artesanal Sergio's Cake em tamanho G.",
+    "descricao": "Sergio's Cake G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+  },
+  {
+    "id": "bolo-g-floresta-negra",
+    "slug": "bolo-g-floresta-negra",
+    "nome": "Floresta Negra G",
+    "imagem": "/images/products/bolos/bolo-floresta-negra.png",
+    "descricaoCurta": "Bolo artesanal Floresta Negra em tamanho G.",
+    "descricao": "Floresta Negra G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 270 }]
+  },
+  {
+    "id": "bolo-g-cheesecake-cremosa",
+    "slug": "bolo-g-cheesecake-cremosa",
+    "nome": "Cheesecake Cremosa G",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake cremosa G para 20 a 25 fatias.",
+    "descricao": "Cheesecake Cremosa G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 210 }]
+  },
+  {
+    "id": "bolo-g-cheesecake-new-york",
+    "slug": "bolo-g-cheesecake-new-york",
+    "nome": "Cheesecake New York G",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York G para 20 a 25 fatias.",
+    "descricao": "Cheesecake New York G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 230 }]
+  },
+  {
+    "id": "bolo-g-cheesecake-new-york-pistache",
+    "slug": "bolo-g-cheesecake-new-york-pistache",
+    "nome": "Cheesecake New York Pistache G",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York de pistache G para 20 a 25 fatias.",
+    "descricao": "Cheesecake New York Pistache G artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 270 }]
+  },
+  {
+    "id": "bolo-g-corte-45kg",
+    "slug": "bolo-g-corte-45kg",
+    "nome": "Bolo de Corte 4,5kg",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo de corte de 4,5kg com rendimento de aproximadamente 45 fatias.",
+    "descricao": "Bolo de Corte Sweet Cheesecake com 4,5kg, ideal para eventos.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "4,5kg", "fatias": "45 fatias", "preco": 390 }]
+  }
+]

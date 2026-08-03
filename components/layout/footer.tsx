@@ -48,8 +48,23 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/cardapio" className="text-sm text-muted transition-colors hover:text-primary">
-                Cardápio
+              <Link href="/cardapio#salgados" className="text-sm text-muted transition-colors hover:text-primary">
+                Cardápio Cafeteria
+              </Link>
+            </li>
+            <li>
+              <Link href="/cardapio#bolos" className="text-sm text-muted transition-colors hover:text-primary">
+                Catálogo de Bolos
+              </Link>
+            </li>
+            <li>
+              <Link href="/#historia" className="text-sm text-muted transition-colors hover:text-primary">
+                Sobre
+              </Link>
+            </li>
+            <li>
+              <Link href="/#lojas" className="text-sm text-muted transition-colors hover:text-primary">
+                Lojas
               </Link>
             </li>
           </ul>

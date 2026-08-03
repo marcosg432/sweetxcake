@@ -11,11 +11,7 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplement[]> = {
   ],
 };
 
-const PRODUCT_COMPLEMENT_GROUPS: Record<string, string[]> = {
-  "sanduiche-croissant": ["monte-seu-sanduiche"],
-  "sanduiche-carne-desfiada": ["monte-seu-sanduiche"],
-  "sanduiche-grelhado": ["monte-seu-sanduiche"],
-};
+const PRODUCT_COMPLEMENT_GROUPS: Record<string, string[]> = {};
 
 export function getProductComplements(productId: string) {
   const groupIds = PRODUCT_COMPLEMENT_GROUPS[productId] ?? [];

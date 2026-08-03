@@ -10,6 +10,7 @@ const LEGACY_CATEGORY_REDIRECTS: Record<string, string> = {
   restritivos: "/cardapio#sobremesas",
   salgados: "/cardapio#salgados",
   sobremesas: "/cardapio#sobremesas",
+  sweets: "/cardapio#sweets",
   presentes: "/cardapio#presentes",
 };
 

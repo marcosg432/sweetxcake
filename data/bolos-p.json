@@ -1,0 +1,230 @@
+[
+  {
+    "id": "bolo-p-red-velvet",
+    "slug": "bolo-p-red-velvet",
+    "nome": "Red Velvet P",
+    "imagem": "/images/products/bolos/bolo-red-velvet.png",
+    "descricaoCurta": "Bolo artesanal Red Velvet em tamanho P.",
+    "descricao": "Red Velvet P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-ninho-nutella",
+    "slug": "bolo-p-ninho-nutella",
+    "nome": "Ninho com Nutella P",
+    "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
+    "descricaoCurta": "Bolo artesanal de Ninho com Nutella em tamanho P.",
+    "descricao": "Ninho com Nutella P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-clarissa-cake",
+    "slug": "bolo-p-clarissa-cake",
+    "nome": "Clarissa Cake P",
+    "imagem": "/images/products/bolos/bolo-clarissa.png",
+    "descricaoCurta": "Bolo artesanal Clarissa Cake em tamanho P.",
+    "descricao": "Clarissa Cake P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-pina-colada",
+    "slug": "bolo-p-pina-colada",
+    "nome": "Piña Colada P",
+    "imagem": "/images/products/bolos/bolo-pina-colada.png",
+    "descricaoCurta": "Bolo artesanal Piña Colada em tamanho P.",
+    "descricao": "Piña Colada P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-pistache",
+    "slug": "bolo-p-pistache",
+    "nome": "Pistache P",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Bolo artesanal de pistache em tamanho P.",
+    "descricao": "Pistache P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-cheesecake-cremosa",
+    "slug": "bolo-p-cheesecake-cremosa",
+    "nome": "Cheesecake Cremosa P",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake cremosa P para 8 a 10 fatias.",
+    "descricao": "Cheesecake Cremosa P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "8 a 10 fatias", "preco": 100 }
+    ]
+  },
+  {
+    "id": "bolo-p-chocolatudo",
+    "slug": "bolo-p-chocolatudo",
+    "nome": "Chocolatudo P",
+    "imagem": "/images/products/bolos/bolo-chocolatudo.png",
+    "descricaoCurta": "Bolo artesanal Chocolatudo em tamanho P.",
+    "descricao": "Chocolatudo P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-quiche",
+    "slug": "bolo-p-quiche",
+    "nome": "Quiche P - 16cm",
+    "imagem": "/images/categories/category-lanches.png",
+    "descricaoCurta": "Quiche P de 16cm para 5 a 8 fatias.",
+    "descricao": "Quiche artesanal P com aro de 16cm.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "16cm", "fatias": "5 a 8 fatias", "preco": 90 }
+    ]
+  },
+  {
+    "id": "bolo-p-sergios-cake",
+    "slug": "bolo-p-sergios-cake",
+    "nome": "Sergio's Cake P",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Bolo artesanal Sergio's Cake em tamanho P.",
+    "descricao": "Sergio's Cake P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 150 }
+    ]
+  },
+  {
+    "id": "bolo-p-floresta-negra-zero-lactose",
+    "slug": "bolo-p-floresta-negra-zero-lactose",
+    "nome": "Floresta Negra P (Zero Lactose)",
+    "imagem": "/images/products/bolos/bolo-floresta-negra.png",
+    "descricaoCurta": "Bolo Floresta Negra P em versão zero lactose.",
+    "descricao": "Floresta Negra P preparado sem lactose.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 170 }
+    ]
+  },
+  {
+    "id": "bolo-p-torta-maca-16cm",
+    "slug": "bolo-p-torta-maca-16cm",
+    "nome": "Torta de Maçã P - 16cm",
+    "imagem": "/images/categories/category-tortas.png",
+    "descricaoCurta": "Torta artesanal de maçã P com 16cm.",
+    "descricao": "Torta de Maçã P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "16cm", "fatias": "Consulte a loja", "preco": 50 }
+    ]
+  },
+  {
+    "id": "bolo-p-zero-amora-capim-limao",
+    "slug": "bolo-p-zero-amora-capim-limao",
+    "nome": "Bolo Zero Amora e Capim-Limão P",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo P de amora e capim-limão em versão zero.",
+    "descricao": "Bolo Zero Amora e Capim-Limão P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 180 }
+    ]
+  },
+  {
+    "id": "bolo-p-sweet-prestigio-zero",
+    "slug": "bolo-p-sweet-prestigio-zero",
+    "nome": "Bolo Sweet Prestígio P",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo Prestígio P sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo Sweet Prestígio P preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 180 }
+    ]
+  },
+  {
+    "id": "bolo-p-sergios-zero",
+    "slug": "bolo-p-sergios-zero",
+    "nome": "Bolo Sergio's P",
+    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+    "descricaoCurta": "Bolo Sergio's P sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo Sergio's P preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 160 }
+    ]
+  },
+  {
+    "id": "bolo-p-pistache-amora",
+    "slug": "bolo-p-pistache-amora",
+    "nome": "Pistache e Amora P",
+    "imagem": "/images/products/bolos/bolo-pistache.png",
+    "descricaoCurta": "Bolo P de pistache e amora para 10 a 15 fatias.",
+    "descricao": "Pistache e Amora P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "10 a 15 fatias", "preco": 130 }
+    ]
+  },
+  {
+    "id": "bolo-p-cenoura-tamara-chocolate-zero",
+    "slug": "bolo-p-cenoura-tamara-chocolate-zero",
+    "nome": "Bolo Cenoura, Tâmara e Chocolate P",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo P sem açúcar, sem glúten e sem leite.",
+    "descricao": "Bolo de cenoura, tâmara e chocolate P preparado sem açúcar, sem glúten e sem leite.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 160 }
+    ]
+  },
+  {
+    "id": "bolo-p-cheesecake-new-york-pistache",
+    "slug": "bolo-p-cheesecake-new-york-pistache",
+    "nome": "Cheesecake New York Pistache P",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York de pistache P para 8 a 10 fatias.",
+    "descricao": "Cheesecake New York Pistache P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "8 a 10 fatias", "preco": 120 }
+    ]
+  },
+  {
+    "id": "bolo-p-cheesecake-new-york",
+    "slug": "bolo-p-cheesecake-new-york",
+    "nome": "Cheesecake New York P",
+    "imagem": "/images/products/product-cheesecake.png",
+    "descricaoCurta": "Cheesecake New York P para 8 a 10 fatias.",
+    "descricao": "Cheesecake New York P artesanal Sweet Cheesecake.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "8 a 10 fatias", "preco": 110 }
+    ]
+  },
+  {
+    "id": "bolo-p-maracuja-zero",
+    "slug": "bolo-p-maracuja-zero",
+    "nome": "Bolo Maracujá P",
+    "imagem": "/images/products/product-bolo.png",
+    "descricaoCurta": "Bolo de maracujá P sem leite, sem açúcar e sem glúten.",
+    "descricao": "Bolo Maracujá P preparado sem leite, sem açúcar e sem glúten.",
+    "ingredientes": [],
+    "tamanhos": [
+      { "nome": "P", "peso": "P", "fatias": "Consulte a loja", "preco": 180 }
+    ]
+  }
+]

@@ -3,7 +3,14 @@ import {
   CATALOG_PRODUCTS,
   type CatalogCategory,
 } from "@/lib/cardapio";
-import { BOLOS } from "@/lib/bolos";
+import {
+  BOLOS,
+  BOLOS_G,
+  BOLOS_M,
+  BOLOS_P,
+  BOLOS_PP,
+  type Bolo,
+} from "@/lib/bolos";
 import { getProductComplements } from "@/lib/product-complements";
 
 export type ProductVariant = {
@@ -28,6 +35,7 @@ export type UnifiedCatalogProduct = {
   description: string;
   image: string;
   tags: string[];
+  group?: string;
   variants: ProductVariant[];
   complements: ProductComplement[];
   allowNotes: boolean;
@@ -43,9 +51,41 @@ type ConfigurableCatalogProduct = (typeof CATALOG_PRODUCTS)[number] & {
   permiteObservacoes?: boolean;
 };
 
-type ConfigurableBolo = (typeof BOLOS)[number] & {
+type ConfigurableBolo = Bolo & {
   complementos?: ProductComplement[];
 };
+
+const ppCakeComplements: ProductComplement[] = [
+  {
+    id: "cobertura-extra-bolo-pp",
+    name: "Cobertura extra bolo PP",
+    price: 15,
+  },
+];
+
+const pCakeComplements: ProductComplement[] = [
+  {
+    id: "cobertura-extra-bolo-p",
+    name: "Cobertura extra bolo P",
+    price: 20,
+  },
+];
+
+const mCakeComplements: ProductComplement[] = [
+  {
+    id: "cobertura-extra-bolo-m",
+    name: "Cobertura extra bolo M",
+    price: 25,
+  },
+];
+
+const gCakeComplements: ProductComplement[] = [
+  {
+    id: "cobertura-extra-bolo-g",
+    name: "Cobertura extra bolo G",
+    price: 40,
+  },
+];
 
 const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) => {
   const product = entry as ConfigurableCatalogProduct;
@@ -58,6 +98,7 @@ const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) 
     description: product.descricao ?? product.descricaoCurta,
     image: product.imagem,
     tags: product.tags,
+    group: product.grupo,
     variants: product.variacoes?.length
       ? product.variacoes
       : [{ id: "unico", label: "Único", price: product.preco }],
@@ -67,8 +108,23 @@ const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) 
   };
 });
 
-const cakeProducts: UnifiedCatalogProduct[] = BOLOS.map((entry) => {
+const standardCakesWithoutCustomizedSizes = BOLOS.map((bolo) => ({
+  ...bolo,
+  tamanhos: bolo.tamanhos.filter(
+    (size) => !["pp", "p", "m", "g"].includes(size.nome.toLowerCase())
+  ),
+})).filter((bolo) => bolo.tamanhos.length > 0);
+
+const cakeProducts: UnifiedCatalogProduct[] = [
+  ...standardCakesWithoutCustomizedSizes,
+  ...BOLOS_PP,
+  ...BOLOS_P,
+  ...BOLOS_M,
+  ...BOLOS_G,
+].map((entry) => {
   const bolo = entry as ConfigurableBolo;
+  const exclusiveSize =
+    bolo.tamanhos.length === 1 ? bolo.tamanhos[0].nome.toLowerCase() : null;
   return {
     id: bolo.id,
     slug: bolo.slug,
@@ -84,7 +140,17 @@ const cakeProducts: UnifiedCatalogProduct[] = BOLOS.map((entry) => {
       price: size.preco,
       details: `${size.peso} · ${size.fatias}`,
     })),
-    complements: bolo.complementos ?? [],
+    complements:
+      bolo.complementos ??
+      (exclusiveSize === "pp"
+        ? ppCakeComplements
+        : exclusiveSize === "p"
+          ? pCakeComplements
+          : exclusiveSize === "m"
+            ? mCakeComplements
+            : exclusiveSize === "g"
+              ? gCakeComplements
+              : []),
     allowNotes: true,
     kind: "bolo",
   };
@@ -126,8 +192,10 @@ export function searchUnifiedCatalog(query: string) {
       product.shortDescription,
       product.description,
       product.categoryId,
+      product.group,
       ...product.tags,
     ]
+      .filter(Boolean)
       .join(" ")
       .toLocaleLowerCase("pt-BR")
       .includes(normalized)

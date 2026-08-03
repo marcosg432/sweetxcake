@@ -17,6 +17,7 @@ export type CatalogProduct = {
   preco: number;
   imagem: string;
   tags: string[];
+  grupo?: string;
 };
 
 export const CATALOG_CATEGORIES = cardapioData.categories as CatalogCategory[];

@@ -2,8 +2,6 @@ import Image from "next/image";
 import { Clock, MapPin } from "lucide-react";
 import { BrandLogo, BrandSignature, BrandWatermark } from "@/components/brand/brand-logo";
 import { InstagramIcon } from "@/components/brand/instagram-link";
-import { OpenCartButton } from "@/components/cart/open-cart-button";
-import { ContinuousCatalog } from "@/components/catalog/continuous-catalog";
 import { HomeHeroCarousel } from "@/components/home/home-hero-carousel";
 import { TeamSection } from "@/components/home/team-section";
 import { Button } from "@/components/ui/button";
@@ -27,7 +25,7 @@ function CinematicHero() {
     >
       <SoftOrbs />
       <BrandWatermark className="-right-8 top-14 sm:right-[8%] sm:top-20" />
-      <div className="relative mx-auto grid min-h-[58svh] max-w-7xl items-center gap-8 px-5 py-10 sm:px-8 sm:py-14 lg:min-h-[64vh] lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="relative mx-auto grid min-h-[58svh] max-w-7xl items-center gap-5 px-5 py-8 sm:gap-6 sm:px-8 sm:py-10 lg:min-h-[64vh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:py-14">
         <div className="relative z-10 max-w-2xl">
           <h1 className="font-display text-[2.5rem] leading-[0.98] tracking-[-0.025em] text-foreground sm:text-6xl lg:text-7xl">
             Sabores que acolhem.
@@ -38,11 +36,15 @@ function CinematicHero() {
             carinho. Um cardápio pensado para surpreender em cada detalhe.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
-            <Button href="#catalogo" variant="primary" className="px-5 py-3.5 sm:px-7">
+            <Button
+              href="/cardapio#salgados"
+              variant="primary"
+              className="px-5 py-3.5 sm:px-7"
+            >
               Cardápio Cafeteria
             </Button>
             <Button
-              href="#bolos"
+              href="/cardapio#bolos"
               variant="action"
               className="px-5 py-3.5 sm:px-7"
             >
@@ -51,7 +53,7 @@ function CinematicHero() {
           </div>
         </div>
 
-        <div className="relative z-10 hidden w-full max-w-[26rem] justify-self-end lg:block">
+        <div className="relative z-10 w-full max-w-[30rem] justify-self-center lg:max-w-[26rem] lg:justify-self-end">
           <HomeHeroCarousel />
         </div>
       </div>
@@ -80,55 +82,6 @@ function EditorialManifesto() {
               <p className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
                 Assinatura da casa
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function ConversionAtelier() {
-  return (
-    <section className="section-surface-4 relative overflow-hidden py-24">
-      <SoftOrbs />
-      <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
-          <div className="glass-panel-strong rounded-[2.25rem] p-8 sm:p-10">
-            <p className="text-xs uppercase tracking-[0.25em] text-primary">Pedido inteligente</p>
-            <h2 className="mt-5 font-display text-4xl leading-[1.04] text-foreground sm:text-5xl">
-              Descubra, adicione, finalize.
-            </h2>
-            <p className="mt-5 max-w-md text-sm leading-relaxed text-muted sm:text-base">
-              Monte o pedido sem escolher unidade no início. No final, selecione a loja e
-              o WhatsApp abre com a mensagem pronta.
-            </p>
-            <div className="mt-10 space-y-4">
-              {["Cardápio inteligente", "Carrinho universal", "WhatsApp da loja correta"].map((step) => (
-                <div key={step} className="rounded-2xl border border-primary/10 bg-surface-2/80 px-4 py-3">
-                  <p className="text-sm text-foreground">{step}</p>
-                </div>
-              ))}
-            </div>
-            <OpenCartButton className="mt-9 px-8 py-3.5">Finalizar pedido</OpenCartButton>
-          </div>
-
-          <div className="glass-panel relative overflow-hidden rounded-[2.25rem] p-2">
-            <div className="relative min-h-[420px] overflow-hidden rounded-[1.85rem]">
-              <Image
-                src={IMAGES.promotions.banner}
-                alt="Composição de confeitaria premium"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 55vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-surface-4/85 via-surface-2/10 to-transparent" />
-              <div className="absolute bottom-0 p-8 sm:p-10">
-                <p className="text-xs uppercase tracking-[0.25em] text-secondary">Conversão com elegância</p>
-                <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-                  Menos atrito, menos mensagens repetitivas e mais pedidos concluídos.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -285,11 +238,9 @@ export function ArtDirectedHome() {
   return (
     <>
       <CinematicHero />
-      <ContinuousCatalog />
       <EditorialManifesto />
       <TeamSection />
       <BrandSignature className="py-2" />
-      <ConversionAtelier />
       <RestrictiveShowcase />
       <BrandSignature className="py-2" />
       <StorePresence />

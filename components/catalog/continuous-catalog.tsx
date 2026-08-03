@@ -216,7 +216,23 @@ export function ContinuousCatalog({
           ) : (
             UNIFIED_CATALOG_CATEGORIES.map((category) => {
               const products = productsByCategory.get(category.id) ?? [];
-              if (products.length === 0) return null;
+              const visibleProducts = products.filter(
+                (product) =>
+                  category.id !== "bolos" ||
+                  product.variants.some(
+                    (variant) => variant.id === selectedCakeSize
+                  )
+              );
+              const productGroups = visibleProducts.reduce(
+                (groups, product) => {
+                  const group = product.group ?? "";
+                  const entries = groups.get(group) ?? [];
+                  entries.push(product);
+                  groups.set(group, entries);
+                  return groups;
+                },
+                new Map<string, UnifiedCatalogProduct[]>()
+              );
 
               return (
                 <section
@@ -232,43 +248,83 @@ export function ContinuousCatalog({
                     <p className="mt-1 text-sm text-muted">{category.description}</p>
                   </header>
                   {category.id === "bolos" ? (
-                    <div className="mb-4 flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                      {CAKE_SIZES.map((size) => (
-                        <button
-                          key={size.id}
-                          type="button"
-                          onClick={() => setSelectedCakeSize(size.id)}
-                          className={cn(
-                            "shrink-0 rounded-full border px-4 py-2 text-xs font-semibold transition active:scale-95",
-                            selectedCakeSize === size.id
-                              ? "border-primary bg-primary text-white"
-                              : "border-primary/15 bg-surface-0 text-muted hover:border-primary/35"
-                          )}
+                    <div className="sticky top-[7.25rem] z-30 -mx-4 mb-5 border-y border-primary/10 bg-surface-1/95 px-4 py-2.5 shadow-[0_8px_20px_rgba(83,45,51,0.06)] backdrop-blur-xl sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                      <div className="flex items-center gap-3">
+                        <span className="hidden shrink-0 text-[10px] font-semibold uppercase tracking-[0.16em] text-muted sm:block">
+                          Tamanho
+                        </span>
+                        <div
+                          role="group"
+                          aria-label="Escolha o tamanho do bolo"
+                          className="grid min-w-0 flex-1 grid-cols-4 gap-1 rounded-2xl bg-surface-3/80 p-1"
                         >
-                          {size.label}
-                        </button>
-                      ))}
+                          {CAKE_SIZES.map((size) => {
+                            const isSelected = selectedCakeSize === size.id;
+                            return (
+                              <button
+                                key={size.id}
+                                type="button"
+                                aria-pressed={isSelected}
+                                onClick={() => setSelectedCakeSize(size.id)}
+                                className={cn(
+                                  "relative min-h-9 rounded-xl px-1.5 py-2 text-[11px] font-semibold transition active:scale-95 sm:px-4 sm:text-xs",
+                                  isSelected
+                                    ? "text-white"
+                                    : "text-muted hover:bg-surface-0 hover:text-foreground"
+                                )}
+                              >
+                                {isSelected ? (
+                                  <motion.span
+                                    layoutId="cake-size-active-pill"
+                                    className="absolute inset-0 rounded-xl bg-primary shadow-[0_5px_14px_rgba(181,46,55,0.22)]"
+                                    transition={{
+                                      type: "spring",
+                                      stiffness: 420,
+                                      damping: 34,
+                                    }}
+                                  />
+                                ) : null}
+                                <span className="relative z-10">{size.label}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
                     </div>
                   ) : null}
-                  {products
-                    .filter(
-                      (product) =>
-                        category.id !== "bolos" ||
-                        product.variants.some(
-                          (variant) => variant.id === selectedCakeSize
-                        )
+                  {products.length === 0 ? (
+                    <p className="rounded-2xl border border-primary/10 bg-surface-0/70 px-4 py-5 text-sm text-muted">
+                      Produtos em breve.
+                    </p>
+                  ) : (
+                    Array.from(productGroups.entries()).map(
+                      ([group, groupProducts], groupIndex) => (
+                        <div
+                          key={group || "products"}
+                          className={groupIndex > 0 ? "mt-8" : undefined}
+                        >
+                          {group ? (
+                            <h3 className="mb-3 font-display text-xl text-foreground">
+                              {group}
+                            </h3>
+                          ) : null}
+                          {groupProducts.map((product, index) => (
+                            <CatalogProductRow
+                              key={product.id}
+                              product={product}
+                              index={index}
+                              preferredVariantId={
+                                category.id === "bolos"
+                                  ? selectedCakeSize
+                                  : undefined
+                              }
+                              onSelect={selectProduct}
+                            />
+                          ))}
+                        </div>
+                      )
                     )
-                    .map((product, index) => (
-                    <CatalogProductRow
-                      key={product.id}
-                      product={product}
-                      index={index}
-                      preferredVariantId={
-                        category.id === "bolos" ? selectedCakeSize : undefined
-                      }
-                      onSelect={selectProduct}
-                    />
-                    ))}
+                  )}
                 </section>
               );
             })

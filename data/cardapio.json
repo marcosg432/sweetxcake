@@ -3,7 +3,7 @@
     {
       "id": "salgados",
       "slug": "salgados",
-      "label": "Salgados",
+      "label": "Lanches",
       "title": "Opções Salgadas",
       "description": "Sanduíches, tapiocas e lanches preparados na hora."
     },
@@ -12,7 +12,7 @@
       "slug": "bebidas",
       "label": "Bebidas",
       "title": "Bebidas",
-      "description": "Cafés especiais, quentes e geladas."
+      "description": "Cafés, bebidas quentes, geladas, sucos e vinhos."
     },
     {
       "id": "sobremesas",
@@ -20,6 +20,13 @@
       "label": "Sobremesas",
       "title": "Sobremesas",
       "description": "Cheesecakes, potes, tortinhas e doces artesanais."
+    },
+    {
+      "id": "sweets",
+      "slug": "sweets",
+      "label": "Sweets",
+      "title": "Sweets",
+      "description": "Seleção especial de doces Sweet Cheesecake."
     },
     {
       "id": "presentes",
@@ -31,194 +38,1146 @@
   ],
   "products": [
     {
-      "id": "sanduiche-croissant",
-      "slug": "sanduiche-croissant",
+      "id": "pao-de-queijo",
+      "slug": "pao-de-queijo",
       "categoryId": "salgados",
-      "nome": "Sanduíche de Croissant",
-      "descricaoCurta": "Croissant folhado com peito de peru, queijo, tomate e rúcula.",
-      "preco": 28,
+      "nome": "Pão de Queijo",
+      "descricaoCurta": "Pão de queijo assado, servido quentinho.",
+      "preco": 8,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["pão de queijo", "queijo", "lanche", "salgado"]
+    },
+    {
+      "id": "toast-cream-cheese-geleia",
+      "slug": "toast-cream-cheese-geleia",
+      "categoryId": "salgados",
+      "nome": "Toast + Cream Cheese e Geleia",
+      "descricaoCurta": "Toast crocante com cream cheese e geleia artesanal.",
+      "preco": 16,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["toast", "cream cheese", "geleia", "lanche"]
+    },
+    {
+      "id": "croissant-amanteigado",
+      "slug": "croissant-amanteigado",
+      "categoryId": "salgados",
+      "nome": "Croissant Amanteigado",
+      "descricaoCurta": "Croissant folhado, leve e amanteigado.",
+      "preco": 14,
       "imagem": "/images/home/carousel/croissant-sanduiche.png",
-      "tags": ["croissant", "sanduíche", "peru", "salgado"]
+      "tags": ["croissant", "amanteigado", "lanche"]
     },
     {
-      "id": "sanduiche-carne-desfiada",
-      "slug": "sanduiche-carne-desfiada",
+      "id": "quiche-vegana",
+      "slug": "quiche-vegana",
       "categoryId": "salgados",
-      "nome": "Sanduíche Carne Desfiada",
-      "descricaoCurta": "Pão artesanal, carne desfiada, queijo, cebola roxa e folhas frescas.",
-      "preco": 32,
-      "imagem": "/images/home/carousel/sanduiche-carne-desfiada.png",
-      "tags": ["sanduíche", "carne", "salgado"]
+      "nome": "Quiche Vegana",
+      "descricaoCurta": "Quiche artesanal com recheio vegano.",
+      "preco": 12,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["quiche", "vegana", "lanche"]
     },
     {
-      "id": "sanduiche-grelhado",
-      "slug": "sanduiche-grelhado",
+      "id": "trio-sub-perfeito",
+      "slug": "trio-sub-perfeito",
       "categoryId": "salgados",
-      "nome": "Sanduíche Grelhado",
-      "descricaoCurta": "Pão grelhado com carne desfiada, queijo, alface e cebola.",
-      "preco": 30,
+      "nome": "Trio Sub Perfeito",
+      "descricaoCurta": "Trio especial de subs artesanais.",
+      "preco": 35,
       "imagem": "/images/home/carousel/sanduiche-grelhado.png",
-      "tags": ["sanduíche", "grelhado", "salgado"]
+      "tags": ["trio", "sub", "sanduíche", "lanche"]
     },
     {
-      "id": "tapioca-frango",
-      "slug": "tapioca-frango",
+      "id": "pao-de-queijo-dpanela",
+      "slug": "pao-de-queijo-dpanela",
       "categoryId": "salgados",
-      "nome": "Tapioca de Frango",
-      "descricaoCurta": "Tapioca recheada com frango temperado, salada e creme.",
-      "preco": 24,
-      "imagem": "/images/home/carousel/tapioca-frango.png",
-      "tags": ["tapioca", "frango", "salgado"]
+      "nome": "Pão de Queijo D'Panela",
+      "descricaoCurta": "Pão de queijo artesanal D'Panela.",
+      "preco": 18,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["pão de queijo", "dpanela", "lanche"]
     },
     {
-      "id": "tapioca-carne",
-      "slug": "tapioca-carne",
+      "id": "furioso",
+      "slug": "furioso",
       "categoryId": "salgados",
-      "nome": "Tapioca de Carne",
-      "descricaoCurta": "Tapioca generosa com carne desfiada, creme e cebola roxa.",
-      "preco": 26,
-      "imagem": "/images/home/carousel/tapioca-carne.png",
-      "tags": ["tapioca", "carne", "salgado"]
+      "nome": "Furioso",
+      "descricaoCurta": "Lanche artesanal de sabor marcante.",
+      "preco": 29,
+      "imagem": "/images/home/carousel/sanduiche-carne-desfiada.png",
+      "tags": ["furioso", "sanduíche", "lanche"]
     },
     {
-      "id": "capuccino-cremoso",
-      "slug": "capuccino-cremoso",
+      "id": "crostinis-com-antepasto",
+      "slug": "crostinis-com-antepasto",
+      "categoryId": "salgados",
+      "nome": "Crostinis com Antepasto",
+      "descricaoCurta": "Crostinis crocantes acompanhados de antepasto.",
+      "preco": 16,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["crostinis", "antepasto", "lanche"]
+    },
+    {
+      "id": "pao-de-queijo-trio-dos-sonhos",
+      "slug": "pao-de-queijo-trio-dos-sonhos",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo Trio dos Sonhos",
+      "descricaoCurta": "Trio especial de pães de queijo.",
+      "preco": 29,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["pão de queijo", "trio", "lanche"]
+    },
+    {
+      "id": "monte-seu-pao-de-queijo",
+      "slug": "monte-seu-pao-de-queijo",
+      "categoryId": "salgados",
+      "nome": "Monte o Seu Pão de Queijo",
+      "descricaoCurta": "Pão de queijo preparado para você personalizar.",
+      "preco": 18,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["pão de queijo", "personalizado", "lanche"]
+    },
+    {
+      "id": "coxinha-zero-gluten",
+      "slug": "coxinha-zero-gluten",
+      "categoryId": "salgados",
+      "nome": "Coxinha Zero Glúten",
+      "descricaoCurta": "Coxinha preparada sem glúten.",
+      "preco": 14,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["coxinha", "sem glúten", "restritivo", "lanche"]
+    },
+    {
+      "id": "spread-cream-cheese-geleia-torradas",
+      "slug": "spread-cream-cheese-geleia-torradas",
+      "categoryId": "salgados",
+      "nome": "Spread Cream Cheese + Geleia + Torradas",
+      "descricaoCurta": "Spread de cream cheese e geleia acompanhado de torradas.",
+      "preco": 80,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["spread", "cream cheese", "geleia", "torradas", "lanche"]
+    },
+    {
+      "id": "sub-da-sweet",
+      "slug": "sub-da-sweet",
+      "categoryId": "salgados",
+      "nome": "Sub da Sweet",
+      "descricaoCurta": "Sub artesanal preparado no estilo Sweet Cheesecake.",
+      "preco": 25,
+      "imagem": "/images/home/carousel/sanduiche-grelhado.png",
+      "tags": ["sub", "sanduíche", "sweet", "lanche"]
+    },
+    {
+      "id": "dpanela",
+      "slug": "dpanela",
+      "categoryId": "salgados",
+      "nome": "D'Panela",
+      "descricaoCurta": "Lanche artesanal D'Panela.",
+      "preco": 27,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["dpanela", "artesanal", "lanche"]
+    },
+    {
+      "id": "pao-de-queijo-o-queridinho",
+      "slug": "pao-de-queijo-o-queridinho",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo O Queridinho",
+      "descricaoCurta": "Pão de queijo artesanal O Queridinho.",
+      "preco": 17,
+      "imagem": "/images/categories/category-lanches.png",
+      "tags": ["pão de queijo", "o queridinho", "lanche"]
+    },
+    {
+      "id": "trufa-chock-preto",
+      "slug": "trufa-chock-preto",
+      "categoryId": "sweets",
+      "nome": "Trufa Chock Preto",
+      "descricaoCurta": "Trufa artesanal Chock Preto.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["trufa", "chocolate", "sweet"]
+    },
+    {
+      "id": "bombom-red-velvet",
+      "slug": "bombom-red-velvet",
+      "categoryId": "sweets",
+      "nome": "Bombom Red Velvet",
+      "descricaoCurta": "Bombom artesanal sabor Red Velvet.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["bombom", "red velvet", "sweet"]
+    },
+    {
+      "id": "brigadeiro-de-pistache",
+      "slug": "brigadeiro-de-pistache",
+      "categoryId": "sweets",
+      "nome": "Brigadeiro de Pistache",
+      "descricaoCurta": "Brigadeiro artesanal de pistache.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["brigadeiro", "pistache", "sweet"]
+    },
+    {
+      "id": "cookie-americano",
+      "slug": "cookie-americano",
+      "categoryId": "sweets",
+      "nome": "Cookie Americano",
+      "descricaoCurta": "Cookie artesanal no estilo americano.",
+      "preco": 10,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["cookie", "americano", "sweet"]
+    },
+    {
+      "id": "bombom-caramelo-crocante",
+      "slug": "bombom-caramelo-crocante",
+      "categoryId": "sweets",
+      "nome": "Bombom Caramelo Crocante",
+      "descricaoCurta": "Bombom artesanal de caramelo crocante.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["bombom", "caramelo", "crocante", "sweet"]
+    },
+    {
+      "id": "sweets-brownie",
+      "slug": "sweets-brownie",
+      "categoryId": "sweets",
+      "nome": "Brownie",
+      "descricaoCurta": "Brownie artesanal de chocolate.",
+      "preco": 12,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["brownie", "chocolate", "sweet"]
+    },
+    {
+      "id": "barra-red-velvet-75g",
+      "slug": "barra-red-velvet-75g",
+      "categoryId": "sweets",
+      "nome": "Barra Red Velvet 75grs.",
+      "descricaoCurta": "Barra artesanal Red Velvet de 75 gramas.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["barra", "red velvet", "75g", "sweet"]
+    },
+    {
+      "id": "barra-caramelo-75g",
+      "slug": "barra-caramelo-75g",
+      "categoryId": "sweets",
+      "nome": "Barra Caramelo 75grs.",
+      "descricaoCurta": "Barra artesanal de caramelo com 75 gramas.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["barra", "caramelo", "75g", "sweet"]
+    },
+    {
+      "id": "cookie-de-pistache",
+      "slug": "cookie-de-pistache",
+      "categoryId": "sweets",
+      "nome": "Cookie de Pistache",
+      "descricaoCurta": "Cookie artesanal de pistache.",
+      "preco": 14,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["cookie", "pistache", "sweet"]
+    },
+    {
+      "id": "morango-do-amor-pequeno",
+      "slug": "morango-do-amor-pequeno",
+      "categoryId": "sweets",
+      "nome": "Morango do Amor Pequeno",
+      "descricaoCurta": "Versão pequena do Morango do Amor.",
+      "preco": 17,
+      "imagem": "/images/home/carousel/hero-01.png",
+      "tags": ["morango", "morango do amor", "sweet"]
+    },
+    {
+      "id": "morango-do-amor",
+      "slug": "morango-do-amor",
+      "categoryId": "sweets",
+      "nome": "Morango do Amor",
+      "descricaoCurta": "Morango do Amor artesanal Sweet.",
+      "preco": 19,
+      "imagem": "/images/home/carousel/hero-01.png",
+      "tags": ["morango", "morango do amor", "sweet"]
+    },
+    {
+      "id": "trufa-pink-lemonade",
+      "slug": "trufa-pink-lemonade",
+      "categoryId": "sweets",
+      "nome": "Trufa Pink Lemonade",
+      "descricaoCurta": "Trufa artesanal sabor Pink Lemonade.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["trufa", "pink lemonade", "sweet"]
+    },
+    {
+      "id": "bombom-cappuccino",
+      "slug": "bombom-cappuccino",
+      "categoryId": "sweets",
+      "nome": "Bombom Cappuccino",
+      "descricaoCurta": "Bombom artesanal sabor cappuccino.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["bombom", "cappuccino", "café", "sweet"]
+    },
+    {
+      "id": "trufa-cafe-com-leite",
+      "slug": "trufa-cafe-com-leite",
+      "categoryId": "sweets",
+      "nome": "Trufa Café com Leite",
+      "descricaoCurta": "Trufa artesanal sabor café com leite.",
+      "preco": 5,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["trufa", "café com leite", "sweet"]
+    },
+    {
+      "id": "brigadeiro-de-morango",
+      "slug": "brigadeiro-de-morango",
+      "categoryId": "sweets",
+      "nome": "Brigadeiro de Morango",
+      "descricaoCurta": "Brigadeiro artesanal de morango.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["brigadeiro", "morango", "sweet"]
+    },
+    {
+      "id": "bombom-do-amor",
+      "slug": "bombom-do-amor",
+      "categoryId": "sweets",
+      "nome": "Bombom do Amor",
+      "descricaoCurta": "Bombom artesanal do Amor.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["bombom", "amor", "sweet"]
+    },
+    {
+      "id": "trufa-maracuja",
+      "slug": "trufa-maracuja",
+      "categoryId": "sweets",
+      "nome": "Trufa Maracujá",
+      "descricaoCurta": "Trufa artesanal de maracujá.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["trufa", "maracujá", "sweet"]
+    },
+    {
+      "id": "brigadeiro-de-maracuja",
+      "slug": "brigadeiro-de-maracuja",
+      "categoryId": "sweets",
+      "nome": "Brigadeiro de Maracujá",
+      "descricaoCurta": "Brigadeiro artesanal de maracujá.",
+      "preco": 4,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["brigadeiro", "maracujá", "sweet"]
+    },
+    {
+      "id": "suspiros-sweet",
+      "slug": "suspiros-sweet",
+      "categoryId": "sweets",
+      "nome": "Suspiros Sweet",
+      "descricaoCurta": "Suspiros artesanais Sweet Cheesecake.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["suspiro", "artesanal", "sweet"]
+    },
+    {
+      "id": "kit-6-trufas",
+      "slug": "kit-6-trufas",
+      "categoryId": "sweets",
+      "nome": "Kit 6 Trufas",
+      "descricaoCurta": "Kit especial com seis trufas artesanais.",
+      "preco": 24.9,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["kit", "trufas", "presente", "sweet"]
+    },
+    {
+      "id": "pao-de-mel-artesanal",
+      "slug": "pao-de-mel-artesanal",
+      "categoryId": "sweets",
+      "nome": "Pão de Mel Artesanal",
+      "descricaoCurta": "Pão de mel preparado artesanalmente.",
+      "preco": 15,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["pão de mel", "artesanal", "sweet"]
+    },
+    {
+      "id": "mimo-professores-trufa",
+      "slug": "mimo-professores-trufa",
+      "categoryId": "sweets",
+      "nome": "Mimo Professores - Trufa",
+      "descricaoCurta": "Mimo especial com trufa para professores.",
+      "preco": 7.5,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["mimo", "professores", "trufa", "presente", "sweet"]
+    },
+    {
+      "id": "maria-mole-artesanal-sweet",
+      "slug": "maria-mole-artesanal-sweet",
+      "categoryId": "sweets",
+      "nome": "Maria Mole Artesanal Sweet",
+      "descricaoCurta": "Maria mole preparada artesanalmente.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["maria mole", "artesanal", "sweet"]
+    },
+    {
+      "id": "mini-cookies-americanos-80g",
+      "slug": "mini-cookies-americanos-80g",
+      "categoryId": "sweets",
+      "nome": "Mini Cookies Americanos 80g",
+      "descricaoCurta": "Porção de mini cookies americanos com 80 gramas.",
+      "preco": 10,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["mini cookies", "americano", "80g", "sweet"]
+    },
+    {
+      "id": "cafezinho-mineiro",
+      "slug": "cafezinho-mineiro",
       "categoryId": "bebidas",
-      "nome": "Capuccino Cremoso",
-      "descricaoCurta": "Espresso, leite vaporizado e espuma aveludada.",
+      "nome": "Cafezinho Mineiro",
+      "descricaoCurta": "Cafezinho tradicional no estilo mineiro.",
+      "preco": 7,
+      "imagem": "/images/categories/category-cafeteria.png",
+      "tags": ["café", "mineiro", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "capuccino-chei-de-trem",
+      "slug": "capuccino-chei-de-trem",
+      "categoryId": "bebidas",
+      "nome": "Capuccino Chei de Trem",
+      "descricaoCurta": "Capuccino cremoso especial da casa.",
       "preco": 14,
       "imagem": "/images/products/product-capuccino.png",
-      "tags": ["café", "capuccino", "quente", "bebida"]
+      "tags": ["café", "capuccino", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
     },
     {
-      "id": "cafe-especial",
-      "slug": "cafe-especial",
+      "id": "espresso",
+      "slug": "espresso",
       "categoryId": "bebidas",
-      "nome": "Café Especial",
-      "descricaoCurta": "Grãos selecionados, extração equilibrada e aroma intenso.",
-      "preco": 10,
+      "nome": "Espresso",
+      "descricaoCurta": "Café espresso de sabor intenso.",
+      "preco": 7,
       "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["café", "espresso", "quente", "bebida"]
+      "tags": ["café", "espresso", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "prensa-francesa",
+      "slug": "prensa-francesa",
+      "categoryId": "bebidas",
+      "nome": "Prensa Francesa",
+      "descricaoCurta": "Café preparado na prensa francesa.",
+      "preco": 9,
+      "imagem": "/images/categories/category-cafeteria.png",
+      "tags": ["café", "prensa francesa", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "prensa-francesa-dupla",
+      "slug": "prensa-francesa-dupla",
+      "categoryId": "bebidas",
+      "nome": "Prensa Francesa Dupla",
+      "descricaoCurta": "Porção dupla de café preparado na prensa francesa.",
+      "preco": 18,
+      "imagem": "/images/categories/category-cafeteria.png",
+      "tags": ["café", "prensa francesa", "dupla", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "chai-latte",
+      "slug": "chai-latte",
+      "categoryId": "bebidas",
+      "nome": "Chai Latte",
+      "descricaoCurta": "Chai Latte cremoso e aromático.",
+      "preco": 14,
+      "imagem": "/images/products/product-capuccino.png",
+      "tags": ["chai", "latte", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
     },
     {
       "id": "chocolate-quente",
       "slug": "chocolate-quente",
       "categoryId": "bebidas",
       "nome": "Chocolate Quente",
-      "descricaoCurta": "Chocolate cremoso, finalizado com toque de cacau.",
+      "descricaoCurta": "Chocolate quente cremoso.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["chocolate", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "cappuccino-metido-a-besta",
+      "slug": "cappuccino-metido-a-besta",
+      "categoryId": "bebidas",
+      "nome": "Cappuccino Metido a Besta",
+      "descricaoCurta": "Cappuccino especial da casa.",
+      "preco": 14,
+      "imagem": "/images/products/product-capuccino.png",
+      "tags": ["café", "cappuccino", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "cha-quente",
+      "slug": "cha-quente",
+      "categoryId": "bebidas",
+      "nome": "Chá Quente",
+      "descricaoCurta": "Chá quente preparado na hora.",
+      "preco": 10,
+      "imagem": "/images/categories/category-cafeteria.png",
+      "tags": ["chá", "quente", "bebida"],
+      "grupo": "Bebidas Quentes"
+    },
+    {
+      "id": "cafe-gelado-mega-cremoso-500ml",
+      "slug": "cafe-gelado-mega-cremoso-500ml",
+      "categoryId": "bebidas",
+      "nome": "Café Gelado Mega Cremoso 500ml",
+      "descricaoCurta": "Café gelado cremoso em copo de 500ml.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["café", "gelado", "cremoso", "500ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "frappuccino-caramelo-500ml",
+      "slug": "frappuccino-caramelo-500ml",
+      "categoryId": "bebidas",
+      "nome": "Frappuccino Caramelo 500ml",
+      "descricaoCurta": "Frappuccino gelado de caramelo com 500ml.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["frappuccino", "caramelo", "gelado", "500ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "smoothie-morango-banana-500ml",
+      "slug": "smoothie-morango-banana-500ml",
+      "categoryId": "bebidas",
+      "nome": "Smoothie de Morango e Banana 500ml",
+      "descricaoCurta": "Smoothie gelado de morango e banana com 500ml.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["smoothie", "morango", "banana", "500ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "coca-cola-350ml",
+      "slug": "coca-cola-350ml",
+      "categoryId": "bebidas",
+      "nome": "Coca-Cola 350ml",
+      "descricaoCurta": "Coca-Cola em lata de 350ml.",
+      "preco": 6,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["coca-cola", "refrigerante", "350ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "agua-com-gas",
+      "slug": "agua-com-gas",
+      "categoryId": "bebidas",
+      "nome": "Água com Gás",
+      "descricaoCurta": "Água mineral com gás.",
+      "preco": 5,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["água", "com gás", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "agua-mineral",
+      "slug": "agua-mineral",
+      "categoryId": "bebidas",
+      "nome": "Água Mineral",
+      "descricaoCurta": "Água mineral sem gás.",
+      "preco": 5,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["água", "mineral", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "pink-lemonade",
+      "slug": "pink-lemonade",
+      "categoryId": "bebidas",
+      "nome": "Pink Lemonade",
+      "descricaoCurta": "Limonada rosa refrescante.",
+      "preco": 10,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["pink lemonade", "limonada", "gelada", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "limonada-colombiana-500ml",
+      "slug": "limonada-colombiana-500ml",
+      "categoryId": "bebidas",
+      "nome": "Limonada Colombiana 500ml",
+      "descricaoCurta": "Limonada colombiana cremosa com 500ml.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["limonada", "colombiana", "500ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "coca-cola-zero-350ml",
+      "slug": "coca-cola-zero-350ml",
+      "categoryId": "bebidas",
+      "nome": "Coca-Cola Zero 350ml",
+      "descricaoCurta": "Coca-Cola Zero em lata de 350ml.",
+      "preco": 6,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["coca-cola", "zero", "refrigerante", "350ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "coca-ks",
+      "slug": "coca-ks",
+      "categoryId": "bebidas",
+      "nome": "Coca KS",
+      "descricaoCurta": "Coca-Cola em garrafa KS.",
+      "preco": 7,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["coca-cola", "ks", "refrigerante", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "coca-ks-zero",
+      "slug": "coca-ks-zero",
+      "categoryId": "bebidas",
+      "nome": "Coca KS Zero",
+      "descricaoCurta": "Coca-Cola Zero em garrafa KS.",
+      "preco": 7,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["coca-cola", "ks", "zero", "refrigerante", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "suco-laranja-fresca-300ml",
+      "slug": "suco-laranja-fresca-300ml",
+      "categoryId": "bebidas",
+      "nome": "Suco de Laranja Fresca 300ml",
+      "descricaoCurta": "Suco fresco de laranja com 300ml.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["suco", "laranja", "fresco", "300ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "sprite-lata",
+      "slug": "sprite-lata",
+      "categoryId": "bebidas",
+      "nome": "Sprite Lata",
+      "descricaoCurta": "Refrigerante Sprite em lata.",
+      "preco": 6,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["sprite", "refrigerante", "lata", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "schweppes",
+      "slug": "schweppes",
+      "categoryId": "bebidas",
+      "nome": "Schweppes",
+      "descricaoCurta": "Refrigerante Schweppes gelado.",
+      "preco": 6,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["schweppes", "refrigerante", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "cha-gelado",
+      "slug": "cha-gelado",
+      "categoryId": "bebidas",
+      "nome": "Chá Gelado",
+      "descricaoCurta": "Chá gelado refrescante.",
+      "preco": 13,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["chá", "gelado", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "smoothie-frutas-vermelhas-coco-500ml",
+      "slug": "smoothie-frutas-vermelhas-coco-500ml",
+      "categoryId": "bebidas",
+      "nome": "Smoothie Frutas Vermelhas e Leite de Coco 500ml",
+      "descricaoCurta": "Smoothie de frutas vermelhas e leite de coco com 500ml.",
+      "preco": 21,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["smoothie", "frutas vermelhas", "leite de coco", "500ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "suco-maracuja-300ml",
+      "slug": "suco-maracuja-300ml",
+      "categoryId": "bebidas",
+      "nome": "Suco de Maracujá 300ml",
+      "descricaoCurta": "Suco de maracujá com 300ml.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["suco", "maracujá", "300ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "taca-vinho-reserva",
+      "slug": "taca-vinho-reserva",
+      "categoryId": "bebidas",
+      "nome": "Taça de Vinho Reserva",
+      "descricaoCurta": "Taça de vinho reserva.",
+      "preco": 14.9,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["vinho", "taça", "reserva", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "vinho-suave-garrafa",
+      "slug": "vinho-suave-garrafa",
+      "categoryId": "bebidas",
+      "nome": "Vinho Suave Garrafa",
+      "descricaoCurta": "Garrafa de vinho suave.",
+      "preco": 39.9,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["vinho", "suave", "garrafa", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "suco-kiwi-300ml",
+      "slug": "suco-kiwi-300ml",
+      "categoryId": "bebidas",
+      "nome": "Suco de Kiwi 300ml",
+      "descricaoCurta": "Suco de kiwi com 300ml.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["suco", "kiwi", "300ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "pina-colada-bebida",
+      "slug": "pina-colada-bebida",
+      "categoryId": "bebidas",
+      "nome": "Piña Colada",
+      "descricaoCurta": "Bebida gelada sabor Piña Colada.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["piña colada", "coco", "abacaxi", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "suco-abacaxi-300ml",
+      "slug": "suco-abacaxi-300ml",
+      "categoryId": "bebidas",
+      "nome": "Suco de Abacaxi 300ml",
+      "descricaoCurta": "Suco de abacaxi com 300ml.",
+      "preco": 12,
+      "imagem": "/images/categories/category-bebidas.png",
+      "tags": ["suco", "abacaxi", "300ml", "bebida"],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "suco-laranja-morango",
+      "slug": "suco-laranja-morango",
+      "categoryId": "bebidas",
+      "nome": "Suco de Laranja com Morango",
+      "descricaoCurta": "Suco fresco de laranja com morango.",
       "preco": 16,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["chocolate", "quente", "bebida"]
+      "tags": ["suco", "laranja", "morango", "bebida"],
+      "grupo": "Bebidas Geladas"
     },
     {
-      "id": "cheesecake-frutas",
-      "slug": "cheesecake-frutas",
+      "id": "pote-red-velvet-250ml",
+      "slug": "pote-red-velvet-250ml",
       "categoryId": "sobremesas",
-      "nome": "Cheesecake Frutas Vermelhas",
-      "descricaoCurta": "Base crocante, creme suave e calda de frutas vermelhas.",
-      "preco": 18,
-      "imagem": "/images/products/product-cheesecake.png",
-      "tags": ["cheesecake", "morango", "doce", "sobremesa"]
-    },
-    {
-      "id": "cheesecake-pote",
-      "slug": "cheesecake-pote",
-      "categoryId": "sobremesas",
-      "nome": "Cheesecake no Pote",
-      "descricaoCurta": "Camadas cremosas de cheesecake com frutas vermelhas.",
+      "nome": "Pote Red Velvet 250ml",
+      "descricaoCurta": "Sobremesa Red Velvet servida em pote de 250ml.",
       "preco": 16,
       "imagem": "/images/home/carousel/hero-02.png",
-      "tags": ["cheesecake", "pote", "morango", "sobremesa"]
+      "tags": ["pote", "red velvet", "250ml", "sobremesa"]
     },
     {
-      "id": "pote-chocolate-limao",
-      "slug": "pote-chocolate-limao",
+      "id": "pote-ninho-nutella-250ml",
+      "slug": "pote-ninho-nutella-250ml",
       "categoryId": "sobremesas",
-      "nome": "Pote Chocolate e Limão",
-      "descricaoCurta": "Chocolate intenso com creme de limão e finalização cítrica.",
-      "preco": 17,
+      "nome": "Pote Ninho e Nutella 250ml",
+      "descricaoCurta": "Sobremesa de Ninho e Nutella servida em pote de 250ml.",
+      "preco": 16,
       "imagem": "/images/home/carousel/hero-04.png",
-      "tags": ["pote", "chocolate", "limão", "sobremesa"]
+      "tags": ["pote", "ninho", "nutella", "250ml", "sobremesa"]
     },
     {
-      "id": "tortinha-chocolate",
-      "slug": "tortinha-chocolate",
+      "id": "pote-pistache-250ml",
+      "slug": "pote-pistache-250ml",
       "categoryId": "sobremesas",
-      "nome": "Tortinha de Chocolate",
-      "descricaoCurta": "Massa amanteigada, ganache e raspas de chocolate.",
-      "preco": 15,
-      "imagem": "/images/home/carousel/tortinha-chocolate-mordida.png",
-      "tags": ["torta", "chocolate", "sobremesa"]
-    },
-    {
-      "id": "torta-chocolate",
-      "slug": "torta-chocolate",
-      "categoryId": "sobremesas",
-      "nome": "Torta de Chocolate",
-      "descricaoCurta": "Torta artesanal com ganache brilhante e raspas.",
-      "preco": 22,
-      "imagem": "/images/home/carousel/torta-chocolate-raspagem.png",
-      "tags": ["torta", "chocolate", "sobremesa"]
-    },
-    {
-      "id": "brownie-tradicional",
-      "slug": "brownie-tradicional",
-      "categoryId": "sobremesas",
-      "nome": "Brownie Tradicional",
-      "descricaoCurta": "Brownie úmido de chocolate meio amargo.",
-      "preco": 12,
-      "imagem": "/images/products/product-brownie.png",
-      "tags": ["brownie", "chocolate", "sobremesa"]
-    },
-    {
-      "id": "pote-canela-caramelo",
-      "slug": "pote-canela-caramelo",
-      "categoryId": "sobremesas",
-      "nome": "Pote Canela e Caramelo",
-      "descricaoCurta": "Camadas aveludadas com canela e caramelo artesanal.",
+      "nome": "Pote Pistache 250ml",
+      "descricaoCurta": "Sobremesa de pistache servida em pote de 250ml.",
       "preco": 16,
       "imagem": "/images/home/carousel/hero-06.png",
-      "tags": ["pote", "canela", "caramelo", "sobremesa"]
+      "tags": ["pote", "pistache", "250ml", "sobremesa"]
     },
     {
-      "id": "kit-doce-amor",
-      "slug": "kit-doce-amor",
-      "categoryId": "presentes",
-      "nome": "Kit Doce Amor",
-      "descricaoCurta": "Seleção de doces para presentear com carinho.",
-      "preco": 48,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["kit", "presente", "doce", "namorados"]
+      "id": "cheesecake-cremosa-sabores",
+      "slug": "cheesecake-cremosa-sabores",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Cremosa (Sabores)",
+      "descricaoCurta": "Cheesecake cremosa disponível em sabores variados.",
+      "preco": 17,
+      "imagem": "/images/products/product-cheesecake.png",
+      "tags": ["cheesecake", "cremosa", "sabores", "sobremesa"]
     },
     {
-      "id": "kit-chocolate",
-      "slug": "kit-chocolate",
-      "categoryId": "presentes",
-      "nome": "Kit Chocolate",
-      "descricaoCurta": "Combinação de brownies e bombons em embalagem especial.",
-      "preco": 42,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["kit", "chocolate", "presente", "brownie"]
+      "id": "banoffee-pote",
+      "slug": "banoffee-pote",
+      "categoryId": "sobremesas",
+      "nome": "Banoffee Pote",
+      "descricaoCurta": "Banoffee artesanal servida no pote.",
+      "preco": 16,
+      "imagem": "/images/home/carousel/hero-06.png",
+      "tags": ["banoffee", "pote", "banana", "sobremesa"]
     },
     {
-      "id": "caixa-presente-cheesecake",
-      "slug": "caixa-presente-cheesecake",
-      "categoryId": "presentes",
-      "nome": "Caixa Presente Cheesecake",
-      "descricaoCurta": "Cheesecakes individuais em embalagem de presente.",
-      "preco": 55,
-      "imagem": "/images/home/carousel/hero-01.png",
-      "tags": ["presente", "cheesecake", "caixa", "morango"]
+      "id": "cheesecake-new-york-style",
+      "slug": "cheesecake-new-york-style",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake New York Style",
+      "descricaoCurta": "Cheesecake cremosa no estilo clássico de Nova York.",
+      "preco": 19,
+      "imagem": "/images/products/product-cheesecake.png",
+      "tags": ["cheesecake", "new york", "sobremesa"]
     },
     {
-      "id": "bolo-fatia-presente",
-      "slug": "bolo-fatia-presente",
-      "categoryId": "presentes",
-      "nome": "Fatia Presente",
-      "descricaoCurta": "Fatia generosa de bolo artesanal, pronta para presentear.",
-      "preco": 20,
+      "id": "cheesecake-pistache-cerejas-new-york",
+      "slug": "cheesecake-pistache-cerejas-new-york",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Pistache e Cerejas New York",
+      "descricaoCurta": "Cheesecake New York com pistache e cerejas.",
+      "preco": 21,
+      "imagem": "/images/products/product-cheesecake.png",
+      "tags": ["cheesecake", "pistache", "cerejas", "new york", "sobremesa"]
+    },
+    {
+      "id": "canjicao",
+      "slug": "canjicao",
+      "categoryId": "sobremesas",
+      "nome": "Canjicão",
+      "descricaoCurta": "Canjicão cremoso preparado artesanalmente.",
+      "preco": 12,
+      "imagem": "/images/home/carousel/hero-06.png",
+      "tags": ["canjicão", "cremoso", "sobremesa"]
+    },
+    {
+      "id": "pote-pina-colada",
+      "slug": "pote-pina-colada",
+      "categoryId": "sobremesas",
+      "nome": "Pote Piña Colada",
+      "descricaoCurta": "Sobremesa Piña Colada servida no pote.",
+      "preco": 16,
+      "imagem": "/images/products/bolos/bolo-pina-colada.png",
+      "tags": ["pote", "piña colada", "coco", "abacaxi", "sobremesa"]
+    },
+    {
+      "id": "pote-bolo-pudim",
+      "slug": "pote-bolo-pudim",
+      "categoryId": "sobremesas",
+      "nome": "Pote Bolo Pudim",
+      "descricaoCurta": "Bolo pudim artesanal servido no pote.",
+      "preco": 19,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["presente", "bolo", "fatia"]
+      "tags": ["pote", "bolo pudim", "sobremesa"]
+    },
+    {
+      "id": "fatia-red-velvet",
+      "slug": "fatia-red-velvet",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Red Velvet",
+      "descricaoCurta": "Fatia do bolo artesanal Red Velvet.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-red-velvet.png",
+      "tags": ["fatia", "red velvet", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-ninho-nutella",
+      "slug": "fatia-ninho-nutella",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Ninho com Nutella",
+      "descricaoCurta": "Fatia do bolo artesanal de Ninho com Nutella.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
+      "tags": ["fatia", "ninho", "nutella", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-pistachio",
+      "slug": "fatia-pistachio",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Pistachio",
+      "descricaoCurta": "Fatia do bolo artesanal de pistache.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-pistache.png",
+      "tags": ["fatia", "pistache", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-sergios-cake",
+      "slug": "fatia-sergios-cake",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Sergio's Cake",
+      "descricaoCurta": "Fatia do bolo artesanal Sergio's Cake.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+      "tags": ["fatia", "sergios cake", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-prestigio-zero",
+      "slug": "fatia-prestigio-zero",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Prestígio Zero",
+      "descricaoCurta": "Fatia de Prestígio em versão zero.",
+      "preco": 22,
+      "imagem": "/images/products/product-bolo.png",
+      "tags": ["fatia", "prestígio", "zero", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-sergios-zero-gluten-zero-acucar",
+      "slug": "fatia-sergios-zero-gluten-zero-acucar",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Sergio's Zero Glúten e Zero Açúcar",
+      "descricaoCurta": "Fatia Sergio's sem glúten e sem açúcar.",
+      "preco": 22,
+      "imagem": "/images/products/bolos/bolo-sergios-cake.png",
+      "tags": ["fatia", "sergios", "zero glúten", "zero açúcar", "restritivo", "sobremesa"]
+    },
+    {
+      "id": "tiramisu",
+      "slug": "tiramisu",
+      "categoryId": "sobremesas",
+      "nome": "Tiramisu",
+      "descricaoCurta": "Tiramisu artesanal Sweet Cheesecake.",
+      "preco": 19,
+      "imagem": "/images/categories/category-tortas.png",
+      "tags": ["tiramisu", "café", "sobremesa"]
+    },
+    {
+      "id": "fatia-clarissa-cake",
+      "slug": "fatia-clarissa-cake",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Clarissa Cake",
+      "descricaoCurta": "Fatia do bolo artesanal Clarissa Cake.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-clarissa.png",
+      "tags": ["fatia", "clarissa cake", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-chocolatudo",
+      "slug": "fatia-chocolatudo",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Chocolatudo",
+      "descricaoCurta": "Fatia do bolo artesanal Chocolatudo.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-chocolatudo.png",
+      "tags": ["fatia", "chocolatudo", "chocolate", "bolo", "sobremesa"]
+    },
+    {
+      "id": "fatia-pina-colada",
+      "slug": "fatia-pina-colada",
+      "categoryId": "sobremesas",
+      "nome": "Fatia Piña Colada",
+      "descricaoCurta": "Fatia do bolo artesanal Piña Colada.",
+      "preco": 19,
+      "imagem": "/images/products/bolos/bolo-pina-colada.png",
+      "tags": ["fatia", "piña colada", "bolo", "sobremesa"]
+    },
+    {
+      "id": "bolo-gelado-pina-colada",
+      "slug": "bolo-gelado-pina-colada",
+      "categoryId": "sobremesas",
+      "nome": "Bolo Gelado Piña Colada",
+      "descricaoCurta": "Bolo gelado artesanal sabor Piña Colada.",
+      "preco": 10,
+      "imagem": "/images/products/bolos/bolo-pina-colada.png",
+      "tags": ["bolo gelado", "piña colada", "sobremesa"]
+    },
+    {
+      "id": "coracao-de-ouro",
+      "slug": "coracao-de-ouro",
+      "categoryId": "presentes",
+      "nome": "Coração de Ouro",
+      "descricaoCurta": "Mimo artesanal para presentear com carinho.",
+      "preco": 19,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["coração", "ouro", "mimo", "presente"]
+    },
+    {
+      "id": "barrinha-amor",
+      "slug": "barrinha-amor",
+      "categoryId": "presentes",
+      "nome": "Barrinha Amor",
+      "descricaoCurta": "Barrinha artesanal preparada para presentear.",
+      "preco": 16,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["barrinha", "amor", "presente"]
+    },
+    {
+      "id": "biscoitinhos-amanteigados",
+      "slug": "biscoitinhos-amanteigados",
+      "categoryId": "presentes",
+      "nome": "Biscoitinhos Amanteigados",
+      "descricaoCurta": "Biscoitinhos artesanais, leves e amanteigados.",
+      "preco": 14,
+      "imagem": "/images/products/product-brownie.png",
+      "tags": ["biscoitos", "amanteigados", "presente"]
+    },
+    {
+      "id": "trio-doce-amor-paes-de-mel",
+      "slug": "trio-doce-amor-paes-de-mel",
+      "categoryId": "presentes",
+      "nome": "Trio Doce Amor - Pães de Mel",
+      "descricaoCurta": "Trio especial de pães de mel artesanais.",
+      "preco": 44,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["trio", "doce amor", "pão de mel", "presente"]
+    },
+    {
+      "id": "mini-bolo-especial",
+      "slug": "mini-bolo-especial",
+      "categoryId": "presentes",
+      "nome": "Mini Bolo Especial",
+      "descricaoCurta": "Mini bolo artesanal em apresentação especial.",
+      "preco": 39,
+      "imagem": "/images/products/product-bolo.png",
+      "tags": ["mini bolo", "especial", "presente"]
+    },
+    {
+      "id": "caixa-doce-amor",
+      "slug": "caixa-doce-amor",
+      "categoryId": "presentes",
+      "nome": "Caixa Doce Amor",
+      "descricaoCurta": "Caixa especial de doces para presentear.",
+      "preco": 79,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["caixa", "doce amor", "presente"]
+    },
+    {
+      "id": "caixa-com-amor-trufas",
+      "slug": "caixa-com-amor-trufas",
+      "categoryId": "presentes",
+      "nome": "Caixa com Amor - Trufas",
+      "descricaoCurta": "Caixa especial com trufas artesanais.",
+      "preco": 36,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "trufas", "amor", "presente"]
+    },
+    {
+      "id": "mini-bolo-saudavel-cocada-baiana",
+      "slug": "mini-bolo-saudavel-cocada-baiana",
+      "categoryId": "presentes",
+      "nome": "Mini Bolo Saudável - Cocada Baiana",
+      "descricaoCurta": "Mini bolo saudável sabor Cocada Baiana.",
+      "preco": 39,
+      "imagem": "/images/products/product-bolo.png",
+      "tags": ["mini bolo", "saudável", "cocada baiana", "presente"]
+    },
+    {
+      "id": "mini-bolo-saudavel-limao-siciliano",
+      "slug": "mini-bolo-saudavel-limao-siciliano",
+      "categoryId": "presentes",
+      "nome": "Mini Bolo Saudável - Limão Siciliano",
+      "descricaoCurta": "Mini bolo saudável sabor Limão Siciliano.",
+      "preco": 44,
+      "imagem": "/images/products/product-bolo.png",
+      "tags": ["mini bolo", "saudável", "limão siciliano", "presente"]
+    },
+    {
+      "id": "sacola-maes",
+      "slug": "sacola-maes",
+      "categoryId": "presentes",
+      "nome": "Sacola Mães",
+      "descricaoCurta": "Sacola especial para montar seu presente.",
+      "preco": 7,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["sacola", "mães", "embalagem", "presente"]
+    },
+    {
+      "id": "pano-de-prato",
+      "slug": "pano-de-prato",
+      "categoryId": "presentes",
+      "nome": "Pano de Prato",
+      "descricaoCurta": "Pano de prato para complementar o presente.",
+      "preco": 10,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["pano de prato", "mimo", "presente"]
+    },
+    {
+      "id": "cesta-amor-saudavel",
+      "slug": "cesta-amor-saudavel",
+      "categoryId": "presentes",
+      "nome": "Cesta Amor Saudável",
+      "descricaoCurta": "Cesta especial com seleção de produtos saudáveis.",
+      "preco": 120,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["cesta", "amor", "saudável", "presente"]
+    },
+    {
+      "id": "sacola-maes-grande",
+      "slug": "sacola-maes-grande",
+      "categoryId": "presentes",
+      "nome": "Sacola Mães Grande",
+      "descricaoCurta": "Sacola grande para montar seu presente.",
+      "preco": 10,
+      "imagem": "/images/home/carousel/hero-03.png",
+      "tags": ["sacola", "mães", "grande", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-presenteavel-p",
+      "slug": "caixa-presenteavel-p",
+      "categoryId": "presentes",
+      "nome": "Caixa Presenteável P",
+      "descricaoCurta": "Caixa presenteável pequena para montar seu presente.",
+      "preco": 5,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "presenteável", "pequena", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-presenteavel-g",
+      "slug": "caixa-presenteavel-g",
+      "categoryId": "presentes",
+      "nome": "Caixa Presenteável G",
+      "descricaoCurta": "Caixa presenteável grande para montar seu presente.",
+      "preco": 15,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "presenteável", "grande", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-presenteavel-m",
+      "slug": "caixa-presenteavel-m",
+      "categoryId": "presentes",
+      "nome": "Caixa Presenteável M",
+      "descricaoCurta": "Caixa presenteável média para montar seu presente.",
+      "preco": 8,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "presenteável", "média", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-trufa-presente-3-unidades",
+      "slug": "caixa-trufa-presente-3-unidades",
+      "categoryId": "presentes",
+      "nome": "Caixa para Trufas - 3 Unidades",
+      "descricaoCurta": "Caixa presenteável para três trufas.",
+      "preco": 3,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "trufas", "3 unidades", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-presenteavel-6-unidades",
+      "slug": "caixa-presenteavel-6-unidades",
+      "categoryId": "presentes",
+      "nome": "Caixa Presenteável - 6 Unidades",
+      "descricaoCurta": "Caixa presenteável para seis unidades.",
+      "preco": 3,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "6 unidades", "embalagem", "presente"]
+    },
+    {
+      "id": "caixa-presenteavel-10-unidades",
+      "slug": "caixa-presenteavel-10-unidades",
+      "categoryId": "presentes",
+      "nome": "Caixa Presenteável - 10 Unidades",
+      "descricaoCurta": "Caixa presenteável para dez unidades.",
+      "preco": 5,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": ["caixa", "10 unidades", "embalagem", "presente"]
     }
   ]
 }

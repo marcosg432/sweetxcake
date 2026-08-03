@@ -1,26 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { BrandLogo } from "@/components/brand/brand-logo";
 import { InstagramIconButton } from "@/components/brand/instagram-link";
 import { CartBagButton } from "@/components/cart/cart-bag-button";
-import { MenuMegaDropdown } from "@/components/layout/menu-mega-dropdown";
 import { SITE_NAME } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
+const HEADER_LINKS = [
+  { label: "Home", href: "/#home" },
+  { label: "Cardápio Cafeteria", href: "/cardapio#salgados" },
+  { label: "Catálogo de Bolos", href: "/cardapio#bolos" },
+  { label: "Lojas", href: "/#lojas" },
+  { label: "Sobre", href: "/#historia" },
+] as const;
+
 export function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const [catalogOpen, setCatalogOpen] = useState(false);
-
-  const openCatalog = useCallback(() => setCatalogOpen(true), []);
-  const closeCatalog = useCallback(() => setCatalogOpen(false), []);
-  const toggleCatalog = useCallback(() => setCatalogOpen((prev) => !prev), []);
 
   const closeAll = () => {
     setMobileNavOpen(false);
-    setCatalogOpen(false);
   };
 
   return (
@@ -37,18 +38,16 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex">
-          <Link href="/#home" className="text-sm text-muted transition-colors hover:text-primary">
-            Home
-          </Link>
-
-          <MenuMegaDropdown
-            variant="desktop"
-            isOpen={catalogOpen}
-            onOpen={openCatalog}
-            onClose={closeCatalog}
-            onToggle={toggleCatalog}
-          />
+        <nav className="hidden items-center gap-5 lg:flex xl:gap-7">
+          {HEADER_LINKS.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="whitespace-nowrap text-sm text-muted transition-colors hover:text-primary"
+            >
+              {item.label}
+            </Link>
+          ))}
 
           <InstagramIconButton />
           <CartBagButton />
@@ -61,7 +60,6 @@ export function Header() {
             type="button"
             onClick={() => {
               setMobileNavOpen((prev) => !prev);
-              setCatalogOpen(false);
             }}
             className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/20 text-primary transition-colors hover:border-primary hover:bg-primary/5"
             aria-label="Menu"
@@ -78,22 +76,16 @@ export function Header() {
         )}
       >
         <nav className="flex flex-col gap-1 px-4 py-4">
-          <Link
-            href="/#home"
-            onClick={closeAll}
-            className="rounded-lg px-3 py-2.5 text-sm text-muted transition-colors hover:bg-primary/5 hover:text-primary"
-          >
-            Home
-          </Link>
-
-          <MenuMegaDropdown
-            variant="mobile"
-            isOpen={catalogOpen}
-            onOpen={openCatalog}
-            onClose={closeCatalog}
-            onToggle={toggleCatalog}
-            onNavigate={closeAll}
-          />
+          {HEADER_LINKS.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              onClick={closeAll}
+              className="rounded-lg px-3 py-2.5 text-sm text-muted transition-colors hover:bg-primary/5 hover:text-primary"
+            >
+              {item.label}
+            </Link>
+          ))}
         </nav>
       </div>
     </header>

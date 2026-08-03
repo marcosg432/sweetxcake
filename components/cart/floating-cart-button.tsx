@@ -2,11 +2,13 @@
 
 import { ShoppingBag } from "lucide-react";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 import { formatPrice } from "@/lib/utils";
 import { useCartStore } from "@/stores/cart-store";
 import { useUiStore } from "@/stores/ui-store";
 
 export function FloatingCartButton() {
+  const pathname = usePathname();
   const itemCount = useCartStore((state) =>
     state.items.reduce((sum, item) => sum + item.quantity, 0)
   );
@@ -14,6 +16,8 @@ export function FloatingCartButton() {
     state.items.reduce((sum, item) => sum + item.price * item.quantity, 0)
   );
   const openCart = useUiStore((state) => state.openCart);
+
+  if (pathname === "/" && itemCount === 0) return null;
 
   return (
     <motion.button

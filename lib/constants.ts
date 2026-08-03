@@ -10,9 +10,10 @@ export const NAV_ITEMS = [
 ] as const;
 
 export const MENU_CATEGORIES = [
-  { slug: "salgados", label: "Salgados", href: "/cardapio#salgados" },
+  { slug: "salgados", label: "Lanches", href: "/cardapio#salgados" },
   { slug: "bebidas", label: "Bebidas", href: "/cardapio#bebidas" },
   { slug: "sobremesas", label: "Sobremesas", href: "/cardapio#sobremesas" },
+  { slug: "sweets", label: "Sweets", href: "/cardapio#sweets" },
   { slug: "presentes", label: "Presentes", href: "/cardapio#presentes" },
   { slug: "bolos", label: "Bolos", href: "/categorias/bolos" },
 ] as const;
