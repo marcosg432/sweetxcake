@@ -12,7 +12,7 @@
       "slug": "bebidas",
       "label": "Bebidas",
       "title": "Bebidas",
-      "description": "Cafés, bebidas quentes, geladas, sucos e vinhos."
+      "description": "Cafés, bebidas quentes, geladas e sucos."
     },
     {
       "id": "sobremesas",
@@ -42,110 +42,153 @@
       "slug": "pao-de-queijo",
       "categoryId": "salgados",
       "nome": "Pão de Queijo",
-      "descricaoCurta": "Pão de queijo assado, servido quentinho.",
+      "descricaoCurta": "Pão de queijo artesanal com muçarela e provolone, levemente tostado na chapa.",
       "preco": 8,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["pão de queijo", "queijo", "lanche", "salgado"]
+      "imagem": "/images/products/lanches/pao-de-queijo.png",
+      "tags": [
+        "pão de queijo",
+        "queijo",
+        "lanche",
+        "salgado"
+      ],
+      "descricao": "Pão de queijo artesanal da casa, preparado com muçarela e provolone e levemente tostado na chapa para ficar douradinho e crocante por fora, com interior macio e cheio de sabor."
     },
     {
       "id": "toast-cream-cheese-geleia",
       "slug": "toast-cream-cheese-geleia",
       "categoryId": "salgados",
       "nome": "Toast + Cream Cheese e Geleia",
-      "descricaoCurta": "Toast crocante com cream cheese e geleia artesanal.",
+      "descricaoCurta": "Pão de fermentação artesanal com cream cheese e geleia de pimentão vermelho defumado.",
       "preco": 16,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["toast", "cream cheese", "geleia", "lanche"]
+      "imagem": "/images/products/lanches/toast-cream-cheese-geleia.png",
+      "tags": [
+        "toast",
+        "cream cheese",
+        "geleia",
+        "lanche"
+      ],
+      "descricao": "Fatias de pão de fermentação artesanal, tostadas e servidas com cream cheese cremoso e nossa geleia artesanal de pimentão vermelho defumado. Um equilíbrio delicioso entre cremosidade, crocância e sabor defumado."
     },
     {
       "id": "croissant-amanteigado",
       "slug": "croissant-amanteigado",
       "categoryId": "salgados",
-      "nome": "Croissant Amanteigado",
-      "descricaoCurta": "Croissant folhado, leve e amanteigado.",
+      "nome": "Croissant Amanteigado na Chapa",
+      "descricaoCurta": "Croissant macio, leve e finalizado na chapa para ganhar uma crocância irresistível.",
+      "descricao": "Nosso croissant é macio e leve e vai à chapa para criar uma crocância que faz dele ainda melhor.",
       "preco": 14,
-      "imagem": "/images/home/carousel/croissant-sanduiche.png",
-      "tags": ["croissant", "amanteigado", "lanche"]
+      "imagem": "/images/products/lanches/croissant-amanteigado.png",
+      "tags": [
+        "croissant",
+        "amanteigado",
+        "lanche"
+      ]
     },
     {
       "id": "quiche-vegana",
       "slug": "quiche-vegana",
       "categoryId": "salgados",
       "nome": "Quiche Vegana",
-      "descricaoCurta": "Quiche artesanal com recheio vegano.",
+      "descricaoCurta": "Massa crocante sem glúten, recheada com legumes assados e creme vegano.",
       "preco": 12,
       "imagem": "/images/categories/category-lanches.png",
-      "tags": ["quiche", "vegana", "lanche"]
+      "tags": [
+        "quiche",
+        "vegana",
+        "lanche"
+      ],
+      "descricao": "Massa crocante e sem glúten, recheada com legumes assados, cebola, especiarias e um delicado creme vegano. Produzida em nossa cozinha restritiva, com todo o cuidado para uma experiência leve e saborosa."
     },
     {
       "id": "trio-sub-perfeito",
       "slug": "trio-sub-perfeito",
       "categoryId": "salgados",
       "nome": "Trio Sub Perfeito",
-      "descricaoCurta": "Trio especial de subs artesanais.",
+      "descricaoCurta": "Combo degustação com metade do Sub da Sweet, metade do D'Panela e metade do Furioso.",
+      "descricao": "Se um já é bom, imagine ter os três sabores em um único pedido? Criamos um combo degustação perfeito, contendo nossos três sanduíches com pão de fermentação natural, para você aproveitar toda a experiência Sweet. Nesse combo você vai ter: metade de um sanduíche Sub da Sweet, metade de um sanduíche D'Panela e metade de um sanduíche Furioso. Combina com a nossa deliciosa Pink Lemonade. Serve até 1 pessoa.",
       "preco": 35,
-      "imagem": "/images/home/carousel/sanduiche-grelhado.png",
-      "tags": ["trio", "sub", "sanduíche", "lanche"]
+      "imagem": "/images/products/lanches/trio-sub-perfeito.png",
+      "tags": [
+        "trio",
+        "sub",
+        "sanduíche",
+        "lanche"
+      ]
     },
     {
       "id": "pao-de-queijo-dpanela",
       "slug": "pao-de-queijo-dpanela",
       "categoryId": "salgados",
       "nome": "Pão de Queijo D'Panela",
-      "descricaoCurta": "Pão de queijo artesanal D'Panela.",
+      "descricaoCurta": "Pão de queijo prensado na chapa com carne de panela ao vinho, cheddar, picles de cebola roxa, rúcula e geleia agridoce.",
+      "descricao": "Nosso pão de queijo exclusivo e prensado na chapa, recheado com carne de panela ao vinho, cheddar em fatia, picles de cebola roxa, rúcula e geleia agridoce Sweet. Combine com uma de nossas bebidas da casa para uma experiência inesquecível!",
       "preco": 18,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["pão de queijo", "dpanela", "lanche"]
+      "imagem": "/images/products/lanches/pao-de-queijo-dpanela.png",
+      "tags": [
+        "pão de queijo",
+        "dpanela",
+        "lanche"
+      ]
     },
     {
       "id": "furioso",
       "slug": "furioso",
       "categoryId": "salgados",
       "nome": "Furioso",
-      "descricaoCurta": "Lanche artesanal de sabor marcante.",
+      "descricaoCurta": "Focaccia artesanal com carne de panela ao vinho, creme de gorgonzola, picles, rúcula e molho especial Sweet.",
+      "descricao": "O sabor único da nossa focaccia de fermentação longa, com toque de alecrim e azeite, recheada com nossa deliciosa carne de panela ao vinho, creme de queijo gorgonzola, a crocância do picles de cebola roxa e do picles de pepino japonês, rúcula que dá um toque levemente picante e molho especial da Sweet. Vai muito bem com nossas bebidas da casa. Experimente e surpreenda-se com esta explosão de sabores! Serve até 1 pessoa.",
       "preco": 29,
-      "imagem": "/images/home/carousel/sanduiche-carne-desfiada.png",
-      "tags": ["furioso", "sanduíche", "lanche"]
+      "imagem": "/images/products/lanches/furioso.png",
+      "tags": [
+        "furioso",
+        "sanduíche",
+        "lanche"
+      ]
     },
     {
       "id": "crostinis-com-antepasto",
       "slug": "crostinis-com-antepasto",
       "categoryId": "salgados",
       "nome": "Crostinis com Antepasto",
-      "descricaoCurta": "Crostinis crocantes acompanhados de antepasto.",
+      "descricaoCurta": "Crostinis crocantes com antepasto artesanal de berinjela, tradicional ou sem glúten.",
       "preco": 16,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["crostinis", "antepasto", "lanche"]
+      "imagem": "/images/products/lanches/crostinis-com-antepasto.png",
+      "tags": [
+        "crostinis",
+        "antepasto",
+        "lanche"
+      ],
+      "descricao": "Crostines douradas e crocantes, disponíveis nas versões tradicional ou sem glúten, acompanhadas de nosso antepasto artesanal de berinjela. Perfeito para compartilhar ou acompanhar um bom café."
     },
     {
       "id": "pao-de-queijo-trio-dos-sonhos",
       "slug": "pao-de-queijo-trio-dos-sonhos",
       "categoryId": "salgados",
       "nome": "Pão de Queijo Trio dos Sonhos",
-      "descricaoCurta": "Trio especial de pães de queijo.",
+      "descricaoCurta": "Combo degustação com O Queridinho, D'Panela e Sweet Mineiro.",
+      "descricao": "Um combo degustação dos sonhos, com nossos três sabores de pão de queijo prensado na chapa e recheado. O Queridinho une a crocância do bacon com a cremosidade do cream cheese e o sabor leve do peito defumado; o D'Panela traz o sabor marcante da nossa paleta ao vinho e da geleia agridoce; e o Sweet Mineiro é recheado com goiabada cremosa e cream cheese.",
       "preco": 29,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["pão de queijo", "trio", "lanche"]
+      "imagem": "/images/products/lanches/pao-de-queijo-trio-dos-sonhos.png",
+      "tags": [
+        "pão de queijo",
+        "trio",
+        "lanche"
+      ]
     },
     {
       "id": "monte-seu-pao-de-queijo",
       "slug": "monte-seu-pao-de-queijo",
       "categoryId": "salgados",
       "nome": "Monte o Seu Pão de Queijo",
-      "descricaoCurta": "Pão de queijo preparado para você personalizar.",
+      "descricaoCurta": "Monte seu sanduíche de pão de queijo com proteína, queijo, molhos e salada.",
       "preco": 18,
       "imagem": "/images/categories/category-lanches.png",
-      "tags": ["pão de queijo", "personalizado", "lanche"]
-    },
-    {
-      "id": "coxinha-zero-gluten",
-      "slug": "coxinha-zero-gluten",
-      "categoryId": "salgados",
-      "nome": "Coxinha Zero Glúten",
-      "descricaoCurta": "Coxinha preparada sem glúten.",
-      "preco": 14,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["coxinha", "sem glúten", "restritivo", "lanche"]
+      "tags": [
+        "pão de queijo",
+        "personalizado",
+        "lanche"
+      ],
+      "descricao": "Transforme nosso pão de queijo artesanal em um sanduíche do seu jeito. Escolha 1 proteína, 1 queijo, até 2 molhos e salada à vontade e monte sua combinação favorita."
     },
     {
       "id": "spread-cream-cheese-geleia-torradas",
@@ -155,177 +198,197 @@
       "descricaoCurta": "Spread de cream cheese e geleia acompanhado de torradas.",
       "preco": 80,
       "imagem": "/images/categories/category-lanches.png",
-      "tags": ["spread", "cream cheese", "geleia", "torradas", "lanche"]
+      "tags": [
+        "spread",
+        "cream cheese",
+        "geleia",
+        "torradas",
+        "lanche"
+      ]
     },
     {
       "id": "sub-da-sweet",
       "slug": "sub-da-sweet",
       "categoryId": "salgados",
       "nome": "Sub da Sweet",
-      "descricaoCurta": "Sub artesanal preparado no estilo Sweet Cheesecake.",
+      "descricaoCurta": "Pão de fermentação natural, peito de peru defumado, bacon crocante, cream cheese e ingredientes frescos.",
+      "descricao": "O 'Sub da Sweet' é, indiscutivelmente, o melhor sanduíche que você degustará. Feito com um pão de fermentação natural, meticulosamente preparado na Sweet, é realçado com um toque distinto de tomate seco e manjericão. O recheio generoso consiste de um suculento peito de peru defumado, complementado com o bacon crocante irresistível. A cremosidade do cream cheese e a frescura da cebola roxa, tomate e alface americana se combinam para criar um sabor incomparável. Por fim, a maionese adiciona um toque final de suavidade que envolve todo o paladar numa experiência gastronômica inesquecível.",
       "preco": 25,
-      "imagem": "/images/home/carousel/sanduiche-grelhado.png",
-      "tags": ["sub", "sanduíche", "sweet", "lanche"]
+      "imagem": "/images/products/lanches/sub-da-sweet.png",
+      "tags": [
+        "sub",
+        "sanduíche",
+        "sweet",
+        "lanche"
+      ]
     },
     {
       "id": "dpanela",
       "slug": "dpanela",
       "categoryId": "salgados",
       "nome": "D'Panela",
-      "descricaoCurta": "Lanche artesanal D'Panela.",
+      "descricaoCurta": "Ciabatta artesanal com carne louca ao molho de vinho, cebola roxa, rúcula, geleia agridoce e molho barbecue.",
+      "descricao": "Apresentamos o D'Panela, uma obra-prima dentre os sanduíches. Delicie-se com a harmonia de sabores, começando por uma ciabatta artesanal, pão de textura única e sabor marcante. O coração desta delícia é a carne louca, preparada com um saboroso molho de vinho, que eleva o sabor da carne a um novo patamar. A cebola roxa traz um toque de frescor e crocância, enquanto a rúcula adiciona uma pitada de sabor picante. Para finalizar, a geleia de pimentão vermelho defumado é uma surpresa agridoce que brilha no paladar. Tudo isso é regado com o nosso tentador molho barbecue, que proporciona um sabor defumado e um toque adocicado. Não imagine, experimente e desfrute de uma explosão de sabores. Serve até 1 pessoa.",
       "preco": 27,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["dpanela", "artesanal", "lanche"]
+      "imagem": "/images/products/lanches/dpanela.png",
+      "tags": [
+        "dpanela",
+        "artesanal",
+        "lanche"
+      ]
     },
     {
       "id": "pao-de-queijo-o-queridinho",
       "slug": "pao-de-queijo-o-queridinho",
       "categoryId": "salgados",
-      "nome": "Pão de Queijo O Queridinho",
-      "descricaoCurta": "Pão de queijo artesanal O Queridinho.",
+      "nome": "Pão de Queijo Recheado — O Queridinho",
+      "descricaoCurta": "Pão de queijo recheado com peito de peru defumado, cream cheese, bacon e rúcula.",
+      "descricao": "Nosso pão de queijo exclusivo, recheado com peito de peru defumado, cream cheese, bacon e rúcula, prensado na chapa.",
       "preco": 17,
-      "imagem": "/images/categories/category-lanches.png",
-      "tags": ["pão de queijo", "o queridinho", "lanche"]
+      "imagem": "/images/products/lanches/pao-de-queijo-o-queridinho.png",
+      "tags": [
+        "pão de queijo",
+        "o queridinho",
+        "lanche"
+      ]
     },
     {
       "id": "trufa-chock-preto",
       "slug": "trufa-chock-preto",
       "categoryId": "sweets",
-      "nome": "Trufa Chock Preto",
-      "descricaoCurta": "Trufa artesanal Chock Preto.",
+      "nome": "Trufas de Chocolate Intenso",
+      "descricaoCurta": "Trufa artesanal de chocolate meio amargo, creme de leite fresco e crocância de amendoim e cacau.",
+      "descricao": "Esta indulgente delicadeza, Trufas de Chocolate Intenso, é meticulosamente confeccionada com chocolate nobre de alta qualidade, enriquecido com um leve e suave toque de creme de leite fresco. Nossa trufa é aprimorada com a intensidade do chocolate meio amargo Hersheys de 50%, uma escolha perfeitamente equilibrada entre doçura e amargura. Acrescentamos a crocância do amendoim e a pureza do cacau 100% para criar uma experiência de sabor inesquecível. Esta trufa é, sem dúvida, uma tentação para os amantes do chocolate.",
       "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["trufa", "chocolate", "sweet"]
+      "imagem": "/images/products/sweets/trufas-chocolate-intenso.png",
+      "tags": [
+        "trufa",
+        "chocolate",
+        "sweet"
+      ]
     },
     {
       "id": "bombom-red-velvet",
       "slug": "bombom-red-velvet",
       "categoryId": "sweets",
       "nome": "Bombom Red Velvet",
-      "descricaoCurta": "Bombom artesanal sabor Red Velvet.",
+      "descricaoCurta": "Chocolate branco com geleia e creme de cheesecake de morango.",
       "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["bombom", "red velvet", "sweet"]
+      "imagem": "/images/products/sweets/bombom-red-velvet.png",
+      "tags": [
+        "bombom",
+        "red velvet",
+        "sweet"
+      ],
+      "descricao": "Chocolate branco delicadamente recheado com geleia artesanal de morango e um cremoso recheio de cheesecake de morango. Um clássico red velvet em versão irresistível."
     },
     {
       "id": "brigadeiro-de-pistache",
       "slug": "brigadeiro-de-pistache",
       "categoryId": "sweets",
       "nome": "Brigadeiro de Pistache",
-      "descricaoCurta": "Brigadeiro artesanal de pistache.",
+      "descricaoCurta": "Brigadeiro cremoso de pistache finalizado com praliné de amendoim.",
       "preco": 4,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["brigadeiro", "pistache", "sweet"]
+      "tags": [
+        "brigadeiro",
+        "pistache",
+        "sweet"
+      ],
+      "descricao": "Brigadeiro cremoso de pistache, preparado com um toque natural do fruto e finalizado com praliné de amendoim para uma deliciosa camada de crocância."
     },
     {
       "id": "cookie-americano",
       "slug": "cookie-americano",
       "categoryId": "sweets",
       "nome": "Cookie Americano",
-      "descricaoCurta": "Cookie artesanal no estilo americano.",
+      "descricaoCurta": "Cookie americano crocante por fora, macio por dentro e com sabor marcante.",
+      "descricao": "Descubra o prazer inigualável dos nossos cookies tradicionais americanos, considerados os melhores. Uma única mordida é suficiente para se perder na irresistível explosão de sabor. A textura crocante por fora e macia por dentro, aliada ao sabor viciante, transforma cada cookie em uma experiência sensorial única. Ao provar, você embarcará em uma viagem de prazer ao paladar, da qual, sem dúvidas, não vai querer voltar.",
       "preco": 10,
-      "imagem": "/images/products/product-brownie.png",
-      "tags": ["cookie", "americano", "sweet"]
+      "imagem": "/images/products/sweets/cookie-americano.png",
+      "tags": [
+        "cookie",
+        "americano",
+        "sweet"
+      ]
     },
     {
       "id": "bombom-caramelo-crocante",
       "slug": "bombom-caramelo-crocante",
       "categoryId": "sweets",
-      "nome": "Bombom Caramelo Crocante",
-      "descricaoCurta": "Bombom artesanal de caramelo crocante.",
+      "nome": "Bombom Artesanal Caramelo",
+      "descricaoCurta": "Chocolate nobre com caramelo cremoso artesanal, praliné de amendoim e flor de sal.",
+      "descricao": "Estas delícias de bombons, além de lindas, são de lamber os dedos. Feitas com chocolate nobre e recheadas com nosso delicioso caramelo cremoso artesanal, praliné de amendoim e um toque de flor de sal. Sinta a felicidade em cada mordida!",
       "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["bombom", "caramelo", "crocante", "sweet"]
+      "imagem": "/images/products/sweets/bombom-artesanal-caramelo.png",
+      "tags": [
+        "bombom",
+        "caramelo",
+        "crocante",
+        "sweet"
+      ]
     },
     {
       "id": "sweets-brownie",
       "slug": "sweets-brownie",
       "categoryId": "sweets",
-      "nome": "Brownie",
-      "descricaoCurta": "Brownie artesanal de chocolate.",
+      "nome": "Brownie com Ganache de Chocolate",
+      "descricaoCurta": "Brownie extremamente chocolatudo, macio e aveludado, finalizado com ganache de chocolate.",
+      "descricao": "Apresentamos a você nosso irresistível brownie, uma obra-prima da confeitaria. Imagine um brownie extremamente chocolatudo, de textura macia e aveludada, que literalmente derrete na boca, proporcionando uma explosão de sabor a cada mordida. Cada pedaço deste delicioso doce é uma perdição sem explicação. Uma experiência gastronômica única e inesquecível, perfeita para os verdadeiros amantes de chocolate. Saboreie e deixe-se encantar pelo nosso brownie, a estrela da nossa categoria de doces.",
       "preco": 12,
-      "imagem": "/images/products/product-brownie.png",
-      "tags": ["brownie", "chocolate", "sweet"]
+      "imagem": "/images/products/sweets/brownie-ganache-chocolate.png",
+      "tags": [
+        "brownie",
+        "chocolate",
+        "sweet"
+      ]
     },
     {
       "id": "barra-red-velvet-75g",
       "slug": "barra-red-velvet-75g",
       "categoryId": "sweets",
       "nome": "Barra Red Velvet 75grs.",
-      "descricaoCurta": "Barra artesanal Red Velvet de 75 gramas.",
+      "descricaoCurta": "Chocolate branco com cheesecake e geleia de morango, em barra de 75g.",
       "preco": 12,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["barra", "red velvet", "75g", "sweet"]
+      "tags": [
+        "barra",
+        "red velvet",
+        "75g",
+        "sweet"
+      ],
+      "descricao": "Chocolate branco recheado com creme de cheesecake de morango e geleia artesanal de morango. Cremosa, delicada e com o equilíbrio perfeito entre chocolate e frutas."
     },
     {
       "id": "barra-caramelo-75g",
       "slug": "barra-caramelo-75g",
       "categoryId": "sweets",
       "nome": "Barra Caramelo 75grs.",
-      "descricaoCurta": "Barra artesanal de caramelo com 75 gramas.",
+      "descricaoCurta": "Chocolate meio amargo com caramelo salgado e praliné de amendoim, 75g.",
       "preco": 12,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["barra", "caramelo", "75g", "sweet"]
+      "tags": [
+        "barra",
+        "caramelo",
+        "75g",
+        "sweet"
+      ],
+      "descricao": "Chocolate meio amargo recheado com creme de caramelo salgado e praliné de amendoim. A combinação perfeita entre intensidade, cremosidade, dulçor e crocância."
     },
     {
       "id": "cookie-de-pistache",
       "slug": "cookie-de-pistache",
       "categoryId": "sweets",
-      "nome": "Cookie de Pistache",
-      "descricaoCurta": "Cookie artesanal de pistache.",
+      "nome": "Cookie Recheado de Pistache",
+      "descricaoCurta": "Cookie americano com pasta natural de pistache, recheio cremoso e chocolate branco.",
+      "descricao": "Nosso novo Cookie de Pistache chegou para deixar seu dia ainda mais delicioso! Feito com nossa clássica massa de cookie americano, ele leva pasta natural de pistache, um recheio cremoso de brigadeiro de pistache e é finalizado com chocolate branco saborizado com pasta natural de pistache. Aqui na Sweet Cheesecake, a gente não usa essência artificial, só ingredientes de verdade e muito sabor!",
       "preco": 14,
-      "imagem": "/images/products/product-brownie.png",
-      "tags": ["cookie", "pistache", "sweet"]
-    },
-    {
-      "id": "morango-do-amor-pequeno",
-      "slug": "morango-do-amor-pequeno",
-      "categoryId": "sweets",
-      "nome": "Morango do Amor Pequeno",
-      "descricaoCurta": "Versão pequena do Morango do Amor.",
-      "preco": 17,
-      "imagem": "/images/home/carousel/hero-01.png",
-      "tags": ["morango", "morango do amor", "sweet"]
-    },
-    {
-      "id": "morango-do-amor",
-      "slug": "morango-do-amor",
-      "categoryId": "sweets",
-      "nome": "Morango do Amor",
-      "descricaoCurta": "Morango do Amor artesanal Sweet.",
-      "preco": 19,
-      "imagem": "/images/home/carousel/hero-01.png",
-      "tags": ["morango", "morango do amor", "sweet"]
-    },
-    {
-      "id": "trufa-pink-lemonade",
-      "slug": "trufa-pink-lemonade",
-      "categoryId": "sweets",
-      "nome": "Trufa Pink Lemonade",
-      "descricaoCurta": "Trufa artesanal sabor Pink Lemonade.",
-      "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["trufa", "pink lemonade", "sweet"]
-    },
-    {
-      "id": "bombom-cappuccino",
-      "slug": "bombom-cappuccino",
-      "categoryId": "sweets",
-      "nome": "Bombom Cappuccino",
-      "descricaoCurta": "Bombom artesanal sabor cappuccino.",
-      "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["bombom", "cappuccino", "café", "sweet"]
-    },
-    {
-      "id": "trufa-cafe-com-leite",
-      "slug": "trufa-cafe-com-leite",
-      "categoryId": "sweets",
-      "nome": "Trufa Café com Leite",
-      "descricaoCurta": "Trufa artesanal sabor café com leite.",
-      "preco": 5,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["trufa", "café com leite", "sweet"]
+      "imagem": "/images/products/sweets/cookie-recheado-pistache.png",
+      "tags": [
+        "cookie",
+        "pistache",
+        "sweet"
+      ]
     },
     {
       "id": "brigadeiro-de-morango",
@@ -335,108 +398,138 @@
       "descricaoCurta": "Brigadeiro artesanal de morango.",
       "preco": 4,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["brigadeiro", "morango", "sweet"]
-    },
-    {
-      "id": "bombom-do-amor",
-      "slug": "bombom-do-amor",
-      "categoryId": "sweets",
-      "nome": "Bombom do Amor",
-      "descricaoCurta": "Bombom artesanal do Amor.",
-      "preco": 19,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["bombom", "amor", "sweet"]
+      "tags": [
+        "brigadeiro",
+        "morango",
+        "sweet"
+      ]
     },
     {
       "id": "trufa-maracuja",
       "slug": "trufa-maracuja",
       "categoryId": "sweets",
-      "nome": "Trufa Maracujá",
-      "descricaoCurta": "Trufa artesanal de maracujá.",
+      "nome": "Trufa Artesanal de Maracujá",
+      "descricaoCurta": "O sabor azedinho do maracujá com a cremosidade do nosso brigadeiro artesanal.",
+      "descricao": "O sabor azedinho do maracujá com a cremosidade do nosso brigadeiro artesanal.",
       "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["trufa", "maracujá", "sweet"]
+      "imagem": "/images/products/sweets/trufa-artesanal-maracuja.png",
+      "tags": [
+        "trufa",
+        "maracujá",
+        "sweet"
+      ]
+    },
+    {
+      "id": "trufa-artesanal-morango",
+      "slug": "trufa-artesanal-morango",
+      "categoryId": "sweets",
+      "nome": "Trufa Artesanal de Morango",
+      "descricaoCurta": "O sabor marcante e azedinho do morango em um doce irresistível.",
+      "descricao": "O sabor marcante e azedinho do morango em um doce irresistível é surreal. Você vai se apaixonar em cada mordida.",
+      "preco": 5,
+      "imagem": "/images/products/sweets/trufa-artesanal-morango.png",
+      "tags": [
+        "trufa",
+        "morango",
+        "artesanal",
+        "sweet"
+      ]
+    },
+    {
+      "id": "trufa-artesanal-pistache",
+      "slug": "trufa-artesanal-pistache",
+      "categoryId": "sweets",
+      "nome": "Trufa Artesanal de Pistache",
+      "descricaoCurta": "Trufa cremosa com pasta autêntica de pistache e cobertura crocante de amendoim.",
+      "descricao": "Apresentamos a Trufa Artesanal de Pistache, uma iguaria irresistível para os verdadeiros apreciadores de pistache. Este deleite é cuidadosamente preparado com uma pasta autêntica de pistache, incorporada a um brigadeiro incrivelmente macio e cremoso. O toque final fica por conta do amendoim crocante que, além de conferir uma textura extra, adiciona um sabor surpreendente ao docinho. Perfeição e sofisticação em cada mordida: uma opção para celebrar momentos especiais ou simplesmente adoçar o seu dia!",
+      "preco": 5,
+      "imagem": "/images/products/sweets/trufa-artesanal-pistache.png",
+      "tags": [
+        "trufa",
+        "pistache",
+        "amendoim",
+        "artesanal",
+        "sweet"
+      ]
     },
     {
       "id": "brigadeiro-de-maracuja",
       "slug": "brigadeiro-de-maracuja",
       "categoryId": "sweets",
       "nome": "Brigadeiro de Maracujá",
-      "descricaoCurta": "Brigadeiro artesanal de maracujá.",
+      "descricaoCurta": "Brigadeiro artesanal com geleia e polpa natural de maracujá.",
       "preco": 4,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["brigadeiro", "maracujá", "sweet"]
+      "tags": [
+        "brigadeiro",
+        "maracujá",
+        "sweet"
+      ],
+      "descricao": "Brigadeiro artesanal preparado com geleia e polpa natural de maracujá, trazendo cremosidade e o contraste delicioso entre o doce e a acidez da fruta."
     },
     {
       "id": "suspiros-sweet",
       "slug": "suspiros-sweet",
       "categoryId": "sweets",
       "nome": "Suspiros Sweet",
-      "descricaoCurta": "Suspiros artesanais Sweet Cheesecake.",
+      "descricaoCurta": "Uma explosão de sabor para adoçar o seu dia.",
+      "descricao": "Uma explosão de sabor para adoçar o seu dia.",
       "preco": 19,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["suspiro", "artesanal", "sweet"]
+      "imagem": "/images/products/sweets/suspiros-sweet.png",
+      "tags": [
+        "suspiro",
+        "artesanal",
+        "sweet"
+      ]
     },
     {
       "id": "kit-6-trufas",
       "slug": "kit-6-trufas",
       "categoryId": "sweets",
-      "nome": "Kit 6 Trufas",
-      "descricaoCurta": "Kit especial com seis trufas artesanais.",
+      "nome": "Kit 6 Trufas Especiais",
+      "descricaoCurta": "Kit com 6 trufas sortidas de chocolate nobre e sabores exclusivos.",
+      "descricao": "Um lindo kit com 6 trufas sortidas de chocolate nobre. Você vai se surpreender com nossos sabores exclusivos. Experimente!!!",
       "preco": 24.9,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["kit", "trufas", "presente", "sweet"]
+      "imagem": "/images/products/sweets/kit-6-trufas-especiais.png",
+      "tags": [
+        "kit",
+        "trufas",
+        "sortidas",
+        "presente",
+        "sweet"
+      ]
     },
     {
       "id": "pao-de-mel-artesanal",
       "slug": "pao-de-mel-artesanal",
       "categoryId": "sweets",
-      "nome": "Pão de Mel Artesanal",
-      "descricaoCurta": "Pão de mel preparado artesanalmente.",
+      "nome": "Pão de Mel Artesanal Sweet com Chocolate Nobre",
+      "descricaoCurta": "Pão de mel artesanal com doce de leite cremoso e casquinha crocante de chocolate nobre.",
+      "descricao": "A combinação perfeita e irresistível do pão de mel artesanal Sweet, com recheio de doce de leite supercremoso e casquinha crocante de chocolate nobre.",
       "preco": 15,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["pão de mel", "artesanal", "sweet"]
-    },
-    {
-      "id": "mimo-professores-trufa",
-      "slug": "mimo-professores-trufa",
-      "categoryId": "sweets",
-      "nome": "Mimo Professores - Trufa",
-      "descricaoCurta": "Mimo especial com trufa para professores.",
-      "preco": 7.5,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["mimo", "professores", "trufa", "presente", "sweet"]
-    },
-    {
-      "id": "maria-mole-artesanal-sweet",
-      "slug": "maria-mole-artesanal-sweet",
-      "categoryId": "sweets",
-      "nome": "Maria Mole Artesanal Sweet",
-      "descricaoCurta": "Maria mole preparada artesanalmente.",
-      "preco": 12,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["maria mole", "artesanal", "sweet"]
-    },
-    {
-      "id": "mini-cookies-americanos-80g",
-      "slug": "mini-cookies-americanos-80g",
-      "categoryId": "sweets",
-      "nome": "Mini Cookies Americanos 80g",
-      "descricaoCurta": "Porção de mini cookies americanos com 80 gramas.",
-      "preco": 10,
-      "imagem": "/images/products/product-brownie.png",
-      "tags": ["mini cookies", "americano", "80g", "sweet"]
+      "imagem": "/images/products/sweets/pao-de-mel-artesanal.png",
+      "tags": [
+        "pão de mel",
+        "artesanal",
+        "sweet"
+      ]
     },
     {
       "id": "cafezinho-mineiro",
       "slug": "cafezinho-mineiro",
       "categoryId": "bebidas",
       "nome": "Cafezinho Mineiro",
-      "descricaoCurta": "Cafezinho tradicional no estilo mineiro.",
+      "descricaoCurta": "Café especial passado na hora com grãos selecionados de perfil frutado.",
       "preco": 7,
-      "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["café", "mineiro", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "imagem": "/images/products/bebidas/cafezinho-mineiro.png",
+      "tags": [
+        "café",
+        "mineiro",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Café especial passado na hora, preparado com grãos selecionados de perfil frutado, vindos diretamente de fazendas produtoras. Nossos cafés especiais possuem pontuação acima de 84 pontos."
     },
     {
       "id": "capuccino-chei-de-trem",
@@ -446,7 +539,12 @@
       "descricaoCurta": "Capuccino cremoso especial da casa.",
       "preco": 14,
       "imagem": "/images/products/product-capuccino.png",
-      "tags": ["café", "capuccino", "quente", "bebida"],
+      "tags": [
+        "café",
+        "capuccino",
+        "quente",
+        "bebida"
+      ],
       "grupo": "Bebidas Quentes"
     },
     {
@@ -454,98 +552,153 @@
       "slug": "espresso",
       "categoryId": "bebidas",
       "nome": "Espresso",
-      "descricaoCurta": "Café espresso de sabor intenso.",
+      "descricaoCurta": "Espresso preparado na hora com café especial, intenso e aromático.",
       "preco": 7,
-      "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["café", "espresso", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "imagem": "/images/products/bebidas/espresso.png",
+      "tags": [
+        "café",
+        "espresso",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Espresso preparado na hora com nosso café especial, intenso, aromático e cheio de personalidade."
     },
     {
       "id": "prensa-francesa",
       "slug": "prensa-francesa",
       "categoryId": "bebidas",
       "nome": "Prensa Francesa",
-      "descricaoCurta": "Café preparado na prensa francesa.",
+      "descricaoCurta": "Café especial na prensa francesa, mais encorpado e aromático.",
       "preco": 9,
-      "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["café", "prensa francesa", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "imagem": "/images/products/bebidas/prensa-francesa.png",
+      "tags": [
+        "café",
+        "prensa francesa",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Café especial preparado na prensa francesa, método que preserva os óleos naturais do café e proporciona uma bebida mais encorpada, aromática e saborosa."
     },
     {
       "id": "prensa-francesa-dupla",
       "slug": "prensa-francesa-dupla",
       "categoryId": "bebidas",
       "nome": "Prensa Francesa Dupla",
-      "descricaoCurta": "Porção dupla de café preparado na prensa francesa.",
+      "descricaoCurta": "Prensa francesa em porção maior, ideal para compartilhar.",
       "preco": 18,
       "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["café", "prensa francesa", "dupla", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "tags": [
+        "café",
+        "prensa francesa",
+        "dupla",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Nossa prensa francesa em uma porção maior, perfeita para compartilhar ou para quem aprecia uma experiência mais prolongada com o café."
     },
     {
       "id": "chai-latte",
       "slug": "chai-latte",
       "categoryId": "bebidas",
       "nome": "Chai Latte",
-      "descricaoCurta": "Chai Latte cremoso e aromático.",
+      "descricaoCurta": "Leite cremoso, chá de maçã e toque de especiarias.",
       "preco": 14,
       "imagem": "/images/products/product-capuccino.png",
-      "tags": ["chai", "latte", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "tags": [
+        "chai",
+        "latte",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Uma combinação aconchegante de leite cremoso, chá de maçã e um delicado toque de especiarias. Aromático, equilibrado e perfeito para qualquer hora do dia."
     },
     {
       "id": "chocolate-quente",
       "slug": "chocolate-quente",
       "categoryId": "bebidas",
       "nome": "Chocolate Quente",
-      "descricaoCurta": "Chocolate quente cremoso.",
+      "descricaoCurta": "Chocolate quente artesanal, cremoso e intenso, com chocolate de verdade.",
       "preco": 19,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["chocolate", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "tags": [
+        "chocolate",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Chocolate quente artesanal preparado com chocolate de verdade, cremoso e intenso. Você pode finalizar com um toque de canela e chantilly."
     },
     {
       "id": "cappuccino-metido-a-besta",
       "slug": "cappuccino-metido-a-besta",
       "categoryId": "bebidas",
       "nome": "Cappuccino Metido a Besta",
-      "descricaoCurta": "Cappuccino especial da casa.",
+      "descricaoCurta": "Capuccino à moda brasileira, cremoso, adocicado e com especiarias.",
       "preco": 14,
-      "imagem": "/images/products/product-capuccino.png",
-      "tags": ["café", "cappuccino", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "imagem": "/images/products/bebidas/cappuccino-metido-a-besta.png",
+      "tags": [
+        "café",
+        "cappuccino",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Nosso capuccino à moda brasileira: café cremoso e adocicado, combinado com leite e um toque especial de especiarias. Cremoso, aromático e nada básico."
     },
     {
       "id": "cha-quente",
       "slug": "cha-quente",
       "categoryId": "bebidas",
       "nome": "Chá Quente",
-      "descricaoCurta": "Chá quente preparado na hora.",
+      "descricaoCurta": "Seleção especial de chás e infusões quentes.",
       "preco": 10,
       "imagem": "/images/categories/category-cafeteria.png",
-      "tags": ["chá", "quente", "bebida"],
-      "grupo": "Bebidas Quentes"
+      "tags": [
+        "chá",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Bebidas Quentes",
+      "descricao": "Uma seleção especial de chás e infusões para aquecer o momento. Consulte as opções disponíveis na casa."
     },
     {
       "id": "cafe-gelado-mega-cremoso-500ml",
       "slug": "cafe-gelado-mega-cremoso-500ml",
       "categoryId": "bebidas",
       "nome": "Café Gelado Mega Cremoso 500ml",
-      "descricaoCurta": "Café gelado cremoso em copo de 500ml.",
+      "descricaoCurta": "Bebida gelada e cremosa com a combinação de café, baunilha e chocolate.",
+      "descricao": "Apresentamos o nosso Frozen Coffee 500ml, uma sofisticada bebida gelada que exalta a perfeita harmonia entre café, baunilha e chocolate. Este deleite cremoso, fiel ao estilo clássico de um verdadeiro frozen, é meticulosamente preparado para agradar ao seu paladar. Cada gole desta requintada criação proporciona uma experiência sensorial única, transformando a degustação em um momento inesquecível de puro prazer. Uma opção irresistível para os amantes de café.",
       "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["café", "gelado", "cremoso", "500ml", "bebida"],
+      "imagem": "/images/products/bebidas/cafe-gelado-mega-cremoso-500ml.png",
+      "tags": [
+        "café",
+        "gelado",
+        "cremoso",
+        "500ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
       "id": "frappuccino-caramelo-500ml",
       "slug": "frappuccino-caramelo-500ml",
       "categoryId": "bebidas",
-      "nome": "Frappuccino Caramelo 500ml",
-      "descricaoCurta": "Frappuccino gelado de caramelo com 500ml.",
+      "nome": "Frappuccino de Caramelo e Especiarias 500ml",
+      "descricaoCurta": "Frappuccino cremoso e gelado com caramelo e especiarias premium.",
+      "descricao": "Descubra a união harmoniosa das especiarias premium do nosso Hot Cappuccino, agora reinventado e realçado em uma versão exuberantemente caramelada e refrescantemente gelada: o Caramel Frappuccino 500ml. Este deleite, em sua generosa porção de 500ml, ostenta uma cremosidade incomparável que, sem dúvida, supera o frozen. Uma bebida que seduz o paladar e convida à indulgência. Experimente e deixe-se cativar por esta experiência sensorial inigualável.",
       "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["frappuccino", "caramelo", "gelado", "500ml", "bebida"],
+      "imagem": "/images/products/bebidas/frappuccino-caramelo-especiarias-500ml.png",
+      "tags": [
+        "frappuccino",
+        "caramelo",
+        "gelado",
+        "500ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -553,10 +706,17 @@
       "slug": "smoothie-morango-banana-500ml",
       "categoryId": "bebidas",
       "nome": "Smoothie de Morango e Banana 500ml",
-      "descricaoCurta": "Smoothie gelado de morango e banana com 500ml.",
+      "descricaoCurta": "Smoothie cremoso com iogurte natural, morangos frescos, bananas maduras e leite.",
+      "descricao": "Apresentamos o nosso Smoothie de Morango e Banana de 500ml, elaborado meticulosamente para ser a sua bebida perfeita e saudável. Este deleite é preparado com iogurte natural feito em casa, morangos frescos, bananas maduras e leite puro. A combinação desses ingredientes resulta em um sabor inigualável e uma cremosidade irresistível que permeará o seu paladar. Para quem prefere uma opção ainda mais saudável, oferecemos a possibilidade de prepará-lo sem adição de açúcar. Desfrute desta delícia em uma generosa porção de 500ml.",
       "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["smoothie", "morango", "banana", "500ml", "bebida"],
+      "imagem": "/images/products/bebidas/smoothie-morango-banana-500ml.png",
+      "tags": [
+        "smoothie",
+        "morango",
+        "banana",
+        "500ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -564,10 +724,16 @@
       "slug": "coca-cola-350ml",
       "categoryId": "bebidas",
       "nome": "Coca-Cola 350ml",
-      "descricaoCurta": "Coca-Cola em lata de 350ml.",
+      "descricaoCurta": "Refrigerante Coca-Cola sabor original em lata de 350ml.",
+      "descricao": "Desfrute da refrescante Coca-Cola em lata de 350ml. Esta icônica bebida carbonatada, amada em todo o mundo, é conhecida por sua doçura equilibrada e efervescência. Um clássico atemporal que complementa perfeitamente qualquer refeição. A lata de 350ml é o tamanho ideal para matar sua sede e revigorar seu paladar.",
       "preco": 6,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["coca-cola", "refrigerante", "350ml", "bebida"],
+      "imagem": "/images/products/bebidas/coca-cola-350ml.png",
+      "tags": [
+        "coca-cola",
+        "refrigerante",
+        "350ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -578,7 +744,11 @@
       "descricaoCurta": "Água mineral com gás.",
       "preco": 5,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["água", "com gás", "bebida"],
+      "tags": [
+        "água",
+        "com gás",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -589,7 +759,11 @@
       "descricaoCurta": "Água mineral sem gás.",
       "preco": 5,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["água", "mineral", "bebida"],
+      "tags": [
+        "água",
+        "mineral",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -599,19 +773,13 @@
       "nome": "Pink Lemonade",
       "descricaoCurta": "Limonada rosa refrescante.",
       "preco": 10,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["pink lemonade", "limonada", "gelada", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "limonada-colombiana-500ml",
-      "slug": "limonada-colombiana-500ml",
-      "categoryId": "bebidas",
-      "nome": "Limonada Colombiana 500ml",
-      "descricaoCurta": "Limonada colombiana cremosa com 500ml.",
-      "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["limonada", "colombiana", "500ml", "bebida"],
+      "imagem": "/images/products/bebidas/pink-lemonade.png",
+      "tags": [
+        "pink lemonade",
+        "limonada",
+        "gelada",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -619,10 +787,17 @@
       "slug": "coca-cola-zero-350ml",
       "categoryId": "bebidas",
       "nome": "Coca-Cola Zero 350ml",
-      "descricaoCurta": "Coca-Cola Zero em lata de 350ml.",
+      "descricaoCurta": "Refrigerante Coca-Cola Zero Açúcar em lata de 350ml.",
+      "descricao": "Saboreie a refrescância inigualável da Coca-Cola Zero 350ml. Esta opção sem açúcar, mas ainda assim repleta de sabor, é a pedida perfeita para quem busca uma bebida gaseificada deliciosa. Cada gole é uma explosão de sabor que encanta o paladar e refresca o dia. A Coca-Cola Zero 350ml é mais do que apenas uma bebida: é um convite para um momento de pausa e prazer no meio da rotina. Experimente e sinta a diferença!",
       "preco": 6,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["coca-cola", "zero", "refrigerante", "350ml", "bebida"],
+      "imagem": "/images/products/bebidas/coca-cola-zero-350ml.png",
+      "tags": [
+        "coca-cola",
+        "zero",
+        "refrigerante",
+        "350ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -633,7 +808,12 @@
       "descricaoCurta": "Coca-Cola em garrafa KS.",
       "preco": 7,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["coca-cola", "ks", "refrigerante", "bebida"],
+      "tags": [
+        "coca-cola",
+        "ks",
+        "refrigerante",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -644,40 +824,63 @@
       "descricaoCurta": "Coca-Cola Zero em garrafa KS.",
       "preco": 7,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["coca-cola", "ks", "zero", "refrigerante", "bebida"],
+      "tags": [
+        "coca-cola",
+        "ks",
+        "zero",
+        "refrigerante",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
-      "id": "suco-laranja-fresca-300ml",
-      "slug": "suco-laranja-fresca-300ml",
+      "id": "sucos",
+      "slug": "sucos",
       "categoryId": "bebidas",
-      "nome": "Suco de Laranja Fresca 300ml",
-      "descricaoCurta": "Suco fresco de laranja com 300ml.",
+      "nome": "Sucos",
+      "descricaoCurta": "Sucos naturais. Consulte os sabores disponíveis do dia.",
+      "descricao": "Sucos naturais preparados na hora. Consulte os sabores disponíveis do dia.",
       "preco": 12,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["suco", "laranja", "fresco", "300ml", "bebida"],
+      "tags": [
+        "suco",
+        "natural",
+        "bebida",
+        "sabores do dia"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
       "id": "sprite-lata",
       "slug": "sprite-lata",
       "categoryId": "bebidas",
-      "nome": "Sprite Lata",
-      "descricaoCurta": "Refrigerante Sprite em lata.",
+      "nome": "Sprite Lata 350ml",
+      "descricaoCurta": "Refrigerante Sprite sabor limão em lata de 350ml.",
+      "descricao": "Sprite sabor limão em lata de 350ml. Uma opção leve, gaseificada e refrescante para acompanhar seu pedido.",
       "preco": 6,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["sprite", "refrigerante", "lata", "bebida"],
+      "imagem": "/images/products/bebidas/sprite-lata-350ml.png",
+      "tags": [
+        "sprite",
+        "refrigerante",
+        "lata",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
       "id": "schweppes",
       "slug": "schweppes",
       "categoryId": "bebidas",
-      "nome": "Schweppes",
-      "descricaoCurta": "Refrigerante Schweppes gelado.",
+      "nome": "Schweppes Citrus 350ml",
+      "descricaoCurta": "Refrigerante Schweppes Citrus em lata de 350ml.",
+      "descricao": "Schweppes Citrus em lata de 350ml. Uma bebida gaseificada com sabor cítrico, ideal para acompanhar seu pedido.",
       "preco": 6,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["schweppes", "refrigerante", "bebida"],
+      "imagem": "/images/products/bebidas/schweppes-citrus-350ml.png",
+      "tags": [
+        "schweppes",
+        "refrigerante",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -685,98 +888,33 @@
       "slug": "cha-gelado",
       "categoryId": "bebidas",
       "nome": "Chá Gelado",
-      "descricaoCurta": "Chá gelado refrescante.",
+      "descricaoCurta": "Chá gelado refrescante com combinações especiais da casa.",
       "preco": 13,
       "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["chá", "gelado", "bebida"],
-      "grupo": "Bebidas Geladas"
+      "tags": [
+        "chá",
+        "gelado",
+        "bebida"
+      ],
+      "grupo": "Bebidas Geladas",
+      "descricao": "Refrescante e preparado com nossas combinações especiais de chás. Consulte as opções disponíveis na casa."
     },
     {
       "id": "smoothie-frutas-vermelhas-coco-500ml",
       "slug": "smoothie-frutas-vermelhas-coco-500ml",
       "categoryId": "bebidas",
       "nome": "Smoothie Frutas Vermelhas e Leite de Coco 500ml",
-      "descricaoCurta": "Smoothie de frutas vermelhas e leite de coco com 500ml.",
+      "descricaoCurta": "Smoothie cremoso de frutas vermelhas com leite de coco, sem leite de vaca.",
+      "descricao": "Para você beber sem culpa. Esta bebida supercremosa, refrescante e saudável não contém leite de vaca e é preparada com leite de coco, polpa natural de frutas vermelhas, açúcar e um toque de limão. Porção de 500ml.",
       "preco": 21,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["smoothie", "frutas vermelhas", "leite de coco", "500ml", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "suco-maracuja-300ml",
-      "slug": "suco-maracuja-300ml",
-      "categoryId": "bebidas",
-      "nome": "Suco de Maracujá 300ml",
-      "descricaoCurta": "Suco de maracujá com 300ml.",
-      "preco": 12,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["suco", "maracujá", "300ml", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "taca-vinho-reserva",
-      "slug": "taca-vinho-reserva",
-      "categoryId": "bebidas",
-      "nome": "Taça de Vinho Reserva",
-      "descricaoCurta": "Taça de vinho reserva.",
-      "preco": 14.9,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["vinho", "taça", "reserva", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "vinho-suave-garrafa",
-      "slug": "vinho-suave-garrafa",
-      "categoryId": "bebidas",
-      "nome": "Vinho Suave Garrafa",
-      "descricaoCurta": "Garrafa de vinho suave.",
-      "preco": 39.9,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["vinho", "suave", "garrafa", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "suco-kiwi-300ml",
-      "slug": "suco-kiwi-300ml",
-      "categoryId": "bebidas",
-      "nome": "Suco de Kiwi 300ml",
-      "descricaoCurta": "Suco de kiwi com 300ml.",
-      "preco": 12,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["suco", "kiwi", "300ml", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "pina-colada-bebida",
-      "slug": "pina-colada-bebida",
-      "categoryId": "bebidas",
-      "nome": "Piña Colada",
-      "descricaoCurta": "Bebida gelada sabor Piña Colada.",
-      "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["piña colada", "coco", "abacaxi", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "suco-abacaxi-300ml",
-      "slug": "suco-abacaxi-300ml",
-      "categoryId": "bebidas",
-      "nome": "Suco de Abacaxi 300ml",
-      "descricaoCurta": "Suco de abacaxi com 300ml.",
-      "preco": 12,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["suco", "abacaxi", "300ml", "bebida"],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "suco-laranja-morango",
-      "slug": "suco-laranja-morango",
-      "categoryId": "bebidas",
-      "nome": "Suco de Laranja com Morango",
-      "descricaoCurta": "Suco fresco de laranja com morango.",
-      "preco": 16,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": ["suco", "laranja", "morango", "bebida"],
+      "imagem": "/images/products/bebidas/smoothie-frutas-vermelhas-coco-500ml.png",
+      "tags": [
+        "smoothie",
+        "frutas vermelhas",
+        "leite de coco",
+        "500ml",
+        "bebida"
+      ],
       "grupo": "Bebidas Geladas"
     },
     {
@@ -784,140 +922,234 @@
       "slug": "pote-red-velvet-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Red Velvet 250ml",
-      "descricaoCurta": "Sobremesa Red Velvet servida em pote de 250ml.",
+      "descricaoCurta": "Bolo Red Velvet com morango e cheesecake cremoso em pote individual de 250ml.",
+      "descricao": "Apresentamos nosso cobiçadíssimo Pote Red Velvet de 250ml, uma verdadeira joia da nossa categoria Potes da Felicidade. Este delicioso bolo Red Velvet traz a surpreendente e harmoniosa combinação do doce morango com o cremoso e suave cheesecake, tudo cuidadosamente acomodado em uma versão de pote individual. Ideal para proporcionar momentos de deleite e adicionar uma pitada extra de felicidade ao seu dia. Saboreie essa delícia bem gelada para uma experiência ainda mais prazerosa!",
       "preco": 16,
-      "imagem": "/images/home/carousel/hero-02.png",
-      "tags": ["pote", "red velvet", "250ml", "sobremesa"]
+      "imagem": "/images/products/sobremesas/pote-red-velvet-250ml.png",
+      "tags": [
+        "pote",
+        "red velvet",
+        "250ml",
+        "sobremesa"
+      ]
     },
     {
       "id": "pote-ninho-nutella-250ml",
       "slug": "pote-ninho-nutella-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Ninho e Nutella 250ml",
-      "descricaoCurta": "Sobremesa de Ninho e Nutella servida em pote de 250ml.",
+      "descricaoCurta": "Bolo de chocolate molhadinho com cremes de cheesecake Ninho e Nutella e brigadeiro cremoso.",
+      "descricao": "Para os fãs de Ninho e Nutella, criamos esta versão surpreendente: um bolo de chocolate mega molhadinho com dois cremes de cheesecake, Ninho e Nutella, além de brigadeiro cremoso. Tudo servido em um pote individual de 250ml.",
       "preco": 16,
-      "imagem": "/images/home/carousel/hero-04.png",
-      "tags": ["pote", "ninho", "nutella", "250ml", "sobremesa"]
+      "imagem": "/images/products/sobremesas/pote-ninho-nutella-250ml.png",
+      "tags": [
+        "pote",
+        "ninho",
+        "nutella",
+        "250ml",
+        "sobremesa"
+      ]
     },
     {
       "id": "pote-pistache-250ml",
       "slug": "pote-pistache-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Pistache 250ml",
-      "descricaoCurta": "Sobremesa de pistache servida em pote de 250ml.",
+      "descricaoCurta": "Bolo de chocolate molhadinho com creme de cheesecake de baunilha, pistache, brigadeiro e crocante de amendoim.",
+      "descricao": "Desfrute do Pote Pistache 250ml, um dos sabores mais requisitados pelos amantes de pistache da nossa categoria Potes da Felicidade. Aprecie as camadas de um irresistível bolo de chocolate, preparado para ficar extremamente macio e molhadinho. Sua experiência será aprimorada com o adocicado e suave creme de cheesecake de baunilha, harmoniosamente unido ao sabor marcante do pistache. Finalizamos com o toque indulgente do nosso brigadeiro caseiro, extremamente cremoso, e crocantes de amendoim que adicionam uma textura surpreendente. Uma combinação de sabores que fará seu paladar dançar de felicidade!",
       "preco": 16,
-      "imagem": "/images/home/carousel/hero-06.png",
-      "tags": ["pote", "pistache", "250ml", "sobremesa"]
-    },
-    {
-      "id": "cheesecake-cremosa-sabores",
-      "slug": "cheesecake-cremosa-sabores",
-      "categoryId": "sobremesas",
-      "nome": "Cheesecake Cremosa (Sabores)",
-      "descricaoCurta": "Cheesecake cremosa disponível em sabores variados.",
-      "preco": 17,
-      "imagem": "/images/products/product-cheesecake.png",
-      "tags": ["cheesecake", "cremosa", "sabores", "sobremesa"]
+      "imagem": "/images/products/sobremesas/pote-pistache-250ml.png",
+      "tags": [
+        "pote",
+        "pistache",
+        "250ml",
+        "sobremesa"
+      ]
     },
     {
       "id": "banoffee-pote",
       "slug": "banoffee-pote",
       "categoryId": "sobremesas",
-      "nome": "Banoffee Pote",
-      "descricaoCurta": "Banoffee artesanal servida no pote.",
+      "nome": "Pote Banoffee",
+      "descricaoCurta": "Bolo com café, doce de leite, creme de cheesecake de baunilha e banana flambada no whisky.",
+      "descricao": "Engana-se quem disse que Banoffee é tudo igual! A nossa leva uma camada de bolo com calda suave de café, uma camada de doce de leite artesanal, uma camada de creme de cheesecake de baunilha, uma camada de doce de banana flambada no whisky e creme de cheesecake com toque de canela. Conseguiu imaginar esta tentação?",
       "preco": 16,
-      "imagem": "/images/home/carousel/hero-06.png",
-      "tags": ["banoffee", "pote", "banana", "sobremesa"]
+      "imagem": "/images/products/sobremesas/pote-banoffee.png",
+      "tags": [
+        "banoffee",
+        "pote",
+        "banana",
+        "sobremesa"
+      ]
     },
     {
       "id": "cheesecake-new-york-style",
       "slug": "cheesecake-new-york-style",
       "categoryId": "sobremesas",
-      "nome": "Cheesecake New York Style",
-      "descricaoCurta": "Cheesecake cremosa no estilo clássico de Nova York.",
+      "nome": "Cheesecake New York Style (Assada)",
+      "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York, servida com geleia artesanal de morango.",
+      "descricao": "Apresentamos a nossa Cheesecake New York Style, uma receita tradicional de Nova York, ideal para apreciadores de uma textura inigualável e um sabor levemente azedinho e irresistível. Esta versão do famoso doce americano vai ao forno e depois é resfriada, criando uma textura cremosa que derrete na boca e deixa um gostinho de quero mais. Para finalizar, é primorosamente coberta com geleia artesanal de morango, conferindo um toque de doçura extra e uma explosão de sabores. Serve até 1 pessoa.",
       "preco": 19,
-      "imagem": "/images/products/product-cheesecake.png",
-      "tags": ["cheesecake", "new york", "sobremesa"]
+      "imagem": "/images/products/sobremesas/cheesecake-new-york-style.png",
+      "tags": [
+        "cheesecake",
+        "new york",
+        "sobremesa"
+      ]
     },
     {
       "id": "cheesecake-pistache-cerejas-new-york",
       "slug": "cheesecake-pistache-cerejas-new-york",
       "categoryId": "sobremesas",
-      "nome": "Cheesecake Pistache e Cerejas New York",
-      "descricaoCurta": "Cheesecake New York com pistache e cerejas.",
+      "nome": "Cheesecake New York Style de Pistache",
+      "descricaoCurta": "Cheesecake estilo Nova York com pasta natural de pistache e cobertura à escolha.",
       "preco": 21,
       "imagem": "/images/products/product-cheesecake.png",
-      "tags": ["cheesecake", "pistache", "cerejas", "new york", "sobremesa"]
-    },
-    {
-      "id": "canjicao",
-      "slug": "canjicao",
-      "categoryId": "sobremesas",
-      "nome": "Canjicão",
-      "descricaoCurta": "Canjicão cremoso preparado artesanalmente.",
-      "preco": 12,
-      "imagem": "/images/home/carousel/hero-06.png",
-      "tags": ["canjicão", "cremoso", "sobremesa"]
-    },
-    {
-      "id": "pote-pina-colada",
-      "slug": "pote-pina-colada",
-      "categoryId": "sobremesas",
-      "nome": "Pote Piña Colada",
-      "descricaoCurta": "Sobremesa Piña Colada servida no pote.",
-      "preco": 16,
-      "imagem": "/images/products/bolos/bolo-pina-colada.png",
-      "tags": ["pote", "piña colada", "coco", "abacaxi", "sobremesa"]
+      "tags": [
+        "cheesecake",
+        "pistache",
+        "new york",
+        "sobremesa"
+      ],
+      "descricao": "Nossa cheesecake artesanal, cremosa e densa na medida certa, fiel ao clássico estilo nova-iorquino e preparada com pasta natural de pistache. Escolha sua cobertura entre geleia artesanal de morango, caramelo salgado, ganache de chocolate ou churros. Para nós, as combinações de pistache com morango ou caramelo são simplesmente irresistíveis."
     },
     {
       "id": "pote-bolo-pudim",
       "slug": "pote-bolo-pudim",
       "categoryId": "sobremesas",
       "nome": "Pote Bolo Pudim",
-      "descricaoCurta": "Bolo pudim artesanal servido no pote.",
+      "descricaoCurta": "Sucesso das datas comemorativas da Sweet, agora na versão pote da felicidade.",
+      "descricao": "Sucesso do catálogo especial de datas comemorativas da Sweet, agora na versão pote da felicidade! Serve até 1 pessoa.",
+      "preco": 19,
+      "imagem": "/images/products/sobremesas/pote-bolo-pudim.png",
+      "tags": [
+        "pote",
+        "bolo pudim",
+        "sobremesa"
+      ]
+    },
+    {
+      "id": "cheesecake-cremosa-morango",
+      "slug": "cheesecake-cremosa-morango",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Cremosa de Morango",
+      "descricaoCurta": "Cheesecake cremosa em pote com cobertura de geleia artesanal de morango.",
+      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, finalizada com geleia artesanal de morango. Cremosa, delicada e irresistível.",
+      "preco": 17,
+      "imagem": "/images/products/sobremesas/cheesecake-cremosa-morango.png",
+      "tags": [
+        "cheesecake",
+        "cremosa",
+        "morango",
+        "sabores",
+        "sobremesa"
+      ],
+      "grupo": "Cheesecake Cremosa"
+    },
+    {
+      "id": "cheesecake-cremosa-churros",
+      "slug": "cheesecake-cremosa-churros",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Cremosa de Churros",
+      "descricaoCurta": "Cheesecake cremosa em pote com toque de canela e finalização inspirada em churros.",
+      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, no sabor churros: cremosa, aconchegante e com o aroma marcante de canela.",
+      "preco": 17,
+      "imagem": "/images/products/sobremesas/cheesecake-cremosa-churros.png",
+      "tags": [
+        "cheesecake",
+        "cremosa",
+        "churros",
+        "canela",
+        "sabores",
+        "sobremesa"
+      ],
+      "grupo": "Cheesecake Cremosa"
+    },
+    {
+      "id": "fatias-do-dia",
+      "slug": "fatias-do-dia",
+      "categoryId": "sobremesas",
+      "nome": "Fatias do Dia",
+      "descricaoCurta": "Sabores fresquinhos escolhidos especialmente para hoje.",
+      "descricao": "Uma seleção especial de nossas fatias artesanais, preparadas com receitas da casa e sabores que mudam conforme a produção do dia. Consulte as opções disponíveis.",
       "preco": 19,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["pote", "bolo pudim", "sobremesa"]
+      "tags": [
+        "fatia",
+        "fatias do dia",
+        "sobremesa",
+        "destaque"
+      ],
+      "grupo": "Fatias do Dia"
     },
     {
       "id": "fatia-red-velvet",
       "slug": "fatia-red-velvet",
       "categoryId": "sobremesas",
       "nome": "Fatia Red Velvet",
-      "descricaoCurta": "Fatia do bolo artesanal Red Velvet.",
+      "descricaoCurta": "Bolo de baunilha com geleia e cheesecake de morango, finalizado com chocolate branco.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-red-velvet.png",
-      "tags": ["fatia", "red velvet", "bolo", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-red-velvet.png",
+      "tags": [
+        "fatia",
+        "red velvet",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Delicado bolo de baunilha, intercalado com geleia artesanal de morango e creme de cheesecake de morango, finalizado com uma fina casca de chocolate branco. Cremoso, delicado e cheio de contrastes.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-ninho-nutella",
       "slug": "fatia-ninho-nutella",
       "categoryId": "sobremesas",
       "nome": "Fatia Ninho com Nutella",
-      "descricaoCurta": "Fatia do bolo artesanal de Ninho com Nutella.",
+      "descricaoCurta": "Chocolate meio amargo molhadinho com creme de cheesecake de Nutella e brigadeiro mesclado.",
+      "descricao": "Pra quem gosta da combinação de sabores mais doces, este é o bolo ideal. Feito com chocolate meio amargo bem molhado e recheado com uma camada de creme de cheesecake de Nutella. Coberto com um brigadeiro mole mesclado e uma casca de chocolate meio amargo. Serve até 1 pessoa.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
-      "tags": ["fatia", "ninho", "nutella", "bolo", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-ninho-nutella.png",
+      "tags": [
+        "fatia",
+        "ninho",
+        "nutella",
+        "bolo",
+        "sobremesa"
+      ],
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-pistachio",
       "slug": "fatia-pistachio",
       "categoryId": "sobremesas",
-      "nome": "Fatia Pistachio",
-      "descricaoCurta": "Fatia do bolo artesanal de pistache.",
+      "nome": "Fatia Pistache",
+      "descricaoCurta": "Chocolate meio amargo com cheesecake de baunilha, creme de pistache e brigadeiro.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-pistache.png",
-      "tags": ["fatia", "pistache", "bolo", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-pistache.png",
+      "tags": [
+        "fatia",
+        "pistache",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Massa intensa de chocolate meio amargo, combinada com creme de cheesecake de baunilha e creme de pistache natural. Finalizada com brigadeiro artesanal de pistache e baunilha e uma deliciosa casca de chocolate meio amargo.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-sergios-cake",
       "slug": "fatia-sergios-cake",
       "categoryId": "sobremesas",
       "nome": "Fatia Sergio's Cake",
-      "descricaoCurta": "Fatia do bolo artesanal Sergio's Cake.",
+      "descricaoCurta": "Chocolate com cheesecake de laranja e brigadeiro meio amargo.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-      "tags": ["fatia", "sergios cake", "bolo", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-sergios-cake.png",
+      "tags": [
+        "fatia",
+        "sergios cake",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Massa de chocolate macia e intensa, intercalada com creme de cheesecake de laranja e brigadeiro meio amargo. Uma combinação equilibrada entre chocolate e o toque cítrico da laranja.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-prestigio-zero",
@@ -927,67 +1159,85 @@
       "descricaoCurta": "Fatia de Prestígio em versão zero.",
       "preco": 22,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["fatia", "prestígio", "zero", "bolo", "sobremesa"]
+      "tags": [
+        "fatia",
+        "prestígio",
+        "zero",
+        "bolo",
+        "sobremesa"
+      ],
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-sergios-zero-gluten-zero-acucar",
       "slug": "fatia-sergios-zero-gluten-zero-acucar",
       "categoryId": "sobremesas",
-      "nome": "Fatia Sergio's Zero Glúten e Zero Açúcar",
-      "descricaoCurta": "Fatia Sergio's sem glúten e sem açúcar.",
+      "nome": "Fatia Sergio's Cake — Zero Glúten, Zero Açúcar",
+      "descricaoCurta": "Versão inclusiva do Sergio's Cake, sem glúten, sem açúcar refinado e sem leite.",
       "preco": 22,
       "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-      "tags": ["fatia", "sergios", "zero glúten", "zero açúcar", "restritivo", "sobremesa"]
-    },
-    {
-      "id": "tiramisu",
-      "slug": "tiramisu",
-      "categoryId": "sobremesas",
-      "nome": "Tiramisu",
-      "descricaoCurta": "Tiramisu artesanal Sweet Cheesecake.",
-      "preco": 19,
-      "imagem": "/images/categories/category-tortas.png",
-      "tags": ["tiramisu", "café", "sobremesa"]
+      "tags": [
+        "fatia",
+        "sergios",
+        "zero glúten",
+        "zero açúcar",
+        "restritivo",
+        "sobremesa"
+      ],
+      "descricao": "Nossa versão inclusiva do Sérgios Cake: a mesma combinação de chocolate, cheesecake de laranja e brigadeiro meio amargo, agora sem glúten, sem açúcar refinado e sem leite ou derivados. Produzido especialmente para quem busca uma sobremesa indulgente sem abrir mão das suas escolhas alimentares.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-clarissa-cake",
       "slug": "fatia-clarissa-cake",
       "categoryId": "sobremesas",
       "nome": "Fatia Clarissa Cake",
-      "descricaoCurta": "Fatia do bolo artesanal Clarissa Cake.",
+      "descricaoCurta": "Chocolate com cheesecake de morango, brigadeiro e chocolate meio amargo.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-clarissa.png",
-      "tags": ["fatia", "clarissa cake", "bolo", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-clarissa-cake.png",
+      "tags": [
+        "fatia",
+        "clarissa cake",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Nosso bolo de chocolate com creme de cheesecake de morango, brigadeiro meio amargo e chocolate meio amargo. Uma sobremesa intensa, cremosa e feita para os verdadeiros amantes de chocolate.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-chocolatudo",
       "slug": "fatia-chocolatudo",
       "categoryId": "sobremesas",
       "nome": "Fatia Chocolatudo",
-      "descricaoCurta": "Fatia do bolo artesanal Chocolatudo.",
+      "descricaoCurta": "Bolo estilo Matilda: chocolate em todas as camadas, macio e generoso.",
       "preco": 19,
       "imagem": "/images/products/bolos/bolo-chocolatudo.png",
-      "tags": ["fatia", "chocolatudo", "chocolate", "bolo", "sobremesa"]
+      "tags": [
+        "fatia",
+        "chocolatudo",
+        "chocolate",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Nossa versão do famoso bolo estilo Matilda: chocolate em todas as camadas, com uma textura extremamente macia e uma cobertura cremosa e generosa. Para quem acredita que chocolate nunca é demais.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "fatia-pina-colada",
       "slug": "fatia-pina-colada",
       "categoryId": "sobremesas",
       "nome": "Fatia Piña Colada",
-      "descricaoCurta": "Fatia do bolo artesanal Piña Colada.",
+      "descricaoCurta": "Massa de coco molhadinha com creme de coco e creme de abacaxi.",
       "preco": 19,
-      "imagem": "/images/products/bolos/bolo-pina-colada.png",
-      "tags": ["fatia", "piña colada", "bolo", "sobremesa"]
-    },
-    {
-      "id": "bolo-gelado-pina-colada",
-      "slug": "bolo-gelado-pina-colada",
-      "categoryId": "sobremesas",
-      "nome": "Bolo Gelado Piña Colada",
-      "descricaoCurta": "Bolo gelado artesanal sabor Piña Colada.",
-      "preco": 10,
-      "imagem": "/images/products/bolos/bolo-pina-colada.png",
-      "tags": ["bolo gelado", "piña colada", "sobremesa"]
+      "imagem": "/images/products/sobremesas/fatia-pina-colada.png",
+      "tags": [
+        "fatia",
+        "piña colada",
+        "bolo",
+        "sobremesa"
+      ],
+      "descricao": "Uma combinação tropical e delicada de massa de coco bem molhadinha, creme de coco e creme de abacaxi. Cremosa, refrescante e com aquele equilíbrio delicioso entre coco e fruta.",
+      "grupo": "Fatias Artesanais"
     },
     {
       "id": "coracao-de-ouro",
@@ -997,17 +1247,27 @@
       "descricaoCurta": "Mimo artesanal para presentear com carinho.",
       "preco": 19,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["coração", "ouro", "mimo", "presente"]
+      "tags": [
+        "coração",
+        "ouro",
+        "mimo",
+        "presente"
+      ]
     },
     {
       "id": "barrinha-amor",
       "slug": "barrinha-amor",
       "categoryId": "presentes",
-      "nome": "Barrinha Amor",
-      "descricaoCurta": "Barrinha artesanal preparada para presentear.",
+      "nome": "Barrinha com Amor",
+      "descricaoCurta": "Barrinha de chocolate nobre com praliné de amendoim crocante.",
+      "descricao": "Barrinha de chocolate nobre com praliné de amendoim crocante.",
       "preco": 16,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": ["barrinha", "amor", "presente"]
+      "imagem": "/images/products/presentes/barrinha-com-amor.png",
+      "tags": [
+        "barrinha",
+        "amor",
+        "presente"
+      ]
     },
     {
       "id": "biscoitinhos-amanteigados",
@@ -1017,7 +1277,11 @@
       "descricaoCurta": "Biscoitinhos artesanais, leves e amanteigados.",
       "preco": 14,
       "imagem": "/images/products/product-brownie.png",
-      "tags": ["biscoitos", "amanteigados", "presente"]
+      "tags": [
+        "biscoitos",
+        "amanteigados",
+        "presente"
+      ]
     },
     {
       "id": "trio-doce-amor-paes-de-mel",
@@ -1027,7 +1291,12 @@
       "descricaoCurta": "Trio especial de pães de mel artesanais.",
       "preco": 44,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["trio", "doce amor", "pão de mel", "presente"]
+      "tags": [
+        "trio",
+        "doce amor",
+        "pão de mel",
+        "presente"
+      ]
     },
     {
       "id": "mini-bolo-especial",
@@ -1037,7 +1306,11 @@
       "descricaoCurta": "Mini bolo artesanal em apresentação especial.",
       "preco": 39,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["mini bolo", "especial", "presente"]
+      "tags": [
+        "mini bolo",
+        "especial",
+        "presente"
+      ]
     },
     {
       "id": "caixa-doce-amor",
@@ -1047,7 +1320,11 @@
       "descricaoCurta": "Caixa especial de doces para presentear.",
       "preco": 79,
       "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["caixa", "doce amor", "presente"]
+      "tags": [
+        "caixa",
+        "doce amor",
+        "presente"
+      ]
     },
     {
       "id": "caixa-com-amor-trufas",
@@ -1057,7 +1334,12 @@
       "descricaoCurta": "Caixa especial com trufas artesanais.",
       "preco": 36,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "trufas", "amor", "presente"]
+      "tags": [
+        "caixa",
+        "trufas",
+        "amor",
+        "presente"
+      ]
     },
     {
       "id": "mini-bolo-saudavel-cocada-baiana",
@@ -1067,7 +1349,12 @@
       "descricaoCurta": "Mini bolo saudável sabor Cocada Baiana.",
       "preco": 39,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["mini bolo", "saudável", "cocada baiana", "presente"]
+      "tags": [
+        "mini bolo",
+        "saudável",
+        "cocada baiana",
+        "presente"
+      ]
     },
     {
       "id": "mini-bolo-saudavel-limao-siciliano",
@@ -1077,7 +1364,12 @@
       "descricaoCurta": "Mini bolo saudável sabor Limão Siciliano.",
       "preco": 44,
       "imagem": "/images/products/product-bolo.png",
-      "tags": ["mini bolo", "saudável", "limão siciliano", "presente"]
+      "tags": [
+        "mini bolo",
+        "saudável",
+        "limão siciliano",
+        "presente"
+      ]
     },
     {
       "id": "sacola-maes",
@@ -1087,7 +1379,12 @@
       "descricaoCurta": "Sacola especial para montar seu presente.",
       "preco": 7,
       "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["sacola", "mães", "embalagem", "presente"]
+      "tags": [
+        "sacola",
+        "mães",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "pano-de-prato",
@@ -1097,7 +1394,11 @@
       "descricaoCurta": "Pano de prato para complementar o presente.",
       "preco": 10,
       "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["pano de prato", "mimo", "presente"]
+      "tags": [
+        "pano de prato",
+        "mimo",
+        "presente"
+      ]
     },
     {
       "id": "cesta-amor-saudavel",
@@ -1107,7 +1408,12 @@
       "descricaoCurta": "Cesta especial com seleção de produtos saudáveis.",
       "preco": 120,
       "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["cesta", "amor", "saudável", "presente"]
+      "tags": [
+        "cesta",
+        "amor",
+        "saudável",
+        "presente"
+      ]
     },
     {
       "id": "sacola-maes-grande",
@@ -1117,7 +1423,13 @@
       "descricaoCurta": "Sacola grande para montar seu presente.",
       "preco": 10,
       "imagem": "/images/home/carousel/hero-03.png",
-      "tags": ["sacola", "mães", "grande", "embalagem", "presente"]
+      "tags": [
+        "sacola",
+        "mães",
+        "grande",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-presenteavel-p",
@@ -1127,7 +1439,13 @@
       "descricaoCurta": "Caixa presenteável pequena para montar seu presente.",
       "preco": 5,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "presenteável", "pequena", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "presenteável",
+        "pequena",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-presenteavel-g",
@@ -1137,7 +1455,13 @@
       "descricaoCurta": "Caixa presenteável grande para montar seu presente.",
       "preco": 15,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "presenteável", "grande", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "presenteável",
+        "grande",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-presenteavel-m",
@@ -1147,7 +1471,13 @@
       "descricaoCurta": "Caixa presenteável média para montar seu presente.",
       "preco": 8,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "presenteável", "média", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "presenteável",
+        "média",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-trufa-presente-3-unidades",
@@ -1157,7 +1487,13 @@
       "descricaoCurta": "Caixa presenteável para três trufas.",
       "preco": 3,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "trufas", "3 unidades", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "trufas",
+        "3 unidades",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-presenteavel-6-unidades",
@@ -1167,7 +1503,12 @@
       "descricaoCurta": "Caixa presenteável para seis unidades.",
       "preco": 3,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "6 unidades", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "6 unidades",
+        "embalagem",
+        "presente"
+      ]
     },
     {
       "id": "caixa-presenteavel-10-unidades",
@@ -1177,7 +1518,12 @@
       "descricaoCurta": "Caixa presenteável para dez unidades.",
       "preco": 5,
       "imagem": "/images/categories/category-bombons.png",
-      "tags": ["caixa", "10 unidades", "embalagem", "presente"]
+      "tags": [
+        "caixa",
+        "10 unidades",
+        "embalagem",
+        "presente"
+      ]
     }
   ]
 }

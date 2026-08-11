@@ -320,31 +320,57 @@ export function ContinuousCatalog({
                     </p>
                   ) : (
                     Array.from(productGroups.entries()).map(
-                      ([group, groupProducts], groupIndex) => (
-                        <div
-                          key={group || "products"}
-                          className={groupIndex > 0 ? "mt-8" : undefined}
-                        >
-                          {group ? (
-                            <h3 className="mb-3 font-display text-xl text-foreground">
-                              {group}
-                            </h3>
-                          ) : null}
-                          {groupProducts.map((product, index) => (
-                            <CatalogProductRow
-                              key={product.id}
-                              product={product}
-                              index={index}
-                              preferredVariantId={
-                                category.id === "bolos"
-                                  ? selectedCakeSize
-                                  : undefined
+                      ([group, groupProducts], groupIndex) => {
+                        const groupIntro =
+                          group === "Fatias do Dia"
+                            ? {
+                                title: "Fatias do Dia",
+                                description:
+                                  "Sabores fresquinhos escolhidos especialmente para hoje. Consulte a vitrine ou nossa equipe.",
                               }
-                              onSelect={selectProduct}
-                            />
-                          ))}
-                        </div>
-                      )
+                            : group === "Cheesecake Cremosa"
+                              ? {
+                                  title: "Cheesecake Cremosa",
+                                  description:
+                                    "A sobremesa queridinha da Sweet em pote, leve e cremosa. Escolha o sabor.",
+                                }
+                              : null;
+
+                        return (
+                          <div
+                            key={group || "products"}
+                            className={groupIndex > 0 ? "mt-8" : undefined}
+                          >
+                            {groupIntro ? (
+                              <div className="mb-3 rounded-2xl border border-primary/15 bg-gradient-to-br from-surface-0/90 via-surface-1/70 to-primary/5 px-4 py-4 sm:px-5 sm:py-5">
+                                <h3 className="font-display text-xl text-foreground sm:text-2xl">
+                                  {groupIntro.title}
+                                </h3>
+                                <p className="mt-1.5 max-w-xl text-sm leading-relaxed text-muted">
+                                  {groupIntro.description}
+                                </p>
+                              </div>
+                            ) : group ? (
+                              <h3 className="mb-3 font-display text-xl text-foreground">
+                                {group}
+                              </h3>
+                            ) : null}
+                            {groupProducts.map((product, index) => (
+                              <CatalogProductRow
+                                key={product.id}
+                                product={product}
+                                index={index}
+                                preferredVariantId={
+                                  category.id === "bolos"
+                                    ? selectedCakeSize
+                                    : undefined
+                                }
+                                onSelect={selectProduct}
+                              />
+                            ))}
+                          </div>
+                        );
+                      }
                     )
                   )}
                 </section>
