@@ -91,7 +91,7 @@
       "nome": "Quiche Vegana",
       "descricaoCurta": "Massa crocante sem glúten, recheada com legumes assados e creme vegano.",
       "preco": 12,
-      "imagem": "/images/categories/category-lanches.png",
+      "imagem": "/images/products/lanches/quiche-vegana.png",
       "tags": [
         "quiche",
         "vegana",
@@ -182,7 +182,7 @@
       "nome": "Monte o Seu Pão de Queijo",
       "descricaoCurta": "Monte seu sanduíche de pão de queijo com proteína, queijo, molhos e salada.",
       "preco": 18,
-      "imagem": "/images/categories/category-lanches.png",
+      "imagem": "/images/products/lanches/pao-de-queijo-o-queridinho.png",
       "tags": [
         "pão de queijo",
         "personalizado",
@@ -191,18 +191,32 @@
       "descricao": "Transforme nosso pão de queijo artesanal em um sanduíche do seu jeito. Escolha 1 proteína, 1 queijo, até 2 molhos e salada à vontade e monte sua combinação favorita."
     },
     {
-      "id": "spread-cream-cheese-geleia-torradas",
-      "slug": "spread-cream-cheese-geleia-torradas",
+      "id": "monte-seu-sanduiche",
+      "slug": "monte-seu-sanduiche",
       "categoryId": "salgados",
-      "nome": "Spread Cream Cheese + Geleia + Torradas",
-      "descricaoCurta": "Spread de cream cheese e geleia acompanhado de torradas.",
-      "preco": 80,
-      "imagem": "/images/categories/category-lanches.png",
+      "nome": "Monte o Seu Sanduíche",
+      "descricaoCurta": "Se nossos sanduíches já são incríveis, imagina montar o seu do jeito que mais gosta.",
+      "descricao": "Se nossos sanduíches já são incríveis, imagina poder montar o seu próprio da maneira que você mais gosta? Escolha o pão, 1 proteína, 1 queijo, até 2 molhos, salada à vontade e turbinar com adicionais.",
+      "preco": 29,
+      "imagem": "/images/products/lanches/sub-da-sweet.png",
       "tags": [
-        "spread",
-        "cream cheese",
-        "geleia",
-        "torradas",
+        "sanduíche",
+        "personalizado",
+        "lanche"
+      ]
+    },
+    {
+      "id": "monte-sua-tapioca",
+      "slug": "monte-sua-tapioca",
+      "categoryId": "salgados",
+      "nome": "Monte a Sua Tapioca",
+      "descricaoCurta": "Monte a tapioca do seu jeito, com proteína, queijo, molhos e salada.",
+      "descricao": "Escolha 1 proteína, 1 queijo, até 2 molhos, salada à vontade e turbinar com adicionais para montar a tapioca do seu jeito.",
+      "preco": 25,
+      "imagem": "/images/products/lanches/monte-sua-tapioca.png",
+      "tags": [
+        "tapioca",
+        "personalizado",
         "lanche"
       ]
     },

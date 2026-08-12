@@ -14,7 +14,6 @@ const HEADER_LINKS = [
   { label: "Cardápio Cafeteria", href: "/cardapio#salgados" },
   { label: "Catálogo de Bolos", href: "/cardapio#bolos" },
   { label: "Lojas", href: "/#lojas" },
-  { label: "Sobre", href: "/#historia" },
 ] as const;
 
 export function Header() {

@@ -34,7 +34,8 @@ export const CatalogProductRow = memo(function CatalogProductRow({
   const needsConfiguration =
     product.kind === "bolo" ||
     product.variants.length > 1 ||
-    product.complements.length > 0;
+    product.complements.length > 0 ||
+    product.complementGroups.length > 0;
 
   const handleAction = () => {
     if (needsConfiguration) {

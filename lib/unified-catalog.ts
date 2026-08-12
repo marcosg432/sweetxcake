@@ -11,7 +11,7 @@ import {
   BOLOS_PP,
   type Bolo,
 } from "@/lib/bolos";
-import { getProductComplements } from "@/lib/product-complements";
+import { getProductComplementGroups, getProductComplements } from "@/lib/product-complements";
 
 export type ProductVariant = {
   id: string;
@@ -24,6 +24,16 @@ export type ProductComplement = {
   id: string;
   name: string;
   price: number;
+  details?: string;
+};
+
+export type ProductComplementGroup = {
+  id: string;
+  title: string;
+  hint?: string;
+  min?: number;
+  max?: number;
+  options: ProductComplement[];
 };
 
 export type UnifiedCatalogProduct = {
@@ -38,6 +48,7 @@ export type UnifiedCatalogProduct = {
   group?: string;
   variants: ProductVariant[];
   complements: ProductComplement[];
+  complementGroups: ProductComplementGroup[];
   allowNotes: boolean;
   kind: "cafeteria" | "bolo";
 };
@@ -103,6 +114,15 @@ const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) 
       ? product.variacoes
       : [{ id: "unico", label: "Único", price: product.preco }],
     complements: product.complementos ?? getProductComplements(product.id),
+    complementGroups: product.complementos?.length
+      ? [
+          {
+            id: `${product.id}-complementos`,
+            title: "Complementos",
+            options: product.complementos,
+          },
+        ]
+      : getProductComplementGroups(product.id),
     allowNotes: product.permiteObservacoes ?? true,
     kind: "cafeteria",
   };
@@ -151,6 +171,28 @@ const cakeProducts: UnifiedCatalogProduct[] = [
             : exclusiveSize === "g"
               ? gCakeComplements
               : []),
+    complementGroups: (() => {
+      const options =
+        bolo.complementos ??
+        (exclusiveSize === "pp"
+          ? ppCakeComplements
+          : exclusiveSize === "p"
+            ? pCakeComplements
+            : exclusiveSize === "m"
+              ? mCakeComplements
+              : exclusiveSize === "g"
+                ? gCakeComplements
+                : []);
+      return options.length
+        ? [
+            {
+              id: `${bolo.id}-complementos`,
+              title: "Complementos",
+              options,
+            },
+          ]
+        : [];
+    })(),
     allowNotes: true,
     kind: "bolo",
   };

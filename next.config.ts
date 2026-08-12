@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
       { source: "/promocoes", destination: "/cardapio", permanent: false },
       { source: "/contato", destination: "/#lojas", permanent: false },
       { source: "/instagram", destination: "/#instagram", permanent: false },
-      { source: "/sobre", destination: "/#historia", permanent: false },
+      { source: "/sobre", destination: "/", permanent: false },
       { source: "/categorias", destination: "/cardapio", permanent: false },
       { source: "/carrinho", destination: "/", permanent: false },
       { source: "/finalizar", destination: "/", permanent: false },

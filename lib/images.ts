@@ -4,7 +4,6 @@ export const IMAGES = {
   },
   team: [
     "/images/team/team-01.jpg",
-    "/images/team/team-02.jpg",
     "/images/team/team-03.jpg",
     "/images/team/team-04.jpg",
     "/images/team/team-05.jpg",

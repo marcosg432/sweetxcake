@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Clock, MapPin } from "lucide-react";
-import { BrandLogo, BrandSignature, BrandWatermark } from "@/components/brand/brand-logo";
+import { BrandSignature, BrandWatermark } from "@/components/brand/brand-logo";
 import { InstagramIcon } from "@/components/brand/instagram-link";
 import { HomeHeroCarousel } from "@/components/home/home-hero-carousel";
 import { TeamSection } from "@/components/home/team-section";
@@ -55,35 +55,6 @@ function CinematicHero() {
 
         <div className="relative z-10 w-full max-w-[30rem] justify-self-center lg:max-w-[26rem] lg:justify-self-end">
           <HomeHeroCarousel />
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function EditorialManifesto() {
-  return (
-    <section id="historia" className="section-surface-1 paper-texture relative overflow-hidden py-20 sm:py-28">
-      <div className="organic-orb right-[10%] top-8 h-56 w-56 bg-primary/15" />
-      <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="glass-panel relative grid gap-10 overflow-hidden rounded-[2.25rem] p-8 sm:p-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
-          <BrandWatermark className="-bottom-10 -right-6 sm:-right-4" />
-          <p className="relative z-10 font-display text-3xl leading-[1.05] tracking-[-0.02em] text-foreground sm:text-5xl">
-            Produzimos uma experiência com ritmo.
-            <span className="block text-primary">Textura. Luz. Intenção.</span>
-          </p>
-          <div className="relative z-10 max-w-xl justify-self-end">
-            <p className="text-sm leading-relaxed text-muted sm:text-base">
-              A Sweet Cheesecake nasceu para transformar produtos artesanais em uma experiência
-              memorável. A cada detalhe, buscamos elegância, acolhimento e excelência.
-            </p>
-            <div className="mt-6 flex items-center gap-3">
-              <BrandLogo size="xs" tone="soft" />
-              <p className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
-                Assinatura da casa
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -238,7 +209,6 @@ export function ArtDirectedHome() {
   return (
     <>
       <CinematicHero />
-      <EditorialManifesto />
       <TeamSection />
       <BrandSignature className="py-2" />
       <RestrictiveShowcase />

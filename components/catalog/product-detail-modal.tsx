@@ -6,7 +6,10 @@ import { Check, Minus, Plus, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { formatPrice } from "@/lib/utils";
-import type { UnifiedCatalogProduct } from "@/lib/unified-catalog";
+import type {
+  ProductComplementGroup,
+  UnifiedCatalogProduct,
+} from "@/lib/unified-catalog";
 import { useCartStore, type CartItem } from "@/stores/cart-store";
 import { useUiStore } from "@/stores/ui-store";
 
@@ -16,6 +19,13 @@ type ProductDetailModalProps = {
   initialVariantId?: string;
   onClose: () => void;
 };
+
+function groupSelectionCount(
+  group: ProductComplementGroup,
+  selectedIds: Set<string>
+) {
+  return group.options.filter((option) => selectedIds.has(option.id)).length;
+}
 
 export function ProductDetailModal({
   product,
@@ -41,6 +51,8 @@ export function ProductDetailModal({
   const selectedVariant =
     product.variants.find((variant) => variant.id === variantId) ?? product.variants[0];
 
+  const complementGroups = product.complementGroups;
+
   const selectedComplements = useMemo(
     () =>
       product.complements.filter((complement) =>
@@ -48,6 +60,17 @@ export function ProductDetailModal({
       ),
     [product.complements, selectedComplementIds]
   );
+
+  const missingRequiredGroups = useMemo(
+    () =>
+      complementGroups.filter((group) => {
+        const min = group.min ?? 0;
+        return groupSelectionCount(group, selectedComplementIds) < min;
+      }),
+    [complementGroups, selectedComplementIds]
+  );
+
+  const canAdd = missingRequiredGroups.length === 0;
 
   const unitPrice =
     selectedVariant.price +
@@ -69,16 +92,44 @@ export function ProductDetailModal({
     };
   }, [onClose]);
 
-  const toggleComplement = (id: string) => {
+  const toggleComplement = (group: ProductComplementGroup, optionId: string) => {
     setSelectedComplementIds((current) => {
       const next = new Set(current);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
+      const alreadySelected = next.has(optionId);
+      const max = group.max;
+
+      if (alreadySelected) {
+        next.delete(optionId);
+        return next;
+      }
+
+      if (max === 1) {
+        for (const option of group.options) next.delete(option.id);
+        next.add(optionId);
+        return next;
+      }
+
+      const selectedInGroup = group.options.filter((option) => next.has(option.id)).length;
+      if (typeof max === "number" && selectedInGroup >= max) {
+        return current;
+      }
+
+      next.add(optionId);
       return next;
     });
   };
 
   const handleAdd = () => {
+    if (!canAdd) {
+      const firstMissing = missingRequiredGroups[0];
+      showToast(
+        firstMissing
+          ? `Selecione: ${firstMissing.hint ?? firstMissing.title}`
+          : "Complete as opções obrigatórias."
+      );
+      return;
+    }
+
     const configuredItem = {
       id: product.id,
       slug: product.slug,
@@ -214,37 +265,68 @@ export function ProductDetailModal({
             </fieldset>
           ) : null}
 
-          {product.complements.length > 0 ? (
-            <fieldset className="mt-6">
-              <legend className="text-sm font-semibold text-foreground">
-                Complementos
-              </legend>
-              <div className="mt-3 space-y-2">
-                {product.complements.map((complement) => {
-                  const selected = selectedComplementIds.has(complement.id);
-                  return (
-                    <label
-                      key={complement.id}
-                      className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-primary/12 bg-surface-0 px-4 py-3 transition hover:border-primary/30"
-                    >
-                      <span className="flex items-center gap-3">
-                        <input
-                          type="checkbox"
-                          checked={selected}
-                          onChange={() => toggleComplement(complement.id)}
-                          className="h-4 w-4 accent-primary"
-                        />
-                        <span className="text-sm text-foreground">{complement.name}</span>
-                      </span>
-                      <span className="text-xs font-medium text-primary">
-                        + {formatPrice(complement.price)}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            </fieldset>
-          ) : null}
+          {complementGroups.map((group) => {
+            const selectedCount = groupSelectionCount(group, selectedComplementIds);
+            const isSingle = group.max === 1;
+            const reachedMax =
+              typeof group.max === "number" && selectedCount >= group.max;
+
+            return (
+              <fieldset key={group.id} className="mt-6">
+                <legend className="text-sm font-semibold text-foreground">
+                  {group.title}
+                </legend>
+                {group.hint ? (
+                  <p className="mt-1 text-xs text-muted">{group.hint}</p>
+                ) : null}
+                <div className="mt-3 space-y-2">
+                  {group.options.map((complement) => {
+                    const selected = selectedComplementIds.has(complement.id);
+                    const disabled = !selected && reachedMax && !isSingle;
+
+                    return (
+                      <label
+                        key={complement.id}
+                        className={`flex cursor-pointer items-center justify-between gap-3 rounded-2xl border px-4 py-3 transition ${
+                          selected
+                            ? "border-primary bg-primary/8"
+                            : disabled
+                              ? "cursor-not-allowed border-primary/8 bg-surface-0 opacity-50"
+                              : "border-primary/12 bg-surface-0 hover:border-primary/30"
+                        }`}
+                      >
+                        <span className="flex min-w-0 items-center gap-3">
+                          <input
+                            type={isSingle ? "radio" : "checkbox"}
+                            name={isSingle ? `group-${group.id}` : undefined}
+                            checked={selected}
+                            disabled={disabled}
+                            onChange={() => toggleComplement(group, complement.id)}
+                            className="h-4 w-4 accent-primary"
+                          />
+                          <span className="min-w-0">
+                            <span className="block text-sm text-foreground">
+                              {complement.name}
+                            </span>
+                            {complement.details ? (
+                              <span className="mt-0.5 block text-[11px] text-primary">
+                                {complement.details}
+                              </span>
+                            ) : null}
+                          </span>
+                        </span>
+                        {complement.price > 0 ? (
+                          <span className="shrink-0 text-xs font-medium text-primary">
+                            + {formatPrice(complement.price)}
+                          </span>
+                        ) : null}
+                      </label>
+                    );
+                  })}
+                </div>
+              </fieldset>
+            );
+          })}
 
           <div className="mt-6 flex items-center justify-between gap-4">
             <p className="text-sm font-semibold text-foreground">Quantidade</p>
@@ -285,7 +367,12 @@ export function ProductDetailModal({
         </div>
 
         <div className="shrink-0 border-t border-primary/10 bg-surface-1/95 px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-4 backdrop-blur-xl sm:px-6">
-          <Button variant="action" className="w-full py-3.5" onClick={handleAdd}>
+          <Button
+            variant="action"
+            className="w-full py-3.5 disabled:cursor-not-allowed disabled:opacity-50"
+            onClick={handleAdd}
+            disabled={!canAdd}
+          >
             {cartItem ? "Atualizar pedido" : "Adicionar ao pedido"} ·{" "}
             {formatPrice(subtotal)}
           </Button>
