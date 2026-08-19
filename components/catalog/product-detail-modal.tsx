@@ -196,7 +196,15 @@ export function ProductDetailModal({
             alt={product.name}
             fill
             sizes="(max-width: 768px) 100vw, 512px"
-            className="object-cover"
+            className={
+              product.id === "refrigerantes-lata-350ml" ||
+              product.id === "coca-ks" ||
+              product.id === "coca-ks-zero" ||
+              product.id === "agua-mineral" ||
+              product.id === "agua-com-gas"
+                ? "object-contain"
+                : "object-cover"
+            }
           />
           <button
             type="button"

@@ -13,9 +13,11 @@ export function buildWhatsAppOrderMessage(
       );
     }
     for (const complement of item.complements ?? []) {
-      details.push(
-        `  + ${complement.name} (+R$ ${complement.price.toFixed(2).replace(".", ",")})`
-      );
+      const priceLabel =
+        complement.price > 0
+          ? ` (+R$ ${complement.price.toFixed(2).replace(".", ",")})`
+          : "";
+      details.push(`  + ${complement.name}${priceLabel}`);
     }
     const notes = item.notes ?? item.observations;
     if (notes) details.push(`  Obs: ${notes}`);

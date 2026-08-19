@@ -393,10 +393,30 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
       },
     ],
   },
+  "refrigerantes-lata-sabor": {
+    id: "refrigerantes-lata-sabor",
+    title: "Escolha o refrigerante",
+    hint: "Escolha 01",
+    min: 1,
+    max: 1,
+    options: [
+      { id: "lata-coca", name: "Coca", price: 0 },
+      { id: "lata-coca-zero", name: "Coca Zero", price: 0 },
+      { id: "lata-sprite", name: "Sprite", price: 0 },
+      { id: "lata-sprite-zero", name: "Sprite Zero", price: 0 },
+      { id: "lata-schweppes", name: "Schweppes", price: 0 },
+      {
+        id: "lata-schweppes-baixo-acucares",
+        name: "Schweppes Baixo em Açúcares",
+        price: 0,
+      },
+    ],
+  },
 };
 
 const PRODUCT_COMPLEMENT_GROUP_IDS: Record<string, string[]> = {
   "cheesecake-pistache-cerejas-new-york": ["cobertura-cheesecake-ny"],
+  "refrigerantes-lata-350ml": ["refrigerantes-lata-sabor"],
   "croissant-amanteigado": ["turbine-croissant"],
   "monte-seu-sanduiche": [
     "monte-seu-sanduiche-pao",

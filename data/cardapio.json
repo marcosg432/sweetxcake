@@ -38,66 +38,53 @@
   ],
   "products": [
     {
-      "id": "pao-de-queijo",
-      "slug": "pao-de-queijo",
+      "id": "sub-da-sweet",
+      "slug": "sub-da-sweet",
       "categoryId": "salgados",
-      "nome": "Pão de Queijo",
-      "descricaoCurta": "Pão de queijo artesanal com muçarela e provolone, levemente tostado na chapa.",
-      "preco": 8,
-      "imagem": "/images/products/lanches/pao-de-queijo.png",
+      "nome": "Sub da Sweet",
+      "descricaoCurta": "Pão de fermentação natural, peito de peru defumado, bacon crocante, cream cheese e ingredientes frescos.",
+      "descricao": "O 'Sub da Sweet' é, indiscutivelmente, o melhor sanduíche que você degustará. Feito com um pão de fermentação natural, meticulosamente preparado na Sweet, é realçado com um toque distinto de tomate seco e manjericão. O recheio generoso consiste de um suculento peito de peru defumado, complementado com o bacon crocante irresistível. A cremosidade do cream cheese e a frescura da cebola roxa, tomate e alface americana se combinam para criar um sabor incomparável. Por fim, a maionese adiciona um toque final de suavidade que envolve todo o paladar numa experiência gastronômica inesquecível.",
+      "preco": 25,
+      "imagem": "/images/products/lanches/sub-da-sweet.png",
       "tags": [
-        "pão de queijo",
-        "queijo",
-        "lanche",
-        "salgado"
-      ],
-      "descricao": "Pão de queijo artesanal da casa, preparado com muçarela e provolone e levemente tostado na chapa para ficar douradinho e crocante por fora, com interior macio e cheio de sabor."
-    },
-    {
-      "id": "toast-cream-cheese-geleia",
-      "slug": "toast-cream-cheese-geleia",
-      "categoryId": "salgados",
-      "nome": "Toast + Cream Cheese e Geleia",
-      "descricaoCurta": "Pão de fermentação artesanal com cream cheese e geleia de pimentão vermelho defumado.",
-      "preco": 16,
-      "imagem": "/images/products/lanches/toast-cream-cheese-geleia.png",
-      "tags": [
-        "toast",
-        "cream cheese",
-        "geleia",
+        "sub",
+        "sanduíche",
+        "sweet",
         "lanche"
       ],
-      "descricao": "Fatias de pão de fermentação artesanal, tostadas e servidas com cream cheese cremoso e nossa geleia artesanal de pimentão vermelho defumado. Um equilíbrio delicioso entre cremosidade, crocância e sabor defumado."
+      "grupo": "Sanduíches"
     },
     {
-      "id": "croissant-amanteigado",
-      "slug": "croissant-amanteigado",
+      "id": "dpanela",
+      "slug": "dpanela",
       "categoryId": "salgados",
-      "nome": "Croissant Amanteigado na Chapa",
-      "descricaoCurta": "Croissant macio, leve e finalizado na chapa para ganhar uma crocância irresistível.",
-      "descricao": "Nosso croissant é macio e leve e vai à chapa para criar uma crocância que faz dele ainda melhor.",
-      "preco": 14,
-      "imagem": "/images/products/lanches/croissant-amanteigado.png",
+      "nome": "D'Panela",
+      "descricaoCurta": "Ciabatta artesanal com carne louca ao molho de vinho, cebola roxa, rúcula, geleia agridoce e molho barbecue.",
+      "descricao": "Apresentamos o D'Panela, uma obra-prima dentre os sanduíches. Delicie-se com a harmonia de sabores, começando por uma ciabatta artesanal, pão de textura única e sabor marcante. O coração desta delícia é a carne louca, preparada com um saboroso molho de vinho, que eleva o sabor da carne a um novo patamar. A cebola roxa traz um toque de frescor e crocância, enquanto a rúcula adiciona uma pitada de sabor picante. Para finalizar, a geleia de pimentão vermelho defumado é uma surpresa agridoce que brilha no paladar. Tudo isso é regado com o nosso tentador molho barbecue, que proporciona um sabor defumado e um toque adocicado. Não imagine, experimente e desfrute de uma explosão de sabores. Serve até 1 pessoa.",
+      "preco": 27,
+      "imagem": "/images/products/lanches/dpanela.png",
       "tags": [
-        "croissant",
-        "amanteigado",
-        "lanche"
-      ]
-    },
-    {
-      "id": "quiche-vegana",
-      "slug": "quiche-vegana",
-      "categoryId": "salgados",
-      "nome": "Quiche Vegana",
-      "descricaoCurta": "Massa crocante sem glúten, recheada com legumes assados e creme vegano.",
-      "preco": 12,
-      "imagem": "/images/products/lanches/quiche-vegana.png",
-      "tags": [
-        "quiche",
-        "vegana",
+        "dpanela",
+        "artesanal",
         "lanche"
       ],
-      "descricao": "Massa crocante e sem glúten, recheada com legumes assados, cebola, especiarias e um delicado creme vegano. Produzida em nossa cozinha restritiva, com todo o cuidado para uma experiência leve e saborosa."
+      "grupo": "Sanduíches"
+    },
+    {
+      "id": "furioso",
+      "slug": "furioso",
+      "categoryId": "salgados",
+      "nome": "Furioso",
+      "descricaoCurta": "Focaccia artesanal com carne de panela ao vinho, creme de gorgonzola, picles, rúcula e molho especial Sweet.",
+      "descricao": "O sabor único da nossa focaccia de fermentação longa, com toque de alecrim e azeite, recheada com nossa deliciosa carne de panela ao vinho, creme de queijo gorgonzola, a crocância do picles de cebola roxa e do picles de pepino japonês, rúcula que dá um toque levemente picante e molho especial da Sweet. Vai muito bem com nossas bebidas da casa. Experimente e surpreenda-se com esta explosão de sabores! Serve até 1 pessoa.",
+      "preco": 29,
+      "imagem": "/images/products/lanches/furioso.png",
+      "tags": [
+        "furioso",
+        "sanduíche",
+        "lanche"
+      ],
+      "grupo": "Sanduíches"
     },
     {
       "id": "trio-sub-perfeito",
@@ -113,82 +100,8 @@
         "sub",
         "sanduíche",
         "lanche"
-      ]
-    },
-    {
-      "id": "pao-de-queijo-dpanela",
-      "slug": "pao-de-queijo-dpanela",
-      "categoryId": "salgados",
-      "nome": "Pão de Queijo D'Panela",
-      "descricaoCurta": "Pão de queijo prensado na chapa com carne de panela ao vinho, cheddar, picles de cebola roxa, rúcula e geleia agridoce.",
-      "descricao": "Nosso pão de queijo exclusivo e prensado na chapa, recheado com carne de panela ao vinho, cheddar em fatia, picles de cebola roxa, rúcula e geleia agridoce Sweet. Combine com uma de nossas bebidas da casa para uma experiência inesquecível!",
-      "preco": 18,
-      "imagem": "/images/products/lanches/pao-de-queijo-dpanela.png",
-      "tags": [
-        "pão de queijo",
-        "dpanela",
-        "lanche"
-      ]
-    },
-    {
-      "id": "furioso",
-      "slug": "furioso",
-      "categoryId": "salgados",
-      "nome": "Furioso",
-      "descricaoCurta": "Focaccia artesanal com carne de panela ao vinho, creme de gorgonzola, picles, rúcula e molho especial Sweet.",
-      "descricao": "O sabor único da nossa focaccia de fermentação longa, com toque de alecrim e azeite, recheada com nossa deliciosa carne de panela ao vinho, creme de queijo gorgonzola, a crocância do picles de cebola roxa e do picles de pepino japonês, rúcula que dá um toque levemente picante e molho especial da Sweet. Vai muito bem com nossas bebidas da casa. Experimente e surpreenda-se com esta explosão de sabores! Serve até 1 pessoa.",
-      "preco": 29,
-      "imagem": "/images/products/lanches/furioso.png",
-      "tags": [
-        "furioso",
-        "sanduíche",
-        "lanche"
-      ]
-    },
-    {
-      "id": "crostinis-com-antepasto",
-      "slug": "crostinis-com-antepasto",
-      "categoryId": "salgados",
-      "nome": "Crostinis com Antepasto",
-      "descricaoCurta": "Crostinis crocantes com antepasto artesanal de berinjela, tradicional ou sem glúten.",
-      "preco": 16,
-      "imagem": "/images/products/lanches/crostinis-com-antepasto.png",
-      "tags": [
-        "crostinis",
-        "antepasto",
-        "lanche"
       ],
-      "descricao": "Crostines douradas e crocantes, disponíveis nas versões tradicional ou sem glúten, acompanhadas de nosso antepasto artesanal de berinjela. Perfeito para compartilhar ou acompanhar um bom café."
-    },
-    {
-      "id": "pao-de-queijo-trio-dos-sonhos",
-      "slug": "pao-de-queijo-trio-dos-sonhos",
-      "categoryId": "salgados",
-      "nome": "Pão de Queijo Trio dos Sonhos",
-      "descricaoCurta": "Combo degustação com O Queridinho, D'Panela e Sweet Mineiro.",
-      "descricao": "Um combo degustação dos sonhos, com nossos três sabores de pão de queijo prensado na chapa e recheado. O Queridinho une a crocância do bacon com a cremosidade do cream cheese e o sabor leve do peito defumado; o D'Panela traz o sabor marcante da nossa paleta ao vinho e da geleia agridoce; e o Sweet Mineiro é recheado com goiabada cremosa e cream cheese.",
-      "preco": 29,
-      "imagem": "/images/products/lanches/pao-de-queijo-trio-dos-sonhos.png",
-      "tags": [
-        "pão de queijo",
-        "trio",
-        "lanche"
-      ]
-    },
-    {
-      "id": "monte-seu-pao-de-queijo",
-      "slug": "monte-seu-pao-de-queijo",
-      "categoryId": "salgados",
-      "nome": "Monte o Seu Pão de Queijo",
-      "descricaoCurta": "Monte seu sanduíche de pão de queijo com proteína, queijo, molhos e salada.",
-      "preco": 18,
-      "imagem": "/images/products/lanches/pao-de-queijo-o-queridinho.png",
-      "tags": [
-        "pão de queijo",
-        "personalizado",
-        "lanche"
-      ],
-      "descricao": "Transforme nosso pão de queijo artesanal em um sanduíche do seu jeito. Escolha 1 proteína, 1 queijo, até 2 molhos e salada à vontade e monte sua combinação favorita."
+      "grupo": "Sanduíches"
     },
     {
       "id": "monte-seu-sanduiche",
@@ -203,7 +116,8 @@
         "sanduíche",
         "personalizado",
         "lanche"
-      ]
+      ],
+      "grupo": "Sanduíches"
     },
     {
       "id": "monte-sua-tapioca",
@@ -218,38 +132,8 @@
         "tapioca",
         "personalizado",
         "lanche"
-      ]
-    },
-    {
-      "id": "sub-da-sweet",
-      "slug": "sub-da-sweet",
-      "categoryId": "salgados",
-      "nome": "Sub da Sweet",
-      "descricaoCurta": "Pão de fermentação natural, peito de peru defumado, bacon crocante, cream cheese e ingredientes frescos.",
-      "descricao": "O 'Sub da Sweet' é, indiscutivelmente, o melhor sanduíche que você degustará. Feito com um pão de fermentação natural, meticulosamente preparado na Sweet, é realçado com um toque distinto de tomate seco e manjericão. O recheio generoso consiste de um suculento peito de peru defumado, complementado com o bacon crocante irresistível. A cremosidade do cream cheese e a frescura da cebola roxa, tomate e alface americana se combinam para criar um sabor incomparável. Por fim, a maionese adiciona um toque final de suavidade que envolve todo o paladar numa experiência gastronômica inesquecível.",
-      "preco": 25,
-      "imagem": "/images/products/lanches/sub-da-sweet.png",
-      "tags": [
-        "sub",
-        "sanduíche",
-        "sweet",
-        "lanche"
-      ]
-    },
-    {
-      "id": "dpanela",
-      "slug": "dpanela",
-      "categoryId": "salgados",
-      "nome": "D'Panela",
-      "descricaoCurta": "Ciabatta artesanal com carne louca ao molho de vinho, cebola roxa, rúcula, geleia agridoce e molho barbecue.",
-      "descricao": "Apresentamos o D'Panela, uma obra-prima dentre os sanduíches. Delicie-se com a harmonia de sabores, começando por uma ciabatta artesanal, pão de textura única e sabor marcante. O coração desta delícia é a carne louca, preparada com um saboroso molho de vinho, que eleva o sabor da carne a um novo patamar. A cebola roxa traz um toque de frescor e crocância, enquanto a rúcula adiciona uma pitada de sabor picante. Para finalizar, a geleia de pimentão vermelho defumado é uma surpresa agridoce que brilha no paladar. Tudo isso é regado com o nosso tentador molho barbecue, que proporciona um sabor defumado e um toque adocicado. Não imagine, experimente e desfrute de uma explosão de sabores. Serve até 1 pessoa.",
-      "preco": 27,
-      "imagem": "/images/products/lanches/dpanela.png",
-      "tags": [
-        "dpanela",
-        "artesanal",
-        "lanche"
-      ]
+      ],
+      "grupo": "Tapioca"
     },
     {
       "id": "pao-de-queijo-o-queridinho",
@@ -264,7 +148,155 @@
         "pão de queijo",
         "o queridinho",
         "lanche"
-      ]
+      ],
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "pao-de-queijo-dpanela",
+      "slug": "pao-de-queijo-dpanela",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo D'Panela",
+      "descricaoCurta": "Pão de queijo prensado na chapa com carne de panela ao vinho, cheddar, picles de cebola roxa, rúcula e geleia agridoce.",
+      "descricao": "Nosso pão de queijo exclusivo e prensado na chapa, recheado com carne de panela ao vinho, cheddar em fatia, picles de cebola roxa, rúcula e geleia agridoce Sweet. Combine com uma de nossas bebidas da casa para uma experiência inesquecível!",
+      "preco": 18,
+      "imagem": "/images/products/lanches/pao-de-queijo-dpanela.png",
+      "tags": [
+        "pão de queijo",
+        "dpanela",
+        "lanche"
+      ],
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "pao-de-queijo-sweet-mineiro",
+      "slug": "pao-de-queijo-sweet-mineiro",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo Sweet Mineiro",
+      "descricaoCurta": "Pão de queijo prensado na chapa, recheado com cream cheese e goiabada cremosa.",
+      "descricao": "Nosso pão de queijo exclusivo e prensado na chapa, recheado com cream cheese e goiabada cremosa. Uma combinação mineira clássica, doce e cremosa, para quem ama o encontro do queijo com a goiabada.",
+      "preco": 15,
+      "imagem": "/images/products/lanches/pao-de-queijo-sweet-mineiro.png",
+      "tags": [
+        "pão de queijo",
+        "sweet mineiro",
+        "goiabada",
+        "lanche"
+      ],
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "pao-de-queijo-trio-dos-sonhos",
+      "slug": "pao-de-queijo-trio-dos-sonhos",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo Trio dos Sonhos",
+      "descricaoCurta": "Combo degustação com O Queridinho, D'Panela e Sweet Mineiro.",
+      "descricao": "Um combo degustação dos sonhos, com nossos três sabores de pão de queijo prensado na chapa e recheado. O Queridinho une a crocância do bacon com a cremosidade do cream cheese e o sabor leve do peito defumado; o D'Panela traz o sabor marcante da nossa paleta ao vinho e da geleia agridoce; e o Sweet Mineiro é recheado com goiabada cremosa e cream cheese.",
+      "preco": 29,
+      "imagem": "/images/products/lanches/pao-de-queijo-trio-dos-sonhos.png",
+      "tags": [
+        "pão de queijo",
+        "trio",
+        "lanche"
+      ],
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "monte-seu-pao-de-queijo",
+      "slug": "monte-seu-pao-de-queijo",
+      "categoryId": "salgados",
+      "nome": "Monte o Seu Pão de Queijo",
+      "descricaoCurta": "Monte seu sanduíche de pão de queijo com proteína, queijo, molhos e salada.",
+      "preco": 18,
+      "imagem": "/images/products/lanches/pao-de-queijo-o-queridinho.png",
+      "tags": [
+        "pão de queijo",
+        "personalizado",
+        "lanche"
+      ],
+      "descricao": "Transforme nosso pão de queijo artesanal em um sanduíche do seu jeito. Escolha 1 proteína, 1 queijo, até 2 molhos e salada à vontade e monte sua combinação favorita.",
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "pao-de-queijo",
+      "slug": "pao-de-queijo",
+      "categoryId": "salgados",
+      "nome": "Pão de Queijo",
+      "descricaoCurta": "Pão de queijo artesanal com muçarela e provolone, levemente tostado na chapa.",
+      "preco": 8,
+      "imagem": "/images/products/lanches/pao-de-queijo.png",
+      "tags": [
+        "pão de queijo",
+        "queijo",
+        "lanche",
+        "salgado"
+      ],
+      "descricao": "Pão de queijo artesanal da casa, preparado com muçarela e provolone e levemente tostado na chapa para ficar douradinho e crocante por fora, com interior macio e cheio de sabor.",
+      "grupo": "Pães de Queijo"
+    },
+    {
+      "id": "toast-cream-cheese-geleia",
+      "slug": "toast-cream-cheese-geleia",
+      "categoryId": "salgados",
+      "nome": "Toast + Cream Cheese e Geleia",
+      "descricaoCurta": "Pão de fermentação artesanal com cream cheese e geleia de pimentão vermelho defumado.",
+      "preco": 16,
+      "imagem": "/images/products/lanches/toast-cream-cheese-geleia.png",
+      "tags": [
+        "toast",
+        "cream cheese",
+        "geleia",
+        "lanche"
+      ],
+      "descricao": "Fatias de pão de fermentação artesanal, tostadas e servidas com cream cheese cremoso e nossa geleia artesanal de pimentão vermelho defumado. Um equilíbrio delicioso entre cremosidade, crocância e sabor defumado.",
+      "grupo": "Outras opções"
+    },
+    {
+      "id": "crostinis-com-antepasto",
+      "slug": "crostinis-com-antepasto",
+      "categoryId": "salgados",
+      "nome": "Crostinis com Antepasto",
+      "descricaoCurta": "Crostinis crocantes com antepasto artesanal de berinjela, tradicional ou sem glúten.",
+      "preco": 16,
+      "imagem": "/images/products/lanches/crostinis-com-antepasto.png",
+      "tags": [
+        "crostinis",
+        "antepasto",
+        "lanche"
+      ],
+      "descricao": "Crostines douradas e crocantes, disponíveis nas versões tradicional ou sem glúten, acompanhadas de nosso antepasto artesanal de berinjela. Perfeito para compartilhar ou acompanhar um bom café.",
+      "grupo": "Outras opções"
+    },
+    {
+      "id": "quiche-vegana",
+      "slug": "quiche-vegana",
+      "categoryId": "salgados",
+      "nome": "Quiche Vegana",
+      "descricaoCurta": "Massa crocante sem glúten, recheada com legumes assados e creme vegano.",
+      "preco": 12,
+      "imagem": "/images/products/lanches/quiche-vegana.png",
+      "tags": [
+        "quiche",
+        "vegana",
+        "lanche"
+      ],
+      "descricao": "Massa crocante e sem glúten, recheada com legumes assados, cebola, especiarias e um delicado creme vegano. Produzida em nossa cozinha restritiva, com todo o cuidado para uma experiência leve e saborosa.",
+      "grupo": "Outras opções"
+    },
+    {
+      "id": "croissant-amanteigado",
+      "slug": "croissant-amanteigado",
+      "categoryId": "salgados",
+      "nome": "Croissant Amanteigado na Chapa",
+      "descricaoCurta": "Croissant macio, leve e finalizado na chapa para ganhar uma crocância irresistível.",
+      "descricao": "Nosso croissant é macio e leve e vai à chapa para criar uma crocância que faz dele ainda melhor.",
+      "preco": 14,
+      "imagem": "/images/products/lanches/croissant-amanteigado.png",
+      "tags": [
+        "croissant",
+        "amanteigado",
+        "lanche"
+      ],
+      "grupo": "Outras opções"
     },
     {
       "id": "trufa-chock-preto",
@@ -303,7 +335,7 @@
       "nome": "Brigadeiro de Pistache",
       "descricaoCurta": "Brigadeiro cremoso de pistache finalizado com praliné de amendoim.",
       "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/sweets/brigadeiro-de-pistache.png",
       "tags": [
         "brigadeiro",
         "pistache",
@@ -364,7 +396,7 @@
       "nome": "Barra Red Velvet 75grs.",
       "descricaoCurta": "Chocolate branco com cheesecake e geleia de morango, em barra de 75g.",
       "preco": 12,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/sweets/barra-red-velvet-75g.png",
       "tags": [
         "barra",
         "red velvet",
@@ -380,7 +412,7 @@
       "nome": "Barra Caramelo 75grs.",
       "descricaoCurta": "Chocolate meio amargo com caramelo salgado e praliné de amendoim, 75g.",
       "preco": 12,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/sweets/barra-caramelo-75g.png",
       "tags": [
         "barra",
         "caramelo",
@@ -401,20 +433,6 @@
       "tags": [
         "cookie",
         "pistache",
-        "sweet"
-      ]
-    },
-    {
-      "id": "brigadeiro-de-morango",
-      "slug": "brigadeiro-de-morango",
-      "categoryId": "sweets",
-      "nome": "Brigadeiro de Morango",
-      "descricaoCurta": "Brigadeiro artesanal de morango.",
-      "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "brigadeiro",
-        "morango",
         "sweet"
       ]
     },
@@ -467,21 +485,6 @@
       ]
     },
     {
-      "id": "brigadeiro-de-maracuja",
-      "slug": "brigadeiro-de-maracuja",
-      "categoryId": "sweets",
-      "nome": "Brigadeiro de Maracujá",
-      "descricaoCurta": "Brigadeiro artesanal com geleia e polpa natural de maracujá.",
-      "preco": 4,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "brigadeiro",
-        "maracujá",
-        "sweet"
-      ],
-      "descricao": "Brigadeiro artesanal preparado com geleia e polpa natural de maracujá, trazendo cremosidade e o contraste delicioso entre o doce e a acidez da fruta."
-    },
-    {
       "id": "suspiros-sweet",
       "slug": "suspiros-sweet",
       "categoryId": "sweets",
@@ -493,6 +496,23 @@
       "tags": [
         "suspiro",
         "artesanal",
+        "sweet"
+      ]
+    },
+    {
+      "id": "kit-4-trufas",
+      "slug": "kit-4-trufas",
+      "categoryId": "sweets",
+      "nome": "Kit 4 Trufas",
+      "descricaoCurta": "Kit com 4 trufas sortidas de chocolate nobre e sabores exclusivos.",
+      "descricao": "Um lindo kit com 4 trufas sortidas de chocolate nobre. Você vai se surpreender com nossos sabores exclusivos. Experimente!!!",
+      "preco": 18,
+      "imagem": "/images/products/sweets/kit-4-trufas.png",
+      "tags": [
+        "kit",
+        "trufas",
+        "sortidas",
+        "presente",
         "sweet"
       ]
     },
@@ -542,24 +562,8 @@
         "quente",
         "bebida"
       ],
-      "grupo": "Bebidas Quentes",
+      "grupo": "Cafés",
       "descricao": "Café especial passado na hora, preparado com grãos selecionados de perfil frutado, vindos diretamente de fazendas produtoras. Nossos cafés especiais possuem pontuação acima de 84 pontos."
-    },
-    {
-      "id": "capuccino-chei-de-trem",
-      "slug": "capuccino-chei-de-trem",
-      "categoryId": "bebidas",
-      "nome": "Capuccino Chei de Trem",
-      "descricaoCurta": "Capuccino cremoso especial da casa.",
-      "preco": 14,
-      "imagem": "/images/products/product-capuccino.png",
-      "tags": [
-        "café",
-        "capuccino",
-        "quente",
-        "bebida"
-      ],
-      "grupo": "Bebidas Quentes"
     },
     {
       "id": "espresso",
@@ -575,7 +579,7 @@
         "quente",
         "bebida"
       ],
-      "grupo": "Bebidas Quentes",
+      "grupo": "Cafés",
       "descricao": "Espresso preparado na hora com nosso café especial, intenso, aromático e cheio de personalidade."
     },
     {
@@ -592,7 +596,7 @@
         "quente",
         "bebida"
       ],
-      "grupo": "Bebidas Quentes",
+      "grupo": "Cafés",
       "descricao": "Café especial preparado na prensa francesa, método que preserva os óleos naturais do café e proporciona uma bebida mais encorpada, aromática e saborosa."
     },
     {
@@ -610,8 +614,41 @@
         "quente",
         "bebida"
       ],
-      "grupo": "Bebidas Quentes",
+      "grupo": "Cafés",
       "descricao": "Nossa prensa francesa em uma porção maior, perfeita para compartilhar ou para quem aprecia uma experiência mais prolongada com o café."
+    },
+    {
+      "id": "capuccino-chei-de-trem",
+      "slug": "capuccino-chei-de-trem",
+      "categoryId": "bebidas",
+      "nome": "Capuccino Chei de Trem",
+      "descricaoCurta": "Capuccino cremoso especial da casa.",
+      "preco": 14,
+      "imagem": "/images/products/product-capuccino.png",
+      "tags": [
+        "café",
+        "capuccino",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Cafés"
+    },
+    {
+      "id": "cappuccino-metido-a-besta",
+      "slug": "cappuccino-metido-a-besta",
+      "categoryId": "bebidas",
+      "nome": "Cappuccino Metido a Besta",
+      "descricaoCurta": "Capuccino à moda brasileira, cremoso, adocicado e com especiarias.",
+      "preco": 14,
+      "imagem": "/images/products/bebidas/cappuccino-metido-a-besta.png",
+      "tags": [
+        "café",
+        "cappuccino",
+        "quente",
+        "bebida"
+      ],
+      "grupo": "Cafés",
+      "descricao": "Nosso capuccino à moda brasileira: café cremoso e adocicado, combinado com leite e um toque especial de especiarias. Cremoso, aromático e nada básico."
     },
     {
       "id": "chai-latte",
@@ -645,23 +682,6 @@
       ],
       "grupo": "Bebidas Quentes",
       "descricao": "Chocolate quente artesanal preparado com chocolate de verdade, cremoso e intenso. Você pode finalizar com um toque de canela e chantilly."
-    },
-    {
-      "id": "cappuccino-metido-a-besta",
-      "slug": "cappuccino-metido-a-besta",
-      "categoryId": "bebidas",
-      "nome": "Cappuccino Metido a Besta",
-      "descricaoCurta": "Capuccino à moda brasileira, cremoso, adocicado e com especiarias.",
-      "preco": 14,
-      "imagem": "/images/products/bebidas/cappuccino-metido-a-besta.png",
-      "tags": [
-        "café",
-        "cappuccino",
-        "quente",
-        "bebida"
-      ],
-      "grupo": "Bebidas Quentes",
-      "descricao": "Nosso capuccino à moda brasileira: café cremoso e adocicado, combinado com leite e um toque especial de especiarias. Cremoso, aromático e nada básico."
     },
     {
       "id": "cha-quente",
@@ -734,48 +754,19 @@
       "grupo": "Bebidas Geladas"
     },
     {
-      "id": "coca-cola-350ml",
-      "slug": "coca-cola-350ml",
+      "id": "smoothie-frutas-vermelhas-coco-500ml",
+      "slug": "smoothie-frutas-vermelhas-coco-500ml",
       "categoryId": "bebidas",
-      "nome": "Coca-Cola 350ml",
-      "descricaoCurta": "Refrigerante Coca-Cola sabor original em lata de 350ml.",
-      "descricao": "Desfrute da refrescante Coca-Cola em lata de 350ml. Esta icônica bebida carbonatada, amada em todo o mundo, é conhecida por sua doçura equilibrada e efervescência. Um clássico atemporal que complementa perfeitamente qualquer refeição. A lata de 350ml é o tamanho ideal para matar sua sede e revigorar seu paladar.",
-      "preco": 6,
-      "imagem": "/images/products/bebidas/coca-cola-350ml.png",
+      "nome": "Smoothie Frutas Vermelhas e Leite de Coco 500ml",
+      "descricaoCurta": "Smoothie cremoso de frutas vermelhas com leite de coco, sem leite de vaca.",
+      "descricao": "Para você beber sem culpa. Esta bebida supercremosa, refrescante e saudável não contém leite de vaca e é preparada com leite de coco, polpa natural de frutas vermelhas, açúcar e um toque de limão. Porção de 500ml.",
+      "preco": 21,
+      "imagem": "/images/products/bebidas/smoothie-frutas-vermelhas-coco-500ml.png",
       "tags": [
-        "coca-cola",
-        "refrigerante",
-        "350ml",
-        "bebida"
-      ],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "agua-com-gas",
-      "slug": "agua-com-gas",
-      "categoryId": "bebidas",
-      "nome": "Água com Gás",
-      "descricaoCurta": "Água mineral com gás.",
-      "preco": 5,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": [
-        "água",
-        "com gás",
-        "bebida"
-      ],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "agua-mineral",
-      "slug": "agua-mineral",
-      "categoryId": "bebidas",
-      "nome": "Água Mineral",
-      "descricaoCurta": "Água mineral sem gás.",
-      "preco": 5,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": [
-        "água",
-        "mineral",
+        "smoothie",
+        "frutas vermelhas",
+        "leite de coco",
+        "500ml",
         "bebida"
       ],
       "grupo": "Bebidas Geladas"
@@ -797,55 +788,20 @@
       "grupo": "Bebidas Geladas"
     },
     {
-      "id": "coca-cola-zero-350ml",
-      "slug": "coca-cola-zero-350ml",
+      "id": "cha-gelado",
+      "slug": "cha-gelado",
       "categoryId": "bebidas",
-      "nome": "Coca-Cola Zero 350ml",
-      "descricaoCurta": "Refrigerante Coca-Cola Zero Açúcar em lata de 350ml.",
-      "descricao": "Saboreie a refrescância inigualável da Coca-Cola Zero 350ml. Esta opção sem açúcar, mas ainda assim repleta de sabor, é a pedida perfeita para quem busca uma bebida gaseificada deliciosa. Cada gole é uma explosão de sabor que encanta o paladar e refresca o dia. A Coca-Cola Zero 350ml é mais do que apenas uma bebida: é um convite para um momento de pausa e prazer no meio da rotina. Experimente e sinta a diferença!",
-      "preco": 6,
-      "imagem": "/images/products/bebidas/coca-cola-zero-350ml.png",
-      "tags": [
-        "coca-cola",
-        "zero",
-        "refrigerante",
-        "350ml",
-        "bebida"
-      ],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "coca-ks",
-      "slug": "coca-ks",
-      "categoryId": "bebidas",
-      "nome": "Coca KS",
-      "descricaoCurta": "Coca-Cola em garrafa KS.",
-      "preco": 7,
+      "nome": "Chá Gelado",
+      "descricaoCurta": "Chá gelado refrescante com combinações especiais da casa.",
+      "preco": 13,
       "imagem": "/images/categories/category-bebidas.png",
       "tags": [
-        "coca-cola",
-        "ks",
-        "refrigerante",
+        "chá",
+        "gelado",
         "bebida"
       ],
-      "grupo": "Bebidas Geladas"
-    },
-    {
-      "id": "coca-ks-zero",
-      "slug": "coca-ks-zero",
-      "categoryId": "bebidas",
-      "nome": "Coca KS Zero",
-      "descricaoCurta": "Coca-Cola Zero em garrafa KS.",
-      "preco": 7,
-      "imagem": "/images/categories/category-bebidas.png",
-      "tags": [
-        "coca-cola",
-        "ks",
-        "zero",
-        "refrigerante",
-        "bebida"
-      ],
-      "grupo": "Bebidas Geladas"
+      "grupo": "Bebidas Geladas",
+      "descricao": "Refrescante e preparado com nossas combinações especiais de chás. Consulte as opções disponíveis na casa."
     },
     {
       "id": "sucos",
@@ -865,71 +821,89 @@
       "grupo": "Bebidas Geladas"
     },
     {
-      "id": "sprite-lata",
-      "slug": "sprite-lata",
+      "id": "agua-com-gas",
+      "slug": "agua-com-gas",
       "categoryId": "bebidas",
-      "nome": "Sprite Lata 350ml",
-      "descricaoCurta": "Refrigerante Sprite sabor limão em lata de 350ml.",
-      "descricao": "Sprite sabor limão em lata de 350ml. Uma opção leve, gaseificada e refrescante para acompanhar seu pedido.",
-      "preco": 6,
-      "imagem": "/images/products/bebidas/sprite-lata-350ml.png",
+      "nome": "Água com Gás",
+      "descricaoCurta": "Água mineral com gás.",
+      "preco": 5,
+      "imagem": "/images/products/bebidas/agua-com-gas.png",
       "tags": [
-        "sprite",
+        "água",
+        "com gás",
+        "bebida"
+      ],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "agua-mineral",
+      "slug": "agua-mineral",
+      "categoryId": "bebidas",
+      "nome": "Água Mineral",
+      "descricaoCurta": "Água mineral sem gás.",
+      "preco": 5,
+      "imagem": "/images/products/bebidas/agua-mineral.png",
+      "tags": [
+        "água",
+        "mineral",
+        "bebida"
+      ],
+      "grupo": "Bebidas Geladas"
+    },
+    {
+      "id": "refrigerantes-lata-350ml",
+      "slug": "refrigerantes-lata-350ml",
+      "categoryId": "bebidas",
+      "nome": "Refrigerantes em lata 350ml",
+      "descricaoCurta": "Coca, Coca Zero, Sprite, Sprite Zero, Schweppes e Schweppes Baixo em Açúcares.",
+      "descricao": "Refrigerante em lata de 350ml. Escolha o sabor: Coca, Coca Zero, Sprite, Sprite Zero, Schweppes ou Schweppes Baixo em Açúcares.",
+      "preco": 6,
+      "imagem": "/images/products/bebidas/refrigerantes-lata-350ml.png",
+      "tags": [
         "refrigerante",
         "lata",
+        "350ml",
+        "coca-cola",
+        "coca zero",
+        "sprite",
+        "sprite zero",
+        "schweppes",
         "bebida"
       ],
-      "grupo": "Bebidas Geladas"
+      "grupo": "Refrigerantes"
     },
     {
-      "id": "schweppes",
-      "slug": "schweppes",
+      "id": "coca-ks",
+      "slug": "coca-ks",
       "categoryId": "bebidas",
-      "nome": "Schweppes Citrus 350ml",
-      "descricaoCurta": "Refrigerante Schweppes Citrus em lata de 350ml.",
-      "descricao": "Schweppes Citrus em lata de 350ml. Uma bebida gaseificada com sabor cítrico, ideal para acompanhar seu pedido.",
-      "preco": 6,
-      "imagem": "/images/products/bebidas/schweppes-citrus-350ml.png",
+      "nome": "Coca KS",
+      "descricaoCurta": "Coca-Cola em garrafa KS.",
+      "preco": 7,
+      "imagem": "/images/products/bebidas/coca-ks.png",
       "tags": [
-        "schweppes",
+        "coca-cola",
+        "ks",
         "refrigerante",
         "bebida"
       ],
-      "grupo": "Bebidas Geladas"
+      "grupo": "Refrigerantes"
     },
     {
-      "id": "cha-gelado",
-      "slug": "cha-gelado",
+      "id": "coca-ks-zero",
+      "slug": "coca-ks-zero",
       "categoryId": "bebidas",
-      "nome": "Chá Gelado",
-      "descricaoCurta": "Chá gelado refrescante com combinações especiais da casa.",
-      "preco": 13,
-      "imagem": "/images/categories/category-bebidas.png",
+      "nome": "Coca KS Zero",
+      "descricaoCurta": "Coca-Cola Zero em garrafa KS.",
+      "preco": 7,
+      "imagem": "/images/products/bebidas/coca-ks-zero-pet.png",
       "tags": [
-        "chá",
-        "gelado",
+        "coca-cola",
+        "ks",
+        "zero",
+        "refrigerante",
         "bebida"
       ],
-      "grupo": "Bebidas Geladas",
-      "descricao": "Refrescante e preparado com nossas combinações especiais de chás. Consulte as opções disponíveis na casa."
-    },
-    {
-      "id": "smoothie-frutas-vermelhas-coco-500ml",
-      "slug": "smoothie-frutas-vermelhas-coco-500ml",
-      "categoryId": "bebidas",
-      "nome": "Smoothie Frutas Vermelhas e Leite de Coco 500ml",
-      "descricaoCurta": "Smoothie cremoso de frutas vermelhas com leite de coco, sem leite de vaca.",
-      "descricao": "Para você beber sem culpa. Esta bebida supercremosa, refrescante e saudável não contém leite de vaca e é preparada com leite de coco, polpa natural de frutas vermelhas, açúcar e um toque de limão. Porção de 500ml.",
-      "preco": 21,
-      "imagem": "/images/products/bebidas/smoothie-frutas-vermelhas-coco-500ml.png",
-      "tags": [
-        "smoothie",
-        "frutas vermelhas",
-        "leite de coco",
-        "500ml",
-        "bebida"
-      ],
-      "grupo": "Bebidas Geladas"
+      "grupo": "Refrigerantes"
     },
     {
       "id": "pote-red-velvet-250ml",
@@ -1050,7 +1024,7 @@
       "descricaoCurta": "Cheesecake cremosa em pote com cobertura de geleia artesanal de morango.",
       "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, finalizada com geleia artesanal de morango. Cremosa, delicada e irresistível.",
       "preco": 17,
-      "imagem": "/images/products/sobremesas/cheesecake-cremosa-morango.png",
+      "imagem": "/images/products/sobremesas/cheesecake-cremosa-morango-fatia.png",
       "tags": [
         "cheesecake",
         "cremosa",
@@ -1169,24 +1143,28 @@
       "id": "fatia-prestigio-zero",
       "slug": "fatia-prestigio-zero",
       "categoryId": "sobremesas",
-      "nome": "Fatia Prestígio Zero",
-      "descricaoCurta": "Fatia de Prestígio em versão zero.",
+      "nome": "Fatia Prestígio Zero — Zero Glúten, Zero Açúcar e Zero Leite",
+      "descricaoCurta": "Fatia de Prestígio sem glúten, sem açúcar e sem leite.",
       "preco": 22,
       "imagem": "/images/products/product-bolo.png",
       "tags": [
         "fatia",
         "prestígio",
-        "zero",
+        "zero glúten",
+        "zero açúcar",
+        "zero leite",
+        "restritivo",
         "bolo",
         "sobremesa"
       ],
-      "grupo": "Fatias Artesanais"
+      "grupo": "Fatias Artesanais",
+      "descricao": "Nossa versão inclusiva do Prestígio: a combinação clássica de chocolate e coco, agora sem glúten, sem açúcar e sem leite. Produzida especialmente para quem busca uma sobremesa indulgente sem abrir mão das escolhas alimentares."
     },
     {
       "id": "fatia-sergios-zero-gluten-zero-acucar",
       "slug": "fatia-sergios-zero-gluten-zero-acucar",
       "categoryId": "sobremesas",
-      "nome": "Fatia Sergio's Cake — Zero Glúten, Zero Açúcar",
+      "nome": "Fatia Sergio's Cake — Zero Glúten, Zero Açúcar e Zero Leite",
       "descricaoCurta": "Versão inclusiva do Sergio's Cake, sem glúten, sem açúcar refinado e sem leite.",
       "preco": 22,
       "imagem": "/images/products/bolos/bolo-sergios-cake.png",
@@ -1290,7 +1268,7 @@
       "nome": "Biscoitinhos Amanteigados",
       "descricaoCurta": "Biscoitinhos artesanais, leves e amanteigados.",
       "preco": 14,
-      "imagem": "/images/products/product-brownie.png",
+      "imagem": "/images/products/presentes/biscoitinhos-amanteigados.png",
       "tags": [
         "biscoitos",
         "amanteigados",
@@ -1303,8 +1281,8 @@
       "categoryId": "presentes",
       "nome": "Trio Doce Amor - Pães de Mel",
       "descricaoCurta": "Trio especial de pães de mel artesanais.",
-      "preco": 44,
-      "imagem": "/images/categories/category-bombons.png",
+      "preco": 39,
+      "imagem": "/images/products/presentes/trio-doce-amor-paes-de-mel.png",
       "tags": [
         "trio",
         "doce amor",

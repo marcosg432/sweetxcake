@@ -108,7 +108,15 @@ export const CatalogProductRow = memo(function CatalogProductRow({
           fill
           loading="lazy"
           sizes="104px"
-          className="object-cover transition duration-500 group-hover:scale-[1.04]"
+          className={
+            product.id === "refrigerantes-lata-350ml" ||
+            product.id === "coca-ks" ||
+            product.id === "coca-ks-zero" ||
+            product.id === "agua-mineral" ||
+            product.id === "agua-com-gas"
+              ? "object-contain p-1 transition duration-500 group-hover:scale-[1.04]"
+              : "object-cover transition duration-500 group-hover:scale-[1.04]"
+          }
         />
       </button>
     </motion.article>
