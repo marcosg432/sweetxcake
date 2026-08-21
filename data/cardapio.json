@@ -606,7 +606,7 @@
       "nome": "Prensa Francesa Dupla",
       "descricaoCurta": "Prensa francesa em porção maior, ideal para compartilhar.",
       "preco": 18,
-      "imagem": "/images/categories/category-cafeteria.png",
+      "imagem": "/images/products/bebidas/prensa-francesa.png",
       "tags": [
         "café",
         "prensa francesa",
@@ -674,7 +674,7 @@
       "nome": "Chocolate Quente",
       "descricaoCurta": "Chocolate quente artesanal, cremoso e intenso, com chocolate de verdade.",
       "preco": 19,
-      "imagem": "/images/categories/category-bebidas.png",
+      "imagem": "/images/products/bebidas/chocolate-quente.png",
       "tags": [
         "chocolate",
         "quente",
@@ -1054,195 +1054,93 @@
       "grupo": "Cheesecake Cremosa"
     },
     {
-      "id": "fatias-do-dia",
-      "slug": "fatias-do-dia",
+      "id": "cheesecake-cremosa-caramelo",
+      "slug": "cheesecake-cremosa-caramelo",
       "categoryId": "sobremesas",
-      "nome": "Fatias do Dia",
-      "descricaoCurta": "Sabores fresquinhos escolhidos especialmente para hoje.",
-      "descricao": "Uma seleção especial de nossas fatias artesanais, preparadas com receitas da casa e sabores que mudam conforme a produção do dia. Consulte as opções disponíveis.",
+      "nome": "Cheesecake Cremosa de Caramelo",
+      "descricaoCurta": "Cheesecake cremosa em pote com cobertura de caramelo.",
+      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, finalizada com caramelo. Cremosa, aconchegante e irresistível.",
+      "preco": 17,
+      "imagem": "/images/products/sobremesas/cheesecake-cremosa-caramelo.png",
+      "tags": [
+        "cheesecake",
+        "cremosa",
+        "caramelo",
+        "sabores",
+        "sobremesa"
+      ],
+      "grupo": "Cheesecake Cremosa"
+    },
+    {
+      "id": "fatias-do-dia",
+      "slug": "fatia-do-dia",
+      "categoryId": "sobremesas",
+      "nome": "Fatia do Dia",
+      "descricaoCurta": "Os sabores das nossas fatias variam diariamente. Consulte a loja para saber quais sabores estão disponíveis hoje.",
+      "descricao": "Os sabores das nossas fatias variam diariamente. Consulte a loja para saber quais sabores estão disponíveis hoje.",
       "preco": 19,
-      "imagem": "/images/products/product-bolo.png",
+      "imagem": "/images/products/sobremesas/fatia-red-velvet.png",
       "tags": [
         "fatia",
-        "fatias do dia",
+        "fatia do dia",
         "sobremesa",
         "destaque"
       ],
       "grupo": "Fatias do Dia"
     },
     {
-      "id": "fatia-red-velvet",
-      "slug": "fatia-red-velvet",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Red Velvet",
-      "descricaoCurta": "Bolo de baunilha com geleia e cheesecake de morango, finalizado com chocolate branco.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-red-velvet.png",
-      "tags": [
-        "fatia",
-        "red velvet",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Delicado bolo de baunilha, intercalado com geleia artesanal de morango e creme de cheesecake de morango, finalizado com uma fina casca de chocolate branco. Cremoso, delicado e cheio de contrastes.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-ninho-nutella",
-      "slug": "fatia-ninho-nutella",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Ninho com Nutella",
-      "descricaoCurta": "Chocolate meio amargo molhadinho com creme de cheesecake de Nutella e brigadeiro mesclado.",
-      "descricao": "Pra quem gosta da combinação de sabores mais doces, este é o bolo ideal. Feito com chocolate meio amargo bem molhado e recheado com uma camada de creme de cheesecake de Nutella. Coberto com um brigadeiro mole mesclado e uma casca de chocolate meio amargo. Serve até 1 pessoa.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-ninho-nutella.png",
-      "tags": [
-        "fatia",
-        "ninho",
-        "nutella",
-        "bolo",
-        "sobremesa"
-      ],
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-pistachio",
-      "slug": "fatia-pistachio",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Pistache",
-      "descricaoCurta": "Chocolate meio amargo com cheesecake de baunilha, creme de pistache e brigadeiro.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-pistache.png",
-      "tags": [
-        "fatia",
-        "pistache",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Massa intensa de chocolate meio amargo, combinada com creme de cheesecake de baunilha e creme de pistache natural. Finalizada com brigadeiro artesanal de pistache e baunilha e uma deliciosa casca de chocolate meio amargo.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-sergios-cake",
-      "slug": "fatia-sergios-cake",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Sergio's Cake",
-      "descricaoCurta": "Chocolate com cheesecake de laranja e brigadeiro meio amargo.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-sergios-cake.png",
-      "tags": [
-        "fatia",
-        "sergios cake",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Massa de chocolate macia e intensa, intercalada com creme de cheesecake de laranja e brigadeiro meio amargo. Uma combinação equilibrada entre chocolate e o toque cítrico da laranja.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-prestigio-zero",
-      "slug": "fatia-prestigio-zero",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Prestígio Zero — Zero Glúten, Zero Açúcar e Zero Leite",
-      "descricaoCurta": "Fatia de Prestígio sem glúten, sem açúcar e sem leite.",
-      "preco": 22,
-      "imagem": "/images/products/product-bolo.png",
-      "tags": [
-        "fatia",
-        "prestígio",
-        "zero glúten",
-        "zero açúcar",
-        "zero leite",
-        "restritivo",
-        "bolo",
-        "sobremesa"
-      ],
-      "grupo": "Fatias Artesanais",
-      "descricao": "Nossa versão inclusiva do Prestígio: a combinação clássica de chocolate e coco, agora sem glúten, sem açúcar e sem leite. Produzida especialmente para quem busca uma sobremesa indulgente sem abrir mão das escolhas alimentares."
-    },
-    {
-      "id": "fatia-sergios-zero-gluten-zero-acucar",
-      "slug": "fatia-sergios-zero-gluten-zero-acucar",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Sergio's Cake — Zero Glúten, Zero Açúcar e Zero Leite",
-      "descricaoCurta": "Versão inclusiva do Sergio's Cake, sem glúten, sem açúcar refinado e sem leite.",
-      "preco": 22,
-      "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-      "tags": [
-        "fatia",
-        "sergios",
-        "zero glúten",
-        "zero açúcar",
-        "restritivo",
-        "sobremesa"
-      ],
-      "descricao": "Nossa versão inclusiva do Sérgios Cake: a mesma combinação de chocolate, cheesecake de laranja e brigadeiro meio amargo, agora sem glúten, sem açúcar refinado e sem leite ou derivados. Produzido especialmente para quem busca uma sobremesa indulgente sem abrir mão das suas escolhas alimentares.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-clarissa-cake",
-      "slug": "fatia-clarissa-cake",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Clarissa Cake",
-      "descricaoCurta": "Chocolate com cheesecake de morango, brigadeiro e chocolate meio amargo.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-clarissa-cake.png",
-      "tags": [
-        "fatia",
-        "clarissa cake",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Nosso bolo de chocolate com creme de cheesecake de morango, brigadeiro meio amargo e chocolate meio amargo. Uma sobremesa intensa, cremosa e feita para os verdadeiros amantes de chocolate.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-chocolatudo",
-      "slug": "fatia-chocolatudo",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Chocolatudo",
-      "descricaoCurta": "Bolo estilo Matilda: chocolate em todas as camadas, macio e generoso.",
-      "preco": 19,
-      "imagem": "/images/products/bolos/bolo-chocolatudo.png",
-      "tags": [
-        "fatia",
-        "chocolatudo",
-        "chocolate",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Nossa versão do famoso bolo estilo Matilda: chocolate em todas as camadas, com uma textura extremamente macia e uma cobertura cremosa e generosa. Para quem acredita que chocolate nunca é demais.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
-      "id": "fatia-pina-colada",
-      "slug": "fatia-pina-colada",
-      "categoryId": "sobremesas",
-      "nome": "Fatia Piña Colada",
-      "descricaoCurta": "Massa de coco molhadinha com creme de coco e creme de abacaxi.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/fatia-pina-colada.png",
-      "tags": [
-        "fatia",
-        "piña colada",
-        "bolo",
-        "sobremesa"
-      ],
-      "descricao": "Uma combinação tropical e delicada de massa de coco bem molhadinha, creme de coco e creme de abacaxi. Cremosa, refrescante e com aquele equilíbrio delicioso entre coco e fruta.",
-      "grupo": "Fatias Artesanais"
-    },
-    {
       "id": "coracao-de-ouro",
-      "slug": "coracao-de-ouro",
+      "slug": "coracao-recheado",
       "categoryId": "presentes",
-      "nome": "Coração de Ouro",
-      "descricaoCurta": "Mimo artesanal para presentear com carinho.",
-      "preco": 19,
+      "nome": "[FOTO PENDENTE] Coração Recheado",
+      "descricaoCurta": "Coração recheado artesanal. Escolha o sabor: cheesecake de morango, caramelo salgado ou doce de leite artesanal.",
+      "descricao": "Um coração recheado artesanal para presentear com carinho. Escolha o sabor: Cheesecake de Morango — chocolate branco recheado com geleia de morango e creme de cheesecake; Caramelo Salgado — chocolate meio amargo recheado com caramelo salgado e crocante de praliné de amendoim; ou Doce de Leite Artesanal — chocolate caramelizado da Sweet, recheado com creme de doce de leite.",
+      "preco": 15,
       "imagem": "/images/categories/category-bombons.png",
       "tags": [
         "coração",
-        "ouro",
-        "mimo",
+        "recheado",
+        "foto-pendente",
+        "cheesecake",
+        "caramelo",
+        "doce de leite",
+        "presente"
+      ]
+    },
+    {
+      "id": "trio-de-coracoes",
+      "slug": "trio-de-coracoes",
+      "categoryId": "presentes",
+      "nome": "[FOTO PENDENTE] Trio de Corações",
+      "descricaoCurta": "Três corações recheados em caixa presenteável: cheesecake de morango, caramelo salgado e doce de leite artesanal.",
+      "descricao": "Três experiências apaixonantes em uma única caixa, com embalagem presenteável exclusiva. Cheesecake de Morango: chocolate branco recheado com geleia de morango e creme de cheesecake. Caramelo Salgado: chocolate meio amargo recheado com caramelo salgado e crocante de praliné de amendoim. Doce de Leite Artesanal: chocolate caramelizado da Sweet, recheado com creme de doce de leite.",
+      "preco": 49,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": [
+        "trio",
+        "corações",
+        "foto-pendente",
+        "cheesecake",
+        "caramelo",
+        "doce de leite",
+        "presente"
+      ]
+    },
+    {
+      "id": "caixa-encontro-perfeito",
+      "slug": "caixa-encontro-perfeito",
+      "categoryId": "presentes",
+      "nome": "[FOTO PENDENTE] Caixa Encontro Perfeito",
+      "descricaoCurta": "Caixa premium para compartilhar: frutas, cookies, brownies, bolos em cubos e trio de cremes para fondue.",
+      "descricao": "A experiência mais doce do Dia dos Namorados, feita para compartilhar momentos inesquecíveis. Na sua caixa: morangos frescos, uvas selecionadas, cookies artesanais, brownies especiais, bolos em cubos de chocolate e baunilha, e trio de cremes para fondue (Ninho, brigadeiro e doce de leite), tudo em embalagem premium presenteável.",
+      "preco": 139,
+      "imagem": "/images/categories/category-bombons.png",
+      "tags": [
+        "caixa",
+        "encontro perfeito",
+        "foto-pendente",
+        "fondue",
+        "namorados",
         "presente"
       ]
     },
@@ -1292,15 +1190,16 @@
     },
     {
       "id": "mini-bolo-especial",
-      "slug": "mini-bolo-especial",
+      "slug": "mini-bolo-presenteavel",
       "categoryId": "presentes",
-      "nome": "Mini Bolo Especial",
-      "descricaoCurta": "Mini bolo artesanal em apresentação especial.",
+      "nome": "Mini Bolo Presenteável",
+      "descricaoCurta": "Mini bolo artesanal em embalagem presenteável. Consulte os sabores disponíveis.",
+      "descricao": "Mini bolo artesanal em embalagem presenteável, ideal para presentear. Os sabores variam conforme a produção. Consulte os sabores disponíveis.",
       "preco": 39,
-      "imagem": "/images/products/product-bolo.png",
+      "imagem": "/images/products/presentes/mini-bolo-presenteavel.png",
       "tags": [
         "mini bolo",
-        "especial",
+        "presenteável",
         "presente"
       ]
     },
@@ -1320,16 +1219,16 @@
     },
     {
       "id": "caixa-com-amor-trufas",
-      "slug": "caixa-com-amor-trufas",
+      "slug": "caixa-coracao-trufas",
       "categoryId": "presentes",
-      "nome": "Caixa com Amor - Trufas",
-      "descricaoCurta": "Caixa especial com trufas artesanais.",
+      "nome": "Caixa Coração Trufas",
+      "descricaoCurta": "Caixa especial com trufas artesanais em embalagem de coração.",
       "preco": 36,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/presentes/caixa-coracao-trufas.png",
       "tags": [
         "caixa",
         "trufas",
-        "amor",
+        "coração",
         "presente"
       ]
     },

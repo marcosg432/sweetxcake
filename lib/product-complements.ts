@@ -152,6 +152,50 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
       { id: "manteiga", name: "Manteiga", price: 4 },
     ],
   },
+  "mini-bolo-presenteavel-sabores": {
+    id: "mini-bolo-presenteavel-sabores",
+    title: "Sabores",
+    hint: "Consulte os sabores disponíveis",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "consultar-sabores-disponiveis",
+        name: "Consulte os sabores disponíveis",
+        price: 0,
+      },
+    ],
+  },
+  "coracao-recheado-sabor": {
+    id: "coracao-recheado-sabor",
+    title: "Escolha o sabor",
+    hint: "Escolha 01",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "coracao-cheesecake-morango",
+        name: "Cheesecake de Morango",
+        price: 0,
+        details:
+          "Chocolate branco recheado com geleia de morango e creme de cheesecake",
+      },
+      {
+        id: "coracao-caramelo-salgado",
+        name: "Caramelo Salgado",
+        price: 0,
+        details:
+          "Chocolate meio amargo recheado com caramelo salgado e crocante de praliné de amendoim",
+      },
+      {
+        id: "coracao-doce-de-leite",
+        name: "Doce de Leite Artesanal",
+        price: 0,
+        details:
+          "Chocolate caramelizado da Sweet, recheado com creme de doce de leite",
+      },
+    ],
+  },
   "monte-seu-sanduiche-pao": {
     id: "monte-seu-sanduiche-pao",
     title: "Comece escolhendo seu pão favorito",
@@ -418,6 +462,9 @@ const PRODUCT_COMPLEMENT_GROUP_IDS: Record<string, string[]> = {
   "cheesecake-pistache-cerejas-new-york": ["cobertura-cheesecake-ny"],
   "refrigerantes-lata-350ml": ["refrigerantes-lata-sabor"],
   "croissant-amanteigado": ["turbine-croissant"],
+  "pao-de-queijo": ["turbine-croissant"],
+  "mini-bolo-especial": ["mini-bolo-presenteavel-sabores"],
+  "coracao-de-ouro": ["coracao-recheado-sabor"],
   "monte-seu-sanduiche": [
     "monte-seu-sanduiche-pao",
     "monte-seu-sanduiche-proteina",

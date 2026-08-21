@@ -324,9 +324,9 @@ export function ContinuousCatalog({
                         const groupIntro =
                           group === "Fatias do Dia"
                             ? {
-                                title: "Fatias do Dia",
+                                title: "Fatia do Dia",
                                 description:
-                                  "Sabores fresquinhos escolhidos especialmente para hoje. Consulte a vitrine ou nossa equipe.",
+                                  "Os sabores das nossas fatias variam diariamente. Consulte a loja para saber quais sabores estão disponíveis hoje.",
                               }
                             : group === "Cheesecake Cremosa"
                               ? {
