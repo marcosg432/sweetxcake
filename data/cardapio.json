@@ -1072,6 +1072,24 @@
       "grupo": "Cheesecake Cremosa"
     },
     {
+      "id": "cheesecake-cremosa-pistache",
+      "slug": "cheesecake-cremosa-pistache",
+      "categoryId": "sobremesas",
+      "nome": "Cheesecake Cremosa de Pistache",
+      "descricaoCurta": "Cheesecake cremosa com pasta de pistache e finalização crocante de pistaches.",
+      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, no sabor pistache: cremosa, delicada e finalizada com pistaches crocantes.",
+      "preco": 17,
+      "imagem": "/images/products/sobremesas/cheesecake-cremosa-pistache.png",
+      "tags": [
+        "cheesecake",
+        "cremosa",
+        "pistache",
+        "sabores",
+        "sobremesa"
+      ],
+      "grupo": "Cheesecake Cremosa"
+    },
+    {
       "id": "fatias-do-dia",
       "slug": "fatia-do-dia",
       "categoryId": "sobremesas",
