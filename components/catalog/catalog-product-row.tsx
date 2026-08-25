@@ -4,7 +4,7 @@ import { memo } from "react";
 import Image from "next/image";
 import { Plus } from "lucide-react";
 import { motion } from "framer-motion";
-import { formatPrice } from "@/lib/utils";
+import { formatCatalogPrice } from "@/lib/utils";
 import {
   getProductStartingPrice,
   type UnifiedCatalogProduct,
@@ -77,8 +77,10 @@ export const CatalogProductRow = memo(function CatalogProductRow({
 
         <div className="mt-2.5 flex items-center gap-2.5">
           <p className="text-sm font-semibold text-foreground">
-            {product.kind === "bolo" && !preferredVariant ? "A partir de " : ""}
-            {formatPrice(startingPrice)}
+            {product.kind === "bolo" && !preferredVariant && startingPrice > 0
+              ? "A partir de "
+              : ""}
+            {formatCatalogPrice(startingPrice)}
           </p>
           <button
             type="button"

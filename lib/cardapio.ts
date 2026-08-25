@@ -14,8 +14,10 @@ export type CatalogProduct = {
   categoryId: string;
   nome: string;
   descricaoCurta: string;
+  descricao?: string;
   preco: number;
   imagem: string;
+  imagens?: string[];
   tags: string[];
   grupo?: string;
 };

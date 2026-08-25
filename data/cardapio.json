@@ -1110,15 +1110,19 @@
       "id": "coracao-de-ouro",
       "slug": "coracao-recheado",
       "categoryId": "presentes",
-      "nome": "[FOTO PENDENTE] Coração Recheado",
-      "descricaoCurta": "Coração recheado artesanal. Escolha o sabor: cheesecake de morango, caramelo salgado ou doce de leite artesanal.",
-      "descricao": "Um coração recheado artesanal para presentear com carinho. Escolha o sabor: Cheesecake de Morango — chocolate branco recheado com geleia de morango e creme de cheesecake; Caramelo Salgado — chocolate meio amargo recheado com caramelo salgado e crocante de praliné de amendoim; ou Doce de Leite Artesanal — chocolate caramelizado da Sweet, recheado com creme de doce de leite.",
+      "nome": "Coração Recheado",
+      "descricaoCurta": "Consulte os sabores.",
+      "descricao": "Consulte os sabores.",
       "preco": 15,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/presentes/coracao-recheado-01.png",
+      "imagens": [
+        "/images/products/presentes/coracao-recheado-01.png",
+        "/images/products/presentes/coracao-recheado-02.png",
+        "/images/products/presentes/coracao-recheado-03.png"
+      ],
       "tags": [
         "coração",
         "recheado",
-        "foto-pendente",
         "cheesecake",
         "caramelo",
         "doce de leite",
@@ -1222,20 +1226,6 @@
       ]
     },
     {
-      "id": "caixa-doce-amor",
-      "slug": "caixa-doce-amor",
-      "categoryId": "presentes",
-      "nome": "Caixa Doce Amor",
-      "descricaoCurta": "Caixa especial de doces para presentear.",
-      "preco": 79,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": [
-        "caixa",
-        "doce amor",
-        "presente"
-      ]
-    },
-    {
       "id": "caixa-com-amor-trufas",
       "slug": "caixa-coracao-trufas",
       "categoryId": "presentes",
@@ -1247,190 +1237,6 @@
         "caixa",
         "trufas",
         "coração",
-        "presente"
-      ]
-    },
-    {
-      "id": "mini-bolo-saudavel-cocada-baiana",
-      "slug": "mini-bolo-saudavel-cocada-baiana",
-      "categoryId": "presentes",
-      "nome": "Mini Bolo Saudável - Cocada Baiana",
-      "descricaoCurta": "Mini bolo saudável sabor Cocada Baiana.",
-      "preco": 39,
-      "imagem": "/images/products/product-bolo.png",
-      "tags": [
-        "mini bolo",
-        "saudável",
-        "cocada baiana",
-        "presente"
-      ]
-    },
-    {
-      "id": "mini-bolo-saudavel-limao-siciliano",
-      "slug": "mini-bolo-saudavel-limao-siciliano",
-      "categoryId": "presentes",
-      "nome": "Mini Bolo Saudável - Limão Siciliano",
-      "descricaoCurta": "Mini bolo saudável sabor Limão Siciliano.",
-      "preco": 44,
-      "imagem": "/images/products/product-bolo.png",
-      "tags": [
-        "mini bolo",
-        "saudável",
-        "limão siciliano",
-        "presente"
-      ]
-    },
-    {
-      "id": "sacola-maes",
-      "slug": "sacola-maes",
-      "categoryId": "presentes",
-      "nome": "Sacola Mães",
-      "descricaoCurta": "Sacola especial para montar seu presente.",
-      "preco": 7,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": [
-        "sacola",
-        "mães",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "pano-de-prato",
-      "slug": "pano-de-prato",
-      "categoryId": "presentes",
-      "nome": "Pano de Prato",
-      "descricaoCurta": "Pano de prato para complementar o presente.",
-      "preco": 10,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": [
-        "pano de prato",
-        "mimo",
-        "presente"
-      ]
-    },
-    {
-      "id": "cesta-amor-saudavel",
-      "slug": "cesta-amor-saudavel",
-      "categoryId": "presentes",
-      "nome": "Cesta Amor Saudável",
-      "descricaoCurta": "Cesta especial com seleção de produtos saudáveis.",
-      "preco": 120,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": [
-        "cesta",
-        "amor",
-        "saudável",
-        "presente"
-      ]
-    },
-    {
-      "id": "sacola-maes-grande",
-      "slug": "sacola-maes-grande",
-      "categoryId": "presentes",
-      "nome": "Sacola Mães Grande",
-      "descricaoCurta": "Sacola grande para montar seu presente.",
-      "preco": 10,
-      "imagem": "/images/home/carousel/hero-03.png",
-      "tags": [
-        "sacola",
-        "mães",
-        "grande",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-presenteavel-p",
-      "slug": "caixa-presenteavel-p",
-      "categoryId": "presentes",
-      "nome": "Caixa Presenteável P",
-      "descricaoCurta": "Caixa presenteável pequena para montar seu presente.",
-      "preco": 5,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "presenteável",
-        "pequena",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-presenteavel-g",
-      "slug": "caixa-presenteavel-g",
-      "categoryId": "presentes",
-      "nome": "Caixa Presenteável G",
-      "descricaoCurta": "Caixa presenteável grande para montar seu presente.",
-      "preco": 15,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "presenteável",
-        "grande",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-presenteavel-m",
-      "slug": "caixa-presenteavel-m",
-      "categoryId": "presentes",
-      "nome": "Caixa Presenteável M",
-      "descricaoCurta": "Caixa presenteável média para montar seu presente.",
-      "preco": 8,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "presenteável",
-        "média",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-trufa-presente-3-unidades",
-      "slug": "caixa-trufa-presente-3-unidades",
-      "categoryId": "presentes",
-      "nome": "Caixa para Trufas - 3 Unidades",
-      "descricaoCurta": "Caixa presenteável para três trufas.",
-      "preco": 3,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "trufas",
-        "3 unidades",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-presenteavel-6-unidades",
-      "slug": "caixa-presenteavel-6-unidades",
-      "categoryId": "presentes",
-      "nome": "Caixa Presenteável - 6 Unidades",
-      "descricaoCurta": "Caixa presenteável para seis unidades.",
-      "preco": 3,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "6 unidades",
-        "embalagem",
-        "presente"
-      ]
-    },
-    {
-      "id": "caixa-presenteavel-10-unidades",
-      "slug": "caixa-presenteavel-10-unidades",
-      "categoryId": "presentes",
-      "nome": "Caixa Presenteável - 10 Unidades",
-      "descricaoCurta": "Caixa presenteável para dez unidades.",
-      "preco": 5,
-      "imagem": "/images/categories/category-bombons.png",
-      "tags": [
-        "caixa",
-        "10 unidades",
-        "embalagem",
         "presente"
       ]
     }

@@ -2,10 +2,10 @@
 
 import { useEffect, useId, useMemo, useState } from "react";
 import Image from "next/image";
-import { Check, Minus, Plus, X } from "lucide-react";
+import { Check, ChevronLeft, ChevronRight, Minus, Plus, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { formatPrice } from "@/lib/utils";
+import { formatCatalogPrice, formatPrice } from "@/lib/utils";
 import type {
   ProductComplementGroup,
   UnifiedCatalogProduct,
@@ -47,6 +47,10 @@ export function ProductDetailModal({
   const [notes, setNotes] = useState(
     cartItem?.notes ?? cartItem?.observations ?? ""
   );
+  const [imageIndex, setImageIndex] = useState(0);
+  const gallery = product.images.length ? product.images : [product.image];
+  const currentImage = gallery[imageIndex] ?? product.image;
+  const hasGallery = gallery.length > 1;
 
   const selectedVariant =
     product.variants.find((variant) => variant.id === variantId) ?? product.variants[0];
@@ -190,9 +194,15 @@ export function ProductDetailModal({
           <span className="h-1.5 w-12 rounded-full bg-primary/20" />
         </div>
 
-        <div className="relative aspect-[16/9] shrink-0 overflow-hidden bg-surface-3 md:aspect-[16/8]">
+        <div
+          className={`relative shrink-0 overflow-hidden bg-surface-3 ${
+            hasGallery
+              ? "aspect-[4/5] max-h-[46vh] md:max-h-[52vh]"
+              : "aspect-[16/9] md:aspect-[16/8]"
+          }`}
+        >
           <Image
-            src={product.image}
+            src={currentImage}
             alt={product.name}
             fill
             sizes="(max-width: 768px) 100vw, 512px"
@@ -206,6 +216,47 @@ export function ProductDetailModal({
                 : "object-cover"
             }
           />
+          {hasGallery ? (
+            <>
+              <button
+                type="button"
+                onClick={() =>
+                  setImageIndex(
+                    (current) => (current - 1 + gallery.length) % gallery.length
+                  )
+                }
+                aria-label="Imagem anterior"
+                className="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/70 bg-surface-1/90 text-foreground shadow-brand backdrop-blur-md transition hover:bg-surface-1"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() =>
+                  setImageIndex((current) => (current + 1) % gallery.length)
+                }
+                aria-label="Próxima imagem"
+                className="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/70 bg-surface-1/90 text-foreground shadow-brand backdrop-blur-md transition hover:bg-surface-1"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+              <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 items-center gap-1.5">
+                {gallery.map((src, slideIndex) => (
+                  <button
+                    key={src}
+                    type="button"
+                    aria-label={`Imagem ${slideIndex + 1}`}
+                    onClick={() => setImageIndex(slideIndex)}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${
+                      slideIndex === imageIndex
+                        ? "w-6 bg-primary"
+                        : "w-1.5 bg-white/80 hover:bg-white"
+                    }`}
+                  />
+                ))}
+              </div>
+            </>
+          ) : null}
           <button
             type="button"
             onClick={onClose}
@@ -264,7 +315,7 @@ export function ProductDetailModal({
                         {selected ? <Check className="h-4 w-4 text-primary" /> : null}
                       </span>
                       <span className="mt-2 block text-sm text-primary">
-                        {formatPrice(variant.price)}
+                        {formatCatalogPrice(variant.price)}
                       </span>
                     </label>
                   );
@@ -381,8 +432,8 @@ export function ProductDetailModal({
             onClick={handleAdd}
             disabled={!canAdd}
           >
-            {cartItem ? "Atualizar pedido" : "Adicionar ao pedido"} ·{" "}
-            {formatPrice(subtotal)}
+            {cartItem ? "Atualizar pedido" : "Adicionar ao pedido"}
+            {subtotal > 0 ? ` · ${formatPrice(subtotal)}` : ""}
           </Button>
         </div>
       </motion.section>

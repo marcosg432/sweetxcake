@@ -23,10 +23,12 @@ const ProductDetailModal = dynamic(
 
 const SCROLL_OFFSET = 126;
 const CAKE_SIZES = [
+  { id: "caseirinhos", label: "Caseirinhos" },
   { id: "pp", label: "PP" },
   { id: "p", label: "Pequeno" },
   { id: "m", label: "Médio" },
   { id: "g", label: "Grande" },
+  { id: "restritivos", label: "Restritivos" },
 ] as const;
 
 type ContinuousCatalogProps = {
@@ -273,12 +275,12 @@ export function ContinuousCatalog({
                     <div className="sticky top-[7.25rem] z-30 -mx-4 mb-5 border-y border-primary/10 bg-surface-1/95 px-4 py-2.5 shadow-[0_8px_20px_rgba(83,45,51,0.06)] backdrop-blur-xl sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
                       <div className="flex items-center gap-3">
                         <span className="hidden shrink-0 text-[10px] font-semibold uppercase tracking-[0.16em] text-muted sm:block">
-                          Tamanho
+                          Tipo
                         </span>
                         <div
                           role="group"
-                          aria-label="Escolha o tamanho do bolo"
-                          className="grid min-w-0 flex-1 grid-cols-4 gap-1 rounded-2xl bg-surface-3/80 p-1"
+                          aria-label="Escolha o tipo de bolo"
+                          className="grid min-w-0 flex-1 grid-cols-3 gap-0.5 rounded-2xl bg-surface-3/80 p-1 sm:grid-cols-6 sm:gap-1"
                         >
                           {CAKE_SIZES.map((size) => {
                             const isSelected = selectedCakeSize === size.id;
@@ -289,7 +291,7 @@ export function ContinuousCatalog({
                                 aria-pressed={isSelected}
                                 onClick={() => setSelectedCakeSize(size.id)}
                                 className={cn(
-                                  "relative min-h-9 rounded-xl px-1.5 py-2 text-[11px] font-semibold transition active:scale-95 sm:px-4 sm:text-xs",
+                                  "relative min-h-9 rounded-xl px-0.5 py-2 text-[10px] font-semibold leading-tight transition active:scale-95 sm:px-3 sm:text-xs",
                                   isSelected
                                     ? "text-white"
                                     : "text-muted hover:bg-surface-0 hover:text-foreground"
@@ -314,7 +316,12 @@ export function ContinuousCatalog({
                       </div>
                     </div>
                   ) : null}
-                  {products.length === 0 ? (
+                  {category.id === "bolos" && selectedCakeSize === "restritivos" ? (
+                    <p className="mb-4 text-sm leading-relaxed text-muted">
+                      Bolos para restrições alimentares: versões zero, sem glúten, sem açúcar e sem leite.
+                    </p>
+                  ) : null}
+                  {products.length === 0 || visibleProducts.length === 0 ? (
                     <p className="rounded-2xl border border-primary/10 bg-surface-0/70 px-4 py-5 text-sm text-muted">
                       Produtos em breve.
                     </p>
@@ -362,7 +369,10 @@ export function ContinuousCatalog({
                                 index={index}
                                 preferredVariantId={
                                   category.id === "bolos"
-                                    ? selectedCakeSize
+                                    ? product.variants.find(
+                                        (variant) =>
+                                          variant.id === selectedCakeSize
+                                      )?.id ?? product.variants[0]?.id
                                     : undefined
                                 }
                                 onSelect={selectProduct}

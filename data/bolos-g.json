@@ -60,16 +60,6 @@
     "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
-    "id": "bolo-g-quiche",
-    "slug": "bolo-g-quiche",
-    "nome": "Quiche G - 25cm",
-    "imagem": "/images/categories/category-lanches.png",
-    "descricaoCurta": "Quiche G de 25cm para 12 a 20 fatias.",
-    "descricao": "Quiche artesanal G com aro de 25cm.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "25cm", "fatias": "12 a 20 fatias", "preco": 210 }]
-  },
-  {
     "id": "bolo-g-sergios-cake",
     "slug": "bolo-g-sergios-cake",
     "nome": "Sergio's Cake G",
@@ -78,46 +68,6 @@
     "descricao": "Sergio's Cake G artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
-  },
-  {
-    "id": "bolo-g-floresta-negra",
-    "slug": "bolo-g-floresta-negra",
-    "nome": "Floresta Negra G",
-    "imagem": "/images/products/bolos/bolo-floresta-negra.png",
-    "descricaoCurta": "Bolo artesanal Floresta Negra em tamanho G.",
-    "descricao": "Floresta Negra G artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 270 }]
-  },
-  {
-    "id": "bolo-g-cheesecake-cremosa",
-    "slug": "bolo-g-cheesecake-cremosa",
-    "nome": "Cheesecake Cremosa G",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake cremosa G para 20 a 25 fatias.",
-    "descricao": "Cheesecake Cremosa G artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 210 }]
-  },
-  {
-    "id": "bolo-g-cheesecake-new-york",
-    "slug": "bolo-g-cheesecake-new-york",
-    "nome": "Cheesecake New York G",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake New York G para 20 a 25 fatias.",
-    "descricao": "Cheesecake New York G artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 230 }]
-  },
-  {
-    "id": "bolo-g-cheesecake-new-york-pistache",
-    "slug": "bolo-g-cheesecake-new-york-pistache",
-    "nome": "Cheesecake New York Pistache G",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake New York de pistache G para 20 a 25 fatias.",
-    "descricao": "Cheesecake New York Pistache G artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "20 a 25 fatias", "preco": 270 }]
   },
   {
     "id": "bolo-g-corte-45kg",

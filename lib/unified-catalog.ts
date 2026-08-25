@@ -5,6 +5,8 @@ import {
 } from "@/lib/cardapio";
 import {
   BOLOS,
+  BOLOS_CASEIRINHOS,
+  BOLOS_RESTRITIVOS,
   BOLOS_G,
   BOLOS_M,
   BOLOS_P,
@@ -44,6 +46,7 @@ export type UnifiedCatalogProduct = {
   shortDescription: string;
   description: string;
   image: string;
+  images: string[];
   tags: string[];
   group?: string;
   variants: ProductVariant[];
@@ -51,12 +54,14 @@ export type UnifiedCatalogProduct = {
   complementGroups: ProductComplementGroup[];
   allowNotes: boolean;
   kind: "cafeteria" | "bolo";
+  restritivo?: boolean;
 };
 
 export type UnifiedCatalogCategory = CatalogCategory;
 
 type ConfigurableCatalogProduct = (typeof CATALOG_PRODUCTS)[number] & {
   descricao?: string;
+  imagens?: string[];
   variacoes?: ProductVariant[];
   complementos?: ProductComplement[];
   permiteObservacoes?: boolean;
@@ -100,6 +105,8 @@ const gCakeComplements: ProductComplement[] = [
 
 const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) => {
   const product = entry as ConfigurableCatalogProduct;
+  const images =
+    product.imagens?.length ? product.imagens : [product.imagem];
   return {
     id: product.id,
     slug: product.slug,
@@ -107,7 +114,8 @@ const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) 
     name: product.nome,
     shortDescription: product.descricaoCurta,
     description: product.descricao ?? product.descricaoCurta,
-    image: product.imagem,
+    image: images[0],
+    images,
     tags: product.tags,
     group: product.grupo,
     variants: product.variacoes?.length
@@ -131,12 +139,17 @@ const cafeteriaProducts: UnifiedCatalogProduct[] = CATALOG_PRODUCTS.map((entry) 
 const standardCakesWithoutCustomizedSizes = BOLOS.map((bolo) => ({
   ...bolo,
   tamanhos: bolo.tamanhos.filter(
-    (size) => !["pp", "p", "m", "g"].includes(size.nome.toLowerCase())
+    (size) =>
+      !["caseirinhos", "restritivos", "pp", "p", "m", "g"].includes(
+        size.nome.toLowerCase()
+      )
   ),
 })).filter((bolo) => bolo.tamanhos.length > 0);
 
 const cakeProducts: UnifiedCatalogProduct[] = [
   ...standardCakesWithoutCustomizedSizes,
+  ...BOLOS_CASEIRINHOS,
+  ...BOLOS_RESTRITIVOS,
   ...BOLOS_PP,
   ...BOLOS_P,
   ...BOLOS_M,
@@ -145,6 +158,7 @@ const cakeProducts: UnifiedCatalogProduct[] = [
   const bolo = entry as ConfigurableBolo;
   const exclusiveSize =
     bolo.tamanhos.length === 1 ? bolo.tamanhos[0].nome.toLowerCase() : null;
+  const images = bolo.imagens?.length ? bolo.imagens : [bolo.imagem];
   return {
     id: bolo.id,
     slug: bolo.slug,
@@ -152,29 +166,24 @@ const cakeProducts: UnifiedCatalogProduct[] = [
     name: bolo.nome,
     shortDescription: bolo.descricaoCurta,
     description: bolo.descricao,
-    image: bolo.imagem,
-    tags: bolo.ingredientes.map((ingredient) => ingredient.nome),
+    image: images[0],
+    images,
+    tags: [
+      ...bolo.ingredientes.map((ingredient) => ingredient.nome),
+      ...(bolo.restritivo ? ["Restritivo"] : []),
+    ],
     variants: bolo.tamanhos.map((size) => ({
       id: size.nome.toLowerCase(),
       label: size.nome,
       price: size.preco,
-      details: `${size.peso} · ${size.fatias}`,
+      details:
+        size.peso === size.fatias ? size.peso : `${size.peso} · ${size.fatias}`,
     })),
     complements:
       bolo.complementos ??
-      (exclusiveSize === "pp"
-        ? ppCakeComplements
-        : exclusiveSize === "p"
-          ? pCakeComplements
-          : exclusiveSize === "m"
-            ? mCakeComplements
-            : exclusiveSize === "g"
-              ? gCakeComplements
-              : []),
-    complementGroups: (() => {
-      const options =
-        bolo.complementos ??
-        (exclusiveSize === "pp"
+      (getProductComplements(bolo.id).length
+        ? getProductComplements(bolo.id)
+        : exclusiveSize === "pp"
           ? ppCakeComplements
           : exclusiveSize === "p"
             ? pCakeComplements
@@ -182,7 +191,29 @@ const cakeProducts: UnifiedCatalogProduct[] = [
               ? mCakeComplements
               : exclusiveSize === "g"
                 ? gCakeComplements
-                : []);
+                : []),
+    complementGroups: (() => {
+      const customGroups = getProductComplementGroups(bolo.id);
+      if (bolo.complementos?.length) {
+        return [
+          {
+            id: `${bolo.id}-complementos`,
+            title: "Complementos",
+            options: bolo.complementos,
+          },
+        ];
+      }
+      if (customGroups.length) return customGroups;
+      const options =
+        exclusiveSize === "pp"
+          ? ppCakeComplements
+          : exclusiveSize === "p"
+            ? pCakeComplements
+            : exclusiveSize === "m"
+              ? mCakeComplements
+              : exclusiveSize === "g"
+                ? gCakeComplements
+                : [];
       return options.length
         ? [
             {
@@ -195,6 +226,7 @@ const cakeProducts: UnifiedCatalogProduct[] = [
     })(),
     allowNotes: true,
     kind: "bolo",
+    restritivo: Boolean(bolo.restritivo),
   };
 });
 
@@ -203,7 +235,7 @@ const cakesCategory: UnifiedCatalogCategory = {
   slug: "bolos",
   label: "Bolos",
   title: "Catálogo de Bolos",
-  description: "Bolos artesanais com tamanhos PP, P, M e G.",
+  description: "Bolos artesanais com caseirinhos, opções restritivas e tamanhos PP, P, M e G.",
 };
 
 export const UNIFIED_CATALOG_CATEGORIES: UnifiedCatalogCategory[] = [

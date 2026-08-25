@@ -1,4 +1,6 @@
 import bolosData from "@/data/bolos.json";
+import bolosCaseirinhosData from "@/data/bolos-caseirinhos.json";
+import bolosRestritivosData from "@/data/bolos-restritivos.json";
 import bolosPpData from "@/data/bolos-pp.json";
 import bolosPData from "@/data/bolos-p.json";
 import bolosMData from "@/data/bolos-m.json";
@@ -26,6 +28,8 @@ export type Bolo = {
   descricao: string;
   ingredientes: BoloIngrediente[];
   tamanhos: BoloTamanho[];
+  restritivo?: boolean;
+  imagens?: string[];
 };
 
 export type CrossSellItem = {
@@ -54,6 +58,8 @@ const INGREDIENT_MAP: Array<{ match: RegExp; nome: string; emoji: string }> = [
 ];
 
 export const BOLOS = bolosData as Bolo[];
+export const BOLOS_CASEIRINHOS = bolosCaseirinhosData as Bolo[];
+export const BOLOS_RESTRITIVOS = bolosRestritivosData as Bolo[];
 export const BOLOS_PP = bolosPpData as Bolo[];
 export const BOLOS_P = bolosPData as Bolo[];
 export const BOLOS_M = bolosMData as Bolo[];

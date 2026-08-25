@@ -11,3 +11,7 @@ export function formatPrice(value: number) {
     currency: "BRL",
   }).format(value);
 }
+
+export function formatCatalogPrice(value: number) {
+  return value > 0 ? formatPrice(value) : "Consulte a loja";
+}

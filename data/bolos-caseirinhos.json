@@ -1,0 +1,53 @@
+[
+  {
+    "id": "caseirinho-laranja-ganache",
+    "slug": "caseirinho-laranja-ganache",
+    "nome": "Caseirinho Laranja e Ganache",
+    "imagem": "/images/products/bolos/caseirinho-laranja-ganache.png",
+    "descricaoCurta": "Bolo de laranja fofinho e molhadinho coberto com ganache de chocolate meio amargo. Experimente servir bem quentinho.",
+    "descricao": "Bolo de laranja fofinho e molhadinho coberto com ganache de chocolate meio amargo. Experimente servir bem quentinho.",
+    "ingredientes": [],
+    "tamanhos": [
+      {
+        "nome": "Caseirinhos",
+        "peso": "Unidade",
+        "fatias": "Individual",
+        "preco": 30
+      }
+    ]
+  },
+  {
+    "id": "bolo-vulcao-cenoura-chocolate",
+    "slug": "bolo-vulcao-cenoura-chocolate",
+    "nome": "Bolo Vulcão de Cenoura e Chocolate",
+    "imagem": "/images/products/bolos/bolo-vulcao-cenoura-chocolate.png",
+    "descricaoCurta": "Típico bolo de cenoura fofinho coberto com muito brigadeiro de chocolate meio amargo. Experimente servir bem quentinho.",
+    "descricao": "Típico bolo de cenoura fofinho coberto com muito brigadeiro de chocolate meio amargo. Experimente servir bem quentinho.",
+    "ingredientes": [],
+    "tamanhos": [
+      {
+        "nome": "Caseirinhos",
+        "peso": "Unidade",
+        "fatias": "Individual",
+        "preco": 30
+      }
+    ]
+  },
+  {
+    "id": "bolo-vulcao-chocolate-brigadeiro",
+    "slug": "bolo-vulcao-chocolate-brigadeiro",
+    "nome": "Bolo Vulcão de Chocolate e Brigadeiro",
+    "imagem": "/images/products/bolos/bolo-vulcao-chocolate-brigadeiro.png",
+    "descricaoCurta": "Bolo de chocolate fofinho coberto com muito brigadeiro. Experimente servir bem quentinho.",
+    "descricao": "Bolo de chocolate fofinho coberto com muito brigadeiro. Experimente servir bem quentinho.",
+    "ingredientes": [],
+    "tamanhos": [
+      {
+        "nome": "Caseirinhos",
+        "peso": "Unidade",
+        "fatias": "Individual",
+        "preco": 30
+      }
+    ]
+  }
+]

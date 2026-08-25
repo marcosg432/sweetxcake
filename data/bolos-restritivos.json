@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bolo-restritivo-limao-siciliano-frutas-vermelhas",
+    "slug": "bolo-limao-siciliano-frutas-vermelhas-restritivo",
+    "nome": "Bolo Limão Siciliano e Frutas Vermelhas (versão restritiva)",
+    "imagem": "/images/products/bolos/bolo-limao-frutas-vermelhas.png",
+    "descricaoCurta": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar.",
+    "descricao": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar.",
+    "ingredientes": [],
+    "restritivo": true,
+    "tamanhos": [
+      {
+        "nome": "Restritivos",
+        "peso": "Consulte a loja",
+        "fatias": "Consulte a loja",
+        "preco": 0
+      }
+    ]
+  },
+  {
+    "id": "bolo-restritivo-sweet-prestigio",
+    "slug": "bolo-sweet-prestigio-restritivo",
+    "nome": "Bolo Sweet Prestígio (versão restritiva)",
+    "imagem": "/images/products/bolos/bolo-prestigio-restritivo.png",
+    "descricaoCurta": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar.",
+    "descricao": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar.",
+    "ingredientes": [],
+    "restritivo": true,
+    "tamanhos": [
+      {
+        "nome": "Restritivos",
+        "peso": "Consulte a loja",
+        "fatias": "Consulte a loja",
+        "preco": 0
+      }
+    ]
+  },
+  {
+    "id": "bolo-restritivo-sergios",
+    "slug": "bolo-sergios-restritivo",
+    "nome": "Bolo Sergio's (versão restritiva)",
+    "imagem": "/images/products/bolos/bolo-sergios-restritivo.png",
+    "imagens": [
+      "/images/products/bolos/bolo-sergios-restritivo.png"
+    ],
+    "descricaoCurta": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar.",
+    "descricao": "Bolo na versão restritiva sem glúten, sem leite e sem açúcar, com massa de chocolate, creme de cacau e creme de laranja, finalizado com casca de chocolate zero açúcar vegano.",
+    "ingredientes": [],
+    "restritivo": true,
+    "tamanhos": [
+      {
+        "nome": "Restritivos",
+        "peso": "Consulte a loja",
+        "fatias": "Consulte a loja",
+        "preco": 0
+      }
+    ]
+  }
+]

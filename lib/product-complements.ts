@@ -136,6 +136,59 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
       { id: "churros", name: "Churros", price: 0 },
     ],
   },
+  "cobertura-cheesecake-ny-pistache": {
+    id: "cobertura-cheesecake-ny-pistache",
+    title: "Escolha a cobertura",
+    hint: "Escolha 01",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "geleia-artesanal-morango",
+        name: "Geleia artesanal de morango",
+        price: 0,
+      },
+      {
+        id: "caramelo-salgado-crocante-amendoim",
+        name: "Creme de caramelo salgado e crocante de amendoim",
+        price: 0,
+      },
+      {
+        id: "ganache-chocolate-meio-amargo",
+        name: "Ganache de chocolate meio amargo",
+        price: 0,
+      },
+    ],
+  },
+  "cobertura-cheesecake-cremosa": {
+    id: "cobertura-cheesecake-cremosa",
+    title: "Escolha a cobertura",
+    hint: "Escolha 01",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "cremosa-geleia-artesanal-morango",
+        name: "Geleia artesanal de morango",
+        price: 0,
+      },
+      {
+        id: "cremosa-caramelo-salgado-crocante-amendoim",
+        name: "Creme de caramelo salgado e crocante de amendoim",
+        price: 0,
+      },
+      {
+        id: "cremosa-ganache-chocolate-meio-amargo",
+        name: "Ganache de chocolate meio amargo",
+        price: 0,
+      },
+      {
+        id: "cremosa-churros",
+        name: "Churros",
+        price: 0,
+      },
+    ],
+  },
   "turbine-croissant": {
     id: "turbine-croissant",
     title: "Complementos",
@@ -460,6 +513,10 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
 
 const PRODUCT_COMPLEMENT_GROUP_IDS: Record<string, string[]> = {
   "cheesecake-pistache-cerejas-new-york": ["cobertura-cheesecake-ny"],
+  "bolo-p-cheesecake-new-york-pistache": ["cobertura-cheesecake-ny-pistache"],
+  "bolo-m-cheesecake-new-york-pistache": ["cobertura-cheesecake-ny-pistache"],
+  "bolo-p-cheesecake-cremosa": ["cobertura-cheesecake-cremosa"],
+  "bolo-m-cheesecake-cremosa": ["cobertura-cheesecake-cremosa"],
   "refrigerantes-lata-350ml": ["refrigerantes-lata-sabor"],
   "croissant-amanteigado": ["turbine-croissant"],
   "pao-de-queijo": ["turbine-croissant"],

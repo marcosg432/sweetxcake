@@ -2,265 +2,154 @@
   {
     "id": "bolo-pp-red-velvet-mini",
     "slug": "bolo-pp-red-velvet-mini",
-    "nome": "Red Velvet Mini",
+    "nome": "Red Velvet PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-red-velvet.png",
-    "descricaoCurta": "Versão mini do bolo artesanal Red Velvet.",
-    "descricao": "Red Velvet Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal Red Velvet, de 4 a 6 fatias.",
+    "descricao": "Red Velvet PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-ninho-nutella-mini",
     "slug": "bolo-pp-ninho-nutella-mini",
-    "nome": "Ninho com Nutella Mini",
+    "nome": "Ninho com Nutella PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
-    "descricaoCurta": "Versão mini do bolo de Ninho com Nutella.",
-    "descricao": "Ninho com Nutella Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo de Ninho com Nutella, de 4 a 6 fatias.",
+    "descricao": "Ninho com Nutella PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-clarissa-mini",
     "slug": "bolo-pp-clarissa-mini",
-    "nome": "Clarissa Mini",
+    "nome": "Clarissa PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-clarissa.png",
-    "descricaoCurta": "Versão mini do bolo artesanal Clarissa.",
-    "descricao": "Clarissa Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal Clarissa, de 4 a 6 fatias.",
+    "descricao": "Clarissa PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-pina-colada-mini",
     "slug": "bolo-pp-pina-colada-mini",
-    "nome": "Piña Colada Mini",
+    "nome": "Piña Colada PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-pina-colada.png",
-    "descricaoCurta": "Versão mini do bolo artesanal Piña Colada.",
-    "descricao": "Piña Colada Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal Piña Colada, de 4 a 6 fatias.",
+    "descricao": "Piña Colada PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-pistache-mini",
     "slug": "bolo-pp-pistache-mini",
-    "nome": "Pistache Mini",
+    "nome": "Pistache PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-pistache.png",
-    "descricaoCurta": "Versão mini do bolo artesanal de pistache.",
-    "descricao": "Pistache Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal de pistache, de 4 a 6 fatias.",
+    "descricao": "Pistache PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-chocolatudo-mini",
     "slug": "bolo-pp-chocolatudo-mini",
-    "nome": "Chocolatudo Mini",
+    "nome": "Chocolatudo PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-chocolatudo.png",
-    "descricaoCurta": "Versão mini do bolo artesanal Chocolatudo.",
-    "descricao": "Chocolatudo Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal Chocolatudo, de 4 a 6 fatias.",
+    "descricao": "Chocolatudo PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-cenoura",
-    "slug": "bolo-pp-cenoura",
-    "nome": "Bolo de Cenoura PP",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo artesanal de cenoura em tamanho PP.",
-    "descricao": "Bolo de Cenoura PP artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 19.9 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-sergios-cake-mini",
     "slug": "bolo-pp-sergios-cake-mini",
-    "nome": "Sergio's Cake Mini",
+    "nome": "Sergio's Cake PP 4 a 6 fatias",
     "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-    "descricaoCurta": "Versão mini do bolo artesanal Sergio's Cake.",
-    "descricao": "Sergio's Cake Mini artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Bolo artesanal Sergio's Cake, de 4 a 6 fatias.",
+    "descricao": "Sergio's Cake PP 4 a 6 fatias artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-floresta-negra-zero-lactose",
-    "slug": "bolo-pp-floresta-negra-zero-lactose",
-    "nome": "Floresta Negra PP (Zero Lactose)",
-    "imagem": "/images/products/bolos/bolo-floresta-negra.png",
-    "descricaoCurta": "Bolo Floresta Negra PP em versão zero lactose.",
-    "descricao": "Floresta Negra PP preparado sem lactose.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-mini-cake-presente",
-    "slug": "bolo-pp-mini-cake-presente",
-    "nome": "Mini Cake Presente",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Mini cake em apresentação especial para presente.",
-    "descricao": "Mini Cake Presente artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 24.9 }
-    ]
-  },
-  {
-    "id": "bolo-pp-mini-cake-consumo-loja",
-    "slug": "bolo-pp-mini-cake-consumo-loja",
-    "nome": "Mini Cake Consumo Loja",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Mini cake preparado para consumo na loja.",
-    "descricao": "Mini Cake para consumo na unidade Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "Mini", "fatias": "Consulte a loja", "preco": 19 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 65
+      }
     ]
   },
   {
     "id": "bolo-pp-zero-amora-capim-limao",
     "slug": "bolo-pp-zero-amora-capim-limao",
-    "nome": "Bolo Zero Amora e Capim-Limão PP",
+    "nome": "Bolo Zero Amora e Capim-Limão PP 4 a 6 fatias",
     "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo PP de amora e capim-limão em versão zero.",
+    "descricaoCurta": "Bolo de amora e capim-limão em versão zero, de 4 a 6 fatias.",
     "descricao": "Bolo Zero Amora e Capim-Limão PP artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 75 }
-    ]
-  },
-  {
-    "id": "bolo-pp-sweet-prestigio-zero",
-    "slug": "bolo-pp-sweet-prestigio-zero",
-    "nome": "Bolo Sweet Prestígio PP",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo Prestígio PP sem açúcar, sem glúten e sem leite.",
-    "descricao": "Bolo Sweet Prestígio PP preparado sem açúcar, sem glúten e sem leite.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-sergios-zero",
-    "slug": "bolo-pp-sergios-zero",
-    "nome": "Bolo Sergio's PP",
-    "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-    "descricaoCurta": "Bolo Sergio's PP sem açúcar, sem glúten e sem leite.",
-    "descricao": "Bolo Sergio's PP preparado sem açúcar, sem glúten e sem leite.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 65 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 75
+      }
     ]
   },
   {
     "id": "bolo-pp-pistache-amora",
     "slug": "bolo-pp-pistache-amora",
-    "nome": "Pistache e Amora PP",
-    "imagem": "/images/products/bolos/bolo-pistache.png",
-    "descricaoCurta": "Bolo PP de pistache e amora com 4 fatias.",
+    "nome": "Pistache e Amora PP 4 a 6 fatias",
+    "imagem": "/images/products/bolos/bolo-pistache-amora.png",
+    "descricaoCurta": "Bolo de pistache e amora, de 4 a 6 fatias.",
     "descricao": "Pistache e Amora PP artesanal Sweet Cheesecake.",
     "ingredientes": [],
     "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "4 fatias", "preco": 60 }
-    ]
-  },
-  {
-    "id": "bolo-pp-cenoura-chocolate-tamaras-zero",
-    "slug": "bolo-pp-cenoura-chocolate-tamaras-zero",
-    "nome": "Bolo Cenoura, Chocolate e Tâmaras PP",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo PP sem açúcar, sem glúten e sem leite.",
-    "descricao": "Bolo de cenoura, chocolate e tâmaras PP preparado sem açúcar, sem glúten e sem leite.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-cheesecake-new-york-pistache",
-    "slug": "bolo-pp-cheesecake-new-york-pistache",
-    "nome": "Cheesecake New York Pistache PP",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake New York de pistache PP com 4 fatias.",
-    "descricao": "Cheesecake New York Pistache PP artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "4 fatias", "preco": 65 }
-    ]
-  },
-  {
-    "id": "bolo-pp-cheesecake-new-york",
-    "slug": "bolo-pp-cheesecake-new-york",
-    "nome": "Cheesecake New York PP",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake New York PP com 4 fatias.",
-    "descricao": "Cheesecake New York PP artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "4 fatias", "preco": 60 }
-    ]
-  },
-  {
-    "id": "bolo-pp-cheesecake-cremosa",
-    "slug": "bolo-pp-cheesecake-cremosa",
-    "nome": "Cheesecake Cremosa PP",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Cheesecake cremosa PP com 4 fatias.",
-    "descricao": "Cheesecake Cremosa PP artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "4 fatias", "preco": 45 }
-    ]
-  },
-  {
-    "id": "bolo-pp-prestigio-tradicional",
-    "slug": "bolo-pp-prestigio-tradicional",
-    "nome": "Bolo Prestígio PP (Tradicional)",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo Prestígio tradicional em tamanho PP.",
-    "descricao": "Bolo Prestígio PP tradicional Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 75 }
-    ]
-  },
-  {
-    "id": "bolo-pp-personalizado",
-    "slug": "bolo-pp-personalizado",
-    "nome": "Bolo Personalizado PP",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo PP preparado com personalização.",
-    "descricao": "Bolo Personalizado PP Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 80 }
-    ]
-  },
-  {
-    "id": "bolo-pp-maracuja-zero",
-    "slug": "bolo-pp-maracuja-zero",
-    "nome": "Bolo Maracujá PP",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo de maracujá PP sem leite, sem açúcar e sem glúten.",
-    "descricao": "Bolo Maracujá PP preparado sem leite, sem açúcar e sem glúten.",
-    "ingredientes": [],
-    "tamanhos": [
-      { "nome": "PP", "peso": "PP", "fatias": "Consulte a loja", "preco": 75 }
+      {
+        "nome": "PP",
+        "peso": "PP",
+        "fatias": "4 a 6 fatias",
+        "preco": 60
+      }
     ]
   }
 ]
