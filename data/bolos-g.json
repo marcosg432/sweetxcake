@@ -4,79 +4,99 @@
     "slug": "bolo-g-red-velvet",
     "nome": "Red Velvet G",
     "imagem": "/images/products/bolos/bolo-red-velvet.png",
-    "descricaoCurta": "Bolo artesanal Red Velvet em tamanho G.",
-    "descricao": "Red Velvet G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Morango, baunilha, brigadeiro aerado e chocolate branco.",
+    "descricao": "Massa aveludada regada com geleia artesanal de morango, camadas de creme especial de morango silvestre, cobertura de brigadeiro aerado de morango e baunilha, casquinha de chocolate branco.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-ninho-nutella",
     "slug": "bolo-g-ninho-nutella",
     "nome": "Ninho com Nutella G",
     "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
-    "descricaoCurta": "Bolo artesanal de Ninho com Nutella em tamanho G.",
-    "descricao": "Ninho com Nutella G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, ninho, nutella e brigadeiro aerado.",
+    "descricao": "Massa especial de chocolate regada com nossa calda de chocolate, 1 camada de creme de cheesecake de ninho e 1 camada de creme de cheesecake de nutella. Coberto com brigadeiro aerado de ninho e nutella e fina casca de chocolate 50% cacau.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-clarissa",
     "slug": "bolo-g-clarissa",
     "nome": "Clarissa G",
     "imagem": "/images/products/bolos/bolo-clarissa.png",
-    "descricaoCurta": "Bolo artesanal Clarissa em tamanho G.",
-    "descricao": "Clarissa G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, brigadeiro, cheesecake de morango e baunilha.",
+    "descricao": "Massa de chocolate divinamente úmida e adoçada na medida exata, uma camada do nosso exclusivo brigadeiro de chocolate, seguida por uma generosa porção do nosso creme de cheesecake de morango. Para finalizar, cobrimos com um suave brigadeiro cremoso de morango e baunilha, e uma fina casca de chocolate com 50% de cacau.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-pina-colada",
     "slug": "bolo-g-pina-colada",
     "nome": "Piña Colada G",
     "imagem": "/images/products/bolos/bolo-pina-colada.png",
-    "descricaoCurta": "Bolo artesanal Piña Colada em tamanho G.",
-    "descricao": "Piña Colada G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Coco, cheesecake, abacaxi e brigadeiro aerado.",
+    "descricao": "Massa aveludada de coco bem molhadinha com calda de baunilha, dois recheios de creme de cheesecake de coco tostado e abacaxi, coberto com brigadeiro aerado e flocos de coco.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-pistache",
     "slug": "bolo-g-pistache",
     "nome": "Pistache G",
     "imagem": "/images/products/bolos/bolo-pistache.png",
-    "descricaoCurta": "Bolo artesanal de pistache em tamanho G.",
-    "descricao": "Pistache G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, pistache, cheesecake e amendoim crocante.",
+    "descricao": "A combinação de um bolo de chocolate meio amargo bem molhadinho, recheado com um creme de cheesecake de baunilha e pistache, uma casca de chocolate meio amargo e um brigadeiro branco aerado mesclado com ainda mais pistache e coberto com crocantes de amendoim.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-chocolatudo",
     "slug": "bolo-g-chocolatudo",
     "nome": "Chocolatudo G",
     "imagem": "/images/products/bolos/bolo-chocolatudo.png",
-    "descricaoCurta": "Bolo artesanal Chocolatudo em tamanho G.",
-    "descricao": "Chocolatudo G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, brigadeiro, ganache e brownie.",
+    "descricao": "Massa de chocolate meio amargo regada com calda especial de chocolate, duas camadas generosas de brigadeiro de chocolate meio amargo, coberto com ganache, pedacinhos de brownie e fina casca de chocolate 50 % cacau.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
     "id": "bolo-g-sergios-cake",
     "slug": "bolo-g-sergios-cake",
     "nome": "Sergio's Cake G",
     "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-    "descricaoCurta": "Bolo artesanal Sergio's Cake em tamanho G.",
-    "descricao": "Sergio's Cake G artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, laranja Bahia, brigadeiro e ganache.",
+    "descricao": "Bolo de chocolate (massa black) bem molhado com calda e geleia de laranja, duas camadas de brigadeiro preto com pedaços de doce artesanal de laranja Bahia, coberto com ganache de chocolate meio amargo e creme de laranja.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "G", "fatias": "Consulte a loja", "preco": 350 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 350 }]
   },
   {
-    "id": "bolo-g-corte-45kg",
-    "slug": "bolo-g-corte-45kg",
-    "nome": "Bolo de Corte 4,5kg",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo de corte de 4,5kg com rendimento de aproximadamente 45 fatias.",
-    "descricao": "Bolo de Corte Sweet Cheesecake com 4,5kg, ideal para eventos.",
+    "id": "bolo-g-cheesecake-new-york-pistache",
+    "slug": "bolo-g-cheesecake-new-york-pistache",
+    "nome": "Cheesecake New York de Pistache",
+    "imagem": "/images/products/bolos/cheesecake-new-york-pistache.png",
+    "descricaoCurta": "Cheesecake americana com pasta natural de pistache. Escolha a cobertura.",
+    "descricao": "Tradicional cheesecake na versão americana saborizada com pasta natural de pistache. Escolha a finalização: geleia artesanal de morango, creme de caramelo salgado ou ganache de chocolate.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "G", "peso": "4,5kg", "fatias": "45 fatias", "preco": 390 }]
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 320 }]
+  },
+  {
+    "id": "bolo-g-cheesecake-new-york-style",
+    "slug": "bolo-g-cheesecake-new-york-style",
+    "nome": "Cheesecake New York Style G",
+    "imagem": "/images/products/sobremesas/cheesecake-new-york-style.png",
+    "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York. Escolha a cobertura.",
+    "descricao": "Cheesecake assada no estilo clássico de Nova York, servida com opções de cobertura:\n\n1. Morango: geleia artesanal de morango.\n2. Caramelo Salgado: creme de caramelo salgado com um toque de flor de sal e praliné de amendoim.\n3. Chocolate: ganache de chocolate meio amargo.\n4. Churros: combinação de doce de leite, ganache e canela.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 320 }]
+  },
+  {
+    "id": "bolo-g-cheesecake-cremosa",
+    "slug": "bolo-g-cheesecake-cremosa",
+    "nome": "Cheesecake Cremosa G",
+    "imagem": "/images/products/bolos/cheesecake-cremosa.png",
+    "descricaoCurta": "Versão pote sem forno, mais aerada e adocicada que a New York. Escolha a cobertura.",
+    "descricao": "A sobremesa queridinha da Sweet em versão pote. Essa nossa versão de cheesecake leva chantilly na massa e não vai ao forno. Por isso, é uma torta mais aerada, mais cremosa e mais adocicada que sua versão tradicional nova-iorquina. Escolha o sabor da cobertura.",
+    "ingredientes": [],
+    "tamanhos": [{ "nome": "G", "peso": "Consulte a loja", "fatias": "Consulte a loja", "preco": 250 }]
   }
 ]

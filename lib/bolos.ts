@@ -19,6 +19,37 @@ export type BoloTamanho = {
   preco: number;
 };
 
+const CAKE_SIZE_DETAILS: Record<string, string> = {
+  pp: "Tamanho PP: 4 a 6 fatias, forma de 11 cm de diâmetro por 10 cm de altura, peso aproximado 600 g.",
+  p: "Tamanho P: 10 a 15 fatias, forma de 16 cm de diâmetro por 10 cm de altura, peso aproximado 1,5 kg.",
+  m: "Tamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
+};
+
+const LEGACY_MULTI_SIZE_GUIDE =
+  /(?:\n+)?Tamanhos:\nNossos bolos são confeitados[\s\S]*$/;
+
+export function withCakeSizeGuide(description: string, tamanhos: BoloTamanho[]) {
+  const withoutLegacyGuide = description.replace(LEGACY_MULTI_SIZE_GUIDE, "").trim();
+  const sizeLines = [
+    ...new Set(
+      tamanhos
+        .map((size) => CAKE_SIZE_DETAILS[size.nome.toLowerCase()])
+        .filter((line): line is string => Boolean(line))
+    ),
+  ];
+
+  if (sizeLines.length === 0) return withoutLegacyGuide;
+
+  const alreadyHasOwnSize = sizeLines.every((line) => {
+    const prefix = line.match(/^Tamanho (PP|P|M|G):/)?.[0];
+    return prefix ? withoutLegacyGuide.includes(prefix) : false;
+  });
+
+  if (alreadyHasOwnSize) return withoutLegacyGuide;
+
+  return `${withoutLegacyGuide}\n\n${sizeLines.join("\n")}`;
+}
+
 export type Bolo = {
   id: string;
   slug: string;

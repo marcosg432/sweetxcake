@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Minus, Plus, Star, X } from "lucide-react";
 import { useMediaQuery } from "@/components/bolos/use-media-query";
 import type { Bolo, BoloTamanho } from "@/lib/bolos";
-import { CROSS_SELL } from "@/lib/bolos";
+import { CROSS_SELL, withCakeSizeGuide } from "@/lib/bolos";
 import { formatPrice, cn } from "@/lib/utils";
 import { useCartStore } from "@/stores/cart-store";
 import { useUiStore } from "@/stores/ui-store";
@@ -170,7 +170,7 @@ function BoloDetailContent({ bolo, onClose }: { bolo: Bolo; onClose: () => void 
         </h2>
 
         <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-muted">
-          {bolo.descricao}
+          {withCakeSizeGuide(bolo.descricao, bolo.tamanhos)}
         </p>
 
         <div className="mt-8">

@@ -123,68 +123,50 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
   "cobertura-cheesecake-ny": {
     id: "cobertura-cheesecake-ny",
     title: "Complementos",
-    hint: "Escolha a cobertura",
-    min: 0,
+    hint: "Finalização",
+    min: 1,
+    max: 1,
     options: [
       {
         id: "geleia-morango",
         name: "Geleia artesanal de morango",
         price: 0,
       },
-      { id: "caramelo-salgado", name: "Caramelo salgado", price: 0 },
+      {
+        id: "caramelo-salgado",
+        name: "Creme de caramelo salgado",
+        price: 0,
+        details: "Com toque de flor de sal e praliné de amendoim",
+      },
       { id: "ganache-chocolate", name: "Ganache de chocolate", price: 0 },
-      { id: "churros", name: "Churros", price: 0 },
-    ],
-  },
-  "cobertura-cheesecake-ny-pistache": {
-    id: "cobertura-cheesecake-ny-pistache",
-    title: "Escolha a cobertura",
-    hint: "Escolha 01",
-    min: 1,
-    max: 1,
-    options: [
       {
-        id: "geleia-artesanal-morango",
-        name: "Geleia artesanal de morango",
-        price: 0,
-      },
-      {
-        id: "caramelo-salgado-crocante-amendoim",
-        name: "Creme de caramelo salgado e crocante de amendoim",
-        price: 0,
-      },
-      {
-        id: "ganache-chocolate-meio-amargo",
-        name: "Ganache de chocolate meio amargo",
-        price: 0,
-      },
-    ],
-  },
-  "cobertura-cheesecake-cremosa": {
-    id: "cobertura-cheesecake-cremosa",
-    title: "Escolha a cobertura",
-    hint: "Escolha 01",
-    min: 1,
-    max: 1,
-    options: [
-      {
-        id: "cremosa-geleia-artesanal-morango",
-        name: "Geleia artesanal de morango",
-        price: 0,
-      },
-      {
-        id: "cremosa-caramelo-salgado-crocante-amendoim",
-        name: "Creme de caramelo salgado e crocante de amendoim",
-        price: 0,
-      },
-      {
-        id: "cremosa-ganache-chocolate-meio-amargo",
-        name: "Ganache de chocolate meio amargo",
-        price: 0,
-      },
-      {
-        id: "cremosa-churros",
+        id: "churros",
         name: "Churros",
+        price: 0,
+        details: "Doce de leite, ganache e canela",
+      },
+    ],
+  },
+  "cobertura-cheesecake-finalizacao": {
+    id: "cobertura-cheesecake-finalizacao",
+    title: "Complementos",
+    hint: "Finalização",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "finalizacao-geleia-morango",
+        name: "Geleia artesanal de morango",
+        price: 0,
+      },
+      {
+        id: "finalizacao-caramelo-salgado",
+        name: "Creme de caramelo salgado",
+        price: 0,
+      },
+      {
+        id: "finalizacao-ganache-chocolate",
+        name: "Ganache de chocolate",
         price: 0,
       },
     ],
@@ -490,6 +472,38 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
       },
     ],
   },
+  "tamanho-bolo-restritivo": {
+    id: "tamanho-bolo-restritivo",
+    title: "Complementos",
+    hint: "Escolha o tamanho",
+    min: 1,
+    max: 1,
+    options: [
+      {
+        id: "restritivo-pp",
+        name: "PP",
+        price: 65,
+        details: "4 a 6 fatias · 11 cm × 10 cm · ~600 g",
+      },
+      {
+        id: "restritivo-p",
+        name: "Pequeno",
+        price: 150,
+        details: "10 a 15 fatias · 16 cm × 10 cm · ~1,5 kg",
+      },
+      {
+        id: "restritivo-m",
+        name: "Médio",
+        price: 210,
+        details: "20 a 25 fatias · 20 cm × 10 cm · ~2,5 kg",
+      },
+      {
+        id: "restritivo-g",
+        name: "Grande",
+        price: 350,
+      },
+    ],
+  },
   "refrigerantes-lata-sabor": {
     id: "refrigerantes-lata-sabor",
     title: "Escolha o refrigerante",
@@ -512,11 +526,25 @@ export const COMPLEMENT_GROUPS: Record<string, ProductComplementGroup> = {
 };
 
 const PRODUCT_COMPLEMENT_GROUP_IDS: Record<string, string[]> = {
-  "cheesecake-pistache-cerejas-new-york": ["cobertura-cheesecake-ny"],
-  "bolo-p-cheesecake-new-york-pistache": ["cobertura-cheesecake-ny-pistache"],
-  "bolo-m-cheesecake-new-york-pistache": ["cobertura-cheesecake-ny-pistache"],
-  "bolo-p-cheesecake-cremosa": ["cobertura-cheesecake-cremosa"],
-  "bolo-m-cheesecake-cremosa": ["cobertura-cheesecake-cremosa"],
+  "bolo-restritivo-limao-siciliano-frutas-vermelhas": [
+    "tamanho-bolo-restritivo",
+  ],
+  "bolo-restritivo-sweet-prestigio": ["tamanho-bolo-restritivo"],
+  "bolo-restritivo-sergios": ["tamanho-bolo-restritivo"],
+  "cheesecake-new-york-style": ["cobertura-cheesecake-ny"],
+  "cheesecake-pistache-cerejas-new-york": ["cobertura-cheesecake-finalizacao"],
+  "cheesecake-cremosa-morango": ["cobertura-cheesecake-finalizacao"],
+  "cheesecake-cremosa-churros": ["cobertura-cheesecake-finalizacao"],
+  "cheesecake-cremosa-caramelo": ["cobertura-cheesecake-finalizacao"],
+  "bolo-p-cheesecake-new-york-pistache": ["cobertura-cheesecake-finalizacao"],
+  "bolo-p-cheesecake-new-york-style": ["cobertura-cheesecake-ny"],
+  "bolo-p-cheesecake-cremosa": ["cobertura-cheesecake-finalizacao"],
+  "bolo-m-cheesecake-new-york-pistache": ["cobertura-cheesecake-finalizacao"],
+  "bolo-m-cheesecake-new-york-style": ["cobertura-cheesecake-ny"],
+  "bolo-m-cheesecake-cremosa": ["cobertura-cheesecake-finalizacao"],
+  "bolo-g-cheesecake-new-york-pistache": ["cobertura-cheesecake-finalizacao"],
+  "bolo-g-cheesecake-new-york-style": ["cobertura-cheesecake-ny"],
+  "bolo-g-cheesecake-cremosa": ["cobertura-cheesecake-finalizacao"],
   "refrigerantes-lata-350ml": ["refrigerantes-lata-sabor"],
   "croissant-amanteigado": ["turbine-croissant"],
   "pao-de-queijo": ["turbine-croissant"],

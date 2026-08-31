@@ -12,6 +12,7 @@ import {
   BOLOS_P,
   BOLOS_PP,
   type Bolo,
+  withCakeSizeGuide,
 } from "@/lib/bolos";
 import { getProductComplementGroups, getProductComplements } from "@/lib/product-complements";
 
@@ -165,7 +166,7 @@ const cakeProducts: UnifiedCatalogProduct[] = [
     categoryId: "bolos",
     name: bolo.nome,
     shortDescription: bolo.descricaoCurta,
-    description: bolo.descricao,
+    description: withCakeSizeGuide(bolo.descricao, bolo.tamanhos),
     image: images[0],
     images,
     tags: [
@@ -252,8 +253,24 @@ export const UNIFIED_CATALOG_NAV = UNIFIED_CATALOG_CATEGORIES.map(
   ({ id, slug, label }) => ({ id, slug, label })
 );
 
-export function getProductStartingPrice(product: UnifiedCatalogProduct) {
-  return Math.min(...product.variants.map((variant) => variant.price));
+export function getProductStartingPrice(
+  product: UnifiedCatalogProduct,
+  variantId?: string
+) {
+  const variant =
+    product.variants.find((item) => item.id === variantId) ??
+    product.variants.reduce((cheapest, item) =>
+      item.price < cheapest.price ? item : cheapest
+    );
+  const requiredComplementsMin = product.complementGroups
+    .filter((group) => (group.min ?? 0) > 0 && group.options.length > 0)
+    .reduce(
+      (sum, group) =>
+        sum + Math.min(...group.options.map((option) => option.price)),
+      0
+    );
+
+  return variant.price + requiredComplementsMin;
 }
 
 export function searchUnifiedCatalog(query: string) {

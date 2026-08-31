@@ -4,159 +4,99 @@
     "slug": "bolo-m-red-velvet",
     "nome": "Red Velvet M",
     "imagem": "/images/products/bolos/bolo-red-velvet.png",
-    "descricaoCurta": "Bolo artesanal Red Velvet em tamanho M.",
-    "descricao": "Red Velvet M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Morango, baunilha, brigadeiro aerado e chocolate branco. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Massa aveludada regada com geleia artesanal de morango, camadas de creme especial de morango silvestre, cobertura de brigadeiro aerado de morango e baunilha, casquinha de chocolate branco.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-ninho-nutella",
     "slug": "bolo-m-ninho-nutella",
     "nome": "Ninho com Nutella M",
     "imagem": "/images/products/bolos/bolo-ninho-nutella.png",
-    "descricaoCurta": "Bolo artesanal de Ninho com Nutella em tamanho M.",
-    "descricao": "Ninho com Nutella M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, ninho, nutella e brigadeiro aerado. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Massa especial de chocolate regada com nossa calda de chocolate, 1 camada de creme de cheesecake de ninho e 1 camada de creme de cheesecake de nutella. Coberto com brigadeiro aerado de ninho e nutella e fina casca de chocolate 50% cacau.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-clarissa",
     "slug": "bolo-m-clarissa",
     "nome": "Clarissa M",
     "imagem": "/images/products/bolos/bolo-clarissa.png",
-    "descricaoCurta": "Bolo artesanal Clarissa em tamanho M.",
-    "descricao": "Clarissa M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, brigadeiro, cheesecake de morango e baunilha. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Massa de chocolate divinamente úmida e adoçada na medida exata, uma camada do nosso exclusivo brigadeiro de chocolate, seguida por uma generosa porção do nosso creme de cheesecake de morango. Para finalizar, cobrimos com um suave brigadeiro cremoso de morango e baunilha, e uma fina casca de chocolate com 50% de cacau.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-pina-colada",
     "slug": "bolo-m-pina-colada",
     "nome": "Piña Colada M",
     "imagem": "/images/products/bolos/bolo-pina-colada.png",
-    "descricaoCurta": "Bolo artesanal Piña Colada em tamanho M.",
-    "descricao": "Piña Colada M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Coco, cheesecake, abacaxi e brigadeiro aerado. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Massa aveludada de coco bem molhadinha com calda de baunilha, dois recheios de creme de cheesecake de coco tostado e abacaxi, coberto com brigadeiro aerado e flocos de coco.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-pistache",
     "slug": "bolo-m-pistache",
     "nome": "Pistache M",
     "imagem": "/images/products/bolos/bolo-pistache.png",
-    "descricaoCurta": "Bolo artesanal de pistache em tamanho M.",
-    "descricao": "Pistache M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, pistache, cheesecake e amendoim crocante. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "A combinação de um bolo de chocolate meio amargo bem molhadinho, recheado com um creme de cheesecake de baunilha e pistache, uma casca de chocolate meio amargo e um brigadeiro branco aerado mesclado com ainda mais pistache e coberto com crocantes de amendoim.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
-  },
-  {
-    "id": "bolo-m-cheesecake-cremosa",
-    "slug": "bolo-m-cheesecake-cremosa",
-    "nome": "Cheesecake Cremosa M",
-    "imagem": "/images/products/bolos/cheesecake-cremosa.png",
-    "descricaoCurta": "Cheesecake sem forno, com chantilly e gelatina, de 10 a 12 fatias.",
-    "descricao": "Versão diferente da Cheesecake, feita com chantilly e gelatina e não vai ao forno. Esta versão tem um sabor mais adocicado e uma textura mais macia que se assemelha a uma mousse. Disponível com quatro opções de cobertura. Escolha a sua favorita: geleia artesanal de morango, creme de caramelo salgado e crocante de amendoim, ganache de chocolate meio amargo, churros.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 12 fatias", "preco": 150 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-chocolatudo",
     "slug": "bolo-m-chocolatudo",
     "nome": "Chocolatudo M",
     "imagem": "/images/products/bolos/bolo-chocolatudo.png",
-    "descricaoCurta": "Bolo artesanal Chocolatudo em tamanho M.",
-    "descricao": "Chocolatudo M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, brigadeiro, ganache e brownie. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Massa de chocolate meio amargo regada com calda especial de chocolate, duas camadas generosas de brigadeiro de chocolate meio amargo, coberto com ganache, pedacinhos de brownie e fina casca de chocolate 50 % cacau.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
-  },
-  {
-    "id": "bolo-m-tiramisu",
-    "slug": "bolo-m-tiramisu",
-    "nome": "Tiramisù M",
-    "imagem": "/images/products/product-cheesecake.png",
-    "descricaoCurta": "Tiramisù artesanal em tamanho M.",
-    "descricao": "Tiramisù M artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 130 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-sergios-cake",
     "slug": "bolo-m-sergios-cake",
     "nome": "Sergio's Cake M",
     "imagem": "/images/products/bolos/bolo-sergios-cake.png",
-    "descricaoCurta": "Bolo artesanal Sergio's Cake em tamanho M.",
-    "descricao": "Sergio's Cake M artesanal Sweet Cheesecake.",
+    "descricaoCurta": "Chocolate, laranja Bahia, brigadeiro e ganache. M: 20 a 25 fatias, peso aproximado 2,5 kg.",
+    "descricao": "Bolo de chocolate (massa black) bem molhado com calda e geleia de laranja, duas camadas de brigadeiro preto com pedaços de doce artesanal de laranja Bahia, coberto com ganache de chocolate meio amargo e creme de laranja.\n\nTamanho M: 20 a 25 fatias, forma de 20 cm de diâmetro por 10 cm de altura, peso aproximado 2,5 kg.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 210 }]
-  },
-  {
-    "id": "bolo-m-torta-maca-24cm",
-    "slug": "bolo-m-torta-maca-24cm",
-    "nome": "Torta de Maçã M - 24cm",
-    "imagem": "/images/categories/category-tortas.png",
-    "descricaoCurta": "Torta artesanal de maçã M com 24cm.",
-    "descricao": "Torta de Maçã M artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "24cm", "fatias": "Consulte a loja", "preco": 120 }]
-  },
-  {
-    "id": "bolo-m-zero-amora-capim-limao",
-    "slug": "bolo-m-zero-amora-capim-limao",
-    "nome": "Bolo Zero Amora e Capim-Limão M",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo M de amora e capim-limão em versão zero.",
-    "descricao": "Bolo Zero Amora e Capim-Limão M artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 270 }]
+    "tamanhos": [{ "nome": "M", "peso": "20 cm × 10 cm · ~2,5 kg", "fatias": "20 a 25 fatias", "preco": 210 }]
   },
   {
     "id": "bolo-m-cheesecake-new-york-pistache",
     "slug": "bolo-m-cheesecake-new-york-pistache",
-    "nome": "Cheesecake New York Pistache M",
+    "nome": "Cheesecake New York de Pistache",
     "imagem": "/images/products/bolos/cheesecake-new-york-pistache.png",
-    "descricaoCurta": "Cheesecake americana com pasta natural de pistache, de 10 a 12 fatias.",
-    "descricao": "Tradicional cheesecake na versão americana saborizada com pasta natural de pistache e finalizada com quatro opções de coberturas. Escolha a sua favorita: geleia artesanal de morango, creme de caramelo salgado e crocante de amendoim, Ganache de chocolate meio amargo.",
+    "descricaoCurta": "Cheesecake americana com pasta natural de pistache. Tamanho M, 10 a 12 fatias. Escolha a cobertura.",
+    "descricao": "Tradicional cheesecake na versão americana saborizada com pasta natural de pistache. Escolha a finalização: geleia artesanal de morango, creme de caramelo salgado ou ganache de chocolate.\n\nTamanho M: 10 a 12 fatias. Peso aproximado a confirmar.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 12 fatias", "preco": 190 }]
+    "tamanhos": [{ "nome": "M", "peso": "Peso aproximado a confirmar", "fatias": "10 a 12 fatias", "preco": 190 }]
   },
   {
     "id": "bolo-m-cheesecake-new-york-style",
     "slug": "bolo-m-cheesecake-new-york-style",
     "nome": "Cheesecake New York Style M",
     "imagem": "/images/products/sobremesas/cheesecake-new-york-style.png",
-    "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York, para 10 a 16 fatias.",
-    "descricao": "A nossa Cheesecake New York Style, receita tradicional de Nova York, com textura cremosa e sabor levemente azedinho. Vai ao forno e depois é resfriada. Finalizada com geleia artesanal de morango.",
+    "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York. Tamanho M, 10 a 16 fatias. Escolha a cobertura.",
+    "descricao": "Cheesecake assada no estilo clássico de Nova York, servida com opções de cobertura:\n\n1. Morango: geleia artesanal de morango.\n2. Caramelo Salgado: creme de caramelo salgado com um toque de flor de sal e praliné de amendoim.\n3. Chocolate: ganache de chocolate meio amargo.\n4. Churros: combinação de doce de leite, ganache e canela.\n\nTamanho M: 10 a 16 fatias. Peso aproximado a confirmar.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 16 fatias", "preco": 190 }]
+    "tamanhos": [{ "nome": "M", "peso": "Peso aproximado a confirmar", "fatias": "10 a 16 fatias", "preco": 190 }]
   },
   {
-    "id": "bolo-m-cheesecake-new-york",
-    "slug": "bolo-m-cheesecake-new-york",
-    "nome": "Cheesecake New York M",
-    "imagem": "/images/products/bolos/cheesecake-new-york.png",
-    "descricaoCurta": "Cheesecake New York M para 10 a 16 fatias.",
-    "descricao": "Cheesecake New York M artesanal Sweet Cheesecake.",
+    "id": "bolo-m-cheesecake-cremosa",
+    "slug": "bolo-m-cheesecake-cremosa",
+    "nome": "Cheesecake Cremosa M",
+    "imagem": "/images/products/bolos/cheesecake-cremosa.png",
+    "descricaoCurta": "Versão pote sem forno, mais aerada e adocicada que a New York. Tamanho M, 10 a 12 fatias. Escolha a cobertura.",
+    "descricao": "A sobremesa queridinha da Sweet em versão pote. Essa nossa versão de cheesecake leva chantilly na massa e não vai ao forno. Por isso, é uma torta mais aerada, mais cremosa e mais adocicada que sua versão tradicional nova-iorquina. Escolha o sabor da cobertura.\n\nTamanho M: 10 a 12 fatias. Peso aproximado a confirmar.",
     "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "10 a 16 fatias", "preco": 170 }]
-  },
-  {
-    "id": "bolo-m-pistache-amora",
-    "slug": "bolo-m-pistache-amora",
-    "nome": "Pistache e Amora M",
-    "imagem": "/images/products/bolos/bolo-pistache-amora.png",
-    "descricaoCurta": "Bolo M de pistache e amora para 20 a 25 fatias.",
-    "descricao": "Pistache e Amora M artesanal Sweet Cheesecake.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "20 a 25 fatias", "preco": 190 }]
-  },
-  {
-    "id": "bolo-m-maracuja-zero",
-    "slug": "bolo-m-maracuja-zero",
-    "nome": "Bolo Maracujá M",
-    "imagem": "/images/products/product-bolo.png",
-    "descricaoCurta": "Bolo de maracujá M sem leite, sem açúcar e sem glúten.",
-    "descricao": "Bolo Maracujá M preparado sem leite, sem açúcar e sem glúten.",
-    "ingredientes": [],
-    "tamanhos": [{ "nome": "M", "peso": "M", "fatias": "Consulte a loja", "preco": 270 }]
+    "tamanhos": [{ "nome": "M", "peso": "Peso aproximado a confirmar", "fatias": "10 a 12 fatias", "preco": 150 }]
   }
 ]

@@ -30,7 +30,12 @@ export const CatalogProductRow = memo(function CatalogProductRow({
   const preferredVariant = product.variants.find(
     (variant) => variant.id === preferredVariantId
   );
-  const startingPrice = preferredVariant?.price ?? getProductStartingPrice(product);
+  const startingPrice = getProductStartingPrice(product, preferredVariantId);
+  const hasPricedChoices = product.complementGroups.some(
+    (group) =>
+      (group.min ?? 0) > 0 &&
+      group.options.some((option) => option.price !== group.options[0]?.price)
+  );
   const needsConfiguration =
     product.kind === "bolo" ||
     product.variants.length > 1 ||
@@ -77,7 +82,8 @@ export const CatalogProductRow = memo(function CatalogProductRow({
 
         <div className="mt-2.5 flex items-center gap-2.5">
           <p className="text-sm font-semibold text-foreground">
-            {product.kind === "bolo" && !preferredVariant && startingPrice > 0
+            {(hasPricedChoices ||
+              (product.kind === "bolo" && !preferredVariant && startingPrice > 0))
               ? "A partir de "
               : ""}
             {formatCatalogPrice(startingPrice)}
@@ -112,8 +118,6 @@ export const CatalogProductRow = memo(function CatalogProductRow({
           sizes="104px"
           className={
             product.id === "refrigerantes-lata-350ml" ||
-            product.id === "coca-ks" ||
-            product.id === "coca-ks-zero" ||
             product.id === "agua-mineral" ||
             product.id === "agua-com-gas"
               ? "object-contain p-1 transition duration-500 group-hover:scale-[1.04]"

@@ -208,12 +208,16 @@ export function ProductDetailModal({
             sizes="(max-width: 768px) 100vw, 512px"
             className={
               product.id === "refrigerantes-lata-350ml" ||
-              product.id === "coca-ks" ||
-              product.id === "coca-ks-zero" ||
               product.id === "agua-mineral" ||
               product.id === "agua-com-gas"
                 ? "object-contain"
-                : "object-cover"
+                : product.id === "bombom-red-velvet"
+                  ? "object-cover object-[center_88%]"
+                  : product.id === "bombom-caramelo-crocante"
+                    ? "object-cover object-[center_70%]"
+                  : product.id === "caixa-encontro-perfeito"
+                    ? "object-cover object-[center_78%]"
+                    : "object-cover"
             }
           />
           {hasGallery ? (
@@ -274,7 +278,9 @@ export function ProductDetailModal({
           <h2 id={titleId} className="mt-1 font-display text-2xl text-foreground">
             {product.name}
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-muted">{product.description}</p>
+          <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-muted">
+            {product.description}
+          </p>
 
           {product.variants.length > 1 ? (
             <fieldset className="mt-6">

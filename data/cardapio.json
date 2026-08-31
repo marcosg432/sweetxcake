@@ -42,8 +42,8 @@
       "slug": "sub-da-sweet",
       "categoryId": "salgados",
       "nome": "Sub da Sweet",
-      "descricaoCurta": "Pão de fermentação natural, peito de peru defumado, bacon crocante, cream cheese e ingredientes frescos.",
-      "descricao": "O 'Sub da Sweet' é, indiscutivelmente, o melhor sanduíche que você degustará. Feito com um pão de fermentação natural, meticulosamente preparado na Sweet, é realçado com um toque distinto de tomate seco e manjericão. O recheio generoso consiste de um suculento peito de peru defumado, complementado com o bacon crocante irresistível. A cremosidade do cream cheese e a frescura da cebola roxa, tomate e alface americana se combinam para criar um sabor incomparável. Por fim, a maionese adiciona um toque final de suavidade que envolve todo o paladar numa experiência gastronômica inesquecível.",
+      "descricaoCurta": "Pão de fermentação natural com toque de tomate seco e manjericão, peito de peru defumado, bacon crocante, cream cheese, alface, picles de cebola roxa, tomate e maionese artesanal da casa.",
+      "descricao": "Pão de fermentação natural com toque de tomate seco e manjericão, peito de peru defumado, bacon crocante, cream cheese, alface, picles de cebola roxa, tomate e maionese artesanal da casa.",
       "preco": 25,
       "imagem": "/images/products/lanches/sub-da-sweet.png",
       "tags": [
@@ -59,8 +59,8 @@
       "slug": "dpanela",
       "categoryId": "salgados",
       "nome": "D'Panela",
-      "descricaoCurta": "Ciabatta artesanal com carne louca ao molho de vinho, cebola roxa, rúcula, geleia agridoce e molho barbecue.",
-      "descricao": "Apresentamos o D'Panela, uma obra-prima dentre os sanduíches. Delicie-se com a harmonia de sabores, começando por uma ciabatta artesanal, pão de textura única e sabor marcante. O coração desta delícia é a carne louca, preparada com um saboroso molho de vinho, que eleva o sabor da carne a um novo patamar. A cebola roxa traz um toque de frescor e crocância, enquanto a rúcula adiciona uma pitada de sabor picante. Para finalizar, a geleia de pimentão vermelho defumado é uma surpresa agridoce que brilha no paladar. Tudo isso é regado com o nosso tentador molho barbecue, que proporciona um sabor defumado e um toque adocicado. Não imagine, experimente e desfrute de uma explosão de sabores. Serve até 1 pessoa.",
+      "descricaoCurta": "Pão de fermentação natural com toque de ervas finas, paleta bovina cozida ao molho de vinho e desfiada, molho barbecue, picles de cebola roxa, rúcula e geleia agridoce de pimentão vermelho defumado.",
+      "descricao": "Pão de fermentação natural com toque de ervas finas, paleta bovina cozida ao molho de vinho e desfiada, molho barbecue, picles de cebola roxa, rúcula e geleia agridoce de pimentão vermelho defumado.",
       "preco": 27,
       "imagem": "/images/products/lanches/dpanela.png",
       "tags": [
@@ -75,8 +75,8 @@
       "slug": "furioso",
       "categoryId": "salgados",
       "nome": "Furioso",
-      "descricaoCurta": "Focaccia artesanal com carne de panela ao vinho, creme de gorgonzola, picles, rúcula e molho especial Sweet.",
-      "descricao": "O sabor único da nossa focaccia de fermentação longa, com toque de alecrim e azeite, recheada com nossa deliciosa carne de panela ao vinho, creme de queijo gorgonzola, a crocância do picles de cebola roxa e do picles de pepino japonês, rúcula que dá um toque levemente picante e molho especial da Sweet. Vai muito bem com nossas bebidas da casa. Experimente e surpreenda-se com esta explosão de sabores! Serve até 1 pessoa.",
+      "descricaoCurta": "Focaccia artesanal de fermentação natural, creme de queijo, paleta bovina cozida ao molho de vinho e desfiada, picles de pepino japonês, rúcula e geleia de tomate artesanal.",
+      "descricao": "Focaccia artesanal de fermentação natural, creme de queijo, paleta bovina cozida ao molho de vinho e desfiada, picles de pepino japonês, rúcula e geleia de tomate artesanal.",
       "preco": 29,
       "imagem": "/images/products/lanches/furioso.png",
       "tags": [
@@ -271,7 +271,7 @@
       "slug": "quiche-vegana",
       "categoryId": "salgados",
       "nome": "Quiche Vegana",
-      "descricaoCurta": "Massa crocante sem glúten, recheada com legumes assados e creme vegano.",
+      "descricaoCurta": "Massa crocante sem glúten, recheada com mix de cebola, manjericão, tomate vermelho, tomate defumado ou tomate seco, especiarias e creme vegetal.",
       "preco": 12,
       "imagem": "/images/products/lanches/quiche-vegana.png",
       "tags": [
@@ -279,7 +279,7 @@
         "vegana",
         "lanche"
       ],
-      "descricao": "Massa crocante e sem glúten, recheada com legumes assados, cebola, especiarias e um delicado creme vegano. Produzida em nossa cozinha restritiva, com todo o cuidado para uma experiência leve e saborosa.",
+      "descricao": "Massa crocante sem glúten, recheada com mix de cebola, manjericão, tomate vermelho, tomate defumado ou tomate seco, especiarias e creme vegetal.",
       "grupo": "Outras opções"
     },
     {
@@ -335,7 +335,7 @@
       "nome": "Brigadeiro de Pistache",
       "descricaoCurta": "Brigadeiro cremoso de pistache finalizado com praliné de amendoim.",
       "preco": 4,
-      "imagem": "/images/products/sweets/brigadeiro-de-pistache.png",
+      "imagem": "/images/products/sweets/trufa-artesanal-pistache.png",
       "tags": [
         "brigadeiro",
         "pistache",
@@ -458,28 +458,11 @@
       "nome": "Trufa Artesanal de Morango",
       "descricaoCurta": "O sabor marcante e azedinho do morango em um doce irresistível.",
       "descricao": "O sabor marcante e azedinho do morango em um doce irresistível é surreal. Você vai se apaixonar em cada mordida.",
-      "preco": 5,
+      "preco": 4,
       "imagem": "/images/products/sweets/trufa-artesanal-morango.png",
       "tags": [
         "trufa",
         "morango",
-        "artesanal",
-        "sweet"
-      ]
-    },
-    {
-      "id": "trufa-artesanal-pistache",
-      "slug": "trufa-artesanal-pistache",
-      "categoryId": "sweets",
-      "nome": "Trufa Artesanal de Pistache",
-      "descricaoCurta": "Trufa cremosa com pasta autêntica de pistache e cobertura crocante de amendoim.",
-      "descricao": "Apresentamos a Trufa Artesanal de Pistache, uma iguaria irresistível para os verdadeiros apreciadores de pistache. Este deleite é cuidadosamente preparado com uma pasta autêntica de pistache, incorporada a um brigadeiro incrivelmente macio e cremoso. O toque final fica por conta do amendoim crocante que, além de conferir uma textura extra, adiciona um sabor surpreendente ao docinho. Perfeição e sofisticação em cada mordida: uma opção para celebrar momentos especiais ou simplesmente adoçar o seu dia!",
-      "preco": 5,
-      "imagem": "/images/products/sweets/trufa-artesanal-pistache.png",
-      "tags": [
-        "trufa",
-        "pistache",
-        "amendoim",
         "artesanal",
         "sweet"
       ]
@@ -622,7 +605,8 @@
       "slug": "capuccino-chei-de-trem",
       "categoryId": "bebidas",
       "nome": "Capuccino Chei de Trem",
-      "descricaoCurta": "Capuccino cremoso especial da casa.",
+      "descricaoCurta": "Capuccino especial da casa, à moda brasileira, feito com creme de café, açúcar, leite espumado, um toque de especiarias e canela.",
+      "descricao": "Capuccino especial da casa, à moda brasileira, feito com creme de café, açúcar, leite espumado, um toque de especiarias e canela.",
       "preco": 14,
       "imagem": "/images/products/product-capuccino.png",
       "tags": [
@@ -638,7 +622,7 @@
       "slug": "cappuccino-metido-a-besta",
       "categoryId": "bebidas",
       "nome": "Cappuccino Metido a Besta",
-      "descricaoCurta": "Capuccino à moda brasileira, cremoso, adocicado e com especiarias.",
+      "descricaoCurta": "Capuccino tradicional europeu, feito com shot de café expresso, leite espumado com um toque de baunilha e canela. Não é adoçado.",
       "preco": 14,
       "imagem": "/images/products/bebidas/cappuccino-metido-a-besta.png",
       "tags": [
@@ -648,7 +632,7 @@
         "bebida"
       ],
       "grupo": "Cafés",
-      "descricao": "Nosso capuccino à moda brasileira: café cremoso e adocicado, combinado com leite e um toque especial de especiarias. Cremoso, aromático e nada básico."
+      "descricao": "Capuccino tradicional europeu, feito com shot de café expresso, leite espumado com um toque de baunilha e canela. Não é adoçado."
     },
     {
       "id": "chai-latte",
@@ -657,7 +641,7 @@
       "nome": "Chai Latte",
       "descricaoCurta": "Leite cremoso, chá de maçã e toque de especiarias.",
       "preco": 14,
-      "imagem": "/images/products/product-capuccino.png",
+      "imagem": "/images/products/bebidas/chai-latte.jpg",
       "tags": [
         "chai",
         "latte",
@@ -690,7 +674,7 @@
       "nome": "Chá Quente",
       "descricaoCurta": "Seleção especial de chás e infusões quentes.",
       "preco": 10,
-      "imagem": "/images/categories/category-cafeteria.png",
+      "imagem": "/images/products/bebidas/cha-quente.jpg",
       "tags": [
         "chá",
         "quente",
@@ -873,45 +857,12 @@
       "grupo": "Refrigerantes"
     },
     {
-      "id": "coca-ks",
-      "slug": "coca-ks",
-      "categoryId": "bebidas",
-      "nome": "Coca KS",
-      "descricaoCurta": "Coca-Cola em garrafa KS.",
-      "preco": 7,
-      "imagem": "/images/products/bebidas/coca-ks.png",
-      "tags": [
-        "coca-cola",
-        "ks",
-        "refrigerante",
-        "bebida"
-      ],
-      "grupo": "Refrigerantes"
-    },
-    {
-      "id": "coca-ks-zero",
-      "slug": "coca-ks-zero",
-      "categoryId": "bebidas",
-      "nome": "Coca KS Zero",
-      "descricaoCurta": "Coca-Cola Zero em garrafa KS.",
-      "preco": 7,
-      "imagem": "/images/products/bebidas/coca-ks-zero-pet.png",
-      "tags": [
-        "coca-cola",
-        "ks",
-        "zero",
-        "refrigerante",
-        "bebida"
-      ],
-      "grupo": "Refrigerantes"
-    },
-    {
       "id": "pote-red-velvet-250ml",
       "slug": "pote-red-velvet-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Red Velvet 250ml",
-      "descricaoCurta": "Bolo Red Velvet com morango e cheesecake cremoso em pote individual de 250ml.",
-      "descricao": "Apresentamos nosso cobiçadíssimo Pote Red Velvet de 250ml, uma verdadeira joia da nossa categoria Potes da Felicidade. Este delicioso bolo Red Velvet traz a surpreendente e harmoniosa combinação do doce morango com o cremoso e suave cheesecake, tudo cuidadosamente acomodado em uma versão de pote individual. Ideal para proporcionar momentos de deleite e adicionar uma pitada extra de felicidade ao seu dia. Saboreie essa delícia bem gelada para uma experiência ainda mais prazerosa!",
+      "descricaoCurta": "Bolo bem molhadinho com geleia artesanal de morango e camadas de creme de cheesecake de morango.",
+      "descricao": "Bolo bem molhadinho com geleia artesanal de morango e camadas de creme de cheesecake de morango.",
       "preco": 16,
       "imagem": "/images/products/sobremesas/pote-red-velvet-250ml.png",
       "tags": [
@@ -926,8 +877,8 @@
       "slug": "pote-ninho-nutella-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Ninho e Nutella 250ml",
-      "descricaoCurta": "Bolo de chocolate molhadinho com cremes de cheesecake Ninho e Nutella e brigadeiro cremoso.",
-      "descricao": "Para os fãs de Ninho e Nutella, criamos esta versão surpreendente: um bolo de chocolate mega molhadinho com dois cremes de cheesecake, Ninho e Nutella, além de brigadeiro cremoso. Tudo servido em um pote individual de 250ml.",
+      "descricaoCurta": "Bolo de chocolate molhadinho com cremes intercalados de Ninho e Nutella, coberto com brigadeiro cremoso.",
+      "descricao": "Bolo de chocolate molhadinho com cremes intercalados de Ninho e Nutella, coberto com brigadeiro cremoso.",
       "preco": 16,
       "imagem": "/images/products/sobremesas/pote-ninho-nutella-250ml.png",
       "tags": [
@@ -943,8 +894,8 @@
       "slug": "pote-pistache-250ml",
       "categoryId": "sobremesas",
       "nome": "Pote Pistache 250ml",
-      "descricaoCurta": "Bolo de chocolate molhadinho com creme de cheesecake de baunilha, pistache, brigadeiro e crocante de amendoim.",
-      "descricao": "Desfrute do Pote Pistache 250ml, um dos sabores mais requisitados pelos amantes de pistache da nossa categoria Potes da Felicidade. Aprecie as camadas de um irresistível bolo de chocolate, preparado para ficar extremamente macio e molhadinho. Sua experiência será aprimorada com o adocicado e suave creme de cheesecake de baunilha, harmoniosamente unido ao sabor marcante do pistache. Finalizamos com o toque indulgente do nosso brigadeiro caseiro, extremamente cremoso, e crocantes de amendoim que adicionam uma textura surpreendente. Uma combinação de sabores que fará seu paladar dançar de felicidade!",
+      "descricaoCurta": "Bolo de chocolate molhadinho com creme de cheesecake de baunilha, creme de cheesecake de pistache e acompanhado de brigadeiros crocantes de amendoim.",
+      "descricao": "Bolo de chocolate molhadinho com creme de cheesecake de baunilha, creme de cheesecake de pistache e acompanhado de brigadeiros crocantes de amendoim.",
       "preco": 16,
       "imagem": "/images/products/sobremesas/pote-pistache-250ml.png",
       "tags": [
@@ -959,8 +910,8 @@
       "slug": "banoffee-pote",
       "categoryId": "sobremesas",
       "nome": "Pote Banoffee",
-      "descricaoCurta": "Bolo com café, doce de leite, creme de cheesecake de baunilha e banana flambada no whisky.",
-      "descricao": "Engana-se quem disse que Banoffee é tudo igual! A nossa leva uma camada de bolo com calda suave de café, uma camada de doce de leite artesanal, uma camada de creme de cheesecake de baunilha, uma camada de doce de banana flambada no whisky e creme de cheesecake com toque de canela. Conseguiu imaginar esta tentação?",
+      "descricaoCurta": "Bolo bem molhadinho com calda de café expresso, creme de doce de leite, creme de cheesecake de baunilha e doce de banana flambada no uísque.",
+      "descricao": "Típica sobremesa refeita com a cara da Sweet. Bolo bem molhadinho com calda de café expresso, creme de doce de leite, creme de cheesecake de baunilha e doce de banana flambada no uísque.",
       "preco": 16,
       "imagem": "/images/products/sobremesas/pote-banoffee.png",
       "tags": [
@@ -975,8 +926,8 @@
       "slug": "cheesecake-new-york-style",
       "categoryId": "sobremesas",
       "nome": "Cheesecake New York Style (Assada)",
-      "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York, servida com geleia artesanal de morango.",
-      "descricao": "Apresentamos a nossa Cheesecake New York Style, uma receita tradicional de Nova York, ideal para apreciadores de uma textura inigualável e um sabor levemente azedinho e irresistível. Esta versão do famoso doce americano vai ao forno e depois é resfriada, criando uma textura cremosa que derrete na boca e deixa um gostinho de quero mais. Para finalizar, é primorosamente coberta com geleia artesanal de morango, conferindo um toque de doçura extra e uma explosão de sabores. Serve até 1 pessoa.",
+      "descricaoCurta": "Cheesecake assada no estilo clássico de Nova York, servida com quatro opções de cobertura.",
+      "descricao": "Cheesecake assada no estilo clássico de Nova York, servida com quatro opções de cobertura:\n\n1. Morango: geleia artesanal de morango.\n2. Caramelo Salgado: creme de caramelo salgado com um toque de flor de sal e praliné de amendoim.\n3. Chocolate: ganache de chocolate meio amargo.\n4. Churros: combinação de doce de leite, ganache e canela.",
       "preco": 19,
       "imagem": "/images/products/sobremesas/cheesecake-new-york-style.png",
       "tags": [
@@ -992,37 +943,22 @@
       "nome": "Cheesecake New York Style de Pistache",
       "descricaoCurta": "Cheesecake estilo Nova York com pasta natural de pistache e cobertura à escolha.",
       "preco": 21,
-      "imagem": "/images/products/product-cheesecake.png",
+      "imagem": "/images/products/bolos/cheesecake-new-york-pistache.png",
       "tags": [
         "cheesecake",
         "pistache",
         "new york",
         "sobremesa"
       ],
-      "descricao": "Nossa cheesecake artesanal, cremosa e densa na medida certa, fiel ao clássico estilo nova-iorquino e preparada com pasta natural de pistache. Escolha sua cobertura entre geleia artesanal de morango, caramelo salgado, ganache de chocolate ou churros. Para nós, as combinações de pistache com morango ou caramelo são simplesmente irresistíveis."
-    },
-    {
-      "id": "pote-bolo-pudim",
-      "slug": "pote-bolo-pudim",
-      "categoryId": "sobremesas",
-      "nome": "Pote Bolo Pudim",
-      "descricaoCurta": "Sucesso das datas comemorativas da Sweet, agora na versão pote da felicidade.",
-      "descricao": "Sucesso do catálogo especial de datas comemorativas da Sweet, agora na versão pote da felicidade! Serve até 1 pessoa.",
-      "preco": 19,
-      "imagem": "/images/products/sobremesas/pote-bolo-pudim.png",
-      "tags": [
-        "pote",
-        "bolo pudim",
-        "sobremesa"
-      ]
+      "descricao": "Nossa cheesecake artesanal, cremosa e densa na medida certa, fiel ao clássico estilo nova-iorquino e preparada com pasta natural de pistache. Escolha a finalização: geleia artesanal de morango, creme de caramelo salgado ou ganache de chocolate. Para nós, as combinações de pistache com morango ou caramelo são simplesmente irresistíveis."
     },
     {
       "id": "cheesecake-cremosa-morango",
       "slug": "cheesecake-cremosa-morango",
       "categoryId": "sobremesas",
       "nome": "Cheesecake Cremosa de Morango",
-      "descricaoCurta": "Cheesecake cremosa em pote com cobertura de geleia artesanal de morango.",
-      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, finalizada com geleia artesanal de morango. Cremosa, delicada e irresistível.",
+      "descricaoCurta": "A sobremesa queridinha da Sweet em versão pote: mais aerada, cremosa e adocicada que a New York. Escolha o sabor da cobertura.",
+      "descricao": "A sobremesa queridinha da Sweet em versão pote. Essa nossa versão de cheesecake leva chantilly na massa e não vai ao forno. Por isso, é uma torta mais aerada, mais cremosa e mais adocicada que sua versão tradicional nova-iorquina. Escolha o sabor da cobertura.",
       "preco": 17,
       "imagem": "/images/products/sobremesas/cheesecake-cremosa-morango.png",
       "tags": [
@@ -1039,8 +975,8 @@
       "slug": "cheesecake-cremosa-churros",
       "categoryId": "sobremesas",
       "nome": "Cheesecake Cremosa de Churros",
-      "descricaoCurta": "Cheesecake cremosa em pote com toque de canela e finalização inspirada em churros.",
-      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, no sabor churros: cremosa, aconchegante e com o aroma marcante de canela.",
+      "descricaoCurta": "A sobremesa queridinha da Sweet em versão pote: mais aerada, cremosa e adocicada que a New York. Escolha o sabor da cobertura.",
+      "descricao": "A sobremesa queridinha da Sweet em versão pote. Essa nossa versão de cheesecake leva chantilly na massa e não vai ao forno. Por isso, é uma torta mais aerada, mais cremosa e mais adocicada que sua versão tradicional nova-iorquina. Escolha o sabor da cobertura.",
       "preco": 17,
       "imagem": "/images/products/sobremesas/cheesecake-cremosa-churros.png",
       "tags": [
@@ -1058,32 +994,14 @@
       "slug": "cheesecake-cremosa-caramelo",
       "categoryId": "sobremesas",
       "nome": "Cheesecake Cremosa de Caramelo",
-      "descricaoCurta": "Cheesecake cremosa em pote com cobertura de caramelo.",
-      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, finalizada com caramelo. Cremosa, aconchegante e irresistível.",
+      "descricaoCurta": "A sobremesa queridinha da Sweet em versão pote: mais aerada, cremosa e adocicada que a New York. Escolha o sabor da cobertura.",
+      "descricao": "A sobremesa queridinha da Sweet em versão pote. Essa nossa versão de cheesecake leva chantilly na massa e não vai ao forno. Por isso, é uma torta mais aerada, mais cremosa e mais adocicada que sua versão tradicional nova-iorquina. Escolha o sabor da cobertura.",
       "preco": 17,
       "imagem": "/images/products/sobremesas/cheesecake-cremosa-caramelo.png",
       "tags": [
         "cheesecake",
         "cremosa",
         "caramelo",
-        "sabores",
-        "sobremesa"
-      ],
-      "grupo": "Cheesecake Cremosa"
-    },
-    {
-      "id": "cheesecake-cremosa-pistache",
-      "slug": "cheesecake-cremosa-pistache",
-      "categoryId": "sobremesas",
-      "nome": "Cheesecake Cremosa de Pistache",
-      "descricaoCurta": "Cheesecake cremosa com pasta de pistache e finalização crocante de pistaches.",
-      "descricao": "A versão em pote e mais leve da nossa tradicional cheesecake, no sabor pistache: cremosa, delicada e finalizada com pistaches crocantes.",
-      "preco": 17,
-      "imagem": "/images/products/sobremesas/cheesecake-cremosa-pistache.png",
-      "tags": [
-        "cheesecake",
-        "cremosa",
-        "pistache",
         "sabores",
         "sobremesa"
       ],
@@ -1114,9 +1032,9 @@
       "descricaoCurta": "Consulte os sabores.",
       "descricao": "Consulte os sabores.",
       "preco": 15,
-      "imagem": "/images/products/presentes/coracao-recheado-01.png",
+      "imagem": "/images/products/presentes/coracao-recheado-01.jpg",
       "imagens": [
-        "/images/products/presentes/coracao-recheado-01.png",
+        "/images/products/presentes/coracao-recheado-01.jpg",
         "/images/products/presentes/coracao-recheado-02.png",
         "/images/products/presentes/coracao-recheado-03.png"
       ],
@@ -1133,15 +1051,18 @@
       "id": "trio-de-coracoes",
       "slug": "trio-de-coracoes",
       "categoryId": "presentes",
-      "nome": "[FOTO PENDENTE] Trio de Corações",
+      "nome": "Trio de Corações",
       "descricaoCurta": "Três corações recheados em caixa presenteável: cheesecake de morango, caramelo salgado e doce de leite artesanal.",
       "descricao": "Três experiências apaixonantes em uma única caixa, com embalagem presenteável exclusiva. Cheesecake de Morango: chocolate branco recheado com geleia de morango e creme de cheesecake. Caramelo Salgado: chocolate meio amargo recheado com caramelo salgado e crocante de praliné de amendoim. Doce de Leite Artesanal: chocolate caramelizado da Sweet, recheado com creme de doce de leite.",
       "preco": 49,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/presentes/trio-de-coracoes.jpg",
+      "imagens": [
+        "/images/products/presentes/trio-de-coracoes.jpg",
+        "/images/products/presentes/trio-de-coracoes.png"
+      ],
       "tags": [
         "trio",
         "corações",
-        "foto-pendente",
         "cheesecake",
         "caramelo",
         "doce de leite",
@@ -1152,15 +1073,14 @@
       "id": "caixa-encontro-perfeito",
       "slug": "caixa-encontro-perfeito",
       "categoryId": "presentes",
-      "nome": "[FOTO PENDENTE] Caixa Encontro Perfeito",
+      "nome": "Caixa Encontro Perfeito",
       "descricaoCurta": "Caixa premium para compartilhar: frutas, cookies, brownies, bolos em cubos e trio de cremes para fondue.",
       "descricao": "A experiência mais doce do Dia dos Namorados, feita para compartilhar momentos inesquecíveis. Na sua caixa: morangos frescos, uvas selecionadas, cookies artesanais, brownies especiais, bolos em cubos de chocolate e baunilha, e trio de cremes para fondue (Ninho, brigadeiro e doce de leite), tudo em embalagem premium presenteável.",
       "preco": 139,
-      "imagem": "/images/categories/category-bombons.png",
+      "imagem": "/images/products/presentes/caixa-encontro-perfeito.jpg",
       "tags": [
         "caixa",
         "encontro perfeito",
-        "foto-pendente",
         "fondue",
         "namorados",
         "presente"
@@ -1201,7 +1121,7 @@
       "categoryId": "presentes",
       "nome": "Trio Doce Amor - Pães de Mel",
       "descricaoCurta": "Trio especial de pães de mel artesanais.",
-      "preco": 39,
+      "preco": 44,
       "imagem": "/images/products/presentes/trio-doce-amor-paes-de-mel.png",
       "tags": [
         "trio",
