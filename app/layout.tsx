@@ -16,17 +16,17 @@ export const metadata: Metadata = {
     template: "%s | Sweet Cheesecake",
   },
   description:
-    "Cheesecakes, bolos artesanais, lanches e doces. Peça pelo cardápio digital e finalize no WhatsApp da unidade mais próxima.",
+    "Cheesecakes, bolos artesanais, lanches e doces finos em Ipatinga. Peça pelo cardápio digital.",
   metadataBase: new URL("https://sweetoficial.com.br"),
   openGraph: {
     title: "Sweet Cheesecake",
     description:
-      "Cheesecakes, bolos artesanais, lanches e doces. Peça pelo cardápio digital e finalize no WhatsApp da unidade mais próxima.",
+      "Cheesecakes, bolos artesanais, lanches e doces finos em Ipatinga. Peça pelo cardápio digital.",
     url: "https://sweetoficial.com.br",
     siteName: "Sweet Cheesecake",
     images: [
       {
-        url: "/images/brand/logo-sweet-cheesecake.png",
+        url: "/images/brand/og-image.png",
         width: 512,
         height: 512,
         alt: "Sweet Cheesecake",
