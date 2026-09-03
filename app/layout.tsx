@@ -16,7 +16,25 @@ export const metadata: Metadata = {
     template: "%s | Sweet Cheesecake",
   },
   description:
-    "Catálogo inteligente multilojas. Explore produtos, monte seu pedido e finalize no WhatsApp da unidade mais conveniente.",
+    "Cheesecakes, bolos artesanais, lanches e doces. Peça pelo cardápio digital e finalize no WhatsApp da unidade mais próxima.",
+  metadataBase: new URL("https://sweetoficial.com.br"),
+  openGraph: {
+    title: "Sweet Cheesecake",
+    description:
+      "Cheesecakes, bolos artesanais, lanches e doces. Peça pelo cardápio digital e finalize no WhatsApp da unidade mais próxima.",
+    url: "https://sweetoficial.com.br",
+    siteName: "Sweet Cheesecake",
+    images: [
+      {
+        url: "/images/brand/logo-sweet-cheesecake.png",
+        width: 512,
+        height: 512,
+        alt: "Sweet Cheesecake",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
   icons: {
     icon: "/images/brand/logo-sweet-cheesecake.png",
     apple: "/images/brand/logo-sweet-cheesecake.png",
